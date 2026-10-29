@@ -31,3 +31,4 @@
 - [Disk space cleanup](disk-space-cleanup.md) — 25 Oct: 36 GB Ask Habibi media moved to E:\why habibi OLD ask habibi (delete me); never move _style_kit/_music_library/_pipeline/AskHabibiAI
 - [Alcatraz analytics + follow-ups](last-hours-alcatraz-analytics.md) — 49% viewed, 90% Up next, TV 68%; ideas kept: Battle of Alcatraz 1946, Cole & Roe 1937
 - [Pin + heart every new video](last-hours-pin-heart.md) — owner rule 27 Oct: post the prepared comment, pin it and heart it on every new long video and Short
+- [Content-Creation-A-Z repo](content-creation-repo.md) — private GitHub repo = whole system as a skill; D:\Content-Creation-A-Z; re-stage + push after each video
