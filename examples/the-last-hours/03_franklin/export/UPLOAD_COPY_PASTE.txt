@@ -1,0 +1,116 @@
+THE LAST HOURS - FILE 02 - UPLOAD SHEET (YouTube long video)
+=====================================================================================
+Channel: The Last Hours (@TheLastHoursDocs). Narration = the creator's own cloned voice (local). All visuals: public-domain
+1845-1906 archive (daguerreotypes, the Victory Point record, Illustrated London News, McClintock 1859), NASA, Pexels.
+Facts: research/research.md. Credits: CREDITS.md.
+
+VIDEO FILE
+TheLastHours_02_Franklin.mp4   1920x1080, 30 fps, 13:46 (incl. 20 s end screen), about -14 LUFS
+
+-------------------------------------------------------------------------------------
+TITLE (title.py 98 with the thumbnail)
+-------------------------------------------------------------------------------------
+129 Men Vanished in the Arctic. This Is Their Last Note.
+
+Other titles (if you want to swap later):
+  They Wrote "All Well." 11 Months Later, 24 Were Dead
+  What Happened to Franklin's 129 Men? Their Last Note
+
+THUMBNAILS: A/B test with ALL 3 (Test & compare, thumbnail only):
+  export/thumbnails/A_ALL_WELL_upload.jpg        (Franklin + the real note, "All well" circled)   <- set as main
+  export/thumbnails/B_NONE_CAME_HOME_upload.jpg  (the 14 officers, May 1845; words NONE CAME HOME)
+  export/thumbnails/C_NEVER_FOUND_upload.jpg     (Franklin; words HIS GRAVE / NEVER FOUND)
+
+-------------------------------------------------------------------------------------
+DESCRIPTION (no links)
+-------------------------------------------------------------------------------------
+In 1845, 129 men sailed into the Canadian Arctic with Sir John Franklin. Not one came home. The only message that tells us what happened to them is a single sheet of paper left in a stone cairn, with two words on it: All well.
+
+This is the story of that paper, from the real records: the three graves on Beechey Island, the ships locked in the ice, the 105 men who started walking, what Inuit hunters told John Rae, the boat full of silver and chocolate, the wrecks of HMS Erebus and HMS Terror found in 2014 and 2016, the DNA that is giving the men their names back, and the door on Terror that is still closed.
+
+0:00 April 1848: a note in a tin
+1:03 May 1845: two ships leave England
+2:25 Beechey Island: three graves, no note
+3:12 September 1846: locked in the ice
+3:31 May 1847: “All well”
+4:19 Franklin dies
+5:12 April 1848: they walk
+6:48 Silence, and what the Inuit told Rae
+7:51 1859: the note is found
+8:38 The skeleton and the boat
+10:15 What killed them?
+10:49 The wrecks, and the closed door
+11:43 DNA: six names back
+12:27 What the records can't tell us
+
+Sources (checked October 2026): the Victory Point record (Royal Museums Greenwich) and its transcript (Canadian Museum of History) · F. L. McClintock, The Voyage of the 'Fox' (1859) · Lt W. R. Hobson's 1859 report (published in Arctic, 2014) · Royal Museums Greenwich, Maritime Memorials (the Beechey Island headboards) · Parks Canada (the searches, Erebus 2014, Terror 2016, the 2019 survey of Terror) · London Gazette, Jan 20, 1854 · Admiralty reward poster, Mar 7, 1850 · John Rae's report, 1854 · Charles Dickens, Household Words, Dec 1854 · W. G. Ross, Arctic (2002) · Keenleyside, Bertulli & Fricke, Arctic (1997) · Millar et al. (2014), Christensen et al. (2016), Swanston et al. (2018) on lead · Stenton et al. (2021, 2024) and University of Waterloo (May 6, 2026) on the DNA identifications. Inuit accounts are given as accounts; Hobson's view of the last line is his opinion.
+
+Images: daguerreotypes from the studio of Richard Beard (1845), the Illustrated London News (1845-1859), McClintock (1859, 1869), Le Tour du Monde (1860), J. Brown (1860), E. K. Kane (1854), A. P. Low (1906), National Maritime Museum, NASA Earth Observatory, Internet Archive and Wikimedia Commons (public domain). Mood photos: Pexels. Maps: Natural Earth. Sound effects: Mixkit. Music by Kevin MacLeod (incompetech.com): "Thunder Dreams", "Man Down", "Rising Tide", licensed under Creative Commons: By Attribution 4.0 (CC BY 4.0). Narration: an AI clone of my own voice.
+
+#franklinexpedition #arcticmystery #unsolvedmysteries
+
+-------------------------------------------------------------------------------------
+SETTINGS
+-------------------------------------------------------------------------------------
+Playlist: create "Files: Lost Expeditions" (and add to "Files: Unexplained" if you made it)
+Audience: No, it's not made for kids · Category: Education · Language: English · Caption language: English
+Altered content: your call (left for you)
+Tags: franklin expedition, lost franklin expedition, hms erebus, hms terror, northwest passage, victory point note,
+      king william island, arctic mystery, john rae, franklin expedition dna, unsolved mysteries, history documentary,
+      shipwreck discovery, hour by hour, the last hours
+End screen (from 13:26): Subscribe in the left circle, the Alcatraz video (16b37-3-Z-Q) in the right box
+Comments: on. Remixing: allow only audio (default).
+
+-------------------------------------------------------------------------------------
+PINNED COMMENT
+-------------------------------------------------------------------------------------
+Some Inuit accounts talk of footprints on the mainland years later: first four men, then three. Do you think anyone got further than the records show? Next file: D.B. Cooper.
+
+-------------------------------------------------------------------------------------
+WHEN
+-------------------------------------------------------------------------------------
+SCHEDULED 20 Oct (user OK): Sun 25 Oct 2026, 12:00 PM New York = 19:00 Cairo. Video ID jRK1OXZkQ_E (https://youtu.be/jRK1OXZkQ_E).
+Done in Studio: title, description, 15 tags, English, Education, not for kids, playlist "Files: Escapes and Disappearances"
+(used the existing one instead of creating "Files: Lost Expeditions"), end screen = Subscribe + Alcatraz (16b37-3-Z-Q) from 13:25,
+thumbnail A/B test with ALL 3 (A, B, C; thumbnail only; starts when public). Altered content: left for you.
+TODO after it goes public: pin the comment above; check the A/B test says Running.
+Why this slot: Sunday = best day in vidIQ (40.2M US uploads, +3.5%) and Buffer (Jul 2026); noon New York = 9 AM Los Angeles.
+
+22 Oct 2026 (user approved): A/B test replaced with the Hakawi-style COLOUR thumbnails from thumbs_hakawi.py (B first = main).
+
+
+-------------------------------------------------------------------------------------
+V2 (23 Oct 2026): no flat black screens, spoken ident + mid-video ask cut (14.0 s shorter). Upload franklin v2 from _upload_queue_last_hours. CHAPTERS for v2 (paste these):
+0:00 April 1848: a note in a tin
+1:02 May 1845: two ships leave England
+2:23 Beechey Island: three graves, no note
+3:10 September 1846: locked in the ice
+3:29 May 1847: “All well”
+4:17 Franklin dies
+4:58 April 1848: they walk
+6:34 Silence, and what the Inuit told Rae
+7:37 1859: the note is found
+8:24 The skeleton and the boat
+10:01 What killed them?
+10:35 The wrecks, and the closed door
+11:29 DNA: six names back
+12:13 What the records can't tell us
+End screen v2: from 13:12
+V2 SCHEDULED 23 Oct 2026: NEW ID dOAFgwQsolY (https://youtu.be/dOAFgwQsolY), Sun 25 Oct 19:00 Cairo. Reuse details, v2 chapters,
+A/B = the approved COLOUR set (B_ALL_WELL main, A_NONE_CAME_HOME, C_TRAPPED_588_DAYS), end screen imported (13:11: Subscribe + Alcatraz).
+Old jRK1OXZkQ_E = Private "OLD COPY (delete) - Franklin".
+
+24 Oct 2026 A/B TEST REPLACED (user OK, before release): thumbnail-only test = 1 C_TRAPPED_588_DAYS_v2 (main; _v1 image + circle on
+the ships + zoom bubble of the 1849 Port Leopold lithograph D10 + "SEPT 1846 - APRIL 1848", which also hides the 1860 print's
+penguins) · 2 N3_WHY_ABANDON_SHIP (McClintock 1859 map + D11 men hauling a sledge + "22 APRIL 1848") · 3 N4_FOUND_11_YEARS_LATER
+(ILN 1859 cairn + note bubble + "6 MAY 1859"). Files: export/thumbnails_colour/_options_v3/. Shows "Ineligible: not public" until
+Sun 25 Oct 19:00 Cairo, then runs. English captions (exact script, auto-synced) published 24 Oct.
+
+25 Oct 2026 V3 (user: "yes do all 3" + "make sure there is sound to CTA"): TheLastHours_02_Franklin_v3.mp4 = v2 + spoken "If you want the next
+file, subscribe." 0.7 s into the end card (music -7 dB under it) + silent SUBSCRIBE badge at 10:02 (_newchannel/_cta/cta_patch.py).
+NEW ID bUkhghG5Hs0 (https://youtu.be/bUkhghG5Hs0), scheduled Sun 25 Oct 12:00 PM New York = 19:00 Cairo. Reused details; thumbnail
+A/B (user OK 25 Oct): 1 N2_WHAT_HAPPENED_TO_CROZIER (main, a face) · 2 N3_WHY_ABANDON_SHIP · 3 C_TRAPPED_588_DAYS_v2; end screen
+imported (Subscribe + Alcatraz); not for kids. Captions: export/captions_en_v3.txt (adds the subscribe line) after processing.
+Old dOAFgwQsolY = Private, "OLD COPY (delete) - Franklin". Cooper's end screen must point to bUkhghG5Hs0.
+
+28 Oct 2026 TITLE A/B (owner: "before is better but test both"): title-only test, Title 1 = old "129 Men Vanished in the Arctic. This Is Their Last Note." vs Title 2 = "The Franklin Expedition: 129 Men Vanished, and One Last Note". Thumbnail TRAPPED FOR 588 DAYS kept. RUNNING. (Old stopped thumbnail test had no data: replaced.)

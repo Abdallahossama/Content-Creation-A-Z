@@ -1,0 +1,97 @@
+THE LAST HOURS - FILE 05 - UPLOAD SHEET (YouTube long video)
+=====================================================================================
+Channel: The Last Hours (@TheLastHoursDocs). Narration = the creator's own cloned voice (local). Visuals: 1912-13 photos of the
+real island and of lighthouse life (public domain), the 1903 Admiralty chart, 2012 photos of the station (CC BY-SA), Pexels stand-ins
+(labelled ILLUSTRATIVE). Facts: research/research.md. Credits: CREDITS.md. Built against _newchannel/LESSONS.md.
+
+VIDEO FILE
+TheLastHours_05_Flannan.mp4   1920x1080, 30 fps, 12:01 (incl. 20 s end screen), about -14 LUFS
+(over 10 MB: drag it into Studio yourself from D:\why habibi\_upload_queue_last_hours)
+
+-------------------------------------------------------------------------------------
+TITLE (title.py 94; same pattern as Roanoke, our best click rate)
+-------------------------------------------------------------------------------------
+3 Lighthouse Keepers Vanished in 1900. One Left His Coat.
+
+Other titles (if you want to swap later):
+  What Happened to the 3 Flannan Isles Lighthouse Keepers?      (title.py 98, the search title)
+  The Lighthouse Went Dark for 11 Nights. 3 Keepers Were Gone.
+
+THUMBNAILS: A/B test with these 3 (approved by the user 22 Oct 2026: "vanishing and d and u pick the 3rd")
+  export/thumbnails/E2_VANISHING_upload.jpg          (the real island + the 3 real keepers: one solid, one fading, one a red outline GONE)  <- main
+  export/thumbnails/D_NEVER_FOUND_upload.jpg         (the real c.1900 photo, the 3 keepers circled, NEVER FOUND)
+  export/thumbnails/B_RAN_OUT_WITHOUT_IT_upload.jpg  (coats on hooks, one circled: HE RAN OUT WITHOUT IT)
+  (not used: A, C, E, E3_BEAM)
+
+-------------------------------------------------------------------------------------
+DESCRIPTION (no links)
+-------------------------------------------------------------------------------------
+In December 1900, the three lighthouse keepers of the Flannan Isles, a rock 20 miles off Scotland's Isle of Lewis, vanished. The relief keeper found the gate shut, the fire cold, the clock stopped, the beds empty, and one man's coat still on its peg.
+
+This is what the real records say happened, hour by hour: the last note chalked on a slate at 9 AM on December 15, the lamp that was never lit, the steamer that saw no light at midnight, eleven dark nights, the search, the telegram, the damage 110 feet up the west cliff, the superintendent's report, and how the famous "logbook" about crying and praying was made up decades later.
+
+0:00 Dec 26, 1900: nobody answers
+1:32 Dec 15, 9 AM: the last note
+2:51 Afternoon: the coat on the peg
+3:50 3:39 PM: the lamp stays dark
+4:26 Eleven dark nights
+5:11 Boxing Day: the second search
+6:06 The telegram
+6:24 The west side: 110 feet up
+7:39 The handshake and the report
+8:44 Why all three?
+9:41 How the fake log was made
+10:56 What's left in 2026
+
+Sources (checked October 2026): Superintendent Robert Muirhead's report, 8 January 1901 (Northern Lighthouse Board; National Records of Scotland, NLC3/1/1) · Joseph Moore's letter, 28 December 1900 · Captain Harvie's telegram, 26 December 1900 · Northern Lighthouse Board, Flannan Isles fact sheet · National Records of Scotland blog (2024) and learning page (2026) · The Scotsman, 28 Dec 1900 · Inverness Courier, 1 Jan 1901 · Northern Chronicle, 2 Jan 1901 · Oban Express, 3 Jan 1901 · Oban Times, 5 Jan 1901 · Mike Dash, Fortean Studies (1998) and Fortean Times 352 (2017) · Skeptoid · Vincent Gaddis, Invisible Horizons (1965) · Hall et al. (2006), storm deposits on Scottish cliff tops · BBC (June 2026), Moore's letter on public display. Sunset and moon times are computed. Nobody saw what happened; the afternoon of 15 December is the official finding. Theories are labelled as theories.
+
+Images: the keepers, c.1900, photographer unknown, via National Records of Scotland (captioned as Ducat, Marshall, McArthur and Superintendent Muirhead; the opening edit removes the three keepers from the photo); F. A. Talbot, Lightships and Lighthouses (1913) and photographs by C. Dick Peddie in W. Eagle Clarke, Studies in Bird Migration (1912), via the Internet Archive; Harvie-Brown & Buckley (1888); Ordnance Survey (1959); UK Admiralty Chart 3331 (1903), via Wikimedia Commons (public domain). Station photos 2012: Chris Downer / geograph.org.uk, CC BY-SA 2.0 (adapted). Illustrative photos: Pexels. Maps: Natural Earth. Sound effects: Mixkit. Music by Kevin MacLeod (incompetech.com): "Rising Tide", "Man Down", "Thunder Dreams", "Industrial Cinematic", licensed under Creative Commons: By Attribution 4.0 (CC BY 4.0). Narration: an AI clone of my own voice.
+
+#flannanisles #unsolvedmysteries #lighthouse
+
+-------------------------------------------------------------------------------------
+SETTINGS
+-------------------------------------------------------------------------------------
+Playlist: "Files: Escapes and Disappearances"
+Audience: No, it's not made for kids · Category: Education · Language: English · Caption language: English
+Altered content: your call (left for you)
+Tags: flannan isles, flannan isles lighthouse, flannan isles mystery, flannan isles lighthouse keepers, eilean mor,
+      lighthouse keepers disappearance, lighthouse mystery, scotland mystery, outer hebrides, isle of lewis,
+      unsolved mysteries, history documentary, 1900 mystery, hour by hour, the last hours
+End screen (from 11:42, template "1 video, 1 playlist, 1 subscribe"): Roanoke (EKnsZ8kI_1Q, public) left, Subscribe middle,
+playlist "Files: Escapes and Disappearances" right.
+Comments: on. Remixing: allow only audio.
+
+-------------------------------------------------------------------------------------
+PINNED COMMENT
+-------------------------------------------------------------------------------------
+Eight days before the light went dark, Ducat told his boss he wished he'd have to hoist a signal, just to see how soon anyone ashore would notice. Nobody noticed for 11 nights. One big wave, two waves, or something else? Next file: D.B. Cooper.
+
+-------------------------------------------------------------------------------------
+WHEN
+-------------------------------------------------------------------------------------
+PLAN: Sat 31 Oct 2026 (Halloween), 12:00 PM New York = 18:00 Cairo (Egypt is UTC+2 from 29 Oct; the US is still on EDT until
+1 Nov). Schedule it in Cairo time and check that the "Video scheduled" box says 12:00 PM EDT.
+No Short within 4 hours: the Flannan Short (6e5pAMstaHo) is 7 hours later (01:00 Cairo, Sun 1 Nov = 7 PM New York).
+AFTER UPLOAD: point the Flannan Short's related video at this video, change its description line "The full file, hour by hour:
+..." to this title, and fix its "Two oilskins are missing" to "Two men's storm gear is gone".
+TODO after it goes public: pin the comment above; check the A/B test says Running.
+
+SCHEDULED 22 Oct 2026 (user "go"): q-My4sBCZI8 (https://youtu.be/q-My4sBCZI8), Sat 31 Oct 2026 18:00 Cairo = 12:00 PM New York
+(browser time zone Africa/Cairo checked). Done in Studio: title, description with 12 chapters, 15 tags, English, Education, not made
+for kids, playlist "Files: Escapes and Disappearances", remixing audio only, thumbnail A/B test E2 + D + B (starts when public),
+end screen 11:41-12:01 (Roanoke / Subscribe / playlist). Copyright + Community Guidelines checks: no issues. Altered content: left for you.
+Flannan Short 6e5pAMstaHo: description now points to this title and says "Two men's storm gear is missing" (saved 22 Oct).
+TODO between 18:00 Sat 31 Oct and 01:00 Sun 1 Nov (Cairo): set the Short's related video to muelYgAbsnA (NEW id; old q-My4sBCZI8 is gone) (the picker only lists
+public videos), and pin this video's comment.
+
+V2 RE-UPLOAD 23 Oct 2026 (no flat black cards): NEW ID muelYgAbsnA (https://youtu.be/muelYgAbsnA), scheduled Sat 31 Oct 18:00 Cairo.
+Reuse details from the old upload + end screen imported (Roanoke / Subscribe / playlist, 11:41-12:01), A/B E2 + D + B, not for kids.
+Old q-My4sBCZI8 = Private, "OLD COPY (delete) - Flannan Isles" (user deletes). The Short 6e5pAMstaHo related video -> muelYgAbsnA.
+
+25 Oct 2026 V3 (user OK: spoken subscribe at the end): TheLastHours_05_Flannan_v3.mp4 = v2 + "If you want that file, subscribe." 0.7 s into the
+end card (music -7 dB under it). NEW ID HxsSMAoVHfs (https://youtu.be/HxsSMAoVHfs), scheduled Sat 31 Oct 12:00 PM New York. Reused details;
+A/B E2 (main) + D + B; end screen imported (Roanoke / Subscribe / playlist); not for kids; captions_en_v3.txt published.
+Old muelYgAbsnA = Private, "OLD COPY (delete) - Flannan Isles". Flannan Short 6e5pAMstaHo related video -> HxsSMAoVHfs after it goes public.
+
+28 Oct 2026 TEST REBUILT as TITLE + THUMBNAIL (owner OK): 1 "Flannan Isles, 1900: 3 Keepers Vanished. One Left His Coat." + E2 (main) | 2 old title + D_NEVER_FOUND | 3 old title + B_RAN_OUT_WITHOUT_IT. Starts when public (Sun 1 Nov).

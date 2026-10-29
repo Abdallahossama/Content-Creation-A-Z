@@ -1,0 +1,33 @@
+- [Ask Habibi CapCut workflow](ask-habibi-capcut-workflow.md) — channel paths, caption style, brand pack, VO levels
+- [CapCut kit on Windows notes](capcut-kit-windows-notes.md) — draft JSON gotchas, Python/whisper setup quirks
+- [No AI-slop design](no-ai-slop-design.md) — Ask Habibi look = D:\why habibi\_style_kit (cut & marker, real-potato Batata v2); never dot wordmarks/caps labels/bordered cards/glow
+- [Copyright-safe only](copyright-safe-only.md) — Pexels, own Batata/brand, home-made memes, CC BY music, own SFX; no imgflip/film/TV; CREDITS.md per episode
+- [Use yt-* skills by default](use-yt-skills-default.md) — /yt-script, /yt-package, /yt-seo, /yt-shorts, /yt-retention… for every Ask Habibi step
+- [Upload copy-paste sheet](upload-copy-paste-sheet.md) — every export folder gets UPLOAD_COPY_PASTE.txt (title, description, tags, settings, end screen, pinned comment, time)
+- [Clean voice mix](clean-voice-mix.md) — Last Hours music LOUDER since 25 Oct: cold open -11 dB, body -17 (~13 dB under voice); no 8-bit VO joins; Shorts music audible
+- [Caption zone rule](caption-zone-rule.md) — notes/words never under captions (band x420-1500, y860-1010); check before rendering
+- [Facebook Page](facebook-page.md) — Ask Habibi FB Page (2026-10-13) URL, category, assets; FB/TikTok/US plan
+- [Episode status](episode-status.md) — Thu 4 PM ET slot; Ep 2 schedule pending (old private upload), Ep 3 script v1; Shorts paused
+- [Batata-hero thumbnails](batata-hero-thumbnails.md) — default since 14 Oct: cinematic real-potato Batata (cinekit.py), glowing prop, gradient words; no AI images
+- [Standalone Shorts only](shorts-standalone-only.md) — daily Shorts 19:00 Cairo, 2 series (Habibi Explains the News + Ask Habibi), shortkit.py engine; user skims, keep replies short
+- [Doc mode](doc-mode.md) — serious/news topics: moving real maps, chapter cards, dated sources, no memes (DOC_MODE.md)
+- [Potato cast brand](potato-cast-brand.md) — 15 costumed potatoes (incl. Arab dress) in _style_kit/brand/potato_cast; no squash/stretch, hats sit on heads
+- [Local AI stack](local-ai-stack.md) — E:\AskHabibiAI: Chatterbox voice clone (user: very good), Blender 3D Batata, Qwen3-TTS backup; Xet/py3.11/setuptools gotchas
+- [Long-form plan](long-form-plan.md) — next 5 long videos in reverse order (Egypt first), fast montage, user wants final results without approvals
+- [Long-video polish rules](long-video-polish-rules.md) — every long video: no leftover props, proof photos in paper style + SFX, real-map switches, 2-video end screen, smooth mid + end subscribe, truly different thumbnails with people/props
+- [No women in visuals](no-women-in-visuals.md) — HARD RULE: no women/girls in any video image, photo, painting, figurine or thumbnail; men or potato cast only
+- [Real, not cartoon](real-not-cartoon.md) — real photos of insects/objects/artifacts/animals, never cartoon stand-ins; graphics (maps, charts) OK; potato host only as small brand presence
+- [ElevenLabs credits bank](elevenlabs-credits-bank.md) — DONE: credits used up 19 Oct; 26 Shorts voiced in bank/ (v4); rest -> local Chatterbox
+- [Target high-pay viewers](target-usa-canada.md) — HARD: win viewers from USA (most), Canada, Europe; topics can be anything, framed for Western viewers (US units, $)
+- [New channel: The Last Hours](new-channel-last-hours.md) — separate brand, hour-by-hour true mysteries; #1 Alcatraz 1962 ~20 min, user's own voice, PD archives
+- [Edit notes: Last Hours](edit-notes-last-hours.md) — no text over text; spotlight+underline (not ellipses) synced to words; hero image frame 1; teaser Shorts -> long video
+- [Shorts title money hook](shorts-title-money-hook.md) — money-number titles win (France €3.6T: 1.7K, 75.7% viewed); retitle flat Shorts after ~1 day; 20 Oct numbers
+- [Last Hours thumbnail style](last-hours-thumbnail-style.md) — copy Hakawi (@7akawi-AA): full-colour cinematic scene, ghosted real portraits, huge question text on black/yellow blocks
+- [Last Hours hook style](last-hours-hook-style.md) — first 2 s = imagine/shock hook, then weekday + date + clock; teaser titles = action + shock ("He Touched the Sleeping Man's Head. It Rolled Off.")
+- [Last Hours lessons](last-hours-lessons.md) — viewers leave at ident + backstory after cold open; LESSONS.md checklist for every file
+- [Razqora SaaS video](razqora-saas-video.md) — Razqora = the user's SaaS product, not YouTube; promo video outputs in F:\WEB DEV\kbs local try\razqora_video\
+- [Focus on The Last Hours](focus-last-hours.md) — 24 Oct: no new Ask Habibi work after the scheduled 4; Last Hours 2 long/week; Andrée Sun 8 Nov
+- [Last Hours subscribe asks](last-hours-subscribe-asks.md) — silent badge at 60-80% after a payoff + polite spoken like/subscribe + "whose last hours next?" at the very end (29 Oct)
+- [Disk space cleanup](disk-space-cleanup.md) — 25 Oct: 36 GB Ask Habibi media moved to E:\why habibi OLD ask habibi (delete me); never move _style_kit/_music_library/_pipeline/AskHabibiAI
+- [Alcatraz analytics + follow-ups](last-hours-alcatraz-analytics.md) — 49% viewed, 90% Up next, TV 68%; ideas kept: Battle of Alcatraz 1946, Cole & Roe 1937
+- [Pin + heart every new video](last-hours-pin-heart.md) — owner rule 27 Oct: post the prepared comment, pin it and heart it on every new long video and Short

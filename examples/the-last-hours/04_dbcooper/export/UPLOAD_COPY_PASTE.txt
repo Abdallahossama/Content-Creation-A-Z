@@ -1,0 +1,116 @@
+THE LAST HOURS - FILE 03 - UPLOAD SHEET (YouTube long video)
+=====================================================================================
+Channel: The Last Hours (@TheLastHoursDocs). Narration = the creator's own cloned voice (local). All visuals: FBI Vault
+pages and evidence photos, FBI sketches, US National Archives (1972-73), USGS 1979 map, NASA, USAF, Pexels.
+Facts: research/research.md. Credits: CREDITS.md.
+
+VIDEO FILE
+TheLastHours_03_DBCooper.mp4   1920x1080, 30 fps, 11:46 (incl. 20 s end screen), about -14 LUFS
+(over 10 MB: drag it into Studio yourself from D:\why habibi\_upload_queue_last_hours)
+
+-------------------------------------------------------------------------------------
+TITLE (title.py 98)
+-------------------------------------------------------------------------------------
+D.B. Cooper Jumped at 8:10 PM. Here's Every Hour Before It.
+
+Other titles (if you want to swap later):
+  He Jumped From a Jet With $200,000. The FBI Never Found Him.
+  He Hijacked a Jet for $200,000, Then Vanished: D.B. Cooper
+
+THUMBNAILS: A/B test with ALL 3 (Test & compare, thumbnail only):
+  export/thumbnails/A_NOT_HIS_NAME_upload.jpg   (the real ticket, "DAN COOPER" circled + FBI sketch)   <- set as main
+  export/thumbnails/B_NEVER_FOUND_upload.jpg    (FBI sketch + the 1980 money; words $200,000 / NEVER FOUND)
+  export/thumbnails/C_EVERYTHING_OK_upload.jpg  (a 727 from below, rear stairs circled; words "EVERYTHING IS OK")
+
+-------------------------------------------------------------------------------------
+DESCRIPTION (no links)
+-------------------------------------------------------------------------------------
+On November 24, 1971, a man who called himself Dan Cooper hijacked Northwest Orient Flight 305 with a briefcase he said held a bomb. He got $200,000 and four parachutes, and somewhere over southwest Washington he jumped out of the back of a Boeing 727 into the rain and the dark. The FBI never found out who he was.
+
+This is that night, hour by hour, from the FBI's own files: the $20 ticket, the note, the circling over Seattle, the money and the parachutes, his flight plan, the last words anyone recorded from him at 8:05 PM, the empty seat in Reno, the search near Ariel, the $5,800 a boy found in the sand in 1980, and the new pages and findings from 2025 and 2026.
+
+0:00 8:10 PM: the plane moves
+0:48 Portland: a $20 ticket
+1:20 2:58 PM: the note
+2:06 3:20 PM: circling Seattle
+2:54 5:15 PM: the money
+3:11 Sea-Tac: parachutes and a flight plan
+4:48 7:36 PM: the stairs
+5:31 8:05 PM: the last words
+6:05 Three hours to Reno
+6:43 11:25 PM: an empty seat
+7:04 The search, the copycats, the Cooper vane
+8:27 1980: money in the sand
+9:04 800 suspects
+9:34 2025–26: the file is still open
+10:24 What the records can't tell us
+
+Sources (checked October 2026): FBI Records: The Vault, D.B. Cooper (NORJAK) file, incl. the Seattle memo of Nov 24, 1971, the Las Vegas teletype of Nov 25, the FD-302 of the search at Reno, the flight attendant's FD-302, the Northwest Orient log and the FBI flight-path analysis of Dec 4, 1971 · FBI.gov case summary (2016) · FAA historical chronology · Federal Register, 37 FR 25354 (Nov 1972) · Kaye & Meltzer, Scientific Reports (2020), diatoms on the Tena Bar money · Portland Press Herald (Feb 2026) on the Russell pages · news reports on the death of first officer William Rataczak (Oct 2025), the McCoy family's parachute rig, the 2026 study of the tie and the October 2026 auction. The note and the flight plan are shown as reconstructions. The flight path is approximate. Suspects are described, not named as Cooper.
+
+Images: FBI Records: The Vault and FBI.gov (documents, evidence photos, composite sketches), US National Archives DOCUMERICA (1972-73), US Air Force, USGS (1979 Vancouver map), NASA, via the Internet Archive and Wikimedia Commons (public domain). Mood photos: Pexels. Maps: Natural Earth. Sound effects: Mixkit. Music by Kevin MacLeod (incompetech.com): "Late Night Radio", "Man Down", "Thunder Dreams", "Rising Tide", "Industrial Cinematic", licensed under Creative Commons: By Attribution 4.0 (CC BY 4.0). Narration: an AI clone of my own voice.
+
+#dbcooper #unsolvedmysteries #truecrime
+
+-------------------------------------------------------------------------------------
+SETTINGS
+-------------------------------------------------------------------------------------
+Playlist: "Files: Escapes and Disappearances" (the one Alcatraz and Franklin are in)
+Audience: No, it's not made for kids · Category: Education · Language: English · Caption language: English
+Altered content: your call (left for you)
+Tags: db cooper, d.b. cooper, dan cooper, flight 305, northwest orient, norjak, db cooper hijacking, fbi files,
+      unsolved mysteries, true crime documentary, tena bar, cooper vane, 1971 hijacking, hour by hour, the last hours
+End screen (from 11:26): Subscribe in the middle circle, Franklin (jRK1OXZkQ_E) in the left box, Alcatraz (16b37-3-Z-Q) in the right box
+Comments: on. Remixing: allow only audio (default).
+
+-------------------------------------------------------------------------------------
+PINNED COMMENT
+-------------------------------------------------------------------------------------
+At 8:05 PM he said everything was OK. Five minutes later the plane moved. Do you think he walked out of those woods, or did the river keep him? Next file: EgyptAir 990.
+
+-------------------------------------------------------------------------------------
+WHEN
+-------------------------------------------------------------------------------------
+PLAN: Sun 1 Nov 2026, 12:00 PM New York = 19:00 Cairo (US clocks go back that morning; Egypt already changed on 29 Oct,
+so it is 19:00 Cairo either way). Schedule it in Cairo time and check the "Video scheduled" box says 12:00 PM EST.
+Why this slot: Sunday = best day in vidIQ (40.2M US uploads, +3.5%) and Buffer (Jul 2026); noon New York = 9 AM Los Angeles.
+No Short within 4 hours of it.
+
+SCHEDULED 20 Oct (user "lets schadule"): mQqITa39gfM (https://youtu.be/mQqITa39gfM), Sun 1 Nov 2026 19:00 Cairo = 12:00 PM New York
+(scheduled in browser Local Time; checked: 19:00 Cairo on 1 Nov = 17:00 UTC = 12:00 PM EST).
+Done in Studio: title, description with 15 chapters, 15 tags, English, Education, not made for kids, playlist "Files: Escapes and
+Disappearances", Shorts remixing = audio only, thumbnail A/B test with ALL 3 (A, B, C; starts when public; only blocker = "not public").
+End screen from 11:26 (template "1 video, 1 playlist, 1 subscribe"): Franklin (left), Subscribe (middle), playlist "Files: Escapes and
+Disappearances" (right; holds Alcatraz + Franklin) - a playlist instead of the Alcatraz video because that template matches the boxes
+drawn in the end card. Altered content: left for you.
+TODO after it goes public (1 Nov): pin the comment above; check the A/B test says Running.
+
+22 Oct 2026 (user approved): A/B test replaced with the Hakawi-style COLOUR thumbnails from thumbs_hakawi.py (B first = main).
+
+
+-------------------------------------------------------------------------------------
+V2 (23 Oct 2026): no flat black screens, spoken ident + mid-video ask cut (14.3 s shorter). Upload dbcooper v2 from _upload_queue_last_hours. CHAPTERS for v2 (paste these):
+0:00 8:10 PM: the plane moves
+0:46 Portland: a $20 ticket
+1:18 2:58 PM: the note
+2:04 3:20 PM: circling Seattle
+2:52 5:15 PM: the money
+3:09 Sea-Tac: parachutes and a flight plan
+4:34 7:36 PM: the stairs
+5:17 8:05 PM: the last words
+5:51 Three hours to Reno
+6:29 11:25 PM: an empty seat
+6:50 The search, the copycats, the Cooper vane
+8:13 1980: money in the sand
+8:50 800 suspects
+9:20 2025–26: the file is still open
+10:10 What the records can't tell us
+End screen v2: from 11:12
+V2 SCHEDULED 23 Oct 2026: NEW ID rrm5wqAcPPE (https://youtu.be/rrm5wqAcPPE), Sun 1 Nov 19:00 Cairo. Reuse details, v2 chapters,
+A/B = the approved COLOUR set (B_NEVER_FOUND main, A_WHO_WAS_HE, C_JUMPED_FROM_HERE), end screen imported and its video box
+switched to the NEW Franklin (dOAFgwQsolY). Old mQqITa39gfM = Private "OLD COPY (delete) - DB Cooper".
+After 1 Nov: Cooper teasers + IZ1pl6Te9TA related video -> rrm5wqAcPPE.
+
+25 Oct 2026 V3 (user OK): TheLastHours_03_DBCooper_v3.mp4 = v2 + silent SUBSCRIBE badge at 8:51 + spoken "If you want the next
+file, subscribe." on the end card. NEW ID 1rWdT-lGkBI (https://youtu.be/1rWdT-lGkBI), scheduled Sun 1 Nov 12:00 PM New York. Reused details;
+A/B B_NEVER_FOUND (main) + A_WHO_WAS_HE + C_JUMPED_FROM_HERE; end screen imported, video box switched to the NEW Franklin (bUkhghG5Hs0);
+not for kids; captions_en_v3.txt published. Old rrm5wqAcPPE = Private "OLD COPY (delete) - DB Cooper v2". Teasers' related video -> 1rWdT-lGkBI.

@@ -1,0 +1,84 @@
+THE LAST HOURS - FILE 04 - UPLOAD SHEET (YouTube long video)
+=====================================================================================
+Channel: The Last Hours (@TheLastHoursDocs). Narration = the creator's own cloned voice (local). Visuals: the 1600 printing of
+John White's own account, John White's 1585 drawings (public-domain reproductions), period paintings and engravings, the Met,
+NPS, NASA/USGS, Pexels. Facts: research/research.md. Credits: CREDITS.md.
+
+VIDEO FILE
+TheLastHours_04_Roanoke.mp4   1920x1080, 30 fps, 12:31 (incl. 20 s end screen), about -14 to -16 LUFS
+(over 10 MB: drag it into Studio yourself from D:\why habibi\_upload_queue_last_hours)
+
+-------------------------------------------------------------------------------------
+TITLE (title.py 98 with the thumbnail)
+-------------------------------------------------------------------------------------
+115 People Vanished From Roanoke. One Word Was Left.
+
+Other titles (if you want to swap later):
+  Roanoke: 7 Men Drowned to Read One Word on a Post
+  He Came Back After 3 Years. 115 People Were Gone.
+
+THUMBNAILS (Hakawi style, full colour): A/B test with ALL 3 (Test & compare, thumbnail only):
+  export/thumbnails/A_WHERE_DID_THEY_GO_upload.jpg   (misty forest + the 1876 CROATOAN engraving ghosted)   <- set as main
+  export/thumbnails/B_115_PEOPLE_GONE_upload.jpg     (foggy marsh at dawn, the 1587 names list ghosted)
+  export/thumbnails/C_ONE_WORD_NO_CROSS_upload.jpg   (1667 storm painting + the real 1600 printed line, CROATOAN circled)
+
+-------------------------------------------------------------------------------------
+DESCRIPTION (no links)
+-------------------------------------------------------------------------------------
+In 1587, about 115 English men, women and children were left on Roanoke Island, off what is now North Carolina. Their governor, John White, sailed home for supplies. He made a plan with them: if they moved, carve the name of the place. If they were in danger, carve a cross. It took him three years to come back.
+
+This is his return, hour by hour, in his own words, from the 1600 printing of his account: the smoke on the island, the boat that rolled over at the inlet and the seven men who drowned, the trumpet and the English songs played into the dark with no answer, the footprints at daybreak, the letters C R O on a tree, the word CROATOAN on a gatepost, and no cross. Then the storm, the lost anchors, and the theories, including the two rival claims of 2026.
+
+0:00 Aug 18, 1590: one word on a post
+0:57 1587: the colony and the secret code
+2:42 1588-1590: three years away
+3:22 Aug 15: smoke on the island
+4:07 Aug 17, 10 AM: seven drown
+4:57 After dark: the trumpet
+5:36 Daybreak: C R O
+6:08 CROATOAN, and no cross
+7:25 The storm and the anchors
+8:32 1593: White gives up
+8:45 Jamestown's stories
+9:33 The drought in the tree rings
+9:53 Croatoan or the Chowan River? The 2026 claims
+10:57 What the records can't tell us
+
+Sources (checked October 2026): John White's narrative of the 1590 voyage and his letter of 4 Feb 1593, in Richard Hakluyt, The Principal Navigations, vol. 3 (London, 1600), pp. 283-295 · the 1587 voyage account and names list (same volume) · National Park Service, Fort Raleigh National Historic Site (incl. "Major Theories") · Encyclopedia Virginia · NCpedia · William Strachey, The Historie of Travell into Virginia Britania (c. 1612) · John Smith (1608, 1624) · John Lawson, A New Voyage to Carolina (1709) · Stahle et al., Science (1998), tree-ring drought record · First Colony Foundation (2012 map patch; June 2026 claim) · Croatoan Archaeological Society / Hatteras finds and the June 2026 radiocarbon claim, as reported in the press · Ewen & Shields, Becoming the Lost Colony (2024). The 2026 claims are not peer reviewed. "About five in the morning" is a computed daybreak. The carved letters are shown as reconstructions.
+
+Images: John White's drawings (1585-86, public-domain reproductions via Wikimedia Commons), Hakluyt (1600) via the Wellcome Collection and Internet Archive, period paintings (Bakhuizen, Porcellis, van de Velde) and engravings, The Metropolitan Museum of Art (Open Access), National Park Service, NASA, USGS, ncwetlands.org (CC0), Wikimedia Commons. Mood photos: Pexels. Maps: Natural Earth. Sound effects: Mixkit. Music by Kevin MacLeod (incompetech.com): "Rising Tide", "Man Down", "Thunder Dreams", "Industrial Cinematic", licensed under Creative Commons: By Attribution 4.0 (CC BY 4.0). Narration: an AI clone of my own voice.
+
+#roanoke #lostcolony #unsolvedmysteries
+
+-------------------------------------------------------------------------------------
+SETTINGS
+-------------------------------------------------------------------------------------
+Playlist: "Files: Escapes and Disappearances"
+Audience: No, it's not made for kids · Category: Education · Language: English · Caption language: English
+Altered content: your call (left for you)
+Tags: roanoke colony, lost colony, roanoke mystery, croatoan, john white, lost colony of roanoke, virginia dare, roanoke island,
+      outer banks history, unsolved mysteries, history documentary, colonial america, hatteras island, hour by hour, the last hours
+End screen (from 12:11, template "1 video, 1 playlist, 1 subscribe"): Alcatraz (16b37-3-Z-Q, public) left, Subscribe middle,
+playlist "Files: Escapes and Disappearances" right. (Franklin is private until Sun 25 Oct; Cooper until 1 Nov.)
+Comments: on. Remixing: allow only audio.
+
+-------------------------------------------------------------------------------------
+PINNED COMMENT
+-------------------------------------------------------------------------------------
+White landed on the morning of his granddaughter's third birthday, and never mentions it. Where do you think they went: Croatoan, the mainland, or somewhere nobody has dug yet? Next file: D.B. Cooper.
+
+-------------------------------------------------------------------------------------
+WHEN
+-------------------------------------------------------------------------------------
+USER DECISION 21 Oct (changed from Sat 31 Oct): publish TODAY Wed 21 Oct 2026, 19:00 Cairo (EEST, UTC+3) = 12:00 PM New York (EDT).
+Ending changed to "Next, I'm opening the file on D.B. Cooper" (+ end card "NEXT FILE: D.B. COOPER"), because Cooper is 1 Nov.
+Opening fixed (21 Oct): frame 1 = the 1876 CROATOAN engraving + "ROANOKE ISLAND · AUGUST 1590" typing + "3 YEARS" / "7 MEN LOST".
+
+SCHEDULED 21 Oct (user OK): EKnsZ8kI_1Q (https://youtu.be/EKnsZ8kI_1Q), Wed 21 Oct 2026 19:00 Cairo = 12:00 PM New York.
+Done in Studio: title, description with 14 chapters, 15 tags, English, Education, not made for kids, playlist "Files: Escapes and
+Disappearances", remixing audio only, thumbnail A/B test with ALL 3 (A, B, C), end screen from 12:11 (Alcatraz / Subscribe / playlist).
+Altered content: left for you. TODO after 19:00: pin the comment above; check the A/B test says Running.
+
+22 Oct 2026 (user "yes upload them"): A/B test REPLACED with v2 thumbnails (thumbs_roanoke_v2.py), restarted:
+  A2_WHERE_DID_THEY_GO (1876 engraving as a clear sepia print + red CROATOAN zoom bubble), B2_115_PEOPLE_MAP (John White's
+  1585 map, Roanoke circled, names-list bubble, 1587 / 1590: EMPTY), C2_ONE_WORD_SHIP (ship reframed big). B3 forest rejected.

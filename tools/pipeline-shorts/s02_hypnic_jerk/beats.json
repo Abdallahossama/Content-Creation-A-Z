@@ -1,0 +1,19 @@
+{
+ "t": {
+  "seven": 2.92,
+  "hypnic": 6.24,
+  "drift": 8.62,
+  "slack": 12.5,
+  "misreads": 13.32,
+  "falling1": 16.22,
+  "fires": 16.86,
+  "jumps": 19.98,
+  "jumpword": 20.92,
+  "theory": 22.12,
+  "normal": 25.8,
+  "stress": 28.02,
+  "caffeine": 28.82,
+  "next": 32.6
+ },
+ "end": 37.2
+}

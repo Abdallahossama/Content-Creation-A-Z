@@ -1,0 +1,69 @@
+THE LAST HOURS - FILE 01 - UPLOAD SHEET (YouTube long video)
+=====================================================================================
+Channel: The Last Hours (@TheLastHoursDocs). Narration = the creator's own cloned voice (local). All visuals: public-domain
+FBI / NPS / US Marshals / USGS records + Pexels footage. Facts: research/research.md.
+
+VIDEO FILE
+TheLastHours_01_Alcatraz.mp4   1920x1080, 30 fps, 14:31 (incl. 20 s end screen), -16 LUFS
+
+-------------------------------------------------------------------------------------
+TITLE (title.py 98)
+-------------------------------------------------------------------------------------
+What the FBI Found When 3 Men Vanished From Alcatraz
+
+A/B test (Title and thumbnail) if available:
+  1. What the FBI Found When 3 Men Vanished From Alcatraz      + thumbs/B_IT_WAS_A_DUMMY_upload.jpg
+  2. The Night 3 Men Vanished From Alcatraz (Hour by Hour)     + thumbs/A_STILL_WANTED_upload.jpg
+  3. 3 Men Vanished From Alcatraz. This Is the FBI Timeline     + thumbs/C_NEVER_FOUND_upload.jpg
+
+-------------------------------------------------------------------------------------
+DESCRIPTION (no links)
+-------------------------------------------------------------------------------------
+On the night of June 11, 1962, Frank Morris and the brothers John and Clarence Anglin climbed out of their cells on Alcatraz and were never seen again. This is the escape told hour by hour, from the FBI's own file: the dummy heads, the vacuum-cleaner drill, the raincoat raft, the noise a guard heard at 10:30, the tide that night, the manhunt, and the letter that arrived 51 years later.
+
+0:00 7:20 AM: A dead man or a dummy
+0:41 The Rock
+1:56 December 1961: six months of spoons
+4:04 5:30 PM: Lockup
+4:21 8:31 PM: Sunset
+4:39 9:30 PM: Lights out
+5:10 9:37 PM: The fourth man
+5:39 10:00 PM: The roof
+6:49 10:30 PM: The noise
+7:20 11:15 PM: The tide
+8:19 Later that night: the roof, empty
+8:35 2:43 AM to 5:46 AM
+8:49 7:15 AM: The count
+9:35 The manhunt
+11:20 1963 to 1979: Case closed
+11:51 Possible. Barely.
+12:05 2013: The letter
+13:12 Still wanted
+
+Sources (checked October 2026): FBI file 76-26295 "Alcatraz Escape" (FBI Vault) and FBI History "Alcatraz Escape" · Federal Bureau of Prisons, "A Brief History of Alcatraz" · US Marshals Service fugitive profiles · National Park Service, Golden Gate NRA Park Archives · National Archives at San Francisco · San Francisco Chronicle, June 13–15 and Dec 17, 1962 · BBC News (Dec 15, 2014) and TU Delft Delta (Jan 25, 2015) on the tide model · Smithsonian (2017) · CBS News (Jan 24, 2018) · ABC7 San Francisco (May 16, 2016) · AP (Nov 15, 2018). Sunset and moon times are computed. The tide-model scene is an illustration of the published result.
+
+Images: FBI, National Park Service (GGNRA Park Archives), US Marshals Service, HABS/Library of Congress, USGS (1956 San Francisco North map), Wikimedia Commons (public domain). Video: Pexels. Sound effects: Mixkit. Music by Kevin MacLeod (incompetech.com): "Thunder Dreams", "Man Down", "Rising Tide", licensed under Creative Commons: By Attribution 4.0 (CC BY 4.0). Narration: an AI clone of my own voice.
+
+#alcatraz #truecrime #unsolvedmysteries
+
+-------------------------------------------------------------------------------------
+SETTINGS
+-------------------------------------------------------------------------------------
+Playlist: create "Files: Escapes and Disappearances"
+Audience: No, it's not made for kids · Category: Education (or Film & Animation) · Language: English · Caption language: English
+Altered content: your call (own cloned voice; real archive photos; one illustrated tide map)
+Tags: alcatraz escape, alcatraz 1962, frank morris, anglin brothers, escape from alcatraz true story, fbi files, unsolved mysteries,
+      true crime documentary, alcatraz dummy heads, john anglin letter, us marshals, hour by hour, the last hours
+End screen (from 14:12): Subscribe in the left circle, "Best for viewer" video in the right box (when the channel has more videos)
+
+-------------------------------------------------------------------------------------
+PINNED COMMENT
+-------------------------------------------------------------------------------------
+Did anyone reach the shore that night? Drowned, made it, or something else? And which file next: D.B. Cooper or Flight 19?
+
+-------------------------------------------------------------------------------------
+WHEN
+-------------------------------------------------------------------------------------
+First video of the channel. SCHEDULED: Mon 19 Oct 2026, 23:00 Cairo (16:00 New York). Thumbnail A/B test B vs A set.
+
+22 Oct 2026 (user approved): A/B test replaced with the Hakawi-style COLOUR thumbnails from thumbs_hakawi.py (B first = main).

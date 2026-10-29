@@ -1,0 +1,3776 @@
+{
+ "outliers": [
+  {
+   "channel": "Life Noggin",
+   "title": "What Happens To Your Body During an Overdose?",
+   "views": 2600000,
+   "median": 60000,
+   "multiple": 43.33,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=Kz5njuWjtPk"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "The Overlooked Connection Between ADHD and Sleep",
+   "views": 2900000,
+   "median": 73000,
+   "multiple": 39.73,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=7Eb-0VYN0k8"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "How To Fall Asleep In 2 Minutes",
+   "views": 32000000,
+   "median": 911000,
+   "multiple": 35.13,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=EiYm20F9WXU"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "Fixing YOUR Sleep | Sleeping With Friends",
+   "views": 1400000,
+   "median": 55000,
+   "multiple": 25.45,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=kVDHsMx78wk"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "What If You Didn't Wear Your Seatbelt? ft. TheOdd1sOut",
+   "views": 1500000,
+   "median": 60000,
+   "multiple": 25.0,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=4oVtMtBOvQo"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "Weird Habits That Actually Reveal High Intelligence",
+   "views": 1400000,
+   "median": 58000,
+   "multiple": 24.14,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=dIIxtmhW69E"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "Your Brain on Psilocybin",
+   "views": 1700000,
+   "median": 73000,
+   "multiple": 23.29,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=27Rlcu1C9HE"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Why Are We Obsessed With People? ft. Jaiden Animations",
+   "views": 1300000,
+   "median": 60000,
+   "multiple": 21.67,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=0DJQTKWx3Dk"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Please Don't Try These Things To Stop The Coronavirus",
+   "views": 1300000,
+   "median": 60000,
+   "multiple": 21.67,
+   "formula": "The Warning",
+   "url": "https://www.youtube.com/watch?v=TxM_JbX9DPU"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "Harvesting Water Out Of Thin Air | Shut It Off ASAP",
+   "views": 19000000,
+   "median": 911000,
+   "multiple": 20.86,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=QEXrb6HBVuU"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "The Best Banknote in the World!",
+   "views": 1100000,
+   "median": 55000,
+   "multiple": 20.0,
+   "formula": "The Superlative",
+   "url": "https://www.youtube.com/watch?v=MQEg0e2dfdc"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "Generating All Our Electricity From Bike Power | Shut It Off ASAP",
+   "views": 17000000,
+   "median": 911000,
+   "multiple": 18.66,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=DZeUTBU7wYw"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "What happens to your brain without any social contact? - Terry Kupers",
+   "views": 7500000,
+   "median": 405000,
+   "multiple": 18.52,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=USW8yf4L-R4"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "What If You're Trapped on an Island? ft. MrBeast",
+   "views": 1100000,
+   "median": 60000,
+   "multiple": 18.33,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=ddv3_P3g7es"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "What Actually Happens When a Tranquilizer Dart Hits You?",
+   "views": 1100000,
+   "median": 60000,
+   "multiple": 18.33,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=XQztYce9Ko8"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "What Happens When You Quit Marijuana?",
+   "views": 13000000,
+   "median": 911000,
+   "multiple": 14.27,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=7u_cm5b1s7Y"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "What Actually Happens If You Get Coronavirus?",
+   "views": 13000000,
+   "median": 911000,
+   "multiple": 14.27,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=OTYfke545vI"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "What The COVID Vaccine Does To Your Body",
+   "views": 12000000,
+   "median": 911000,
+   "multiple": 13.17,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=the81FQoAUI"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Your School is Lying to You!",
+   "views": 782000,
+   "median": 60000,
+   "multiple": 13.03,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=e1wfpWfTxpg"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Among Us Science - When Does Lying Go Too Far? ft. TheAmaazing",
+   "views": 762000,
+   "median": 60000,
+   "multiple": 12.7,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=O_skHDCjs3g"
+  },
+  {
+   "channel": "SciShow",
+   "title": "Scientists Can't Agree On The First Ancient City",
+   "views": 2400000,
+   "median": 189000,
+   "multiple": 12.7,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=kBTa41cK4wM"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "We Don't All Have a \"Mind's Eye\" | Aphantasia",
+   "views": 919000,
+   "median": 73000,
+   "multiple": 12.59,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=A91tvp0b1fY"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Staying Up vs Sleeping In - Which Is Worse? ft. Juniper",
+   "views": 746000,
+   "median": 60000,
+   "multiple": 12.43,
+   "formula": "The Comparison",
+   "url": "https://www.youtube.com/watch?v=FqmXdU5w6E4"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "Why Women's Voices Are Getting Deeper",
+   "views": 657000,
+   "median": 55000,
+   "multiple": 11.95,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=zcE_6M1YuK8"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "Why There Are No King Bees",
+   "views": 6900000,
+   "median": 581500,
+   "multiple": 11.87,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=uKP3lc9SOaA"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "Screens are NOT the reason kids need glasses \ud83d\udc40",
+   "views": 6600000,
+   "median": 581500,
+   "multiple": 11.35,
+   "formula": "The Origin",
+   "url": "https://www.youtube.com/watch?v=vbCobKbLJls"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "What Happens When You Orgasm Without Porn? ",
+   "views": 644000,
+   "median": 58000,
+   "multiple": 11.1,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=4ffJdac9vNQ"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "Why The Ancient Greeks Couldn't See Blue",
+   "views": 10000000,
+   "median": 911000,
+   "multiple": 10.98,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=D1-WuBbVe2E"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "5 Myths You've Probably Seen on TV",
+   "views": 790000,
+   "median": 73000,
+   "multiple": 10.82,
+   "formula": "The List",
+   "url": "https://www.youtube.com/watch?v=xq7tSzfjolE"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "How Repressed Emotions Make Us Sick",
+   "views": 2000000,
+   "median": 189000,
+   "multiple": 10.58,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=KmoCJmQFAUA"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "What if the AI Bubble Bursts (Day by Day)",
+   "views": 4700000,
+   "median": 467500,
+   "multiple": 10.05,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=T9d6lrvzM9o"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "Which is Worse?",
+   "views": 5800000,
+   "median": 581500,
+   "multiple": 9.97,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=zgdMhNnNuY0"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "4 ways to fix your attention span - Shannon Odell",
+   "views": 4000000,
+   "median": 405000,
+   "multiple": 9.88,
+   "formula": "The List",
+   "url": "https://www.youtube.com/watch?v=N2uQWfV6Jr4"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "Is America really on the path to collapse like the empires that preceded it?",
+   "views": 1800000,
+   "median": 188000,
+   "multiple": 9.57,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=bHn_WxKR3XU"
+  },
+  {
+   "channel": "Kurzgesagt \u2013 In a Nutshell",
+   "title": "The Coronavirus Explained & What You Should Do",
+   "views": 89000000,
+   "median": 10000000,
+   "multiple": 8.9,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=BtN-goy9VOY"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "Nobody has EVER seen an El Ni\u00f1o like this",
+   "views": 8100000,
+   "median": 911000,
+   "multiple": 8.89,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=cfT46UVhTfo"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "Why Am I Always Horny - Sexual Intrusive Thoughts Explained",
+   "views": 514000,
+   "median": 58000,
+   "multiple": 8.86,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=vP6DbSjjQ1E"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "Can You Visualise This? (Aphantasia Explained)",
+   "views": 478000,
+   "median": 55000,
+   "multiple": 8.69,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=KuWSh4n5AiI"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "'I Love You But I Don\u2019t Think We Should Be Together'",
+   "views": 1600000,
+   "median": 189000,
+   "multiple": 8.47,
+   "formula": "The Stack",
+   "url": "https://www.youtube.com/watch?v=JRtKwcUJ5xk"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "How to Spot the Loveliest People in the World",
+   "views": 1600000,
+   "median": 189000,
+   "multiple": 8.47,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=SvoO3OZPyb8"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "The BIG Problems With The Human Body ft. TierZoo",
+   "views": 496000,
+   "median": 60000,
+   "multiple": 8.27,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=KmonRFILyUk"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "If You See This Video\u2026 It\u2019s a Sign You\u2019re Not Okay",
+   "views": 473000,
+   "median": 58000,
+   "multiple": 8.16,
+   "formula": "The Direct Address",
+   "url": "https://www.youtube.com/watch?v=y3qlIaqlJ7A"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "What toys have kids played with throughout history?",
+   "views": 3300000,
+   "median": 405000,
+   "multiple": 8.15,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=aob7rM5PV5A"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "What Happens When the Doomsday Clock Hits Midnight?",
+   "views": 487000,
+   "median": 60000,
+   "multiple": 8.12,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=5PdaDijytBQ"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "Why Is Our Skeleton On the Inside?",
+   "views": 7000000,
+   "median": 863000,
+   "multiple": 8.11,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=JhOU3FOyApM"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "You Don\u2019t Know What You Feel Anymore",
+   "views": 462000,
+   "median": 58000,
+   "multiple": 7.97,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=2KAri3P0YE4"
+  },
+  {
+   "channel": "SciShow",
+   "title": "Why Don\u2019t We Use Mothballs Anymore?",
+   "views": 1500000,
+   "median": 189000,
+   "multiple": 7.94,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=nZMyQBVBVqs"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "Why You Should Stop Using Times New Roman (Research Explains)",
+   "views": 434000,
+   "median": 55000,
+   "multiple": 7.89,
+   "formula": "The Warning",
+   "url": "https://www.youtube.com/watch?v=41i9EN9l8uc"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "When Sexual Urges Hit Out of Nowhere\u2026",
+   "views": 448000,
+   "median": 58000,
+   "multiple": 7.72,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=ZTjqHsjg2W4"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "The Secret World of Temper Tantrums",
+   "views": 553000,
+   "median": 73000,
+   "multiple": 7.58,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=91rAPnJMtdQ"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "What Happens When You Quit Porn?",
+   "views": 6900000,
+   "median": 911000,
+   "multiple": 7.57,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=d1v170oM67U"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "The Actual Reason Men Die First",
+   "views": 4400000,
+   "median": 581500,
+   "multiple": 7.57,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=ZRpvIxmzyL4"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Face Reveal / Q&A - What's Next For Life Noggin?",
+   "views": 449000,
+   "median": 60000,
+   "multiple": 7.48,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=pto1AKpps1A"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "When Someone Has Suffered Too Much, They Start Doing This",
+   "views": 426000,
+   "median": 58000,
+   "multiple": 7.34,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=NG4oOf4SX_M"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "Heating A Bathtub With A Pile Of S#*t | Shut It Off ASAP",
+   "views": 6500000,
+   "median": 911000,
+   "multiple": 7.14,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=yZIl919ClFo"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "What Are the WORST Bug Bites To Get?",
+   "views": 414000,
+   "median": 60000,
+   "multiple": 6.9,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=9TgZaUR63_E"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "How To Fix Your Negative Patterns - Alain de Botton on Chris Williamson",
+   "views": 1300000,
+   "median": 189000,
+   "multiple": 6.88,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=9S_ha84YVn8"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "Do You Have an Inner Voice?",
+   "views": 375000,
+   "median": 55000,
+   "multiple": 6.82,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=dNQyubd9ARc"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "The Unspoken Rules of Dating Someone with These Traits",
+   "views": 389000,
+   "median": 58000,
+   "multiple": 6.71,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=6nuBQh5LVX0"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "Why Don't We Eat Carnivores?",
+   "views": 3800000,
+   "median": 581500,
+   "multiple": 6.53,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=o7d6cZsLo6c"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Cancer May Have Finally Met Its Match!",
+   "views": 381000,
+   "median": 60000,
+   "multiple": 6.35,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=r0cnavajNac"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "What Can Magic Mushrooms Really Do To You? \ud83c\udf44",
+   "views": 372000,
+   "median": 60000,
+   "multiple": 6.2,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=SZVi3F9bAo4"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "Why do so many cultures have dragon legends? - Timothy J. Burbery",
+   "views": 2500000,
+   "median": 405000,
+   "multiple": 6.17,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=x-qsWTPul9Y"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "How Marijuana Completely Changes Your Sleep",
+   "views": 5600000,
+   "median": 911000,
+   "multiple": 6.15,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=3PnXsPsdncE"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "What if you never took off your Apple AirPods Pro?",
+   "views": 5600000,
+   "median": 911000,
+   "multiple": 6.15,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=ETJs5moej9M"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "What is Impossible in Evolution?",
+   "views": 5100000,
+   "median": 863000,
+   "multiple": 5.91,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=YkS1U5lfSRw"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "Small Talk Can Make You Happier. Here's How to Master it.",
+   "views": 323000,
+   "median": 55000,
+   "multiple": 5.87,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=JWybsoGx5UY"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0627\u0654\u0633\u064a\u0654\u0644\u0629 \u0639\u0646 \u0627\u0644\u062a\u0643\u0646\u0648\u0644\u0648\u062c\u064a\u0627 | \u062d\u0644\u0642\u0627\u062a \u0645\u062c\u0645\u0639\u0629",
+   "views": 1100000,
+   "median": 188000,
+   "multiple": 5.85,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=KArMdhY_W28"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "The Pi Song 2.0 (Memorize 200 Digits Of \u03c0)",
+   "views": 5300000,
+   "median": 911000,
+   "multiple": 5.82,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=d0lXrqjM_m8"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "The Pleasures of Talking Nonsense with Someone We Love",
+   "views": 1100000,
+   "median": 189000,
+   "multiple": 5.82,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=hEgtFSNRd54"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "What If EVERYONE Got the COVID-19 Vaccine?",
+   "views": 345000,
+   "median": 60000,
+   "multiple": 5.75,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=vLQxL0y6Ymw"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "Why You're Always Tired (and how to fix it)",
+   "views": 5200000,
+   "median": 911000,
+   "multiple": 5.71,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=RpaxxN8jTHo"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "Building An Underground Solar Powered Fridge | Shut It Off ASAP",
+   "views": 5200000,
+   "median": 911000,
+   "multiple": 5.71,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=WO562ecWbCQ"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "The Psychology of Why Some People Cry Easily",
+   "views": 328000,
+   "median": 58000,
+   "multiple": 5.66,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=vAxVkcBLI2s"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "It Is NOT Laziness, It Is Something DARKER",
+   "views": 326000,
+   "median": 58000,
+   "multiple": 5.62,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=f1RQZEvjICg"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "How Can You Start Feeling Less Sad?",
+   "views": 336000,
+   "median": 60000,
+   "multiple": 5.6,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=x42THvq0gqM"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "What If You're Stuck Inside For WEEKS?",
+   "views": 336000,
+   "median": 60000,
+   "multiple": 5.6,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=EkTvjvwO54M"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "He started his new job at 7:30 AM. By 9:45 AM, he grounded America.",
+   "views": 2600000,
+   "median": 467500,
+   "multiple": 5.56,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=IDZPvfsyzzA"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "The Sounds That Are Unbearable (Misophonia explained)",
+   "views": 302000,
+   "median": 55000,
+   "multiple": 5.49,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=1LFBQ3EP3Pg"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "The LOUDEST vs QUIETEST Room In The World",
+   "views": 4900000,
+   "median": 911000,
+   "multiple": 5.38,
+   "formula": "The Comparison",
+   "url": "https://www.youtube.com/watch?v=Sqt60LqaEBU"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "The Leaked Audit That Exposes OpenAI's Real Financial Crisis",
+   "views": 2500000,
+   "median": 467500,
+   "multiple": 5.35,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=UVKmPMTwglI"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "Why Is Sex a Thing?",
+   "views": 4600000,
+   "median": 863000,
+   "multiple": 5.33,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=KdceuaRZno4"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "The Golden Ratio: Is It Myth or Math?",
+   "views": 4600000,
+   "median": 863000,
+   "multiple": 5.33,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=1Jj-sJ78O6M"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "How Ancient Ice Proves Climate Change Is Real",
+   "views": 4600000,
+   "median": 863000,
+   "multiple": 5.33,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=myxVsYI4WZk"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "Is PORN Affecting You More Than You Think?",
+   "views": 308000,
+   "median": 58000,
+   "multiple": 5.31,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=bQ7xwtekFAI"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "Why We Need to Take It Slowly in Love",
+   "views": 1000000,
+   "median": 189000,
+   "multiple": 5.29,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=PRIwXXeHxck"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "The Pi Song 3.0 (Memorize 300 Digits Of \u03c0)",
+   "views": 4800000,
+   "median": 911000,
+   "multiple": 5.27,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=xsrJdSaiD9U"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0627\u0654\u0633\u064a\u0654\u0644\u0629 \u0639\u0646 \u0639\u0627\u0644\u0645 \u0627\u0644\u0628\u062d\u0627\u0631 | \u062d\u0644\u0642\u0627\u062a \u0645\u062c\u0645\u0639\u0629 | \u0627\u0644\u062c\u0632\u0621 \u0627\u0644\u0627\u0654\u0648\u0644",
+   "views": 981000,
+   "median": 188000,
+   "multiple": 5.22,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=466097i8v_Y"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "4 Stages of Lust, Most People Stop At 2",
+   "views": 303000,
+   "median": 58000,
+   "multiple": 5.22,
+   "formula": "The Warning",
+   "url": "https://www.youtube.com/watch?v=o0tvWjaSAhU"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "Alice in Wonderland Syndrome",
+   "views": 380000,
+   "median": 73000,
+   "multiple": 5.21,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=9V3JoxQIoV4"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "The Strange Science of Why We Dream",
+   "views": 4500000,
+   "median": 863000,
+   "multiple": 5.21,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=XK4yjmApcHo"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "What Happens If You Never Change Your Sheets?",
+   "views": 312000,
+   "median": 60000,
+   "multiple": 5.2,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=WDEtVw9RFGA"
+  },
+  {
+   "channel": "SciShow",
+   "title": "Those Ancient Giant Fungi Weren\u2019t Fungi After All",
+   "views": 980000,
+   "median": 189000,
+   "multiple": 5.19,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=7gFgl9ijlDg"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "Why kids need to take more risks",
+   "views": 2100000,
+   "median": 405000,
+   "multiple": 5.19,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=kRAl4Xgs_NU"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "What\u2019s the best position to sleep in? - Rachel Marie E. Salas",
+   "views": 2100000,
+   "median": 405000,
+   "multiple": 5.19,
+   "formula": "The Superlative",
+   "url": "https://www.youtube.com/watch?v=_GI9-J-sE5k"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "Why do gay people sound like that?",
+   "views": 4700000,
+   "median": 911000,
+   "multiple": 5.16,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=SF7KCsvcw2g"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "This Is The First LIQUID Robot, And It\u2019s Unbelievable",
+   "views": 4700000,
+   "median": 911000,
+   "multiple": 5.16,
+   "formula": "The Receipt",
+   "url": "https://www.youtube.com/watch?v=VmV3m0QqNOY"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "Why Your Penis Is Shrinking",
+   "views": 4700000,
+   "median": 911000,
+   "multiple": 5.16,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=y9vQ-bebJwA"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "Why Are Some People Mosquito Magnets?",
+   "views": 3000000,
+   "median": 581500,
+   "multiple": 5.16,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=bvKKHRCCkfI"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "Why Water Dissolves (Almost) Everything",
+   "views": 3000000,
+   "median": 581500,
+   "multiple": 5.16,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=lIs7PAW0mlM"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "Why Some Fruits Won\u2019t Ripen On Your Counter",
+   "views": 3000000,
+   "median": 581500,
+   "multiple": 5.16,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=ttCd60Qko5A"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "Leave Windows 11 Idle for 24 Hours and Watch What Happens",
+   "views": 2400000,
+   "median": 467500,
+   "multiple": 5.13,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=Wtg_s1GQiMU"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "The Number One Rule for Healthy Relationships",
+   "views": 963000,
+   "median": 189000,
+   "multiple": 5.1,
+   "formula": "The Superlative",
+   "url": "https://www.youtube.com/watch?v=s4R6dZCQdjw"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "How Gaslighting Manipulates Your Mind",
+   "views": 280000,
+   "median": 55000,
+   "multiple": 5.09,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=iqQMS9c0Qfs"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Your Parents Should Never Do These Things",
+   "views": 304000,
+   "median": 60000,
+   "multiple": 5.07,
+   "formula": "The Impossible Claim",
+   "url": "https://www.youtube.com/watch?v=-yXkAdKqH1I"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "How HIV Started a Century Before Anyone Noticed",
+   "views": 4300000,
+   "median": 863000,
+   "multiple": 4.98,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=61bgzr1LE8A"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "What Happens When You Quit Alcohol?",
+   "views": 4500000,
+   "median": 911000,
+   "multiple": 4.94,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=bOQxOthLSCA"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "What lack of sleep does to the teenage brain - Wendy Troxel",
+   "views": 2000000,
+   "median": 405000,
+   "multiple": 4.94,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=WJhCa12UTsg"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "How to Beat Sexually Intrusive Thoughts",
+   "views": 284000,
+   "median": 58000,
+   "multiple": 4.9,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=15V-OJU6-gk"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0644\u064a\u0647 \u062a\u062e\u0635\u064a\u0628 \u0627\u0644\u064a\u0648\u0631\u0627\u0646\u064a\u0648\u0645 \u0644\u0644\u0642\u0646\u0627\u0628\u0644 \u0627\u0644\u0646\u0648\u0648\u064a\u0629 \u0628\u064a\u062d\u062a\u0627\u062c \u0648\u0642\u062a \u0637\u0648\u064a\u0644 \u0627\u0654\u0648\u064a \u0643\u062f\u0647\u061f",
+   "views": 911000,
+   "median": 188000,
+   "multiple": 4.85,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=4FBP5t3CdDY"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "What\u2019s In Your Brain? | Compilation",
+   "views": 346000,
+   "median": 73000,
+   "multiple": 4.74,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=mHVnhtuJNuE"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "World War 3 - Hour by Hour in the Suburbs",
+   "views": 2200000,
+   "median": 467500,
+   "multiple": 4.71,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=1fkSHGfUI90"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "The best way to become good at something might surprise you - David Epstein",
+   "views": 1900000,
+   "median": 405000,
+   "multiple": 4.69,
+   "formula": "The Superlative",
+   "url": "https://www.youtube.com/watch?v=jLOuMXnM5wk"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "Can saunas make you live longer? - Max G. Levy",
+   "views": 1900000,
+   "median": 405000,
+   "multiple": 4.69,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=7c-OXc6H7us"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Why Are You SO LAZY!? - Dear Blocko #29",
+   "views": 281000,
+   "median": 60000,
+   "multiple": 4.68,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=E6snsF4TpwA"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "Why Are Some People SO Horny?",
+   "views": 4200000,
+   "median": 911000,
+   "multiple": 4.61,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=LskiNHuiWaY"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "Exposing The Truth About Peptides",
+   "views": 8200000,
+   "median": 1800000,
+   "multiple": 4.56,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=xpdLs-_nl4g"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "Doctor Reacts To \"Strange Addictions\"",
+   "views": 8200000,
+   "median": 1800000,
+   "multiple": 4.56,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=sBes_tKsuTk"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "5 Questions to Ask Yourself Every Evening",
+   "views": 858000,
+   "median": 189000,
+   "multiple": 4.54,
+   "formula": "The List",
+   "url": "https://www.youtube.com/watch?v=7mGCI0UalCk"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "We Usually Don\u2019t Show This\u2026 (Deleting in 24 Hours)",
+   "views": 261000,
+   "median": 58000,
+   "multiple": 4.5,
+   "formula": "The Clock",
+   "url": "https://www.youtube.com/watch?v=3k7XeDq_ZZk"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "This Rare Disorder Makes You Fall Asleep Randomly",
+   "views": 269000,
+   "median": 60000,
+   "multiple": 4.48,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=pQdscjQmtQ0"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "How do fish get into isolated mountain lakes?",
+   "views": 2600000,
+   "median": 581500,
+   "multiple": 4.47,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=CHTMZiXeB6A"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "The Ancestor Paradox",
+   "views": 2600000,
+   "median": 581500,
+   "multiple": 4.47,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=5eMAmRER0y8"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "The Freshwater Paradox",
+   "views": 2600000,
+   "median": 581500,
+   "multiple": 4.47,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=iwa0SLUMDAs"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "If you had the chance to be immortal, would you take it? - Sarah Stroud and Michael Vazquez",
+   "views": 1800000,
+   "median": 405000,
+   "multiple": 4.44,
+   "formula": "The Direct Address",
+   "url": "https://www.youtube.com/watch?v=S3jqTWXwzJc"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "I Hope You Never Experience This Kind of Pain",
+   "views": 265000,
+   "median": 60000,
+   "multiple": 4.42,
+   "formula": "The Impossible Claim",
+   "url": "https://www.youtube.com/watch?v=k9yVR59Vpg8"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0644\u064a\u0647 \u0628\u0642\u064a\u0646\u0627 \u0645\u0627\u0646\u0639\u0631\u0641\u0634 \u0646\u0646\u0627\u0645 \u063a\u064a\u0631 \u0648\u0641\u064a \u0635\u0648\u062a \u0634\u063a\u0627\u0644 \u062c\u0646\u0628\u0646\u0627\u061f",
+   "views": 827000,
+   "median": 188000,
+   "multiple": 4.4,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=FRp-euwWlYY"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "Why Does Lithium Help Bipolar Disorder?",
+   "views": 321000,
+   "median": 73000,
+   "multiple": 4.4,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=id987QbZmug"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "Trying to Land a Plane (to Prove the Dunning-Kruger Effect)",
+   "views": 3800000,
+   "median": 863000,
+   "multiple": 4.4,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=2A7mblg5UKc"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "It's way different than you think",
+   "views": 4000000,
+   "median": 911000,
+   "multiple": 4.39,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=5sxxqxqVSNo"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "Emotional Abuse You Didn\u2019t Realize Was Happening (What To Do)",
+   "views": 253000,
+   "median": 58000,
+   "multiple": 4.36,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=8iSv8P6DaR0"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "12 Signs You Are a Psychologically Mature Adult",
+   "views": 818000,
+   "median": 189000,
+   "multiple": 4.33,
+   "formula": "The List",
+   "url": "https://www.youtube.com/watch?v=Y_AOETSgM74"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "YouTubers Who Barely Survived",
+   "views": 7800000,
+   "median": 1800000,
+   "multiple": 4.33,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=npPZvMsp3j4"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0647\u0644 \u0627\u0644\u0627\u0654\u0645\u0631\u064a\u0643\u0627\u0646 \u0641\u0639\u0644\u0627\u064b \u0637\u0644\u0639\u0648\u0627 \u0627\u0644\u0642\u0645\u0631 \u0641\u064a \u0633\u062a\u064a\u0646\u064a\u0627\u062a \u0627\u0644\u0642\u0631\u0646 \u0627\u0644\u0644\u064a \u0641\u0627\u062a\u061f",
+   "views": 810000,
+   "median": 188000,
+   "multiple": 4.31,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=EFc7NLEx6yA"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "COVID-19 Vaccine Myths Debunked",
+   "views": 258000,
+   "median": 60000,
+   "multiple": 4.3,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=qt44rum2_vc"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "ALL THE CATS, EXPLAINED",
+   "views": 2500000,
+   "median": 581500,
+   "multiple": 4.3,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=UWagM1FBB4c"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "A Dark Way to Predict what might happen in your relationship",
+   "views": 813000,
+   "median": 189000,
+   "multiple": 4.3,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=znkBUxSMQ7s"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "What This Chart Actually Means for COVID-19",
+   "views": 3700000,
+   "median": 863000,
+   "multiple": 4.29,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=fgBla7RepXU"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "What happens if you eat a silica gel packet? - Vivian Jiang",
+   "views": 1700000,
+   "median": 405000,
+   "multiple": 4.2,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=QWCHnR53oIw"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Why Do You Have Reoccurring Dreams? - Dear Blocko #30",
+   "views": 251000,
+   "median": 60000,
+   "multiple": 4.18,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=jQ01_vFNxt8"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "Why No One Can Agree What\u2019s REALLY the Tallest Mountain",
+   "views": 3600000,
+   "median": 863000,
+   "multiple": 4.17,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=biNMRQJXvfs"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "Why Do People Hate Koalas? (ft. @tibees )",
+   "views": 2400000,
+   "median": 581500,
+   "multiple": 4.13,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=wlBQND67Nfw"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "Which Is Worse: Underpopulation Or Overpopulation?",
+   "views": 2400000,
+   "median": 581500,
+   "multiple": 4.13,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=Dru78IHxQE0"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0627\u0654\u0633\u064a\u0654\u0644\u0629 \u0639\u0646 \u0639\u0627\u0644\u0645 \u0627\u0644\u0628\u062d\u0627\u0631 | \u062d\u0644\u0642\u0627\u062a \u0645\u062c\u0645\u0639\u0629 | \u0627\u0644\u062c\u0632\u0621 \u0627\u0644\u062b\u0627\u0646\u064a",
+   "views": 775000,
+   "median": 188000,
+   "multiple": 4.12,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=8PzljUgF41w"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "The Science of Winning & Losing ft. WolfeyVGC",
+   "views": 245000,
+   "median": 60000,
+   "multiple": 4.08,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=xud9vb4jnKk"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "The Collapse of AI Software Engineering",
+   "views": 1900000,
+   "median": 467500,
+   "multiple": 4.06,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=F91uY7QiZUs"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "The 7 Trillion AI Gamble Is Failing. Big Tech is TRAPPED Right NOW.",
+   "views": 1900000,
+   "median": 467500,
+   "multiple": 4.06,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=OunJtLnyPT4"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "The WEIRD Way Monkeys Got to America",
+   "views": 2300000,
+   "median": 581500,
+   "multiple": 3.96,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=W6LnB4kVJ84"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "When Will COVID End?",
+   "views": 3600000,
+   "median": 911000,
+   "multiple": 3.95,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=_1R_pg5QasA"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "Why You See Faces in Things",
+   "views": 3400000,
+   "median": 863000,
+   "multiple": 3.94,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=L4zFS0RPP7c"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "The Mistake 90% of People Make in Dating",
+   "views": 741000,
+   "median": 189000,
+   "multiple": 3.92,
+   "formula": "The Statistic",
+   "url": "https://www.youtube.com/watch?v=bcNr9SXdsMQ"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "What Happens When You Go To Sleep High? *\ud835\udde8\ud835\udde3\ud835\uddd7\ud835\uddd4\ud835\udde7\ud835\uddd8*",
+   "views": 234000,
+   "median": 60000,
+   "multiple": 3.9,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=btUW9Wwx4f4"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "Why Did Hitler Hate Jews",
+   "views": 1800000,
+   "median": 467500,
+   "multiple": 3.85,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=OQSHHdcp9MM"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "Voyager 2 Discovered Something Strange at the Edge of Our Solar System",
+   "views": 1800000,
+   "median": 467500,
+   "multiple": 3.85,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=UOUM1QT5GgU"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "South Korea is Collapsing Faster Than Any Nation in History",
+   "views": 1800000,
+   "median": 467500,
+   "multiple": 3.85,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=0PoPniOz9Oo"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "What Happens To Your Brain When You Mindlessly Scroll?",
+   "views": 3500000,
+   "median": 911000,
+   "multiple": 3.84,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=aNvvOQMx0jY"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "Can We Forage All Our Calories From The Wild? | Shut It Off ASAP",
+   "views": 3500000,
+   "median": 911000,
+   "multiple": 3.84,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=OfUKJeI50dk"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "The Science Behind Our Niche Interests | Compilation",
+   "views": 279000,
+   "median": 73000,
+   "multiple": 3.82,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=yvvdT75eNng"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "What Happens When A Volcano Meets a Glacier?",
+   "views": 2200000,
+   "median": 581500,
+   "multiple": 3.78,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=nK3w1V4q2c8"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "Our Lungs Have A Fatal Flaw",
+   "views": 2200000,
+   "median": 581500,
+   "multiple": 3.78,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=Kd4ubaE_sT4"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "When Your Brain Can't Accept Reality: Anosognosia",
+   "views": 274000,
+   "median": 73000,
+   "multiple": 3.75,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=Wt0q1xjEFgk"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "What Does Monkeypox Do To Your Body?",
+   "views": 223000,
+   "median": 60000,
+   "multiple": 3.72,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=jVjQHbz9Y08"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "How smart are crows? - Katharina Brecht",
+   "views": 1500000,
+   "median": 405000,
+   "multiple": 3.7,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=wQ-GmWy_zmM"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "The tale of the Monkey King and the Buddha - Ji Hao",
+   "views": 1500000,
+   "median": 405000,
+   "multiple": 3.7,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=A-oxDZ3AO74"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Can We Turn Back Our Biological Clocks?",
+   "views": 220000,
+   "median": 60000,
+   "multiple": 3.67,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=ofRQh4GCvjw"
+  },
+  {
+   "channel": "SciShow",
+   "title": "Ancient Octopuses Were MUCH Bigger Than We Thought",
+   "views": 691000,
+   "median": 189000,
+   "multiple": 3.66,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=JpR3oeTlzos"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "ALL THE DOGS, EXPLAINED",
+   "views": 2100000,
+   "median": 581500,
+   "multiple": 3.61,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=tuRl8moQbXU"
+  },
+  {
+   "channel": "SciShow",
+   "title": "Antarctica Has An Accent and It's Weirder Than You Think",
+   "views": 682000,
+   "median": 189000,
+   "multiple": 3.61,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=E7wQD4wKwjs"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "People not to fall in love with: a checklist",
+   "views": 680000,
+   "median": 189000,
+   "multiple": 3.6,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=GGXx51rb5mI"
+  },
+  {
+   "channel": "SciShow",
+   "title": "The Science That Finally Explains the Dyatlov Pass Incident",
+   "views": 678000,
+   "median": 189000,
+   "multiple": 3.59,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=9yYQHUTv9t4"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "The Times Humans Almost Went Extinct! \ud83d\udc80",
+   "views": 212000,
+   "median": 60000,
+   "multiple": 3.53,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=tvUabnoR_Sg"
+  },
+  {
+   "channel": "Kurzgesagt \u2013 In a Nutshell",
+   "title": "The Largest Star in the Universe \u2013 Size Comparison",
+   "views": 35000000,
+   "median": 10000000,
+   "multiple": 3.5,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=3mnSDifDSxQ"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "Do imaginary friends make you smarter?",
+   "views": 1400000,
+   "median": 405000,
+   "multiple": 3.46,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=qLrnn24C3zU"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "Why Am I Sad for No Reason? (Psychology Explained)",
+   "views": 200000,
+   "median": 58000,
+   "multiple": 3.45,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=tpH8Gc-ZAvA"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "You Can\u2019t Actually Die Of Old Age",
+   "views": 2000000,
+   "median": 581500,
+   "multiple": 3.44,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=faBxGmxKTxE"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "Mushroom Wars",
+   "views": 2000000,
+   "median": 581500,
+   "multiple": 3.44,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=q3kLvT4W9A8"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Your Relationship With Food Is Complicated.",
+   "views": 205000,
+   "median": 60000,
+   "multiple": 3.42,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=r775M-HYIOU"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Can AI Predict the Day You'll Die?",
+   "views": 205000,
+   "median": 60000,
+   "multiple": 3.42,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=TZfw5Q9bKAg"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "The Next Great Recession Isn't Housing... Its FAR Dumber.",
+   "views": 1600000,
+   "median": 467500,
+   "multiple": 3.42,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=TkiSzqx-8lY"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "Karma Just Hit Adobe. Hard.",
+   "views": 1600000,
+   "median": 467500,
+   "multiple": 3.42,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=dhj0uNlnWqo"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "The Impact of Anger on Young Children",
+   "views": 647000,
+   "median": 189000,
+   "multiple": 3.42,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=CX36tONlEFM"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "This piece of paper could revolutionize human waste",
+   "views": 3100000,
+   "median": 911000,
+   "multiple": 3.4,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=BxVGLdMR_8A"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "Is School Slowly Destroying Your Brain?",
+   "views": 3100000,
+   "median": 911000,
+   "multiple": 3.4,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=M4u6oOQ77mg"
+  },
+  {
+   "channel": "SciShow",
+   "title": "The World's Deadliest Mushroom is Getting Deadlier",
+   "views": 642000,
+   "median": 189000,
+   "multiple": 3.4,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=PNL_C3j1C2A"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "The True Cause of Obsessive Thinking",
+   "views": 642000,
+   "median": 189000,
+   "multiple": 3.4,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=F7_kJijFhyE"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "The Only Disease You Can't Catch",
+   "views": 6100000,
+   "median": 1800000,
+   "multiple": 3.39,
+   "formula": "The Superlative",
+   "url": "https://www.youtube.com/watch?v=tTP2o5XVfwk"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "Why Are We Warm-Blooded?",
+   "views": 2900000,
+   "median": 863000,
+   "multiple": 3.36,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=04fgn3St1lg"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0644\u064a\u0647 \u0627\u0644\u0646\u0627\u0633 \u0632\u0645\u0627\u0646 \u0643\u0627\u0646 \u0634\u0643\u0644\u0647\u0627 \u0627\u0654\u0643\u0628\u0631 \u0645\u0646 \u062f\u0644\u0648\u0642\u062a\u064a\u061f",
+   "views": 630000,
+   "median": 188000,
+   "multiple": 3.35,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=cBoogXpUKbY"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "The Only Relationship Rule That Matters",
+   "views": 631000,
+   "median": 189000,
+   "multiple": 3.34,
+   "formula": "The Superlative",
+   "url": "https://www.youtube.com/watch?v=JViyD5dKM8k"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0644\u064a\u0647 \u0627\u0644\u062f\u0648\u0644 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0645\u0627\u0639\u0646\u062f\u0647\u0627\u0634 \u0627\u0654\u0633\u0644\u062d\u0629 \u0646\u0648\u0648\u064a\u0629\u061f",
+   "views": 626000,
+   "median": 188000,
+   "multiple": 3.33,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=XCV7HgQLoJ8"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "The Dangers of Oversharing",
+   "views": 630000,
+   "median": 189000,
+   "multiple": 3.33,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=xukDLGItLOM"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "Quiz: How Are You Really Doing? (You Might Be Wrong)",
+   "views": 191000,
+   "median": 58000,
+   "multiple": 3.29,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=mod3W-63VcA"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "The Hidden Cost of Skipping Key Stages of Development",
+   "views": 622000,
+   "median": 189000,
+   "multiple": 3.29,
+   "formula": "The Insider",
+   "url": "https://www.youtube.com/watch?v=xajKmL3BhOE"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "7 Signs You Might Be Less Intelligent Than You Think",
+   "views": 190000,
+   "median": 58000,
+   "multiple": 3.28,
+   "formula": "The List",
+   "url": "https://www.youtube.com/watch?v=aK-8RoZ7qNw"
+  },
+  {
+   "channel": "SciShow",
+   "title": "The Day the Dinosaurs Died",
+   "views": 616000,
+   "median": 189000,
+   "multiple": 3.26,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=S2XooQTsxEM"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "A Brief (Scientific) History of Butts",
+   "views": 2800000,
+   "median": 863000,
+   "multiple": 3.24,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=BMoF4iupwfw"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "This Is Your Brain on Language | Compilation",
+   "views": 235000,
+   "median": 73000,
+   "multiple": 3.22,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=dRiuhK4a9xE"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "The fascinating reason you loved peek-a-boo",
+   "views": 1300000,
+   "median": 405000,
+   "multiple": 3.21,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=qKM4JzToM-A"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "This is what happens in your brain when you can\u2019t recall a word - Cella Wright",
+   "views": 1300000,
+   "median": 405000,
+   "multiple": 3.21,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=wtovy-1-QUM"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "What should you do if you accidentally cut off your finger? - Jason Hoellwarth",
+   "views": 1300000,
+   "median": 405000,
+   "multiple": 3.21,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=wpWm87SfASQ"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "Sam Altman is panicking...",
+   "views": 1500000,
+   "median": 467500,
+   "multiple": 3.21,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=7QquPaacViA"
+  },
+  {
+   "channel": "Kurzgesagt \u2013 In a Nutshell",
+   "title": "The Largest Black Hole in the Universe - Size Comparison",
+   "views": 32000000,
+   "median": 10000000,
+   "multiple": 3.2,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=0FH9cgRhQ-k"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "What your ball size says about you",
+   "views": 2900000,
+   "median": 911000,
+   "multiple": 3.18,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=RiOO8GmTTQw"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0644\u064a\u0647 \u0627\u0644\u0643\u062a\u0627\u0643\u064a\u062a \u0627\u0644\u0645\u0644\u0648\u0646\u0629 \u0627\u0644\u0644\u064a \u0643\u0646\u0627 \u0628\u0646\u062c\u064a\u0628\u0647\u0627 \u0632\u0645\u0627\u0646 \u0643\u0627\u0646\u062a \u0628\u062a\u0645\u0648\u062a \u0628\u0633\u0631\u0639\u0629\u061f",
+   "views": 597000,
+   "median": 188000,
+   "multiple": 3.18,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=IoJxSEDcDEo"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "A Writing Exercise to Help You Meet Yourself",
+   "views": 595000,
+   "median": 189000,
+   "multiple": 3.15,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=gtcfnDG_0M0"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "In Search of the Blackest Thing on Earth",
+   "views": 2700000,
+   "median": 863000,
+   "multiple": 3.13,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=86P03RlegBM"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "Evolution FAILS in the Human Body",
+   "views": 2700000,
+   "median": 863000,
+   "multiple": 3.13,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=bmf1znpMjbI"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "Magenta Is All In Your Head",
+   "views": 228000,
+   "median": 73000,
+   "multiple": 3.12,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=DRuPF6JtWdw"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "How to Stay Motivated, Using Psychology.",
+   "views": 171000,
+   "median": 55000,
+   "multiple": 3.11,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=7P48XfWSEQ0"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "Ancient Humans Made Millions Of These - We Don\u2019t Know Why",
+   "views": 1800000,
+   "median": 581500,
+   "multiple": 3.1,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=srPz0VpW4Rk"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0644\u064a\u0647 \u0627\u0644\u062e\u0632\u0627\u0646 \u062f\u0647 \u0645\u0646\u062a\u0634\u0631 \u0639\u0644\u0649 \u0627\u0644\u0637\u0631\u0642 \u0627\u0644\u0632\u0631\u0627\u0639\u064a\u0629\u061f \u0641\u064a \u0627\u0644\u0642\u0631\u0646 \u0627\u0644\u0648\u0627\u062d\u062f \u0648\u0639\u0634\u0631\u064a\u0646\u061f",
+   "views": 582000,
+   "median": 188000,
+   "multiple": 3.1,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=Dq2uErkfNfc"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "The Psychology of Male Loneliness",
+   "views": 585000,
+   "median": 189000,
+   "multiple": 3.1,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=qdBavW0x62k"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0644\u064a\u0647 \u0627\u0644\u0641\u0631\u062e\u0629 \u0644\u0645\u0627 \u0628\u062a\u062a\u062d\u0637 \u0639\u0644\u0649 \u0627\u0644\u0645\u064a\u0632\u0627\u0646 \u0628\u062a\u0641\u0636\u0644 \u0647\u0627\u062f\u064a\u0629 \u0648\u0645\u0634 \u0628\u062a\u0647\u0631\u0628\u061f",
+   "views": 579000,
+   "median": 188000,
+   "multiple": 3.08,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=pjMWJTE5nIo"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "The Muscle Song (Memorize Your Anatomy) | SCIENCE SONGS",
+   "views": 2800000,
+   "median": 911000,
+   "multiple": 3.07,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=VmcQfCcGScY"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Would You Freeze Yourself in A Cryo Chamber to See The Future?",
+   "views": 184000,
+   "median": 60000,
+   "multiple": 3.07,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=Xb40AIseuN4"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Why Do These Drugs Cause Nightmares? - Dear Blocko #28",
+   "views": 184000,
+   "median": 60000,
+   "multiple": 3.07,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=Ot2O_OtYcWc"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "Cute Ways to Make Your Crush Notice You",
+   "views": 177000,
+   "median": 58000,
+   "multiple": 3.05,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=kqmu6IA7kjI"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "The Mark of True Love...",
+   "views": 577000,
+   "median": 189000,
+   "multiple": 3.05,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=4ZvK-gZZy38"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "How Does ADHD Impact Sex?",
+   "views": 176000,
+   "median": 58000,
+   "multiple": 3.03,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=zkc0j9GQWEc"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0644\u064a\u0647 \u0643\u0644 \u0628\u064a\u062a \u0644\u0647 \u0631\u064a\u062d\u0629 \u0645\u0645\u064a\u0632\u0629 \u062e\u0627\u0635\u0629 \u0628\u064a\u0647 \u0627\u0644\u0636\u064a\u0648\u0641 \u0628\u064a\u0634\u0645\u0648\u0647\u0627 \u0628\u0633 \u0623\u0647\u0644 \u0627\u0644\u0628\u064a\u062a \u0644\u0623\u061f",
+   "views": 567000,
+   "median": 188000,
+   "multiple": 3.02,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=-rI2s8ESYN0"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "Borderline Personality Disorder: Sorting Fact From Fiction",
+   "views": 220000,
+   "median": 73000,
+   "multiple": 3.01,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=QB3zXPp2sFU"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "What Happens When You Quit Sugar?",
+   "views": 2700000,
+   "median": 911000,
+   "multiple": 2.96,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=86uC5fgraiI"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "2 Unexpected Ways to Stop Sabotaging Yourself",
+   "views": 560000,
+   "median": 189000,
+   "multiple": 2.96,
+   "formula": "The Warning",
+   "url": "https://www.youtube.com/watch?v=jNXtkBeigVo"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "Why So Many Men Are Giving Up on Dating",
+   "views": 171000,
+   "median": 58000,
+   "multiple": 2.95,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=zup43d4lmTA"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "Doctor Reacts To MrBeast Weight Loss Video",
+   "views": 5300000,
+   "median": 1800000,
+   "multiple": 2.94,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=TDRenAjxSfk"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "What If Triangle Bob Made a Life Noggin Video?",
+   "views": 175000,
+   "median": 60000,
+   "multiple": 2.92,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=fpGkkfH_3PA"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "This Video Took Us 8 Years To Make",
+   "views": 1700000,
+   "median": 581500,
+   "multiple": 2.92,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=Cp5oajtBbtg"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "What Are We Really Doing While We Sleep | Compilation",
+   "views": 213000,
+   "median": 73000,
+   "multiple": 2.92,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=2pJY7kBXBb4"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "This Is Your Brain On Food | Compilation",
+   "views": 213000,
+   "median": 73000,
+   "multiple": 2.92,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=8c0HMbgJ2oc"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0627\u0655\u064a\u0647 \u0641\u0627\u064a\u062f\u0629 \u0639\u0635\u0628 \u0627\u0644\u0627\u0654\u0633\u0646\u0627\u0646\u061f \u0648\u0627\u0655\u0632\u0627\u064a \u0639\u0627\u062f\u064a \u0627\u0655\u0646\u0646\u0627 \u0646\u0645\u0648\u062a\u0647\u061f",
+   "views": 548000,
+   "median": 188000,
+   "multiple": 2.91,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=HmadbWakKIE"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0644\u064a\u0647 \u0627\u0644\u062e\u064a\u0648\u0644 \u0627\u0644\u0644\u064a \u0631\u062c\u0644\u064a\u0647\u0627 \u0628\u062a\u062a\u0643\u0633\u0631 \u0628\u064a\u0636\u0631\u0628\u0648\u0647\u0627 \u0628\u0627\u0644\u0646\u0627\u0631 \u0628\u062f\u0644 \u0645\u0627 \u064a\u0639\u0627\u0644\u062c\u0648\u0647\u0627\u061f",
+   "views": 546000,
+   "median": 188000,
+   "multiple": 2.9,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=vB58bsPXVgQ"
+  },
+  {
+   "channel": "Kurzgesagt \u2013 In a Nutshell",
+   "title": "What if We Nuke a City?",
+   "views": 29000000,
+   "median": 10000000,
+   "multiple": 2.9,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=5iPH-br_eJQ"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "What Killed Every Dictator",
+   "views": 5200000,
+   "median": 1800000,
+   "multiple": 2.89,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=kDfGJl6lxkk"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "The Avoidant Partner with the Power to Drive You Mad",
+   "views": 545000,
+   "median": 189000,
+   "multiple": 2.88,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=AR41dIgnrdU"
+  },
+  {
+   "channel": "SciShow",
+   "title": "Where Are Humans ACTUALLY From?",
+   "views": 542000,
+   "median": 189000,
+   "multiple": 2.87,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=PwmrWb8kCBE"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "I tried a $10,000 crystal healing bed. Here's what I learned.",
+   "views": 156000,
+   "median": 55000,
+   "multiple": 2.84,
+   "formula": "The Statistic",
+   "url": "https://www.youtube.com/watch?v=P15luPewnJI"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "3 Medical Emergencies On My Flight!",
+   "views": 5100000,
+   "median": 1800000,
+   "multiple": 2.83,
+   "formula": "The List",
+   "url": "https://www.youtube.com/watch?v=odpibIeCP7s"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "Why Do We Work?",
+   "views": 155000,
+   "median": 55000,
+   "multiple": 2.82,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=lT-gyPxEe-A"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "The Automation Paradox",
+   "views": 155000,
+   "median": 55000,
+   "multiple": 2.82,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=oMTb7u93mSI"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Are Your Online Friends REAL Friends?",
+   "views": 168000,
+   "median": 60000,
+   "multiple": 2.8,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=s_4ODFbKQ2E"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0645\u0627\u0630\u0627 \u0644\u0648.. \u0638\u0647\u0631 \u0641\u0636\u0627\u0626\u064a\u064a\u0646 \u0641\u062c\u0623\u0629 \u0641\u064a \u0633\u0645\u0627\u0621 \u0627\u0644\u0623\u0631\u0636\u061f",
+   "views": 527000,
+   "median": 188000,
+   "multiple": 2.8,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=M8N1T-hk2R4"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "3 Quick Psychology Tests! ft. Steve Zaragoza, Bree Essrig & Elliott Morgan",
+   "views": 154000,
+   "median": 55000,
+   "multiple": 2.8,
+   "formula": "The List",
+   "url": "https://www.youtube.com/watch?v=fJQntTqG2pU"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "What if We Toss All Our Trash in an Active Volcano?",
+   "views": 167000,
+   "median": 60000,
+   "multiple": 2.78,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=gOLRlbkGaOs"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "Ads You See Online Are Now Police Surveillance",
+   "views": 1300000,
+   "median": 467500,
+   "multiple": 2.78,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=cq36YXrfyJE"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "THIS is Coming to Your Phone NEXT... I Warned You",
+   "views": 1300000,
+   "median": 467500,
+   "multiple": 2.78,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=qWQMyeRrabA"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "MUTANT MENU  |  The Ethics of Gene Editing",
+   "views": 153000,
+   "median": 55000,
+   "multiple": 2.78,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=NrDM6Ic2xMM"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "Why Everyone Suddenly Has Autism (It\u2019s Not What You Think)",
+   "views": 2400000,
+   "median": 863000,
+   "multiple": 2.78,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=E-yaxqDsfgY"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "Why Some of the Rainbow is Missing",
+   "views": 2400000,
+   "median": 863000,
+   "multiple": 2.78,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=gVZwdYZqCUI"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "The Unbelievable Story of Earth\u2019s Most Epic Flood",
+   "views": 2400000,
+   "median": 863000,
+   "multiple": 2.78,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=cxxLU8ZtMH4"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "Why Are There 7 Days In a Week? EXPLAINED",
+   "views": 2400000,
+   "median": 863000,
+   "multiple": 2.78,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=vpRd52dXHlQ"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "The Fastest Animals Are Way Faster Than You Think",
+   "views": 2400000,
+   "median": 863000,
+   "multiple": 2.78,
+   "formula": "The Superlative",
+   "url": "https://www.youtube.com/watch?v=ZwhPy6Kgyxs"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "Doctors React To The Pitt | Ep 12 + 13",
+   "views": 5000000,
+   "median": 1800000,
+   "multiple": 2.78,
+   "formula": "The Stack",
+   "url": "https://www.youtube.com/watch?v=2VftZa_qhRA"
+  },
+  {
+   "channel": "SciShow",
+   "title": "You're Washing Your Dishes Wrong",
+   "views": 521000,
+   "median": 189000,
+   "multiple": 2.76,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=pzTyAqobXRI"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "The Most Common Allergy In The World",
+   "views": 1600000,
+   "median": 581500,
+   "multiple": 2.75,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=3uk8_7VNubo"
+  },
+  {
+   "channel": "SciShow",
+   "title": "A Planetarium Accidentally Discovered Something in the Oort Cloud",
+   "views": 519000,
+   "median": 189000,
+   "multiple": 2.75,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=q7AM3ViYckA"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "Why Can\u2019t I Remember My Dreams?",
+   "views": 201000,
+   "median": 73000,
+   "multiple": 2.75,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=FqhOYqxwYh8"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "The Biggest Lie About Renewable Energy",
+   "views": 2500000,
+   "median": 911000,
+   "multiple": 2.74,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=bC-BYhuFUtY"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "We Stayed Awake For 36 Hours And It Changed Our Faces",
+   "views": 2500000,
+   "median": 911000,
+   "multiple": 2.74,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=z30Wkbc8W_M"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Will You Become Just Like Your Parents? ft. @illymation",
+   "views": 164000,
+   "median": 60000,
+   "multiple": 2.73,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=UpgtJufpavc"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "Could This Robot Improve Your Sleep? | Sleeping With Friends",
+   "views": 150000,
+   "median": 55000,
+   "multiple": 2.73,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=6G2ZaVKDSvI"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "What Happens When You Stop Using Porn?",
+   "views": 158000,
+   "median": 58000,
+   "multiple": 2.72,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=0njgOFFbPbg"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "What causes herpes, and how can you treat it? - Christine Johnston",
+   "views": 1100000,
+   "median": 405000,
+   "multiple": 2.72,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=rdEC52iCQNk"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "What\u2019s the best way to lift people out of poverty?",
+   "views": 1100000,
+   "median": 405000,
+   "multiple": 2.72,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=_gTgloPR0Aw"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "How come those who shall not be named have no deaths despite all this bombing?",
+   "views": 507000,
+   "median": 188000,
+   "multiple": 2.7,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=b58jS4NoY7g"
+  },
+  {
+   "channel": "SciShow",
+   "title": "The Most Important Picture in the History of Science",
+   "views": 511000,
+   "median": 189000,
+   "multiple": 2.7,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=sfztRvrkGgw"
+  },
+  {
+   "channel": "SciShow",
+   "title": "You Stopped Exercising. The Gains That Stuck Around Might Surprise You.",
+   "views": 511000,
+   "median": 189000,
+   "multiple": 2.7,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=HIXqy8hihbo"
+  },
+  {
+   "channel": "Kurzgesagt \u2013 In a Nutshell",
+   "title": "Why Blue Whales Don't Get Cancer - Peto's Paradox",
+   "views": 27000000,
+   "median": 10000000,
+   "multiple": 2.7,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=1AElONvi9WQ"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "This Video Found You For A Reason",
+   "views": 156000,
+   "median": 58000,
+   "multiple": 2.69,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=ymmbpl1Q_yQ"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0647\u0644 \u0644\u0648 \u0636\u0631\u0628\u0646\u0627 \u0637\u0644\u0642\u0629 \u0641\u064a \u0627\u0644\u0647\u0648\u0627 \u0645\u0645\u0643\u0646 \u062a\u0646\u0632\u0644 \u062a\u0645\u0648\u062a \u062d\u062f\u061f",
+   "views": 502000,
+   "median": 188000,
+   "multiple": 2.67,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=mV_kF31loa8"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "Why Seedless Fruit Is a Disaster Waiting To Happen",
+   "views": 2300000,
+   "median": 863000,
+   "multiple": 2.67,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=H8c1ObYSlQI"
+  },
+  {
+   "channel": "SciShow",
+   "title": "The Earth Keeps Making Mountains in Colorado and Scientists Don\u2019t Know Why",
+   "views": 503000,
+   "median": 189000,
+   "multiple": 2.66,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=wjggoT-3oVM"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "The Coronavirus Vaccine Explained | COVID-19",
+   "views": 2400000,
+   "median": 911000,
+   "multiple": 2.63,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=SSuxVwMkcpA"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "Will This Trick Your Mind? (Artificial Intelligence TEST)",
+   "views": 2400000,
+   "median": 911000,
+   "multiple": 2.63,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=KSdU5B_fdVo"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "Why Is Everyone Having Vivid Dreams Right Now?",
+   "views": 192000,
+   "median": 73000,
+   "multiple": 2.63,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=Ne4WITiQBEg"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "If You Can't Cry Easily, This Says A Lot About You",
+   "views": 152000,
+   "median": 58000,
+   "multiple": 2.62,
+   "formula": "The Direct Address",
+   "url": "https://www.youtube.com/watch?v=b0wkglxN-d8"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "What Happens To Your Brain When You Stop Having Sex?",
+   "views": 152000,
+   "median": 58000,
+   "multiple": 2.62,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=pAw1DdX_7d4"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "4 Brain Teasers Asked in Job Interviews (ft. Space Time & Infinite Series!)",
+   "views": 144000,
+   "median": 55000,
+   "multiple": 2.62,
+   "formula": "The List",
+   "url": "https://www.youtube.com/watch?v=w8krceebCys"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "What to do When Willpower Fails",
+   "views": 496000,
+   "median": 189000,
+   "multiple": 2.62,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=JyzJrkF21MM"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0627\u0655\u0632\u0627\u064a \u0633\u064a\u0646\u0627\u0621 \u062c\u0632\u0621 \u0645\u0646 \u0645\u0635\u0631 \u0648\u0647\u064a \u0627\u0654\u0635\u0644\u0627 \u0641\u064a \u0642\u0627\u0631\u0629 \u0627\u0654\u0633\u064a\u0627\u061f",
+   "views": 490000,
+   "median": 188000,
+   "multiple": 2.61,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=LZ5sKnh8W_8"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Can Humans Evolve Quickly Like Pok\u00e9mon?",
+   "views": 156000,
+   "median": 60000,
+   "multiple": 2.6,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=goZ_HPBcT_Q"
+  },
+  {
+   "channel": "SciShow",
+   "title": "Here's Why Personality Tests ALWAYS Work*",
+   "views": 492000,
+   "median": 189000,
+   "multiple": 2.6,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=cnlL-7wp7MQ"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "Your Most Burning Psych Questions | Compilation",
+   "views": 190000,
+   "median": 73000,
+   "multiple": 2.6,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=udZqhQO7nAc"
+  },
+  {
+   "channel": "Kurzgesagt \u2013 In a Nutshell",
+   "title": "How The Immune System ACTUALLY Works \u2013 IMMUNE",
+   "views": 26000000,
+   "median": 10000000,
+   "multiple": 2.6,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=lXfEK8G8CUI"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "How to Become a More Interesting Person",
+   "views": 492000,
+   "median": 189000,
+   "multiple": 2.6,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=4hRFvVvXNTk"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "The Only Way to Date Successfully",
+   "views": 489000,
+   "median": 189000,
+   "multiple": 2.59,
+   "formula": "The Superlative",
+   "url": "https://www.youtube.com/watch?v=IKO9ADslRs4"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "The Three Steps to Making Someone Fall in Love",
+   "views": 490000,
+   "median": 189000,
+   "multiple": 2.59,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=l1viKpuypHw"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Trapped Inside the Plastic Prison #TeamSeas",
+   "views": 155000,
+   "median": 60000,
+   "multiple": 2.58,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=DiCDurAZG5A"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "The Disease You Will Never Survive",
+   "views": 1500000,
+   "median": 581500,
+   "multiple": 2.58,
+   "formula": "The Impossible Claim",
+   "url": "https://www.youtube.com/watch?v=d2daVaZZHYE"
+  },
+  {
+   "channel": "SciShow",
+   "title": "What Does Ketamine Actually Do?",
+   "views": 486000,
+   "median": 189000,
+   "multiple": 2.57,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=NSlTyM3tEHc"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "Room 305/2. Why Chernobyl is Suddenly RE-IGNITING Now",
+   "views": 1200000,
+   "median": 467500,
+   "multiple": 2.57,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=8lJ8u-cyBOE"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "Your Two Options in Love After a Bad Childhood",
+   "views": 486000,
+   "median": 189000,
+   "multiple": 2.57,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=jsPsPMM1ZLs"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "How was the giant statue of Ramses moved from its location in one piece without breaking?",
+   "views": 481000,
+   "median": 188000,
+   "multiple": 2.56,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=roAlEeL_Ev0"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "What Did Being In Quarantine Do To Your Brain?",
+   "views": 153000,
+   "median": 60000,
+   "multiple": 2.55,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=3ZVLU1DNWIk"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "The Sun is NOT the Center of the Solar System",
+   "views": 2200000,
+   "median": 863000,
+   "multiple": 2.55,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=Fre1WqHPq_M"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "Are Humans Still Evolving?",
+   "views": 2200000,
+   "median": 863000,
+   "multiple": 2.55,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=wEhOZJ55Ve8"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "Can Life Really Be Explained By Physics? (featuring Prof. Brian Cox)",
+   "views": 2200000,
+   "median": 863000,
+   "multiple": 2.55,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=k-vm3ZWnMWk"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Would Living on the Moon Suck? - Dear Blocko #31",
+   "views": 152000,
+   "median": 60000,
+   "multiple": 2.53,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=t_i_mhJ8Pts"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0644\u064a\u0647 \u0627\u0644\u0647\u0646\u0648\u062f \u0628\u0627\u0644\u0630\u0627\u062a \u0647\u0645\u0627 \u0627\u0654\u0643\u062a\u0631 \u0646\u0627\u0633 \u0634\u063a\u0627\u0644\u064a\u0646 \u0641\u064a \u062f\u0648\u0644 \u0627\u0644\u062e\u0644\u064a\u062c\u061f",
+   "views": 476000,
+   "median": 188000,
+   "multiple": 2.53,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=g34fcabPBYI"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0644\u064a\u0647 \u0645\u0646\u0637\u0642\u0629 \u0627\u0644\u062e\u0644\u064a\u062c \u0627\u0643\u062a\u0631 \u0645\u0646\u0637\u0642\u0629 \u0641\u064a \u0627\u0644\u0639\u0627\u0644\u0645 \u0641\u064a\u0647\u0627 \u0628\u062a\u0631\u0648\u0644\u061f",
+   "views": 475000,
+   "median": 188000,
+   "multiple": 2.53,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=v5bi6vSxG4U"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0644\u064a\u0647 \u0627\u0644\u0645\u0635\u0631\u064a\u064a\u0646 \u0645\u0627\u0644\u0647\u0645\u0634 \u0632\u064a \u0645\u0645\u064a\u0632 \u0632\u064a \u0628\u0627\u0642\u064a \u0627\u0644\u062f\u0648\u0644\u061f",
+   "views": 476000,
+   "median": 188000,
+   "multiple": 2.53,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=uMpsG33eM68"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "Why Being 'Environmentally Friendly' Is A Scam",
+   "views": 2300000,
+   "median": 911000,
+   "multiple": 2.52,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=3roITeXVWuE"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "How Alcohol Changes Your Body",
+   "views": 2300000,
+   "median": 911000,
+   "multiple": 2.52,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=KWQpV9_kUUM"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "The Lengths We Go To Avoid Love",
+   "views": 476000,
+   "median": 189000,
+   "multiple": 2.52,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=2May2jQ0u48"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0644\u064a\u0647 \u0627\u0644\u062a\u0639\u0627\u0628\u064a\u0646 \u0648\u0627\u0644\u0627\u0654\u0641\u0627\u0639\u064a \u0627\u0655\u0646\u062a\u0634\u0631\u062a \u0641\u062c\u0627\u0654\u0629 \u0641\u064a \u0645\u0635\u0631\u061f",
+   "views": 471000,
+   "median": 188000,
+   "multiple": 2.51,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=Sd34LLAy_3g"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "Ghosting: Why Some People Just Disappear",
+   "views": 138000,
+   "median": 55000,
+   "multiple": 2.51,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=abCAGCU6LrU"
+  },
+  {
+   "channel": "SciShow",
+   "title": "The Autism Spectrum Diagnosis Might Not Last",
+   "views": 473000,
+   "median": 189000,
+   "multiple": 2.5,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=GqBzVuW2cnM"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "The Big Problem Ruining Your Favorite YouTuber ft. @TheOdd1sOut",
+   "views": 149000,
+   "median": 60000,
+   "multiple": 2.48,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=KAqnrqSPonk"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "The Desire To Not Exist (Watch for the Algorithm)",
+   "views": 144000,
+   "median": 58000,
+   "multiple": 2.48,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=akqdNnehXf4"
+  },
+  {
+   "channel": "SciShow",
+   "title": "Do These Supplements Work? (Your Questions Answered)",
+   "views": 468000,
+   "median": 189000,
+   "multiple": 2.48,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=g8hbTcARHeE"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "Is Mind Control Possible?  | Compilation",
+   "views": 181000,
+   "median": 73000,
+   "multiple": 2.48,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=2dL4ebhPfX4"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "Why is getting bitten by a rabid animal so dangerous? - Charles Rupprecht",
+   "views": 1000000,
+   "median": 405000,
+   "multiple": 2.47,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=gePOX4nbMU4"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "The missing ingredient in how we learn",
+   "views": 1000000,
+   "median": 405000,
+   "multiple": 2.47,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=mA1lnxfqHk8"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "The infamous JoJo thought experiment - Michael Vazquez and Sarah Stroud",
+   "views": 1000000,
+   "median": 405000,
+   "multiple": 2.47,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=BT93bRX2t68"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "Can you survive a Komodo dragon bite? - Achmad Ariefiandy",
+   "views": 1000000,
+   "median": 405000,
+   "multiple": 2.47,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=0pF6ZLCxceM"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "The myth of Medusa",
+   "views": 1000000,
+   "median": 405000,
+   "multiple": 2.47,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=O18-FA83BaM"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "Everything You've Heard About Oxytocin is Wrong",
+   "views": 136000,
+   "median": 55000,
+   "multiple": 2.47,
+   "formula": "Contrarian Flip",
+   "url": "https://www.youtube.com/watch?v=McA19kjxgW8"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "Why We Sabotage Good Relationships",
+   "views": 465000,
+   "median": 189000,
+   "multiple": 2.46,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=UPpCb_wn_6k"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "I Tried The Vagus Nerve Hack (so you don't have to)",
+   "views": 135000,
+   "median": 55000,
+   "multiple": 2.45,
+   "formula": "I Tried It",
+   "url": "https://www.youtube.com/watch?v=wAoL0szw2_w"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "5 Ways to Get Better Sleep (backed by science)",
+   "views": 134000,
+   "median": 55000,
+   "multiple": 2.44,
+   "formula": "The List",
+   "url": "https://www.youtube.com/watch?v=cVzQy1ZAIPU"
+  },
+  {
+   "channel": "SciShow",
+   "title": "The Evolutionary Basis of Autism",
+   "views": 460000,
+   "median": 189000,
+   "multiple": 2.43,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=0mffmUA7d_4"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "Why Solar Eclipses Are Such a Big Deal",
+   "views": 2100000,
+   "median": 863000,
+   "multiple": 2.43,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=791qJZivHpk"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "Inside the Lab That Invented the COVID-19 Vaccine",
+   "views": 2100000,
+   "median": 863000,
+   "multiple": 2.43,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=-92HQA0GcI8"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "How Well Do Masks Work?  (Schlieren Imaging In Slow Motion!)",
+   "views": 2100000,
+   "median": 863000,
+   "multiple": 2.43,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=0Tp0zB904Mc"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0627\u0655\u0632\u0627\u064a \u0627\u0644\u0644\u064a \u0637\u0644\u0639\u0648\u0627 \u0627\u0644\u0642\u0645\u0631 \u0631\u062c\u0639\u0648\u0627 \u062a\u0627\u0646\u064a \u0645\u0646 \u063a\u064a\u0631 \u0645\u0646\u0635\u0629 \u0627\u0655\u0637\u0644\u0627\u0642 \u0647\u0646\u0627\u0643\u061f",
+   "views": 455000,
+   "median": 188000,
+   "multiple": 2.42,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=9bPhLtgbafo"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "This tiny device could reforest the entire planet",
+   "views": 2200000,
+   "median": 911000,
+   "multiple": 2.41,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=1HW_aFK2zzY"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "How Caffeine Accidentally Took Over The World",
+   "views": 1400000,
+   "median": 581500,
+   "multiple": 2.41,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=76R3fU7CriM"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "Why Self-Care Feels Impossible (And What to Do Instead)",
+   "views": 140000,
+   "median": 58000,
+   "multiple": 2.41,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=gtXn4MnZEwE"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "What If You're Trapped at Sea? - IRL Ep. 1.5",
+   "views": 144000,
+   "median": 60000,
+   "multiple": 2.4,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=8o7TfcAG9g4"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "What Does Semen Retention REALLY Do To Your Brain?",
+   "views": 139000,
+   "median": 58000,
+   "multiple": 2.4,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=PTW-M1y1_Jo"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "3 Brain Teasers! ft. Physics Girl, Idea Channel & Joe Hanson",
+   "views": 132000,
+   "median": 55000,
+   "multiple": 2.4,
+   "formula": "The List",
+   "url": "https://www.youtube.com/watch?v=vfHxAof-E1I"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "Medical TikToks Doctors Can't Ignore",
+   "views": 4300000,
+   "median": 1800000,
+   "multiple": 2.39,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=R6h_08XKCPQ"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "What Killed Every Pop Star",
+   "views": 4300000,
+   "median": 1800000,
+   "multiple": 2.39,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=RTB1uUxdD6g"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Why Are Healthy People Still Spreading COVID-19?",
+   "views": 141000,
+   "median": 60000,
+   "multiple": 2.35,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=qcTKDkmDa2c"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "EA is panicking...",
+   "views": 1100000,
+   "median": 467500,
+   "multiple": 2.35,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=6FUlwzfeL6Y"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "Full-Time Work Is DEAD. The $20 BILLION Job Crisis Crushing the ECONOMY.",
+   "views": 1100000,
+   "median": 467500,
+   "multiple": 2.35,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=Jf19D1HaRjo"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "Doctor Reacts To \"Strange Addictions\"",
+   "views": 4200000,
+   "median": 1800000,
+   "multiple": 2.33,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=1-Skt7coSZ4"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "This Stuff Poisoned Your Parents and You're Next",
+   "views": 139000,
+   "median": 60000,
+   "multiple": 2.32,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=tPM7m5ekWwY"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "The Real (Weird) Way We See Numbers",
+   "views": 2000000,
+   "median": 863000,
+   "multiple": 2.32,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=vRqCs2SUdxY"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "Sand Dunes Shouldn\u2019t Exist (Here\u2019s Why They Do)",
+   "views": 2000000,
+   "median": 863000,
+   "multiple": 2.32,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=L6Now-gHtx0"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "When Is Now?",
+   "views": 2000000,
+   "median": 863000,
+   "multiple": 2.32,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=3WRgikuVZpQ"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "The Most Unbelievable Image Ever Captured by Hubble Space Telescope",
+   "views": 2000000,
+   "median": 863000,
+   "multiple": 2.32,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=LCrs-HeXrug"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "Why You Shouldn\u2019t Fear Death",
+   "views": 2100000,
+   "median": 911000,
+   "multiple": 2.31,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=YvZdXRP6Tig"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "Are You Capable of Murder?",
+   "views": 2100000,
+   "median": 911000,
+   "multiple": 2.31,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=GfyS3Q5ATbE"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "Are there really dead wasps in figs? - Carolyn Beans",
+   "views": 936000,
+   "median": 405000,
+   "multiple": 2.31,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=WRfZf43dnj8"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "The Power of Curiosity",
+   "views": 127000,
+   "median": 55000,
+   "multiple": 2.31,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=wc5IFNpi43A"
+  },
+  {
+   "channel": "Kurzgesagt \u2013 In a Nutshell",
+   "title": "This Virus Shouldn't Exist (But it Does)",
+   "views": 23000000,
+   "median": 10000000,
+   "multiple": 2.3,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=1-NxodiGPCU"
+  },
+  {
+   "channel": "Kurzgesagt \u2013 In a Nutshell",
+   "title": "The Day the Dinosaurs Died \u2013 Minute by Minute",
+   "views": 23000000,
+   "median": 10000000,
+   "multiple": 2.3,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=dFCbJmgeHmA"
+  },
+  {
+   "channel": "Kurzgesagt \u2013 In a Nutshell",
+   "title": "TRUE Limits Of Humanity \u2013 The Final Border We Will Never Cross",
+   "views": 23000000,
+   "median": 10000000,
+   "multiple": 2.3,
+   "formula": "The Impossible Claim",
+   "url": "https://www.youtube.com/watch?v=uzkD5SeuwzM"
+  },
+  {
+   "channel": "Kurzgesagt \u2013 In a Nutshell",
+   "title": "Milk. White Poison or Healthy Drink?",
+   "views": 23000000,
+   "median": 10000000,
+   "multiple": 2.3,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=oakWgLqCwUc"
+  },
+  {
+   "channel": "Kurzgesagt \u2013 In a Nutshell",
+   "title": "Neutron Stars \u2013 The Most Extreme Things that are not Black Holes",
+   "views": 23000000,
+   "median": 10000000,
+   "multiple": 2.3,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=udFxKZRyQt4"
+  },
+  {
+   "channel": "SciShow",
+   "title": "The Fungus You Should Actually Be Worried About",
+   "views": 433000,
+   "median": 189000,
+   "multiple": 2.29,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=Yp8ZC-GMLT0"
+  },
+  {
+   "channel": "Life Noggin",
+   "title": "Can You Survive 2022?",
+   "views": 136000,
+   "median": 60000,
+   "multiple": 2.27,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=w6NtGAp2Svc"
+  },
+  {
+   "channel": "SciShow",
+   "title": "Something Strange Is Happening to Raccoons",
+   "views": 429000,
+   "median": 189000,
+   "multiple": 2.27,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=BRgmhNwAZyw"
+  },
+  {
+   "channel": "SciShow",
+   "title": "The Weirdest New Battery is... Rust",
+   "views": 427000,
+   "median": 189000,
+   "multiple": 2.26,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=pAo6S74huAk"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "Studying the Brain with... Quantum Mechanics?",
+   "views": 165000,
+   "median": 73000,
+   "multiple": 2.26,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=xsGJkSDtLvo"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "On Feeling Obliged",
+   "views": 428000,
+   "median": 189000,
+   "multiple": 2.26,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=MXeYrjFQdHA"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "Why do we say \"donkey\" when we accuse someone of being stupid? Is a donkey actually stupid?",
+   "views": 423000,
+   "median": 188000,
+   "multiple": 2.25,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=jq31Nri9cGc"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "The Neuroscience of Creativity",
+   "views": 124000,
+   "median": 55000,
+   "multiple": 2.25,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=9CwyqtwtMHM"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "We Totally Missed a Different Kind of Dementia for Decades",
+   "views": 164000,
+   "median": 73000,
+   "multiple": 2.25,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=CC2LG5TQn_4"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "Why Grass Grows Better Under Trampolines",
+   "views": 1300000,
+   "median": 581500,
+   "multiple": 2.24,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=CoDn-1rGcpk"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "Why Monkeys Can Only Count To Four",
+   "views": 1300000,
+   "median": 581500,
+   "multiple": 2.24,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=-9XKiOXaHlI"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "Why You Don't Really Know the Size of a Walrus",
+   "views": 163000,
+   "median": 73000,
+   "multiple": 2.23,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=-JcfEnagvRk"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "Hemispatial Neglect: When Half Your World Disappears",
+   "views": 163000,
+   "median": 73000,
+   "multiple": 2.23,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=q52ZCoehGrs"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0623\u0633\u0626\u0644\u0629 \u0639\u0646 \u0627\u0644\u0634\u062a\u0627 \u0648\u0627\u0644\u0633\u0642\u0639\u0629 \u0648\u0627\u0644\u0628\u0631\u062f | \u062d\u0644\u0642\u0627\u062a \u0645\u062c\u0645\u0639\u0629",
+   "views": 418000,
+   "median": 188000,
+   "multiple": 2.22,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=TkUe9wMb-TM"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "Fun Self Quiz To Find Out What Your Dominant Intelligence Type Is",
+   "views": 128000,
+   "median": 58000,
+   "multiple": 2.21,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=4o5KV-iGqm8"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "Why You Feel Sexual Urges Without Wanting Sex",
+   "views": 128000,
+   "median": 58000,
+   "multiple": 2.21,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=_eXcyAywVK8"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "What Your Fetish Says About You",
+   "views": 2000000,
+   "median": 911000,
+   "multiple": 2.2,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=QksTUyj963g"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "The Teeth Song (Learn in 3 minutes!) | SCIENCE SONGS",
+   "views": 2000000,
+   "median": 911000,
+   "multiple": 2.2,
+   "formula": "The Clock",
+   "url": "https://www.youtube.com/watch?v=PI3hne8C8rU"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "The Unbelievable Science of How We Read",
+   "views": 1900000,
+   "median": 863000,
+   "multiple": 2.2,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=Wt7rR0MCYsg"
+  },
+  {
+   "channel": "Kurzgesagt \u2013 In a Nutshell",
+   "title": "What Happens if the Moon Crashes into Earth?",
+   "views": 22000000,
+   "median": 10000000,
+   "multiple": 2.2,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=lheapd7bgLA"
+  },
+  {
+   "channel": "Kurzgesagt \u2013 In a Nutshell",
+   "title": "How To Terraform Venus (Quickly)",
+   "views": 22000000,
+   "median": 10000000,
+   "multiple": 2.2,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=G-WO-z-QuWI"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0627\u0655\u0632\u0627\u064a \u0639\u0645\u0644\u064a\u0627\u062a \u0627\u0644\u0644\u064a\u0632\u0643 \u0628\u062a\u0635\u0644\u062d \u0627\u0644\u0646\u0638\u0631\u061f",
+   "views": 409000,
+   "median": 188000,
+   "multiple": 2.18,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=uxS_UsXg8Dw"
+  },
+  {
+   "channel": "SciShow",
+   "title": "Why the Perfect Red Is Impossible to Make",
+   "views": 412000,
+   "median": 189000,
+   "multiple": 2.18,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=Ixn3GSVnPcM"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "Why Are We Ticklish?",
+   "views": 120000,
+   "median": 55000,
+   "multiple": 2.18,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=5aDA1LEsVB0"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "A Guide For the Recovering Avoidant",
+   "views": 412000,
+   "median": 189000,
+   "multiple": 2.18,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=52pCpBu_iVQ"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "Doctor Reacts To Extreme Diseases",
+   "views": 3900000,
+   "median": 1800000,
+   "multiple": 2.17,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=wuUWN9d0ssY"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "Doctor Reacts to Family Guy Medical Scenes",
+   "views": 3900000,
+   "median": 1800000,
+   "multiple": 2.17,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=CDdTVeyjYak"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "Why It's So Hard to Admit You're Wrong | Cognitive Dissonance",
+   "views": 157000,
+   "median": 73000,
+   "multiple": 2.15,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=d4aD-epti4c"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "If someone ate raw Indomie noodles, could they actually die?",
+   "views": 402000,
+   "median": 188000,
+   "multiple": 2.14,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=eqee7GMfVW4"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "What's Directly Above And Below The Sun?",
+   "views": 1000000,
+   "median": 467500,
+   "multiple": 2.14,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=GCkAsesSzw4"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "Why Is Chernobyl Suddenly Re-Igniting After 38 Years?",
+   "views": 1000000,
+   "median": 467500,
+   "multiple": 2.14,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=EXy-Lxbs8pw"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "The $15,000 AI Bill. Your $20 Subscription is a DELUSION",
+   "views": 1000000,
+   "median": 467500,
+   "multiple": 2.14,
+   "formula": "The Statistic",
+   "url": "https://www.youtube.com/watch?v=UfApUobqN8Y"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "Do This When Your Battery Is Running Low",
+   "views": 403000,
+   "median": 189000,
+   "multiple": 2.13,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=Hn765WpVNJc"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "You Want to Talk... But You Can't",
+   "views": 123000,
+   "median": 58000,
+   "multiple": 2.12,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=4oA0vHbmrdw"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "Wall Street is freaking out now...",
+   "views": 988000,
+   "median": 467500,
+   "multiple": 2.11,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=aIme4aIswaU"
+  },
+  {
+   "channel": "The School of Life",
+   "title": "How To Overcome Psychological Barriers",
+   "views": 398000,
+   "median": 189000,
+   "multiple": 2.11,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=OIzzg6B9-60"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "Doctor Reacts To Winter Olympics Injuries",
+   "views": 3800000,
+   "median": 1800000,
+   "multiple": 2.11,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=B6Ud4rBlFXU"
+  },
+  {
+   "channel": "Kurzgesagt \u2013 In a Nutshell",
+   "title": "This Woman Cured Her Cancer with an Insane Method",
+   "views": 21000000,
+   "median": 10000000,
+   "multiple": 2.1,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=0NY2gAftzJE"
+  },
+  {
+   "channel": "Kurzgesagt \u2013 In a Nutshell",
+   "title": "What Do Alien Civilizations Look Like? The Kardashev Scale",
+   "views": 21000000,
+   "median": 10000000,
+   "multiple": 2.1,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=rhFK5_Nx9xY"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "The Pi Song 4.0 (Memorize 400 Digits Of \u03c0)",
+   "views": 1900000,
+   "median": 911000,
+   "multiple": 2.09,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=q-9PXV0UfkA"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "What Happens When You Eat Someone's Butt?",
+   "views": 1900000,
+   "median": 911000,
+   "multiple": 2.09,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=nFhCAedFeCc"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "What Happens When There Is A Pandemic? | CORONAVIRUS",
+   "views": 1900000,
+   "median": 911000,
+   "multiple": 2.09,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=oqtfqVsFaqc"
+  },
+  {
+   "channel": "AsapSCIENCE",
+   "title": "The Biggest Lie About Climate Change",
+   "views": 1900000,
+   "median": 911000,
+   "multiple": 2.09,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=TbW_1MtC2So"
+  },
+  {
+   "channel": "The Infographics Show",
+   "title": "If Economy is Failing... How Are Stocks at ALL TIME HIGH",
+   "views": 975000,
+   "median": 467500,
+   "multiple": 2.09,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=WlZmY4fLzhI"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "The Upside of Stress",
+   "views": 115000,
+   "median": 55000,
+   "multiple": 2.09,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=sZtEwEIUIOc"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "How Jealousy Distorts Your Thinking",
+   "views": 115000,
+   "median": 55000,
+   "multiple": 2.09,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=Joy6yZs47Lk"
+  },
+  {
+   "channel": "Be Smart",
+   "title": "Inside the Vault Where They Keep the Dinosaur Apocalypse",
+   "views": 1800000,
+   "median": 863000,
+   "multiple": 2.09,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=IYb3duBY_IE"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "Your Favorite YouTube Channels Might Not Survive This",
+   "views": 1200000,
+   "median": 581500,
+   "multiple": 2.06,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=LQjFGx9mEPw"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "How Fish Get Away With Being Colorful",
+   "views": 1200000,
+   "median": 581500,
+   "multiple": 2.06,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=CF1o34ILjsU"
+  },
+  {
+   "channel": "MinuteEarth",
+   "title": "How Do Abortion Pills Work?",
+   "views": 1200000,
+   "median": 581500,
+   "multiple": 2.06,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=ZfPSKEEOwuI"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0627\u0654\u0633\u064a\u0654\u0644\u0629 \u0639\u0646 \u0627\u0644\u0643\u0648\u0627\u0631\u062b | \u062d\u0644\u0642\u0627\u062a \u0645\u062c\u0645\u0639\u0629",
+   "views": 388000,
+   "median": 188000,
+   "multiple": 2.06,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=0id3ZmhlOU8"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "Doctor Reacts To Hilarious Medical TikToks",
+   "views": 3700000,
+   "median": 1800000,
+   "multiple": 2.06,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=vAbdHiW4TO4"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "THIS Mindset Will Help You Cope",
+   "views": 113000,
+   "median": 55000,
+   "multiple": 2.05,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=Gxv_FHrRYQw"
+  },
+  {
+   "channel": "SciShow",
+   "title": "Salvaging the Cold War's Sunken Nuclear Subs",
+   "views": 386000,
+   "median": 189000,
+   "multiple": 2.04,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=2ZK_Gy1uE2A"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "What\u2019s the best way to give a presentation?",
+   "views": 821000,
+   "median": 405000,
+   "multiple": 2.03,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=1sOgYNgq88E"
+  },
+  {
+   "channel": "Psych2Go",
+   "title": "Signs You Weren\u2019t Actually in Love (You Were Attached)",
+   "views": 117000,
+   "median": 58000,
+   "multiple": 2.02,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=bC8evnrEiDs"
+  },
+  {
+   "channel": "SciShow",
+   "title": "LSD May Lead to a New Kind of Medicine",
+   "views": 381000,
+   "median": 189000,
+   "multiple": 2.02,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=lkMtbeU2NyQ"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "How to improve your singing | Think Like A Musician",
+   "views": 818000,
+   "median": 405000,
+   "multiple": 2.02,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=QUQyf_irWlw"
+  },
+  {
+   "channel": "SciShow",
+   "title": "These Rocks Are Older Than the Sun",
+   "views": 379000,
+   "median": 189000,
+   "multiple": 2.01,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=l0OVj6BfqgI"
+  },
+  {
+   "channel": "TED-Ed",
+   "title": "Ever walk into a room and forget what you were doing? - Gabriel Radvansky",
+   "views": 816000,
+   "median": 405000,
+   "multiple": 2.01,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=_gP3aXvNmv8"
+  },
+  {
+   "channel": "\u0623\u0633\u0626\u0644\u0629 \u0646\u0635 \u0627\u0644\u0644\u064a\u0644",
+   "title": "\u0644\u064a\u0647 \u0627\u0644\u062d\u064a\u0648\u0627\u0646\u0627\u062a \u0639\u0646\u062f\u0647\u0627 \u0630\u064a\u0644\u061f \u0627\u0655\u064a\u0647 \u0641\u0627\u064a\u062f\u062a\u0647 \u064a\u0639\u0646\u064a\u061f",
+   "views": 376000,
+   "median": 188000,
+   "multiple": 2.0,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=w2_eOzHihkw"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "The Power of Self-Awareness (ft. Hank Green!)",
+   "views": 110000,
+   "median": 55000,
+   "multiple": 2.0,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=IvepyL211Lo"
+  },
+  {
+   "channel": "BrainCraft",
+   "title": "Why Are People So Passive-Aggressive?",
+   "views": 110000,
+   "median": 55000,
+   "multiple": 2.0,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=Sm6NCwyBrqg"
+  },
+  {
+   "channel": "SciShow Psych",
+   "title": "The Overlap of Autoimmunity and Mental Health Conditions",
+   "views": 146000,
+   "median": 73000,
+   "multiple": 2.0,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=nanW2-dSXms"
+  },
+  {
+   "channel": "Kurzgesagt \u2013 In a Nutshell",
+   "title": "What if We Nuke the Moon?",
+   "views": 20000000,
+   "median": 10000000,
+   "multiple": 2.0,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=qEfPBt9dU60"
+  },
+  {
+   "channel": "Kurzgesagt \u2013 In a Nutshell",
+   "title": "What If Earth got Kicked Out of the Solar System? Rogue Earth",
+   "views": 20000000,
+   "median": 10000000,
+   "multiple": 2.0,
+   "formula": "The Question",
+   "url": "https://www.youtube.com/watch?v=gLZJlf5rHVs"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "The Ancient Medicine of Uncontacted Amazon Tribes | Paul Rosolie",
+   "views": 3600000,
+   "median": 1800000,
+   "multiple": 2.0,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=43_pBMrpYtE"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "Your Doctor's Least Favorite TikToks",
+   "views": 3600000,
+   "median": 1800000,
+   "multiple": 2.0,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=sDZVbfN07tg"
+  },
+  {
+   "channel": "Doctor Mike",
+   "title": "The Most Famous (TV) Doctor Of All Time | Noah Wyle",
+   "views": 3600000,
+   "median": 1800000,
+   "multiple": 2.0,
+   "formula": "Unclassified",
+   "url": "https://www.youtube.com/watch?v=tgD8L9gYeBs"
+  }
+ ],
+ "skipped_thin_channels": []
+}

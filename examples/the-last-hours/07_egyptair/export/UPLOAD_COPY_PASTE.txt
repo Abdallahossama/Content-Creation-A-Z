@@ -1,0 +1,101 @@
+THE LAST HOURS - FILE 06 - UPLOAD SHEET (YouTube long video)
+=====================================================================================
+Channel: The Last Hours (@TheLastHoursDocs). Narration = the creator's own cloned voice (local). Visuals: NTSB report and public
+docket pages, FAA records, US Navy / Coast Guard / NASA / NOAA photos (public domain), SU-GAP photo (CC BY 2.0), Pexels stand-ins
+(labelled ILLUSTRATIVE). Facts: research/research.md. Credits: CREDITS.md. Built against _newchannel/LESSONS.md.
+
+VIDEO FILE
+TheLastHours_06_EgyptAir990.mp4   1920x1080, 30 fps, 10:56 (incl. 20 s end screen), about -14 to -16 LUFS
+(over 10 MB: drag it into Studio yourself from D:\why habibi\_upload_queue_last_hours)
+CHOSEN (user 22 Oct): TheLastHours_06_EgyptAir990_COLOR.mp4 - same edit and mix, photos in colour (teal/warm grade like M1),
+documents stay paper-toned, 7:25 caption overlap fixed. The B&W file is NOT uploaded.
+
+-------------------------------------------------------------------------------------
+TITLE (title.py 94; same pattern as Roanoke/Flannan)
+-------------------------------------------------------------------------------------
+He Left the Cockpit for 107 Seconds. Then the Dive Began.
+
+Other titles (if you want to swap later):
+  What Happened in the Cockpit of EgyptAir 990?               (title.py 98, the search title)
+  EgyptAir 990: The 107 Seconds Two Countries Still Dispute
+
+THUMBNAILS: A/B test with these 3 (user 22 Oct: M1 = "nice"; N1 + N3 proposed as the other two)
+  export/thumbnails/M1_upload.jpg   (SU-GAP at dusk, cockpit circled, zoom bubble on the captain's empty seat: WHO WAS FLYING?)  <- main
+  export/thumbnails/N1_upload.jpg   (US Navy 1999: FBI agent + sailor tagging the real CVR: WHAT'S ON THE TAPE?)
+  export/thumbnails/N3_upload.jpg   (the NTSB flight-profile chart, the dive traced in red: WHY DID IT DIVE?)
+  (not used: A, B, C, N2, N4, M2)
+
+-------------------------------------------------------------------------------------
+DESCRIPTION (no links)
+-------------------------------------------------------------------------------------
+EgyptAir Flight 990, a Boeing 767 from New York to Cairo with 217 people aboard, dived into the Atlantic 60 miles south of Nantucket on October 31, 1999. Minutes earlier the captain had stepped out of the cockpit. He was gone 107 seconds.
+
+This is what the recorders captured, second by second, from the NTSB's own transcript and flight data: the night the clocks fell back an hour, the early seat change, the last "good morning" to New York, the autopilot switched off, the dive, the captain's return, the split elevators, the engines switched off, and "pull with me". Then the radar, the search, the recorders brought up from 230 feet, and why Washington and Cairo still disagree. The NTSB found that the dive resulted from the relief first officer's flight control inputs and said the reason was not determined; Egypt's investigators rejected that and said the evidence could not identify a cause. Both positions are printed in the same final document.
+
+0:00 1:48 AM: the captain steps out
+1:18 11:30 PM: two crews, one late plane
+1:47 1:53 AM, twice: the clocks fall back
+2:23 1:40 AM: the early seat change
+3:17 The 107 seconds
+4:21 1:49:54: the dive
+5:56 Radar only
+6:31 Radar contact lost
+7:09 The recorders come up
+7:48 Washington vs Cairo
+9:28 What changed, and what's still unknown
+
+Sources (checked October 2026): NTSB Aircraft Accident Brief AAB-02/01 (adopted 13 March 2002), incl. the cockpit voice recorder transcript and Egypt's comments · NTSB public docket DCA00MA006 (operations, ATC, flight data recorder, structures, systems, meteorology, human performance and speech study reports) · Egyptian Civil Aviation Authority, Report of Investigation of Accident, EgyptAir Flight 990, and addendum · FAA Airworthiness Directives 00-17-05 and 01-04-09 · FAA 25-hour cockpit voice recorder rule (2026) · contemporary AP, New York Times, PBS and Maclean's reporting (1999-2002). No audio from the cockpit voice recorder has ever been released; transcript quotes are from the NTSB translation. Crew are named by role only. Unproven motive stories published in 2000-2002 are not included.
+
+Images: National Transportation Safety Board and FAA (public docket), U.S. Navy, U.S. Coast Guard, NASA, NOAA, USGS (public domain). SU-GAP: simon butler / Flickr, CC BY 2.0. Egypt's report: Egyptian Civil Aviation Authority. Illustrative photos: Pexels. Maps: Natural Earth. Sound effects: Mixkit. Music by Kevin MacLeod (incompetech.com): "Thunder Dreams", "Rising Tide", "Man Down", "Industrial Cinematic", licensed under Creative Commons: By Attribution 4.0 (CC BY 4.0). Narration: an AI clone of my own voice.
+
+#egyptair990 #aviation #unsolvedmysteries
+
+-------------------------------------------------------------------------------------
+SETTINGS
+-------------------------------------------------------------------------------------
+Playlist: "Files: Unexplained" (new playlist "Files: Air and Sea" if you prefer)
+Audience: No, it's not made for kids · Category: Education · Language: English · Caption language: English
+Altered content: your call (left for you)
+Tags: egyptair 990, egyptair flight 990, egyptair crash, egyptair 990 cockpit voice recorder, ntsb, plane crash documentary,
+      aviation mystery, boeing 767 crash, nantucket plane crash, 1999 plane crash, air crash investigation, cockpit voice recorder,
+      unsolved mysteries, hour by hour, the last hours
+End screen (from 10:36, template "1 video, 1 playlist, 1 subscribe"): Flannan or Roanoke (public) left, Subscribe middle,
+playlist right.
+Comments: on. Remixing: allow only audio.
+
+-------------------------------------------------------------------------------------
+PINNED COMMENT
+-------------------------------------------------------------------------------------
+The NTSB and Egypt studied the same two recorders and reached different answers. Which parts of the record convince you, and which don't? Next file: the Andrée balloon, 1897.
+
+-------------------------------------------------------------------------------------
+WHEN
+-------------------------------------------------------------------------------------
+PLAN: Sat 7 Nov 2026, 12:00 PM New York (EST, US clocks went back 1 Nov) = 19:00 Cairo (EET). Schedule in Cairo time and
+check the "Video scheduled" box. Nearest Short: Cooper T3 at 02:00 Cairo on Sat 7 Nov (17 hours earlier).
+
+-------------------------------------------------------------------------------------
+SCHEDULED (22 Oct 2026)
+-------------------------------------------------------------------------------------
+https://youtu.be/4l-2TdlEIY4  (COLOUR file) - public Sat 7 Nov 2026 19:00 Cairo = 12:00 PM New York.
+Done: title, description, 15 tags, M1 thumbnail, playlist "Files: Unexplained", not for kids, English, Education,
+audio-only remixing, end screen 10:36-10:56 (Best for viewer + Subscribe + playlist "Files: Escapes and Disappearances").
+Left for the user: altered-content question. Pending: A/B test partners for M1 (N1 + N3 proposed), pin comment on 7 Nov.
+
+23 Oct 2026 FIX (user "yes fix egyptair"): the ~20 s of black quote screens (7:30, 8:28, 9:07-9:27) now sit on dimmed real photos
+(cockpit, sea, seats; quotes not over documents). File: _upload_queue_last_hours/TheLastHours_06_EgyptAir990_COLOR_v2.mp4.
+Old upload 4l-2TdlEIY4 set to PRIVATE + retitled "OLD COPY (delete)" (user deletes it; I can't delete). Re-upload v2 with the same
+title, description, tags, M1 thumbnail, playlist, end screen and the Sat 7 Nov 19:00 Cairo schedule.
+V2 SCHEDULED 23 Oct 2026: NEW ID oW4MWCfRc0k (https://youtu.be/oW4MWCfRc0k), Sat 7 Nov 19:00 Cairo. Reuse details + title fixed,
+M1 thumbnail (A/B partners N1 + N3 still waiting for the user's OK), end screen imported (Best for viewer / Subscribe / playlist).
+
+25 Oct 2026: the patched file is TheLastHours_06_EgyptAir990_COLOR_v3.mp4 (spoken subscribe line). The user's upload ZtpfKeP8Bcc was
+the OLD B&W file TheLastHours_06_EgyptAir990.mp4 (no CTA): left as an unfinished draft, NOT used. Waiting for the COLOR_v3 upload.
+
+25 Oct 2026 V3 UPLOADED: TheLastHours_06_EgyptAir990_COLOR_v3.mp4 (spoken "If you want that file, subscribe."). NEW ID KD8FMPvBZoo
+(https://youtu.be/KD8FMPvBZoo), scheduled Sat 7 Nov 12:00 PM New York. Reused details; M1 thumbnail; playlist Files: Unexplained; not for kids;
+end screen imported (Subscribe + Best for viewer + playlist). Captions: captions_en_v3.txt PUBLISHED 25 Oct.
+Old oW4MWCfRc0k = Private "OLD COPY (delete) - EgyptAir v2". Wrong-file draft ZtpfKeP8Bcc (B&W, no CTA) still exists: the user deletes it.
+Andree D6AbVT_ODoM end screen repointed to KD8FMPvBZoo.
+
+28 Oct 2026 TITLE A/B (owner OK): title-only, 1 old "He Left the Cockpit for 107 Seconds. Then the Dive Began." vs 2 "EgyptAir 990: He Left the Cockpit for 107 Seconds. Then the Dive." Thumbnail M1 only (N1/N3 never approved). Starts when public (Sun 22 Nov).
