@@ -2,15 +2,18 @@ THE LAST HOURS #13 - GÖRING'S LAST NIGHT (Nuremberg, 15 Oct 1946) - UPLOAD SHEE
 =====================================================================================================
 File: export/TheLastHours_13_GoeringLastNight.mp4 (about 8:03)
 Schedule: Sun 29 Nov 2026, 22:00 Cairo  (Studio's "Local Time GMT+3" field: 23:00, because Cairo is UTC+2 in November)
+STATUS 29 Oct: UPLOADED + SCHEDULED as -5GSUfE4PEY (https://youtu.be/-5GSUfE4PEY), Sun 29 Nov 22:00 Cairo. A/B title+thumb test set (starts when public).
+  End screen imported from EgyptAir (Subscribe + Best for viewer + playlist Files: Escapes and Disappearances, 7:43-8:03).
+  Captions: English draft saved (processing blocked publish) -> publish the draft once Studio finishes checks.
 Playlist: Files: Power and Purges  ·  not made for kids  ·  no paid promotion  ·  English  ·  Education
 Altered-content toggle: left for the creator.
 Captions: upload export/captions_en.txt (Languages > Edit subtitles > Upload file > Without timing).
 
-TITLE + THUMBNAIL A/B TEST (titles scored with title.py; thumbnails need the owner's OK before Studio)
+TITLE + THUMBNAIL A/B TEST: THUMBNAILS APPROVED 29 Oct (owner: "go ahead with the mix" = 1 B&W breakout + 2 colour)
 -----------------------------------------------------------------------------------------------------
-1 (main)  Hermann Göring Was Watched 24/7. So How Did He Get Cyanide?      + export/thumbnails/A_100_SEARCHES_HOW_upload.jpg   (98/100)
-2         Göring's Last Night: Searched 100 Times, Dead 2 Hours Early       + export/thumbnails/B_WATCHED_24_7_upload.jpg       (94/100)
-3         They Searched Göring 100 Times. He Died Before the Hanging        + export/thumbnails/C_HIS_NOTE_upload.jpg
+1 (main)  Hermann Göring Was Watched 24/7. So How Did He Get Cyanide?      + export/thumbnails/A_100_SEARCHES_HOW_upload.jpg (B&W)          (98/100)
+2         Göring's Last Night: Searched 100 Times, Dead 2 Hours Early       + export/thumbnails/B_WATCHED_24_7_COLOR_upload.jpg (colour)    (94/100)
+3         They Searched Göring 100 Times. He Died Before the Hanging        + export/thumbnails/C_HIS_NOTE_COLOR_upload.jpg (colour)
 (The thumbnail words never repeat their own title's words.)
 
 DESCRIPTION

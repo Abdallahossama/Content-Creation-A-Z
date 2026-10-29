@@ -1,6 +1,6 @@
 """The spoken end line for teaser Shorts that names the long video (owner, 26 Oct: Short -> long CTA must say which video):
 Chatterbox, the creator's cloned voice (same reference clip as every file), 4 takes per line -> takes/t_<key>_<k>.wav.
-Pick with pick_teasers.py (whisper) -> cta_t_<key>.wav.
+Pick with pick_teasers.py (whisper) -> cta_t_<key>.wav. Pass keys to voice only those.
   E:/AskHabibiAI/venv-chatterbox/Scripts/python.exe cta_teasers.py"""
 import os
 os.environ.setdefault("HF_HOME", "E:/AskHabibiAI/hf"); os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
@@ -10,7 +10,10 @@ from chatterbox.tts_turbo import ChatterboxTurboTTS
 D = "D:/why habibi/_newchannel/_cta/"; os.makedirs(D + "takes", exist_ok=True)
 LINES = {"khuld": "The full file: Saddam Hussein called a meeting. Sixty-six names were read out. Link below.",
          "gaddafi": "The full file: Gaddafi's basketball court gallows. Link below.",
-         "franklin": "The full file: one hundred and twenty-nine men vanished in the Arctic. This is their last note. Link below."}
+         "franklin": "The full file: one hundred and twenty-nine men vanished in the Arctic. This is their last note. Link below.",
+         "goering": "The full file: Hermann Goering was watched twenty-four seven. So how did he get cyanide? Link below."}
+import sys
+if len(sys.argv) > 1: LINES = {k: v for k, v in LINES.items() if k in sys.argv[1:]}     # only the keys named: cta_teasers.py goering
 m = ChatterboxTurboTTS.from_pretrained(device="cpu"); m.prepare_conditionals("E:/AskHabibiAI/voice/ref_s01_12s.wav"); sr = m.sr
 for key, text in LINES.items():
     for k in range(4):

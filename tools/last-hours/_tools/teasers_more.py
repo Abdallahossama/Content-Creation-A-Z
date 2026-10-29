@@ -2,7 +2,7 @@
 Andree teasers: hook text on top, the Case File frame in the middle (blur fill behind), word-by-word captions, then an end card with
 the long video's title + a spoken line that NAMES the long video (owner, 26 Oct: the Short -> long CTA must say which video).
   uv run --no-project --with pillow --with numpy --with soundfile python teasers_more.py qa <file> <name> <t..> | render <file> <name> | all <file>
-  <file> = khuld | gaddafi | franklin"""
+  <file> = khuld | gaddafi | franklin | goering"""
 import sys, os, json, subprocess, importlib
 import numpy as np, soundfile as sf
 from PIL import Image, ImageDraw, ImageFilter
@@ -20,12 +20,17 @@ FILES = {
    "T1_all_well": dict(a=(0, 0), b=(7, 0), hook=("\u201cALL", "WELL\u201d"), sub="VICTORY POINT  \u00b7  25 APR 1848"),
    "T2_the_boat": dict(a=(119, 0), b=(127, 0), hook=("THE BOAT", "POINTED BACK"), sub="KING WILLIAM ISLAND  \u00b7  MAY 1859"),
    "T3_closed_door": dict(a=(140, 0), b=(151, 0), hook=("ONE DOOR", "STILL CLOSED"), sub="HMS TERROR  \u00b7  CAMERA INSIDE, 2019")}),
+ "goering": dict(dir="13_goering_last_night", mod="render_goering", title=("Hermann G\u00f6ring Was Watched 24/7.", "So How Did He Get Cyanide?"), teasers={
+   "T1_hundred_searches": dict(a=(0, 0), b=(4, 0), hook=("100 SEARCHES.", "DEAD ANYWAY."), sub="NUREMBERG PRISON  \u00b7  TUE 15 OCT 1946"),
+   "T2_his_own_note": dict(a=(44, 0), b=(48, 0), hook=("HIS OWN", "NOTE"), sub="G\u00d6RING TO THE COMMANDANT  \u00b7  11 OCT 1946"),
+   "T3_four_answers": dict(a=(53, 0), b=(60, 0), hook=("4 MEN.", "4 ANSWERS."), sub="HOW DID G\u00d6RING GET THE CYANIDE?  \u00b7  1951-2026")}),
 }
 KEY = sys.argv[2] if len(sys.argv) > 2 else "khuld"; F = FILES[KEY]
 sys.path.insert(0, NC + F["dir"]); R = importlib.import_module(F["mod"])
 L = R.L; ease = getattr(R, "ease", None) or L.ease
 INK, BONE, RED, STEEL, COND, TYPE, SER, FPS, T = R.INK, R.BONE, R.RED, R.STEEL, R.COND, R.TYPE, R.SER, R.FPS, R.T
 if hasattr(R, "NO_BOTTOM"): R.NO_BOTTOM = True
+if hasattr(R, "OV"): R.OV[:] = [(ln, off, "none" if k == "hookleft" else k, a) for ln, off, k, a in R.OV]   # the teaser's own hook replaces the frame-1 blocks (cut off in 9:16)
 LE = R.LE if hasattr(R, "LE") else [T[i] + R.DURS.get(i, 0) for i in range(len(T))]   # Franklin: line end = start + spoken length
 VW, VH = 1080, 1920
 FIT_KINDS = {"tcard", "coldopen"}                          # shots with left-aligned date text: never centre-crop them
@@ -37,7 +42,9 @@ TITLE = F["title"]
 
 WD = []                                                    # absolute words on the video clock
 for sg in json.load(open(NC + F["dir"] + "/vo/vo_words.json", encoding="utf-8")):
-    for w in sg["words"]: WD.append(dict(w=w["w"], s=T[sg["line"]] + w["s"] - sg["start"], e=T[sg["line"]] + w["e"] - sg["start"]))
+    for w in sg["words"]:
+        txt = R.capfix(sg["line"], w["w"].strip()) if hasattr(R, "capfix") else w["w"]          # the long edit's spelling fixes (Göring, Andrus...)
+        if txt.strip(): WD.append(dict(w=txt, s=T[sg["line"]] + w["s"] - sg["start"], e=T[sg["line"]] + w["e"] - sg["start"]))
 def chunks(a, b):
     ws = [w for w in WD if a <= w["s"] < b]; out = []; cur = []
     for w in ws:
