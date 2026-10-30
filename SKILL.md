@@ -15,10 +15,14 @@ what the owner approved, what they rejected, what the numbers said, and the exac
    - a Last Hours long video, Shorts, packaging or upload → `docs/02-LAST-HOURS-PLAYBOOK.md`
    - anything in YouTube Studio (upload, schedule, A/B, comments, related video) → `docs/03-YOUTUBE-STUDIO-PLAYBOOK.md`
    - "why is this video not growing / what should we make" → `docs/04-GROWTH-AND-ANALYTICS.md`
+   - brand, persona, calls to action, likes/subscriber conversion (The File Keeper) → `docs/09-BRANDING-AND-CONVERSION.md`
    - an Ask Habibi episode or Short in CapCut → `docs/06-ASK-HABIBI-PLAYBOOK.md` (+ `skills/habibi-video/`)
 4. `docs/05-TOOLS-INDEX.md` before writing new code: the engine you need probably exists.
 5. `docs/memory/`: the raw learned memories (owner feedback with dates and reasons). Search them when a detail is unclear.
 6. `docs/08-CURRENT-STATE.md`: the live schedule, video IDs and open tasks (keep it updated).
+
+**Keep this skill current by default (owner's standing order, 30 Oct 2026):** every decision that changes how we research, edit,
+brand, package or upload (agreed or rejected) is written into the right doc here the same day and pushed, without being asked.
 
 **The YouTube skills** in `skills/yt-*` (MIT, Jake Schincariol) are used at every step: `/yt-viral` topics, `/yt-script` +
 `hookscore.py` hooks, `/yt-package` + `title.py` titles, `/yt-seo`, `/yt-chapters`, `/yt-shorts`, `/yt-retention`,

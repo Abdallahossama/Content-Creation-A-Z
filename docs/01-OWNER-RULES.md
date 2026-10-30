@@ -32,3 +32,9 @@ Everything else: just do it and report the result. The owner wants finished resu
 | **Music:** incompetech only, ~19-22 dB under the voice (louder in the cold open: about -11 dB), master -14 to -16 LUFS. | `clean-voice-mix.md` |
 | **Each export folder gets `UPLOAD_COPY_PASTE.txt`** (title, description, tags, settings, end screen, pinned comment, schedule). | `upload-copy-paste-sheet.md` |
 | **Short replies, tables.** The owner skims. | — |
+
+## Brand and calls to action (30 Oct 2026)
+- The Last Hours host persona is **The File Keeper** (drawn detective mark, no AI). Every long file carries it: 1.5 s mark stamp, silent
+  75 % badge naming the next file, end sign-off naming the next file. No spoken ident, no pause for branding. Spec: docs/09.
+- Already-scheduled files get re-branded and re-uploaded; old copies go Private for the owner to delete (never delete yourself).
+- The repo/skill is updated by default with every such decision, without asking (owner's standing order).

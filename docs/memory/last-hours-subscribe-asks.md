@@ -21,3 +21,5 @@ running (a "Leave site?" dialog = uploads in progress). Open my own new tab for 
 (the user re-picks the same file). Flight 19 Sd9q1pKG4LM is fully filled + scheduled 14 Nov, waiting for its upload to finish.
 
 29 Oct 2026 (owner, Göring file onward): the END ask is now warmer and longer: a polite like + subscribe ("this channel is brand new... a like and a subscribe would mean a lot, they really help a small channel get seen") AND ask viewers what they want next ("whose last hours should I open next? I read every one"). Keep the silent mid badge; still no spoken mid-video ask. Pinned comment asks the same question.
+
+30 Oct 2026: EXTENDED by the File Keeper persona brand ([[last-hours-file-keeper-brand]]): the mid badge names the next file with the detective mark; the end ask becomes a File Keeper sign-off naming the next file; one spoken like-vote line at the payoff is being TESTED on Alcatraz 1946 only (still no other spoken mid ask).
