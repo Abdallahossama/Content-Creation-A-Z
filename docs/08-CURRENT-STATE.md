@@ -1,21 +1,24 @@
-# Current state (29 Oct 2026): update this file whenever the schedule changes
+# Current state (30 Oct 2026): update this file whenever the schedule changes
 
-## The Last Hours: long files (22:00 Cairo; Studio field 23:00 in November)
+## The Last Hours: long files (22:00 Cairo; Studio field = Cairo time since 29 Oct)
 | Date | File | Video ID | Notes |
 |---|---|---|---|
 | live | Alcatraz | 16b37-3-Z-Q | title A/B running |
 | live | Roanoke | EKnsZ8kI_1Q | |
 | live | Franklin | bUkhghG5Hs0 | title A/B: old vs "The Franklin Expedition: …" |
 | live | D.B. Cooper | 1rWdT-lGkBI | |
-| Sun 1 Nov | Flannan Isles | HxsSMAoVHfs | title+thumb A/B (new name title + E2) |
-| Mon 2 Nov | Saddam / al-Khuld Hall | PTaKzDEHdaY | owner keeps current A/B |
-| Sun 8 Nov | Andrée balloon | D6AbVT_ODoM | pair 2 title = "Andrée's Balloon: …" |
-| Mon 9 Nov | Gaddafi / Benghazi stadium | _A_Ae9ddTSI | |
-| Sun 15 Nov | Flight 19 | Sd9q1pKG4LM | |
-| Mon 16 Nov | USS Cyclops | lJjSCY0K2VQ | |
-| Sun 22 Nov | EgyptAir 990 | KD8FMPvBZoo | title A/B (old vs "EgyptAir 990: …") |
-| Sun 29 Nov | **Göring's last night** (file 13) | -5GSUfE4PEY | scheduled 29 Oct; title+thumb A/B (mix: 1 B&W + 2 colour); English captions saved as draft, publish after processing |
-| Mon 30 Nov | **Battle of Alcatraz 1946** (file 14) | — | RENDERED 30 Oct (7:54); thumbnails APPROVED 30 Oct; re-render with the File Keeper (like-vote test) before upload; 3 teasers rendered for Tue 1 / Thu 3 / Sat 5 Dec |
+| Sun 1 Nov | Flannan Isles | Rz0qyy9-7GE | title+thumb A/B (new name title + E2) |
+| Mon 2 Nov | Saddam / al-Khuld Hall | 79Wix9PwPpY | owner keeps current A/B |
+| Sun 8 Nov | Andrée balloon | vyX1mYdiWGw | pair 2 title = "Andrée's Balloon: …" |
+| Mon 9 Nov | Gaddafi / Benghazi stadium | kJYD15hkP48 | |
+| Sun 15 Nov | Flight 19 | r0wpGQzHVJ8 | |
+| Mon 16 Nov | USS Cyclops | eyc6dLMqf-U | |
+| Sun 22 Nov | EgyptAir 990 | AIbcwBZsxdY | title A/B (old vs "EgyptAir 990: …") |
+| Sun 29 Nov | **Göring's last night** (file 13) | XJYc9KLbzJ0 | scheduled 29 Oct; title+thumb A/B (mix: 1 B&W + 2 colour); English captions saved as draft, publish after processing |
+| Mon 30 Nov | **Battle of Alcatraz 1946** (file 14) | MiC9JTGkWq8 | File Keeper render; title+thumb A/B (A_KEY_107 B&W + 2 colour); 3 teasers rendered for Tue 1 / Thu 3 / Sat 5 Dec (need owner OK) |
+
+All 9 above = the **File Keeper re-uploads of 30 Oct** (old ids Private as "OLD COPY (delete)" for the owner; table in
+`_upload_queue_last_hours/branded/REUPLOAD_PLAN.txt`). When each goes public: Shorts related links + pinned comment → new id.
 
 ## Shorts (daily 19:00 Cairo)
 27 Oct → 22 Nov scheduled: standalone mystery Shorts (Alcatraz CTA), Cooper ×3 on 2-4 Nov, Wow/Somerton/Tunguska 5-7 Nov,

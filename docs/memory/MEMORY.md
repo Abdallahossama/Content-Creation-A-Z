@@ -33,3 +33,4 @@
 - [Pin + heart every new video](last-hours-pin-heart.md) — owner rule 27 Oct: post the prepared comment, pin it and heart it on every new long video and Short
 - [The File Keeper brand](last-hours-file-keeper-brand.md) — 30 Oct: NOIR detective set (badge/seal/folder, flat badge = tiny watermark), no first name, re-brand all 8 scheduled long files, like-vote test on Alcatraz 1946
 - [Content-Creation-A-Z repo](content-creation-repo.md) — private GitHub repo = whole system as a skill; D:\Content-Creation-A-Z; owner order 30 Oct: write EVERY edit/brand decision into it + push, unasked
+- [Studio time zone](studio-timezone.md) — schedule field = Local Time; since 29 Oct 2026 GMT+2, so 22:00 Cairo = 22:00 field (not 23:00)

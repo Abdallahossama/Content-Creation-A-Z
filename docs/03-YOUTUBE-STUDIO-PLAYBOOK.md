@@ -8,11 +8,21 @@ Studio and youtube.com often fall back to the owner's personal channel ("Abdulla
 Switch account → **The Last Hours**. On a watch page you are the channel when it shows "Analytics / Edit video", not "Subscribe".
 
 ## Scheduling
-- The time field is "Local Time (GMT+0300)", a **fixed +3 offset**; the time-zone dropdown reinterprets, it does not convert.
-  Cairo: UTC+3 until the last Thursday of October, UTC+2 after → for 22:00 Cairo in Nov type 23:00; for 19:00 type 20:00.
+- The time field is the browser's **Local Time** and its offset follows the PC clock: it read GMT+03:00 while Egypt was on summer
+  time and **GMT+02:00 since 29 Oct 2026** → now type the Cairo time itself (22:00 → 22:00, 19:00 → 19:00). ALWAYS zoom on the
+  time-zone chip before scheduling (Egypt summer time returns late April → then the field matches Cairo again, still type Cairo time).
+  The "Video scheduled" confirmation prints the time in that same local zone: it must read the Cairo time you meant.
 - Date: click the date button → `find` "date text input" → ctrl+a → type "D Mon YYYY" → Enter. Time: click → ctrl+a → type → Enter.
 - Visibility panel → Done → page Save. Verify: `document.querySelector('ytcp-button#save').hasAttribute('disabled')` is true.
 - Moving a scheduled video to Private = "Save or publish" → Private → Done → Save (never delete).
+- **Re-upload swap (30 Oct, 9 files):** read the old copy first (A/B titles, description, tags, playlist; A/B thumbnails matched to the
+  local *_upload.jpg by a 32-value grey fingerprint of `/vi/<id>/mqdefault_custom_N.jpg`), then in the new draft's upload dialog
+  (`/videos/upload?d=ud&udvid=<id>`): details by JS, A/B "Title and thumbnail" (file inputs via `find`), Video elements → End screen
+  "Import from video" (old copy), Visibility → Schedule. Then the old copy: "Edit title" (deletes its A/B test, fine) → "OLD COPY
+  (delete) <title>" → Private → Save. End-screen video elements that pointed to an old copy → repoint to the new id (picker search box
+  "Search your videos" for anything beyond the first 50). Captions: Languages → Edit subtitles → ⋮ → Upload file → Without timing →
+  file input via `find` → Publish (wait ~13 s for the editor before the ⋮ menu).
+- Studio's CSP can block `eval` of stored snippets mid-session: send JS inline.
 
 ## Element refs (the big trap)
 Refs from `find` are page-specific: on a Short that already has a related video, the same ref number can be the **subtitle editor**
