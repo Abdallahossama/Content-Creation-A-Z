@@ -55,6 +55,7 @@ NC = WH + "_newchannel/"
 for f in ("lastkit.py", "vidclip.py", "thumbs_hakawi.py"): one(NC + f, REPO + "tools/last-hours/" + f)
 tree(NC + "_tools", REPO + "tools/last-hours/_tools/")
 tree(NC + "_cta", REPO + "tools/last-hours/_cta/")
+tree(NC + "brand/file_keeper", REPO + "tools/last-hours/brand/file_keeper/")   # The File Keeper mark (drawn in code, docs/09)
 for f in ("mshorts.py", "specs.py", "refix.py"): one(NC + "02_halloween/" + f, REPO + "tools/last-hours/mystery-shorts/" + f)
 for f in ("LESSONS.md", "PINNED_COMMENTS.txt"): one(NC + f, REPO + "docs/the-last-hours/" + f)
 tree(NC + "research", REPO + "docs/the-last-hours/research/")
