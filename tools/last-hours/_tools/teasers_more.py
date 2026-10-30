@@ -2,7 +2,7 @@
 Andree teasers: hook text on top, the Case File frame in the middle (blur fill behind), word-by-word captions, then an end card with
 the long video's title + a spoken line that NAMES the long video (owner, 26 Oct: the Short -> long CTA must say which video).
   uv run --no-project --with pillow --with numpy --with soundfile python teasers_more.py qa <file> <name> <t..> | render <file> <name> | all <file>
-  <file> = khuld | gaddafi | franklin | goering"""
+  <file> = khuld | gaddafi | franklin | goering | alcatraz46 | egyptair (run with LH_COLOR=1: the colour long) | cyclops"""
 import sys, os, re, json, subprocess, importlib
 import numpy as np, soundfile as sf
 from PIL import Image, ImageDraw, ImageFilter
@@ -24,6 +24,17 @@ FILES = {
    "T1_hundred_searches": dict(a=(0, 0), b=(4, 0), hook=("100 SEARCHES.", "DEAD ANYWAY."), sub="NUREMBERG PRISON  \u00b7  TUE 15 OCT 1946"),
    "T2_his_own_note": dict(a=(44, 0), b=(48, 0), hook=("HIS OWN", "NOTE"), sub="G\u00d6RING TO THE COMMANDANT  \u00b7  11 OCT 1946"),
    "T3_four_answers": dict(a=(53, 0), b=(60, 0), hook=("4 MEN.", "4 ANSWERS."), sub="HOW DID G\u00d6RING GET THE CYANIDE?  \u00b7  1951-2026")}),
+ "egyptair": dict(dir="07_egyptair", mod="render_egyptair", title=("He Left the Cockpit for 107 Seconds.", "Then the Dive Began."),
+   wfix={(40, 0): "1:49:45.", (40, 1): "", (40, 2): "", (42, 0): "1:49:53.", (42, 1): "", (46, 0): "1:50", (46, 1): "and",
+         (52, 1): "1:50:21.", (52, 2): "", (52, 3): "", (58, 12): ""}, teasers={
+   "T1_the_door": dict(a=(40, 0), b=(46, 0), hook=("107", "SECONDS"), sub="EGYPTAIR 990  ·  33,000 FT  ·  31 OCT 1999  ·  1:48 AM"),
+   "T2_pull_with_me": dict(a=(51, 0), b=(58, 0), hook=("“PULL", "WITH ME”"), sub="EGYPTAIR 990  ·  COCKPIT VOICE RECORDER  ·  1:50 AM"),
+   "T3_what_not_why": dict(a=(91, 0), b=(94, 0), hook=("WHAT.", "NOT WHY."), sub="NTSB FINAL REPORT  ·  21 MAR 2002")}),
+ "cyclops": dict(dir="10_cyclops", mod="render_cyclops", title=("306 Men Vanished at Sea.", "Their Last Message Was About Coal."), teasers={
+   "T1_steamed_south": dict(a=(1, 0), b=(5, 0), hook=("SHE STEAMED", "SOUTH"), sub="USS CYCLOPS  ·  BARBADOS  ·  4 MAR 1918"),
+   "T2_no_bad_weather": dict(a=(50, 0), b=(55, 0), hook=("“NO BAD", "WEATHER”"), sub="NAVY TELEGRAM TO THE FAMILIES  ·  14 APR 1918"),
+   "T3_happened_again": dict(a=(73, 0), b=(78, 0), hook=("IT HAPPENED", "AGAIN"), sub="PROTEUS AND NEREUS  ·  DEC 1941"),
+   "T4_the_captain": dict(a=(37, 0), b=(41, 0), hook=("WHO WAS", "THE CAPTAIN?"), sub="LT. CMDR. GEORGE WORLEY  ·  USS CYCLOPS")}),
  "alcatraz46": dict(dir="14_battle_of_alcatraz", mod="render_alcatraz46", title=("Alcatraz, 1946: Marines Dropped", "Grenades Through the Roof"), teasers={
    "T1_gun_cage": dict(a=(13, 0), b=(16, 0), hook=("THE GUN", "CAGE"), sub="ALCATRAZ  \u00b7  THU 2 MAY 1946  \u00b7  2:00 PM"),
    "T2_key_107": dict(a=(18, 0), b=(22, 0), hook=("KEY", "107"), sub="ALCATRAZ  \u00b7  CELLS 403 AND 402  \u00b7  2 MAY 1946"),
@@ -45,8 +56,12 @@ TEASERS = {n: dict(c, a=T[c["a"][0]] - 0.08, b=LE[c["b"][0]] + 0.3) for n, c in 
 TITLE = F["title"]
 
 WD = []                                                    # absolute words on the video clock
+WFIX = F.get("wfix", {})                                   # (line, word index) -> caption text ("" = drop): whisper's clock times, stray words
 for sg in json.load(open(NC + F["dir"] + "/vo/vo_words.json", encoding="utf-8")):
-    for w in sg["words"]:
+    for wi, w in enumerate(sg["words"]):
+        if (sg["line"], wi) in WFIX:
+            if not WFIX[(sg["line"], wi)]: continue
+            w = dict(w, w=WFIX[(sg["line"], wi)])
         txt = R.capfix(sg["line"], w["w"].strip()) if hasattr(R, "capfix") else w["w"]          # the long edit's spelling fixes (Göring, Andrus...)
         if not txt.strip(): continue
         if WD and len(txt) > 1 and txt[0] in ".," and txt[1].isalnum():                       # "2" + ".15" -> "2:15", as in the long edit

@@ -20,6 +20,15 @@
 All 9 above = the **File Keeper re-uploads of 30 Oct** (old ids Private as "OLD COPY (delete)" for the owner; table in
 `_upload_queue_last_hours/branded/REUPLOAD_PLAN.txt`). When each goes public: Shorts related links + pinned comment → new id.
 
+## Shorts gap 23-29 Nov: FILLED 30 Oct (19:00 Cairo, teasers_more.py)
+EgyptAir AdZ95n42xwI 23 · _w492FOuMUU 25 · rTYz0T8oPtk 27 (related → AIbcwBZsxdY after 22 Nov) · Cyclops ccw9IAFC6fI 24 ·
+rglfPKhCUpM 26 · L0YS7Y3U2Gg 28 · vC0fLGBtvxU 29 (related → eyc6dLMqf-U after 16 Nov). Teaser tool: per-file `wfix` table for
+whisper's clock times ("149 | and | 45." → "1:49:45.").
+
+## Next long files (research done 30 Oct; asset downloads wait for the owner's OK)
+Sun 6 Dec: USS Indianapolis 1945 (15_uss_indianapolis/research: 140 timeline entries; safe set 35 items, 250 MB, all US-gov).
+Mon 7 Dec: Cole & Roe, Alcatraz 1937 (16_cole_roe_1937/research: 79 entries; safe set 28 items, 158 MB; 36 files reusable).
+
 ## Shorts (daily 19:00 Cairo)
 27 Oct → 22 Nov scheduled: standalone mystery Shorts (Alcatraz CTA), Cooper ×3 on 2-4 Nov, Wow/Somerton/Tunguska 5-7 Nov,
 Saddam/Andrée/Gaddafi/Flight 19/Franklin teasers to 22 Nov. Re-cut 29 Oct: Cooper Short NxwUdovTFrw (31 Oct) and Flannan Short

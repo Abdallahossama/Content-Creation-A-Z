@@ -7,7 +7,9 @@ REF = {"khuld": "the full file saddam hussein called a meeting sixty six names w
        "gaddafi": "the full file gaddafis basketball court gallows link below",
        "franklin": "the full file one hundred and twenty nine men vanished in the arctic this is their last note link below",
        "goering": "the full file hermann goering was watched twenty four seven so how did he get cyanide link below",
-       "alcatraz46": "the full file alcatraz nineteen forty six marines dropped grenades through the roof link below"}
+       "alcatraz46": "the full file alcatraz nineteen forty six marines dropped grenades through the roof link below",
+       "egyptair": "the full file he left the cockpit for a hundred and seven seconds then the dive began link below",
+       "cyclops": "the full file three hundred and six men vanished at sea their last message was about coal link below"}
 import sys
 if len(sys.argv) > 1: REF = {k: v for k, v in REF.items() if k in sys.argv[1:]}
 wm = WhisperModel("medium.en", device="cpu", compute_type="int8", cpu_threads=8)
@@ -17,7 +19,7 @@ for key, ref in REF.items():
         a, sr = sf.read(f, dtype="float32"); a = a.mean(1) if a.ndim > 1 else a
         a16 = np.interp(np.arange(int(len(a) * 16000 / sr)) / 16000, np.arange(len(a)) / sr, a).astype(np.float32)
         segs, _ = wm.transcribe(a16, beam_size=5)
-        txt = " ".join(s.text for s in segs).lower().replace("-", " ").replace("129", "one hundred and twenty nine").replace("66", "sixty six").replace("24/7", "twenty four seven").replace("24x7", "twenty four seven").replace("24 7", "twenty four seven").replace("1946", "nineteen forty six").replace("göring", "goering").replace("goring", "goering")
+        txt = " ".join(s.text for s in segs).lower().replace("-", " ").replace("129", "one hundred and twenty nine").replace("66", "sixty six").replace("24/7", "twenty four seven").replace("24x7", "twenty four seven").replace("24 7", "twenty four seven").replace("1946", "nineteen forty six").replace("107", "a hundred and seven").replace("306", "three hundred and six").replace("göring", "goering").replace("goring", "goering")
         hyp = re.sub(r"[^a-z ]", "", txt).split()
         r = difflib.SequenceMatcher(a=ref.split(), b=hyp).ratio(); print(key, f[-12:], round(r, 3), " ".join(hyp), flush=True)
         if best is None or r > best[0]: best = (r, f)
