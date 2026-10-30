@@ -49,11 +49,14 @@ The owner liked the noir (backlit, venetian-blind) rendering and asked for varia
 |---|---|
 | `mark_noir_badge.png` | channel avatar (`channel/avatar_800.png`) and the 1.5 s in-video stamp |
 | `mark_noir_seal.png` | the "CASE CLOSED" end card (rim text THE FILE KEEPER · THE LAST HOURS) |
-| `mark_noir_folder.png` | the ~75 % subscribe pill and the thumbnail corner (bottom-left, 130 px, clear of the timestamp) |
+| `mark_noir_folder.png` | the ~75 % subscribe pill (thumbnail corner: ON HOLD, see below) |
 | `mark_v1_badge.png` (flat) | ONLY the Studio watermark (`channel/watermark_150.png`): noir is too dark at 48 px |
 | `channel/banner_2560x1440.jpg` | channel banner: THE LAST HOURS + tagline + "WITH THE FILE KEEPER · NEW FILES SUN + MON" (text inside 1546 x 423) |
 Sources: `draw_mark.py` (geometry, flat set), `draw_mark_real.py` (noir set), `brand_board.py` (channel files + `_brand_board.jpg`).
 Name: **The File Keeper**, no first name ("Noah"/"Noir" were considered: common/ungoogleable).
+
+**Thumbnails: ON HOLD (owner, 30 Oct).** No brand mark on thumbnails for now. Thumbnails get their own plan later: the
+analytics say they are the real bottleneck (click-through 2.6-2.8 % while retention is 65-75 %).
 
 ## Tools (`_newchannel/_cta/`)
 - `signoff_gen.py` (Chatterbox, 3 takes per file) -> `signoff_pick.py` (whisper; numbers compared as words; writes `so_<key>.wav` +
@@ -67,6 +70,24 @@ Name: **The File Keeper**, no first name ("Noah"/"Noir" were considered: common/
   `end_frame`), with the sign-off as the last VO line and TAIL 5 s.
 - The cut also removes STALE end lines: after schedule reshuffles several files said "Next, I'm opening the file on <wrong video>".
   The sign-off always names the real next file in the current schedule.
+
+## UPDATE 30 Oct (owner review): spoken mid ask at a cliffhanger + animations
+- **Why:** "most people close the video when the case is finished": the end ask reaches the fewest viewers. The ask must ALSO come
+  inside the video, where the viewer most wants to continue: right before a reveal (~55-75 %), never right before a death.
+- **Spoken mid ask** (same line in every file, `_cta/so_midcta.wav`): "Before I turn the next page: this channel is brand new, so if
+  this file has you hooked, a like and a subscribe really help. And tell me in the comments what you think happens next. Now, back to
+  the file." Visual: the frame freezes, dims and blurs; the noir badge drops in; LIKE / SUBSCRIBE / COMMENT pop on the spoken words
+  (click, ding, paper SFX); de-blur back into the story. It REPLACES the like-vote test and the 24 Oct "no spoken mid ask" rule.
+  Insert points (`brand_times.py` MIDLINE): Flannan 103, Saddam 58, Andrée 99, Gaddafi 57, Flight 19 107, Cyclops 68, EgyptAir 81,
+  Göring 53, Alcatraz 1946 before line 42.
+- **The old red pill** is covered by a silent case tab ("FILE 05 · FLANNAN ISLES · DECEMBER 1900"): one spoken ask per video, no
+  second silent ask.
+- **The stamp is animated** (`brand_anim.stamp_frame`, 2.9 s): the dark band sweeps in, the mark slides, turns and lands, "the"
+  drops, LAST HOURS builds letter by letter, the file line types out, all fade together; a different SFX for each step, quiet under
+  the voice.
+- **End card:** LIKE / SUBSCRIBE pop exactly on the spoken "like" / "Subscribe" (the cursor presses SUBSCRIBE -> SUBSCRIBED).
+- **Glitch fixed:** the cut into the end card is 0.25 s before the old end line (the old end card starts 0.12 s before it; one
+  frame of it was flashing through).
 
 ## Measuring
 - Per file: subs per 1,000 views, likes per 100 views, end-screen click rate, and the retention dip (if any) at the like line.

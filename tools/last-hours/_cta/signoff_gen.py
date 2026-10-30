@@ -21,6 +21,7 @@ NEXT = {"flannan": "Saddam Hussein calls a meeting, and sixty-six names are read
         "goering": "six convicts, two guns, and the one key they never found."}
 LINES = {k: HEAD + "Next: " + v + " " + TAIL for k, v in NEXT.items()}
 LINES["goering"] += ASK
+LINES["midcta"] = "Before I turn the next page: this channel is brand new, so if this file has you hooked, a like and a subscribe really help. And tell me in the comments what you think happens next. Now, back to the file."   # owner 30 Oct: the spoken mid-video ask at a cliffhanger
 LINES["like46"] = "Would you have hidden that key too? If you would, hit like."      # the like-vote TEST line (Alcatraz 1946 only)
 LINES["alcatraz46"] = HEAD + "Subscribe, and the next one will be waiting for you. And if this one was worth your time, a like really helps a small channel get seen. Whose file should I open next? Tell me below. I read every one."
 if __name__ == "__main__":

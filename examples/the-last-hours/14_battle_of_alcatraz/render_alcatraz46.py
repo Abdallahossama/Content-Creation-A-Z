@@ -11,13 +11,14 @@ sys.path.insert(0, "D:/why habibi/_newchannel"); sys.path.insert(0, "D:/why habi
 import lastkit as L
 import vidclip as VC
 from lastkit import W, H, FPS, INK, BONE, RED, STEEL, COND, TYPE, SER, ease, clamp01
+sys.path.insert(0, "D:/why habibi/_newchannel/_cta"); import brand_patch as BP; import brand_anim as BA     # The File Keeper (docs/09)
 import mshorts as MS                                   # dark Natural-Earth maps (VMap / map_panel)
 MS.PW, MS.PH = W, H; MS._VIG.clear(); MS._STATES = []  # no state lines
 Image.MAX_IMAGE_PIXELS = None
 
 ROOT = "D:/why habibi/_newchannel/14_battle_of_alcatraz/"; M = ROOT + "media/"; B = ROOT + "build/"; os.makedirs(B, exist_ok=True)
 SFXD = "D:/why habibi/_newchannel/sfx/"; MUS = "D:/why habibi/_music_library/"
-LEAD = 0.8; TAIL = 20.0
+LEAD = 0.8; TAIL = 5.0                                   # the File Keeper end card runs under the sign-off
 NEXT = os.environ.get("LH_NEXT", "")                     # the next file named on the end card (empty: subscribe line)
 
 # ------------------------------------------------------------------ narration timing (exact-zero gaps)
@@ -252,43 +253,43 @@ SHOTS = [
  (40, TCARD("FRI 3 MAY", "Officer William Miller dies", "C17")),
  (41, KBP("A14", crop=(0.0, 0.025, 1.0, 0.144), h=260)),
  ((41, "marine|firing"), KB("C17", z=(1.04, 1.14), dim=0.15)),
- (42, VID("D1c", at=12.0)),
- ((42, "drilled|lowered"), KBP("A15", crop=(0.738, 0.235, 0.87, 0.40), h=880)),
- ((42, "150|hundred"), COUNTER([((42, "hundred|150"), "~150")], "GRENADES INTO THE CELL HOUSE  ·  THE MARINE MAJOR'S COUNT", "C1", size=360)),
- (43, KB("C1", z=(1.1, 1.24), c0=(0.55, 0.45))),
- ((43, "shoulder|sore"), KB("F9", z=(1.04, 1.14), c0=(0.5, 0.42))),
- (44, VID("D1c", at=24.0)),
- (45, DOC("A6", [("31", (45, "thousands|watched")), ("COY STARTED", (45, "reporters"))])),
- ((45, "aquatic|pier"), KB("F6", z=(1.03, 1.13))),
- (46, VID("D1d", at=2.0)),
- (47, KB("B11", z=(1.06, 1.18), c0=(0.5, 0.45))),
- (48, KB("C3", z=(1.1, 1.2), dim=0.55)),
+ (42, ("midask", dict(bg="C17", ln=42))),                          # the spoken mid-video ask (cliffhanger)
+ (43, VID("D1c", at=12.0)),
+ ((43, "drilled|lowered"), KBP("A15", crop=(0.738, 0.235, 0.87, 0.40), h=880)),
+ ((43, "150|hundred"), COUNTER([((43, "hundred|150"), "~150")], "GRENADES INTO THE CELL HOUSE  ·  THE MARINE MAJOR'S COUNT", "C1", size=360)),
+ (44, KB("C1", z=(1.1, 1.24), c0=(0.55, 0.45))),
+ ((44, "shoulder|sore"), KB("F9", z=(1.04, 1.14), c0=(0.5, 0.42))),
+ (45, VID("D1c", at=24.0)),
+ (46, DOC("A6", [("31", (46, "thousands|watched")), ("COY STARTED", (46, "reporters"))])),
+ ((46, "aquatic|pier"), KB("F6", z=(1.03, 1.13))),
+ (47, VID("D1d", at=2.0)),
+ (48, KB("B11", z=(1.06, 1.18), c0=(0.5, 0.45))),
+ (49, KB("C3", z=(1.1, 1.2), dim=0.55)),
  # THE CORRIDOR
- (49, KB("C21", z=(1.08, 1.2), c0=(0.5, 0.35))),
- (50, KBP("A12", crop=(0.0, 0.0, 1.0, 0.2), h=430)),
- (51, TCARD("12:10 PM", "“No prisoner escaped.”", "C14")),
- (52, KB("B10", z=(1.04, 1.14))),
- ((52, "cells|shouted"), KB("C5", z=(1.06, 1.16), dim=0.2)),
- (53, KB("C2", z=(1.04, 1.12), c0=(0.62, 0.48), dim=0.4)),
+ (50, KB("C21", z=(1.08, 1.2), c0=(0.5, 0.35))),
+ (51, KBP("A12", crop=(0.0, 0.0, 1.0, 0.2), h=430)),
+ (52, TCARD("12:10 PM", "“No prisoner escaped.”", "C14")),
+ (53, KB("B10", z=(1.04, 1.14))),
+ ((53, "cells|shouted"), KB("C5", z=(1.06, 1.16), dim=0.2)),
+ (54, KB("C2", z=(1.04, 1.12), c0=(0.62, 0.48), dim=0.4)),
  # THE TRIAL
- (54, KBP("B9", h=880)),
- (55, DOC("A11", [("Shockley", (55, "trial|month"))], zoom=1.1)),
- (56, KB("B8", z=(1.3, 1.45), c0=(0.74, 0.18))),
- (57, TCARD("3 DEC 1948", "Shockley and Thompson  ·  San Quentin", "B9")),
- (58, KB("A8", z=(1.04, 1.14))),
- (59, KBP("A2", h=900)),
+ (55, KBP("B9", h=880)),
+ (56, DOC("A11", [("Shockley", (56, "trial|month"))], zoom=1.1)),
+ (57, KB("B8", z=(1.3, 1.45), c0=(0.74, 0.18))),
+ (58, TCARD("3 DEC 1948", "Shockley and Thompson  ·  San Quentin", "B9")),
+ (59, KB("A8", z=(1.04, 1.14))),
+ (60, KBP("A2", h=900)),
  # CARNES AND 1962
- (60, KB("B13", z=(1.04, 1.14))),
- (61, TCARD("11 JUN 1962", "Three men  ·  a utility corridor  ·  the roof", "C21")),
- ((61, "roof|over"), KB("C15", z=(1.04, 1.14))),
- (62, KB("C14", z=(1.06, 1.16))),
+ (61, KB("B13", z=(1.04, 1.14))),
+ (62, TCARD("11 JUN 1962", "Three men  ·  a utility corridor  ·  the roof", "C21")),
+ ((62, "roof|over"), KB("C15", z=(1.04, 1.14))),
+ (63, KB("C14", z=(1.06, 1.16))),
  # WHAT THE RECORD SHOWS + ASKS
- (63, KB("C5", z=(1.04, 1.12), dim=0.3)),
- (64, COUNTER([((64, "six"), "6 MEN"), ((64, "two|guns"), "2 GUNS"), ((64, "nine"), "9 OFFICERS"), ((64, "five|dead"), "5 DEAD"), ((64, "one|key"), "1 KEY")],
+ (64, KB("C5", z=(1.04, 1.12), dim=0.3)),
+ (65, COUNTER([((65, "six"), "6 MEN"), ((65, "two|guns"), "2 GUNS"), ((65, "nine"), "9 OFFICERS"), ((65, "five|dead"), "5 DEAD"), ((65, "one|key"), "1 KEY")],
               "THE BATTLE OF ALCATRAZ  ·  2-4 MAY 1946", "C1", size=300)),
- (65, KB("F5", z=(1.06, 1.16), c0=(0.5, 0.42))),
- (66, KB("F13", z=(1.03, 1.12))),
- ((67, 0.0), ("end", {})),
+ (66, KB("F5", z=(1.06, 1.16), c0=(0.5, 0.42))),
+ ((67, -0.7), ("end", {})),                                     # the File Keeper end card under the sign-off
 ]
 SHOTS.sort(key=lambda s: KT(s[0]))
 SHOT_T = [KT(s[0]) for s in SHOTS]; SHOT_T[0] = 0.0          # the cold open owns frame 1
@@ -339,29 +340,29 @@ OV = [
  (39, 0.2, "under", "COY, CRETZER, HUBBARD: THE CORRIDOR BEHIND C BLOCK"),
  (40, 0.0, "badge", "FRI 3 MAY 1946"),
  (41, 0.2, "under", "UP AND AP, 3 MAY 1946: “MORTARS”  ·  MYTH OR RECORD?"),
- (42, 0.3, "nameplate", ("CHARLES BUCKNER", "U.S. MARINE WARRANT OFFICER  ·  ON THE CELL-HOUSE ROOF")),
- (43, "noon", "badge", "FRI 3 MAY  ·  NOON"),
- (44, 0.2, "under", "SENT ON GENERAL JOSEPH STILWELL'S AUTHORITY"),
- (45, "telescope|ten", "under", "10 CENTS A LOOK, AQUATIC PARK PIER"),
- (47, 0.2, "nameplate", ("JAMES A. JOHNSTON", "WARDEN OF ALCATRAZ  ·  AGE 71")),
- (47, "deal|make", "quote", ("“We'll make a deal when you throw" + chr(10) + "out your guns and ammunition.”", "WARDEN JOHNSTON")),
- (49, 0.0, "badge", "SAT 4 MAY 1946"),
- (50, "dead", "under", "NO PHOTOGRAPHS OF THE DEAD ARE SHOWN"),
- (51, 0.0, "badge", "SAT 4 MAY  ·  12:10 PM"),
- (52, "saltwater|hey", "typecenter", "“HEY, SALTWATER JOHNSTON.”"),
- (53, 0.0, "list", ("2 GUNS", "9 OFFICERS IN 2 CELLS", "1 KEY THEY NEVER HAD", "0 REACHED THE YARD")),
- (53, "yard|reached", "subpop", None),                              # silent ask right after the payoff (LESSONS 37)
- (54, 0.2, "under", "SHOCKLEY AND THOMPSON FIRED NO SHOT"),
- (55, 0.2, "under", "A MONTH OF TRIAL  ·  NEARLY 2,200 PAGES"),
- (56, "spared", "typecenter", "CARNES: SPARED"),
- (57, 0.0, "badge", "FRI 3 DEC 1948"),
- (58, 0.2, "under", "CORONER'S JURY: THE OFFICERS' DEATHS WERE MURDER"),
- (59, 0.2, "under", "NATIONAL LAW ENFORCEMENT OFFICERS MEMORIAL"),
- (60, 0.3, "under", "CLARENCE CARNES, 1980"),
- (61, 0.0, "badge", "MON 11 JUN 1962"),
- (62, 0.2, "under", "“WHAT THE FBI FOUND WHEN 3 MEN VANISHED FROM ALCATRAZ”"),
- (63, 0.0, "typecenter", "WHAT THE RECORD SHOWS"),
- (65, 0.2, "under", "KEY 107: COULD THEY HAVE MADE IT?  TELL ME BELOW"),
+ (43, 0.3, "nameplate", ("CHARLES BUCKNER", "U.S. MARINE WARRANT OFFICER  ·  ON THE CELL-HOUSE ROOF")),
+ (44, "noon", "badge", "FRI 3 MAY  ·  NOON"),
+ (45, 0.2, "under", "SENT ON GENERAL JOSEPH STILWELL'S AUTHORITY"),
+ (46, "telescope|ten", "under", "10 CENTS A LOOK, AQUATIC PARK PIER"),
+ (48, 0.2, "nameplate", ("JAMES A. JOHNSTON", "WARDEN OF ALCATRAZ  ·  AGE 71")),
+ (48, "deal|make", "quote", ("“We'll make a deal when you throw" + chr(10) + "out your guns and ammunition.”", "WARDEN JOHNSTON")),
+ (50, 0.0, "badge", "SAT 4 MAY 1946"),
+ (51, "dead", "under", "NO PHOTOGRAPHS OF THE DEAD ARE SHOWN"),
+ (52, 0.0, "badge", "SAT 4 MAY  ·  12:10 PM"),
+ (53, "saltwater|hey", "typecenter", "“HEY, SALTWATER JOHNSTON.”"),
+ (54, 0.0, "list", ("2 GUNS", "9 OFFICERS IN 2 CELLS", "1 KEY THEY NEVER HAD", "0 REACHED THE YARD")),
+ (54, "yard|reached", "subpop", None),                              # silent ask right after the payoff (LESSONS 37)
+ (55, 0.2, "under", "SHOCKLEY AND THOMPSON FIRED NO SHOT"),
+ (56, 0.2, "under", "A MONTH OF TRIAL  ·  NEARLY 2,200 PAGES"),
+ (57, "spared", "typecenter", "CARNES: SPARED"),
+ (58, 0.0, "badge", "FRI 3 DEC 1948"),
+ (59, 0.2, "under", "CORONER'S JURY: THE OFFICERS' DEATHS WERE MURDER"),
+ (60, 0.2, "under", "NATIONAL LAW ENFORCEMENT OFFICERS MEMORIAL"),
+ (61, 0.3, "under", "CLARENCE CARNES, 1980"),
+ (62, 0.0, "badge", "MON 11 JUN 1962"),
+ (63, 0.2, "under", "“WHAT THE FBI FOUND WHEN 3 MEN VANISHED FROM ALCATRAZ”"),
+ (64, 0.0, "typecenter", "WHAT THE RECORD SHOWS"),
+ (66, 0.2, "under", "KEY 107: COULD THEY HAVE MADE IT?  TELL ME BELOW"),
 ]
 def OT(ln, off): return T[ln] + off if isinstance(off, (int, float)) else (wt(ln, off) or T[ln] + 0.3)
 
@@ -417,8 +418,11 @@ def draw_ov(c, t, shot_t0, shot_t1):
     for j, (ln, off, kind, a) in enumerate(OV):
         t0 = OVT[j]
         if kind == "badge": continue                                   # badges run across shots (draw_badge)
-        if kind == "subpop":                                           # the silent subscribe ask runs its full 4 s across shot cuts
-            if t0 <= t < t0 + 4.0: ov_extra(c, kind, a, t, t0)
+        if kind == "subpop":                                           # the case tab runs its full length across shot cuts
+            if t0 <= t < t0 + BA.PILL_LEN: ov_extra(c, kind, a, t, t0)
+            continue
+        if kind == "brand":                                            # so does the stamp
+            if t0 <= t < t0 + BA.STAMP_LEN: ov_extra(c, kind, a, t, t0)
             continue
         if t < t0 or t >= shot_t1 or t0 < shot_t0 - 0.2: continue
         if NO_BOTTOM and SLOT.get(kind) == "bottom": continue
@@ -487,13 +491,8 @@ def ov_extra(c, kind, a, t, t0):
         L.typewriter(c, a[0], t, t0, 90, 772, size=90, fill=BONE, cps=18, anchor="lm", fnt=COND, cursor=False)
         L.rule(c, 92, 92 + len(a[0]) * 41, 824, t, t0 + 0.4, width=6)
         L.typewriter(c, a[1], t, t0 + 0.6, 92, 866, size=30, fill=STEEL, cps=40, anchor="lm", cursor=False)
-    elif kind == "brand":                                      # 2 s channel stamp over moving footage: no spoken ident, no pause
-        u = t - t0
-        if u < 2.2:
-            al = ease(u / 0.35) * ease((2.2 - u) / 0.35)
-            lay = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ImageDraw.Draw(lay).rectangle((0, H / 2 - 150, W, H / 2 + 150), fill=(0, 0, 0, int(150 * al))); c.alpha_composite(lay)
-            L.text(c, "the", W / 2, H / 2 - 95, 52, STEEL, SER, alpha=al); L.text(c, "LAST HOURS", W / 2, H / 2 + 5, 150, BONE, COND, alpha=al)
-            L.text(c, "FILE 14  ·  ALCATRAZ  ·  MAY 1946", W / 2, H / 2 + 105, 34, STEEL, TYPE, alpha=al)
+    elif kind == "brand":                                      # the animated File Keeper stamp (band sweep, mark, letters, file line)
+        if t - t0 < BA.STAMP_LEN: c.alpha_composite(BA.stamp_frame(t - t0, BP.LABEL["alcatraz46"]))
     elif kind == "hookleft":                                   # frame-1 hook text in thumbnail blocks, left, off the face
         f = L.font(COND, 132); lay = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
         for i, s in enumerate(a):
@@ -501,12 +500,8 @@ def ov_extra(c, kind, a, t, t0):
             d.rectangle((80, y - 82, 80 + w + 56, y + 82), fill=((0, 0, 0, 230) if i == 0 else (255, 204, 0, 255)))
             d.text((108, y), s, font=f, fill=(BONE + (255,)) if i == 0 else (10, 10, 10, 255), anchor="lm")
         c.alpha_composite(lay)
-    elif kind == "subpop":                                     # mid-video subscribe nudge, top-left, 4 s
-        u = t - t0
-        if u < 4.0:
-            k = ease(u / 0.4) * ease((4.0 - u) / 0.4); x = 40 - (1 - k) * 640
-            lay = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ImageDraw.Draw(lay).rounded_rectangle((x, 120, x + 600, 192), 36, fill=RED + (int(235 * k),))
-            c.alpha_composite(lay); L.text(c, "SUBSCRIBE FOR THE NEXT FILE", x + 300, 157, 34, BONE, TYPE, alpha=k)
+    elif kind == "subpop":                                     # the File Keeper case tab (no ask: the spoken mid ask does that)
+        if t - t0 < BA.PILL_LEN: c.alpha_composite(BA.chip_frame(t - t0, BP.LABEL["alcatraz46"]), (0, BP.PILL_Y))
 
 def doc_frame(a, t, t0, t1):
     """a Board / log page, paper-toned; the camera follows each spoken line, which gets a spotlight and a red underline"""
@@ -560,7 +555,7 @@ def tcard_frame(a, t, t0, t1):
 CAPFIX = {"Khoi": "Coy", "Koi": "Coy", "Kratzer": "Cretzer", "Kratz's": "Cretzer's", "Krezza": "Cretzer", "Mirren": "Miran", "Moran": "Miran", "Thomson": "Thompson", "Burt": "Bert", "Burj": "Burch", "armoured": "armored", (15, "pots"): "parts", (41, "describes"): "described", "Coy's": "Coy's", "Kretzer": "Cretzer", "Kretzer's": "Cretzer's", "Cretser": "Cretzer", "Kanns": "Carnes",
           "Khan's": "Carnes,", "Karns": "Carnes", "Kahns": "Carnes", "Karnes": "Carnes", "Birch": "Burch", "Stights": "Stites", "Steits": "Stites",
           "Stillwell": "Stilwell", "sellhouse": "cellhouse", "Sellhouse": "Cellhouse", "1.30": "1:30", "3.23": "3:23", "4.15": "4:15", "6.30": "6:30",
-          "7.01": "7:01", "12.10": "12:10", "2.15": "2:15", (68, "everyone"): "every one", (68, "everyone."): "every one."}  # whisper spellings -> the record's
+          "7.01": "7:01", "12.10": "12:10", "2.15": "2:15", (67, "everyone"): "every one", (67, "everyone."): "every one."}  # whisper spellings -> the record's
 def capfix(i, w):
     m = re.match(r"^(.*?)([.,?!;:]*)$", w); core, pun = m.group(1), m.group(2)
     if (i, w) in CAPFIX: return CAPFIX[(i, w)]
@@ -689,14 +684,16 @@ def frame(t):
     elif kind == "nmap": c = MS.map_panel(a, t, t0, t1)
     elif kind == "doc": c = doc_frame(a, t, t0, t1)
     elif kind == "counter": c = counter_frame(a, t, t0, t1)
-    elif kind == "end":
-        c = L.vignette(L.kenburns(blur_bg("C14", None), t, t0, t1))
-        L.text(c, "the", W / 2, 120, 60, STEEL, SER); L.text(c, "LAST HOURS", W / 2, 230, 150, BONE, COND); L.rule(c, W / 2 - 220, W / 2 + 220, 320, t, t0, width=7)
-        L.typewriter(c, ("NEXT FILE:  " + NEXT) if NEXT else "SUBSCRIBE FOR THE NEXT FILE", t, t0 + 0.2, W / 2, 410, size=46, fill=BONE, cps=26, anchor="mm", cursor=False)
-        if t > VO_END:
-            d = ImageDraw.Draw(c)
-            for x in (110, 1170): d.rectangle((x, 520, x + 640, 880), outline=STEEL + (255,), width=3)
-            d.ellipse((835, 575, 1085, 825), outline=STEEL + (255,), width=3)
+    elif kind == "midask":                                     # frozen-feel blurred photo + the File Keeper ask, buttons on the words
+        ln = a["ln"]; c = blur_bg(a["bg"], CROP.get(a["bg"])).copy(); wk = lambda w: (wt(ln, w) - t0) if wt(ln, w) is not None else None
+        BA.mid_overlay(c, t - t0, t1 - t0, wk("like"), wk("subscrib"), wk("comment"))
+    elif kind == "end":                                        # the File Keeper end card under the sign-off
+        if "end" not in BG:
+            sh = tone("F13"); k = max(W / sh.width, H / sh.height); sh = sh.resize((int(sh.width * k) + 1, int(sh.height * k) + 1), Image.LANCZOS)
+            sh = sh.crop(((sh.width - W) // 2, (sh.height - H) // 2, (sh.width - W) // 2 + W, (sh.height - H) // 2 + H)).convert("RGB")
+            BG["end"] = (sh, Image.blend(sh.filter(ImageFilter.GaussianBlur(44)), Image.new("RGB", (W, H), INK), 0.62))
+        wl, wsb = wt(67, "like"), wt(67, "subscrib")
+        c = BP.end_frame(BG["end"][0], BG["end"][1], t - t0, BP.NEXT["alcatraz46"], caps=[], t_like=(wl - t0) if wl else None, t_sub=(wsb - t0) if wsb else None)
     else:
         c = Image.new("RGBA", (W, H), INK + (255,))
     c = film(c, t)
@@ -744,10 +741,10 @@ def audio():
     # music beds (Kevin MacLeod, CC BY), about 19-22 dB under the voice
     # owner 25 Oct: "make the music more listened, a little louder, and much shown at the beginning": strong in the cold open, ~4 dB up after
     music("Thunder Dreams.mp3", 0.0, tl(5), -11, later=(tl(4), -15)); music("Industrial Cinematic.mp3", tl(5), tl(18), -17); music("Man Down.mp3", tl(18), tl(28), -17)
-    music("Rising Tide.mp3", tl(28), tl(40), -17); music("Thunder Dreams.mp3", tl(40), tl(49), -17); music("Industrial Cinematic.mp3", tl(49), tl(54), -17)
-    music("Man Down.mp3", tl(54), tl(63), -18); music("Promises to Keep.mp3", tl(63), DUR, -16)
+    music("Rising Tide.mp3", tl(28), tl(40), -17); music("Thunder Dreams.mp3", tl(40), tl(50), -17); music("Industrial Cinematic.mp3", tl(50), tl(55), -17)
+    music("Man Down.mp3", tl(55), tl(64), -18); music("Promises to Keep.mp3", tl(64), DUR, -16)
     loop("roomtone_dark_cinematic", 0.0, tl(5), -30); loop("ambience_cinematic_suspense", tl(18), tl(28), -31); loop("waves_rough_sea_loop", tl(28), tl(40), -33)
-    loop("wind_deep_cinematic_hum", tl(49), tl(54), -31)
+    loop("wind_deep_cinematic_hum", tl(50), tl(55), -31)
     for i, (key, (kind, a)) in enumerate(SHOTS):
         t0 = SHOT_T[i]
         if kind == "tcard":
@@ -767,12 +764,20 @@ def audio():
         elif kind == "counter":
             for k2, s in a["steps"]: sfx("hit_short_bass", AT(k2), -18, maxlen=1.2); sfx("clock_tick_single", AT(k2), -16)
         elif kind in ("kb", "vid", "vidp"): sfx("whoosh_fast_transition", t0 - 0.1, -32)
+        elif kind == "midask":
+            t1 = SHOT_T[i + 1]; wk = lambda w: (wt(a["ln"], w) - t0) if wt(a["ln"], w) is not None else None
+            for tt, nm, db, ml in BA.mid_sfx(t1 - t0, wk("like"), wk("subscrib"), wk("comment")): sfx(nm, t0 + tt, db, maxlen=ml)
+        elif kind == "end":
+            wl, wsb = wt(67, "like"), wt(67, "subscrib")
+            for tt, nm, db, ml in BA.end_sfx((wl - t0) if wl else None, (wsb - t0) if wsb else None): sfx(nm, t0 + tt, db, maxlen=ml)
     for j, (ln, off, kind, a) in enumerate(OV):
         if kind == "stamp": sfx("hit_horror_drum", OVT[j], -14)
         if kind in ("typecenter", "typecenter_red", "list"): sfx("typewriter_typing_old", OVT[j], -26)
         if kind == "nameplate": sfx("typewriter_typing_old", OVT[j], -24, maxlen=1.2)
-        if kind == "brand": sfx("hit_cinematic_deep_impact", OVT[j], -16)
-        if kind == "subpop": sfx("whoosh_fast_transition", OVT[j], -24)
+        if kind == "brand":
+            for tt, nm, db, ml in BA.STAMP_SFX: sfx(nm, OVT[j] + tt, db, maxlen=ml)
+        if kind == "subpop":
+            for tt, nm, db, ml in BA.CHIP_SFX: sfx(nm, OVT[j] + tt, db, maxlen=ml)
         if kind == "badge": sfx("clock_tick_single", OVT[j], -20)
     sfx("hit_cinematic_deep_impact", 0.0, -12)                                   # the cold open starts on a hit
     EV = [(0, "key", "keys_moving", -20), (0, "five|die", "heartbeat_single", -18), (0, "never", "hit_short_bass", -18),
@@ -782,10 +787,10 @@ def audio():
           (20, "107|seven", "door_key_in_lock", -20), (22, "never|found", "hit_short_bass", -18), (23, "siren", "siren_vintage_manual", -24),
           (26, "fired", "hit_horror_drum", -18), (28, 0.0, "telephone_old_ring", -24), (30, 0.0, "motorboat_sea", -26),
           (31, "phoned", "telephone_vintage_ring", -26), (35, "searchlights|flares", "whoosh_ghostly", -26), (36, 0.0, "thunder_deep_rumble", -26),
-          (42, "drilled", "drill_on_off", -26), (42, "lowered|grenades", "hit_big_cinematic_impact", -18), (43, "rifle|grenades", "hit_cinematic_deep_impact", -18),
-          (45, "reporters", "reporters_camera_flashes", -26), (46, "phoned", "telephone_old_ring", -24), (49, 0.0, "heavy_sliding_door", -24),
-          (50, "rifle|pistol", "metal_tool_falling", -24), (52, "walked", "reporters_camera_flashes", -28), (57, "executed|quentin", "hit_deep_heartbeat_impact", -20),
-          (61, "roof", "wind_scary", -28), (63, 0.0, "hit_cinematic_deep_impact", -15), (68, 1.0, "typewriter_return_bell", -18)]
+          (43, "drilled", "drill_on_off", -26), (43, "lowered|grenades", "hit_big_cinematic_impact", -18), (44, "rifle|grenades", "hit_cinematic_deep_impact", -18),
+          (46, "reporters", "reporters_camera_flashes", -26), (47, "phoned", "telephone_old_ring", -24), (50, 0.0, "heavy_sliding_door", -24),
+          (51, "rifle|pistol", "metal_tool_falling", -24), (53, "walked", "reporters_camera_flashes", -28), (58, "executed|quentin", "hit_deep_heartbeat_impact", -20),
+          (62, "roof", "wind_scary", -28), (64, 0.0, "hit_cinematic_deep_impact", -15), (67, -0.55, "metal_hammer_hit", -16), (67, -0.3, "hit_cinematic_deep_impact", -14)]
     for ln, off, name, db in EV: sfx(name, OT(ln, off), db, maxlen=4.0)
     y += bed; pk = np.max(np.abs(y)); y = y / max(pk, 1e-6) * 0.9
     sf.write(B + "mix_raw.wav", y, sr, subtype="FLOAT")
@@ -808,8 +813,8 @@ def final(n, name=None):
                     "-c:v", "copy", "-c:a", "aac", "-b:a", "256k", "-shortest", "-movflags", "+faststart", out], check=True); print(out)
 
 CH = [(0, "One key, six convicts"), (5, "The six"), (10, "The gun cage"), (18, "Key 107"), (24, "Two cells"),
-      (28, "The siege night"), (40, "Grenades on the roof"), (49, "The corridor"), (54, "The trial"), (60, "Carnes and 1962"),
-      (63, "What the record shows")]
+      (28, "The siege night"), (40, "Grenades on the roof"), (50, "The corridor"), (55, "The trial"), (61, "Carnes and 1962"),
+      (64, "What the record shows")]
 
 if __name__ == "__main__":
     m = sys.argv[1]

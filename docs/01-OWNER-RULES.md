@@ -38,3 +38,5 @@ Everything else: just do it and report the result. The owner wants finished resu
   75 % badge naming the next file, end sign-off naming the next file. No spoken ident, no pause for branding. Spec: docs/09.
 - Already-scheduled files get re-branded and re-uploaded; old copies go Private for the owner to delete (never delete yourself).
 - The repo/skill is updated by default with every such decision, without asking (owner's standing order).
+- **Colour (owner, 30 Oct):** the noir brand never recolours the video. B&W sources stay B&W; colour photos/footage keep their colour,
+  slightly muted; EVERY frame gets the same film finish (the renderers' `grade_im` + `film()`: print curve, ~0.86 saturation, grain).

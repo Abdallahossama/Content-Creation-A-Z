@@ -9,7 +9,7 @@ calm break; and ONE spoken line at the very end, after "Tell me below": "If you 
 The user turns on the channel watermark (covers scheduled/public videos, which can't be re-uploaded without losing A/B tests or views).
 **Why:** user asked 24 Oct where to ask; research (creator tests, vidIQ, YouTube end-screen help) favours after-value / natural breaks and a
 spoken end CTA; our Alcatraz curve dropped right after a spoken mid-video ask (5:28).
-**How to apply:** write the end line into every new vo_lines.txt; don't touch already-scheduled files. See LESSONS.md rule 37.
+**How to apply:** SUPERSEDED 30 Oct by [[last-hours-file-keeper-brand]]: spoken mid ask at a cliffhanger + File Keeper sign-off at the end.
 Related: [[last-hours-lessons]], [[new-channel-last-hours]].
 
 25 Oct 2026: already-rendered files get the asks with _newchannel/_cta/cta_patch.py (spoken line in the cloned voice 0.7 s into the end card,

@@ -10,6 +10,8 @@ FILES = {"flannan": ("06_flannan", "render_flannan", UQ + "TheLastHours_05_Flann
          "cyclops": ("10_cyclops", "render_cyclops", UQ + "TheLastHours_09_Cyclops.mp4", 89),
          "egyptair": ("07_egyptair", "render_egyptair", UQ + "TheLastHours_06_EgyptAir990_COLOR_v3.mp4", 105),
          "goering": ("13_goering_last_night", "render_goering", NC + "13_goering_last_night/export/TheLastHours_13_GoeringLastNight.mp4", 80)}
+MIDLINE = {"flannan": 103, "khuld": 58, "andree": 99, "gaddafi": 57, "flight19": 107, "cyclops": 68, "egyptair": 81, "goering": 53}
+# owner 30 Oct: the spoken mid-video ask goes right BEFORE this line (a reveal the viewer is waiting for; never before a death)
 def dur(p): return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p], capture_output=True, text=True).stdout or 0)
 out = {}
 for key in (sys.argv[1:] or FILES):
@@ -17,6 +19,7 @@ for key in (sys.argv[1:] or FILES):
     R = importlib.import_module(mod)
     ovt = {k: R.OT(ln, off) for ln, off, k, a in R.OV if k in ("brand", "subpop")}
     rec = dict(src=src, dir=d, cut_line=cut, cut_t=round(R.T[cut], 3), cut_text=R.LINES[cut][:60], brand_t=round(ovt["brand"], 3),
-               subpop_t=round(ovt["subpop"], 3), vo_end=round(R.VO_END, 3), dur_script=round(R.DUR, 3), dur_mp4=round(dur(src), 3))
+               subpop_t=round(ovt["subpop"], 3), mid_line=MIDLINE[key], mid_t=round(R.T[MIDLINE[key]] - 0.15, 3),
+               mid_after=R.LINES[MIDLINE[key] - 1][-70:], mid_before=R.LINES[MIDLINE[key]][:60], vo_end=round(R.VO_END, 3), dur_script=round(R.DUR, 3), dur_mp4=round(dur(src), 3))
     out[key] = rec; print(key, json.dumps(rec), flush=True); sys.path.pop(0)
 json.dump(out, open(NC + "_cta/brand_times.json", "w"), indent=1)
