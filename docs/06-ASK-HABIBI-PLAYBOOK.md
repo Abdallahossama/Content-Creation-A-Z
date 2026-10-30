@@ -1,5 +1,10 @@
 # Ask Habibi playbook (CapCut explainers + Shorts)
 
+> **STOPPED 30 Oct 2026 (owner): no more Ask Habibi content; The Last Hours only.** Ask Habibi-only files are archived in
+> `D:\why habibi\_ASK_HABIBI_ARCHIVE (delete me)` and `E:\why habibi OLD ask habibi (delete me)` (the owner deletes them). Kept because The Last Hours
+> uses them: `_style_kit` (tools, maps), `_music_library`, `_pipeline` (Shorts bank), `E:\AskHabibiAI` (the voice clone).
+
+
 Full playbook: `docs/ask-habibi/PIPELINE_README.md` (folder map, 11-step workflow, commands) and the `habibi-video` skill
 (`skills/habibi-video/SKILL.md`). Look: `docs/ask-habibi/style_kit_README.md`, `style_kit_STYLE_RULES.md`, `style_kit_DOC_MODE.md`.
 Reference episodes: `examples/ask-habibi-episodes/` (ep01 is the complete re-runnable example: `scenes.py` graphics, `build_draft.py` timeline).

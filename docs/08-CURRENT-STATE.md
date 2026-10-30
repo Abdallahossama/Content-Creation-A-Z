@@ -25,6 +25,10 @@ EgyptAir AdZ95n42xwI 23 · _w492FOuMUU 25 · rTYz0T8oPtk 27 (related → AIbcwBZ
 rglfPKhCUpM 26 · L0YS7Y3U2Gg 28 · vC0fLGBtvxU 29 (related → eyc6dLMqf-U after 16 Nov). Teaser tool: per-file `wfix` table for
 whisper's clock times ("149 | and | 45." → "1:49:45.").
 
+## Ask Habibi: STOPPED (30 Oct 2026)
+Owner: content only for The Last Hours. Ask Habibi-only folders moved to `D:\why habibi\_ASK_HABIBI_ARCHIVE (delete me)` (1.6 GB) next to the
+older `E:\why habibi OLD ask habibi (delete me)` (36 GB); the owner deletes both. Shared tools stay (see docs/06 header).
+
 ## Next long files (in production since 30 Oct: owner "yes download both and go ahead", then "go Gaddafi")
 | Slot | File | State |
 |---|---|---|
