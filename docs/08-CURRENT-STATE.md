@@ -15,7 +15,7 @@
 | Mon 16 Nov | USS Cyclops | eyc6dLMqf-U | |
 | Sun 22 Nov | EgyptAir 990 | AIbcwBZsxdY | title A/B (old vs "EgyptAir 990: …") |
 | Sun 29 Nov | **Göring's last night** (file 13) | XJYc9KLbzJ0 | scheduled 29 Oct; title+thumb A/B (mix: 1 B&W + 2 colour); English captions saved as draft, publish after processing |
-| Mon 30 Nov | **Battle of Alcatraz 1946** (file 14) | MiC9JTGkWq8 | File Keeper render; title+thumb A/B (A_KEY_107 B&W + 2 colour); 3 teasers rendered for Tue 1 / Thu 3 / Sat 5 Dec (need owner OK) |
+| Mon 30 Nov | **Battle of Alcatraz 1946** (file 14) | MiC9JTGkWq8 | File Keeper render; title+thumb A/B (A_KEY_107 B&W + 2 colour); teasers SCHEDULED 19:00: T1 KpQ1WWaIXLg Tue 1 Dec, T2 sjP79gckYY4 Thu 3 Dec, T3 KunZPPLxYlU Sat 5 Dec (Related video → MiC9JTGkWq8 after 30 Nov 22:00) |
 
 All 9 above = the **File Keeper re-uploads of 30 Oct** (old ids Private as "OLD COPY (delete)" for the owner; table in
 `_upload_queue_last_hours/branded/REUPLOAD_PLAN.txt`). When each goes public: Shorts related links + pinned comment → new id.
