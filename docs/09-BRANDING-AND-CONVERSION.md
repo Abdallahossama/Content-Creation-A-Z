@@ -1,6 +1,6 @@
 # 09 · Branding and conversion: "The File Keeper" (The Last Hours)
 
-Status: **DECIDED + BUILT 30 Oct 2026** (owner). Final look: the NOIR set (below). Applies to every new long file AND the re-brand of the already-scheduled long files.
+Status: **APPROVED 30 Oct 2026** (owner: "this is goated", esp. the spoken mid ask at the cliffhanger). DEFAULT for every long file. Final look: the NOIR set (below). Applies to every new long file AND the re-brand of the already-scheduled long files.
 Update this doc whenever a brand/CTA decision changes (owner's standing order: the repo is updated by default, unasked).
 
 ## Why
@@ -71,6 +71,14 @@ analytics say they are the real bottleneck (click-through 2.6-2.8 % while retent
 - The cut also removes STALE end lines: after schedule reshuffles several files said "Next, I'm opening the file on <wrong video>".
   The sign-off always names the real next file in the current schedule.
 
+## THE REFERENCE MOMENT (owner, 30 Oct: "this is goated", copy it in every file)
+Flannan, 8:47: the narration asks the cliffhanger question, *"Why did all three go? And why did McArthur go without his coat?"*,
+then the frame freezes and blurs, the File Keeper asks (brand new channel, like, subscribe, comment) while LIKE, SUBSCRIBE and
+COMMENT pop on the words, then *"Now, back to the file"*, and the reveal (the two-waves theory) starts.
+**Rule:** every long file gets exactly this, placed right after ITS cliffhanger question and right before ITS reveal (~55-75 %),
+never right before a death. Pick the line with `_cta/mid_candidates.py`; set it in `brand_times.py` MIDLINE (patched files) or insert
+the ask as a VO line in the renderer (new files, like `14_battle_of_alcatraz/brand_alc46.py`).
+
 ## UPDATE 30 Oct (owner review): spoken mid ask at a cliffhanger + animations
 - **Why:** "most people close the video when the case is finished": the end ask reaches the fewest viewers. The ask must ALSO come
   inside the video, where the viewer most wants to continue: right before a reveal (~55-75 %), never right before a death.
@@ -88,6 +96,16 @@ analytics say they are the real bottleneck (click-through 2.6-2.8 % while retent
 - **End card:** LIKE / SUBSCRIBE pop exactly on the spoken "like" / "Subscribe" (the cursor presses SUBSCRIBE -> SUBSCRIBED).
 - **Glitch fixed:** the cut into the end card is 0.25 s before the old end line (the old end card starts 0.12 s before it; one
   frame of it was flashing through).
+- **Stamp band is fully opaque (255):** on patched files the OLD "the LAST HOURS" stamp is still in the picture underneath; at 248
+  it ghosted through for ~0.3 s before our letters built (seen in QA).
+
+## QA before any bulk upload (`_cta/brand_qa.py [key ...]`)
+One contact sheet per file (`branded/qa_<key>.jpg`) + length + loudness (target about -16 LUFS). Tiles: stamp 0.3 / 1.0 / 1.8
+(no old-stamp ghost at 0.3), case tab, the frame before the ask, ask 1.0 / buttons / out, the reveal, the end junction -0.4 /
++0.05 (must NOT show the old end card), +0.5 / +6 / +14 and the last frame. Look at every sheet before telling the owner it is ready.
+New renders (Alcatraz on): `render_<file>.py keys` + a frame grab at the ask, the stamp and the end card.
+Captions for re-uploads: `branded/captions_<key>_FILEKEEPER.txt` (the old text + the ask + the sign-off); new renders: the
+branded `vo_lines.txt` without `##`. Chapters after the ask move by the ask's length (+13 s patched, `render chapters` for new).
 
 ## Measuring
 - Per file: subs per 1,000 views, likes per 100 views, end-screen click rate, and the retention dip (if any) at the like line.

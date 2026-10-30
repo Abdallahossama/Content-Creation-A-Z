@@ -32,9 +32,9 @@ def stamp_frame(u, label, mark_name="noir_badge"):
     out = ease((STAMP_LEN - u) / 0.35); c = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(c)
     ba = ease(u / 0.18) * out; y0, y1 = H / 2 - 150, H / 2 + 150
     sweep = W * ease(u / 0.22)                                                               # the band sweeps in from the left
-    d.rectangle((0, y0, sweep, y1), fill=(7, 7, 8, int(248 * ba)))
+    d.rectangle((0, y0, sweep, y1), fill=(7, 7, 8, int(255 * ba)))   # 255: the old stamp underneath must not ghost through (QA 30 Oct)
     for k in range(18):                                                                      # soft top/bottom edges
-        a = int(248 * ba * (1 - k / 18) ** 2); d.line((0, y0 - k, sweep, y0 - k), fill=(7, 7, 8, a)); d.line((0, y1 + k, sweep, y1 + k), fill=(7, 7, 8, a))
+        a = int(255 * ba * (1 - k / 18) ** 2); d.line((0, y0 - k, sweep, y0 - k), fill=(7, 7, 8, a)); d.line((0, y1 + k, sweep, y1 + k), fill=(7, 7, 8, a))
     k = back((u - 0.08) / 0.4); m = mark(mark_name, 250).rotate(-28 * (1 - clamp((u - 0.08) / 0.4)), resample=Image.BICUBIC)
     c.alpha_composite(fade(m, clamp((u - 0.08) / 0.12) * out), (int(-260 + (400 + 260) * k - m.width / 2), int(H / 2 - m.height / 2)))
     if u > 0.3:
