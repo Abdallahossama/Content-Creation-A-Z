@@ -138,3 +138,12 @@ PRODUCTION MISTAKES 22-23 OCT (and the fix that is now the rule)
 41. SHORT TITLES THAT WIN (Studio, 25 Oct): the Alcatraz teaser "He Touched the Sleeping Man's Head. It Rolled Off." got 139 views and 51.4%
     viewed within hours, more than any long file. Formula: two short sentences, a concrete physical action by one person, then a shocking
     result; no date, no logistics. Long files keep their viewers (Alcatraz 47.2% average view) but get few impressions: teasers feed them.
+42. NEW FILES 15-16 (30 Oct): build render_<file>.py from the newest branded engine with a small _build_render.py that swaps blocks
+    (paths, TB tags, CROP, SHOTS/OV from shots_<file>.py, CAPFIX, music, EV, CH, ENDL) instead of hand-editing 900 lines.
+    Scanned PDFs: render pages to media/<rid>p<n>_page.jpg and OCR once (_tools/ocr_pages.py); find marks with _tools/ocr_find.py.
+    PDFs with a text layer (Utah newspapers, NHHC book): build the OCR json from the words (exact boxes). Mark DOC spots by OCR row
+    numbers ("69+70"). Cards with red ink: COLORDOC (page_img keeps colour) so the "ESCAPED" stamp stays red.
+43. MEMORY: Chatterbox segfaulted / "paging file too small" when it ran beside OCR while WSL held ~6 GB. Run voice jobs alone in a
+    chain script (_tools/chain_vo*.sh) and check free memory (Win32_OperatingSystem) before starting.
+44. Whisper writes digits ("1,195", "900"): word keys must use the digit form too ("1195|eleven"), or the shot falls back to the line start.
+

@@ -20,11 +20,13 @@ OUTD = "D:/why habibi/_upload_queue_last_hours/branded/"; os.makedirs(OUTD, exis
 SR = 48000
 NEXT = {"flannan": "SADDAM'S MEETING · 1979", "khuld": "THE ANDRÉE BALLOON · 1897", "andree": "GADDAFI'S STADIUM · 1984",
         "gaddafi": "FLIGHT 19 · 1945", "flight19": "USS CYCLOPS · 1918", "cyclops": "EGYPTAIR 990 · 1999",
-        "egyptair": "GÖRING'S LAST NIGHT · 1946", "goering": "THE BATTLE OF ALCATRAZ · 1946", "alcatraz46": "A NEW FILE EVERY WEEK"}
-PILL = {k: "NEXT FILE: " + v.split(" · ")[0] for k, v in NEXT.items()}; PILL["alcatraz46"] = "A NEW FILE EVERY WEEK"
+        "egyptair": "GÖRING'S LAST NIGHT · 1946", "goering": "THE BATTLE OF ALCATRAZ · 1946", "alcatraz46": "A NEW FILE EVERY WEEK",
+        "indy": "THE FOG ESCAPE · ALCATRAZ 1937", "coleroe": "A NEW FILE EVERY WEEK"}
+PILL = {k: "NEXT FILE: " + v.split(" · ")[0] for k, v in NEXT.items()}; PILL["alcatraz46"] = PILL["coleroe"] = "A NEW FILE EVERY WEEK"
 LABEL = {"flannan": "FILE 05  ·  FLANNAN ISLES  ·  DECEMBER 1900", "khuld": "FILE 10  ·  AL-KHULD HALL  ·  JULY 1979", "andree": "FILE 07  ·  THE ANDRÉE BALLOON  ·  JULY 1897",
          "gaddafi": "FILE 11  ·  BENGHAZI  ·  JUNE 1984", "flight19": "FILE 08  ·  FLIGHT 19  ·  DECEMBER 1945", "cyclops": "FILE 09  ·  USS CYCLOPS  ·  MARCH 1918",
-         "egyptair": "FILE 06  ·  EGYPTAIR 990  ·  OCTOBER 1999", "goering": "FILE 13  ·  NUREMBERG  ·  OCTOBER 1946", "alcatraz46": "FILE 14  ·  ALCATRAZ  ·  MAY 1946"}   # each render's own stamp line
+         "egyptair": "FILE 06  ·  EGYPTAIR 990  ·  OCTOBER 1999", "goering": "FILE 13  ·  NUREMBERG  ·  OCTOBER 1946", "alcatraz46": "FILE 14  ·  ALCATRAZ  ·  MAY 1946",
+         "indy": "FILE 15  ·  USS INDIANAPOLIS  ·  JULY 1945", "coleroe": "FILE 16  ·  ALCATRAZ  ·  DECEMBER 1937"}   # each render's own stamp line
 END_MUSIC = "Promises to Keep.mp3"
 STAMP_MARK, PILL_MARK, END_MARK = "noir_badge", "noir_folder", "noir_seal"     # owner 30 Oct: the noir set (flat v1 = tiny watermark only)
 

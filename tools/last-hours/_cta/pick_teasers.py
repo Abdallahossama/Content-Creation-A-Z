@@ -9,7 +9,9 @@ REF = {"khuld": "the full file saddam hussein called a meeting sixty six names w
        "goering": "the full file hermann goering was watched twenty four seven so how did he get cyanide link below",
        "alcatraz46": "the full file alcatraz nineteen forty six marines dropped grenades through the roof link below",
        "egyptair": "the full file he left the cockpit for a hundred and seven seconds then the dive began link below",
-       "cyclops": "the full file three hundred and six men vanished at sea their last message was about coal link below"}
+       "cyclops": "the full file three hundred and six men vanished at sea their last message was about coal link below",
+       "indy": "the full file nobody reported the uss indianapolis missing for four days link below",
+       "coleroe": "the full file counted at one oclock gone from alcatraz at one thirty never found link below"}
 import sys
 if len(sys.argv) > 1: REF = {k: v for k, v in REF.items() if k in sys.argv[1:]}
 wm = WhisperModel("medium.en", device="cpu", compute_type="int8", cpu_threads=8)

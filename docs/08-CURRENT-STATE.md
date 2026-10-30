@@ -25,9 +25,13 @@ EgyptAir AdZ95n42xwI 23 · _w492FOuMUU 25 · rTYz0T8oPtk 27 (related → AIbcwBZ
 rglfPKhCUpM 26 · L0YS7Y3U2Gg 28 · vC0fLGBtvxU 29 (related → eyc6dLMqf-U after 16 Nov). Teaser tool: per-file `wfix` table for
 whisper's clock times ("149 | and | 45." → "1:49:45.").
 
-## Next long files (research done 30 Oct; asset downloads wait for the owner's OK)
-Sun 6 Dec: USS Indianapolis 1945 (15_uss_indianapolis/research: 140 timeline entries; safe set 35 items, 250 MB, all US-gov).
-Mon 7 Dec: Cole & Roe, Alcatraz 1937 (16_cole_roe_1937/research: 79 entries; safe set 28 items, 158 MB; 36 files reusable).
+## Next long files (in production since 30 Oct: owner "yes download both and go ahead", then "go Gaddafi")
+| Slot | File | State |
+|---|---|---|
+| Sun 6 Dec 22:00 | 15 USS Indianapolis 1945 | 35/35 downloaded; script 91 lines (~11 min, hook 86); VO done, 4 lines re-voiced; render_indy.py (from render_alcatraz46 + shots_indy.py); 3 A/B thumbs drafted (8 PLANES / HE TESTIFIED / HE LOOKED DOWN); 4 teasers planned |
+| Mon 7 Dec 22:00 | 16 Cole & Roe, Alcatraz 1937 | 28/28 downloaded (Utah PDFs via the browser's Download button: curl gets 418); pages cropped to the articles; script 70 lines (~8.5 min, hook 77); render_coleroe.py; thumbs drafted (WHERE DID THEY GO? / DROWNED? OR FREE? / NEVER FOUND) |
+| next | 17 Gaddafi's last day (20 Oct 2011, Sirte) | owner idea: files about PEOPLE, new playlist "Files: People"; "King of Kings of Africa" + African army as the question; research agents running |
+Thumbnails go to the owner before upload. People-file ideas for later: Dillinger 1934, the Bin Laden raid 2011, Che 1967.
 
 ## Shorts (daily 19:00 Cairo)
 27 Oct → 22 Nov scheduled: standalone mystery Shorts (Alcatraz CTA), Cooper ×3 on 2-4 Nov, Wow/Somerton/Tunguska 5-7 Nov,

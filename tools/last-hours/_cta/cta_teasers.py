@@ -14,7 +14,9 @@ LINES = {"khuld": "The full file: Saddam Hussein called a meeting. Sixty-six nam
          "goering": "The full file: Hermann Goering was watched twenty-four seven. So how did he get cyanide? Link below.",
          "alcatraz46": "The full file: Alcatraz, nineteen forty-six. Marines dropped grenades through the roof. Link below.",
          "egyptair": "The full file: he left the cockpit for a hundred and seven seconds. Then the dive began. Link below.",
-         "cyclops": "The full file: three hundred and six men vanished at sea. Their last message was about coal. Link below."}
+         "cyclops": "The full file: three hundred and six men vanished at sea. Their last message was about coal. Link below.",
+         "indy": "The full file: nobody reported the USS Indianapolis missing for four days. Link below.",
+         "coleroe": "The full file: counted at one o'clock. Gone from Alcatraz at one-thirty. Never found. Link below."}
 import sys
 if len(sys.argv) > 1: LINES = {k: v for k, v in LINES.items() if k in sys.argv[1:]}     # only the keys named: cta_teasers.py goering
 m = ChatterboxTurboTTS.from_pretrained(device="cpu"); m.prepare_conditionals("E:/AskHabibiAI/voice/ref_s01_12s.wav"); sr = m.sr

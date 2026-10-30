@@ -39,6 +39,16 @@ FILES = {
    "T1_gun_cage": dict(a=(13, 0), b=(16, 0), hook=("THE GUN", "CAGE"), sub="ALCATRAZ  \u00b7  THU 2 MAY 1946  \u00b7  2:00 PM"),
    "T2_key_107": dict(a=(18, 0), b=(22, 0), hook=("KEY", "107"), sub="ALCATRAZ  \u00b7  CELLS 403 AND 402  \u00b7  2 MAY 1946"),
    "T3_grenades_roof": dict(a=(41, 0), b=(44, 0), hook=("GRENADES", "THROUGH THE ROOF"), sub="ALCATRAZ  \u00b7  FRI 3 MAY 1946")}),
+ "indy": dict(dir="15_uss_indianapolis", mod="render_indy", title=("Nobody Reported the USS Indianapolis", "Missing for 4 Days"), teasers={
+   "T1_antenna": dict(a=(56, 0), b=(60, 0), hook=("HIS ANTENNA", "BROKE"), sub="USS INDIANAPOLIS SURVIVORS  \u00b7  THU 2 AUG 1945"),
+   "T2_twelve_minutes": dict(a=(24, 0), b=(31, 0), hook=("12", "MINUTES"), sub="USS INDIANAPOLIS  \u00b7  MON 30 JUL 1945  \u00b7  12:05 AM"),
+   "T3_the_rule": dict(a=(35, 0), b=(39, 0), hook=("NOBODY", "REPORTED IT"), sub="USS INDIANAPOLIS  \u00b7  DUE AT LEYTE  \u00b7  31 JUL 1945"),
+   "T4_the_witness": dict(a=(76, 0), b=(80, 0), hook=("THE MAN WHO", "SANK HER"), sub="COURT-MARTIAL OF CAPTAIN McVAY  \u00b7  DEC 1945")}),
+ "coleroe": dict(dir="16_cole_roe_1937", mod="render_coleroe", title=("Counted at 1:00. Gone From Alcatraz", "at 1:30. Never Found."), teasers={
+   "T1_the_count": dict(a=(18, 0), b=(23, 0), hook=("GONE", "IN 30 MINUTES"), sub="ALCATRAZ  \u00b7  THU 16 DEC 1937"),
+   "T2_the_warden": dict(a=(44, 0), b=(48, 0), hook=("THE WARDEN", "CHANGED HIS MIND"), sub="ALCATRAZ  \u00b7  MON 20 DEC 1937"),
+   "T3_the_postcard": dict(a=(57, 0), b=(60, 0), hook=("\u201cBUSINESS WAS", "GOOD IN JULY\u201d"), sub="SAN FRANCISCO CHRONICLE  \u00b7  APRIL 1941"),
+   "T4_tulsa": dict(a=(53, 0), b=(56, 0), hook=("SHOT IN", "THE BACK"), sub="TULSA, OKLAHOMA  \u00b7  APRIL 1940")}),
 }
 KEY = sys.argv[2] if len(sys.argv) > 2 else "khuld"; F = FILES[KEY]
 sys.path.insert(0, NC + F["dir"]); R = importlib.import_module(F["mod"])
