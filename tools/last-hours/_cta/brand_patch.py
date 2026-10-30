@@ -8,7 +8,7 @@
      "NEXT FILE: <topic>", the end-screen boxes, and the File Keeper sign-off in the cloned voice (so_<key>.wav) over a music bed.
 Times come from brand_times.json (each file's own render script: brand, subpop, the cut line). Output: _upload_queue_last_hours/branded/.
   uv run --no-project --with pillow --with numpy --with soundfile python brand_patch.py <key> [--qa]"""
-import sys, os, json, subprocess, tempfile, shutil
+import sys, os, math, json, subprocess, tempfile, shutil
 import numpy as np, soundfile as sf
 from PIL import Image, ImageDraw, ImageFilter
 NC = "D:/why habibi/_newchannel/"; sys.path.insert(0, NC)
@@ -164,7 +164,7 @@ def main():
         S = Image.new("RGB", (480 * len(tiles), 270)); [S.paste(t, (i * 480, 0)) for i, t in enumerate(tiles)]; S.save(OUTD + f"qa_end_{key}.jpg"); print(OUTD + f"qa_end_{key}.jpg"); return
     # the File Keeper overlays on the ORIGINAL clock: the animated stamp, and the case tab over the old red pill (the ask is spoken now)
     sf_dir = os.path.join(tmp, "s"); pf_dir = os.path.join(tmp, "p"); os.makedirs(sf_dir); os.makedirs(pf_dir)
-    for i in range(int(BA.STAMP_LEN * FPS)): BA.stamp_frame(i / FPS, LABEL[key]).save(os.path.join(sf_dir, f"s{i:03d}.png"))
+    for i in range(int(BA.STAMP_LEN * FPS)): BA.stamp_frame(i / FPS, LABEL[key]).save(os.path.join(sf_dir, f"s{i:03d}.png"))   # solid band (approved); see-through option: BA.erase_old_stamp + BA.stamp_apply
     for i in range(int(BA.PILL_LEN * 30)): BA.chip_frame(i / 30.0, LABEL[key]).save(os.path.join(pf_dir, f"p{i:03d}.png"))
     sw, pw = os.path.join(tmp, "sfx_s.wav"), os.path.join(tmp, "sfx_p.wav")
     sf.write(sw, sfx_track(BA.STAMP_SFX, BA.STAMP_LEN + 2, ref), SR, subtype="FLOAT"); sf.write(pw, sfx_track(BA.CHIP_SFX, BA.PILL_LEN + 2, ref), SR, subtype="FLOAT")

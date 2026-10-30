@@ -52,6 +52,7 @@ The owner liked the noir (backlit, venetian-blind) rendering and asked for varia
 | `mark_noir_folder.png` | the ~75 % subscribe pill (thumbnail corner: ON HOLD, see below) |
 | `mark_v1_badge.png` (flat) | ONLY the Studio watermark (`channel/watermark_150.png`): noir is too dark at 48 px |
 | `channel/banner_2560x1440.jpg` | channel banner: THE LAST HOURS + tagline + "WITH THE FILE KEEPER · NEW FILES SUN + MON" (text inside 1546 x 423) |
+| `channel/banner_2560x1440_v2.jpg` | **LIVE since 30 Oct** (`banner_v2.py`): owner "the old banner was good too": the old Alcatraz photo UNDER the noir dark layer at 70 % (see-through) + light streaks; the File Keeper CUT OUT by his silhouette (no dark square), hat top y 560 so the head is never cropped in the desktop strip (y ~508-931), right edge 2051 (phone safe 2053). `*_HOW_IT_SHOWS.jpg` = desktop + phone crop check: make one before every banner upload |
 Sources: `draw_mark.py` (geometry, flat set), `draw_mark_real.py` (noir set), `brand_board.py` (channel files + `_brand_board.jpg`).
 Name: **The File Keeper**, no first name ("Noah"/"Noir" were considered: common/ungoogleable).
 
@@ -96,7 +97,7 @@ the ask as a VO line in the renderer (new files, like `14_battle_of_alcatraz/bra
 - **End card:** LIKE / SUBSCRIBE pop exactly on the spoken "like" / "Subscribe" (the cursor presses SUBSCRIBE -> SUBSCRIBED).
 - **Glitch fixed:** the cut into the end card is 0.25 s before the old end line (the old end card starts 0.12 s before it; one
   frame of it was flashing through).
-- **Stamp band is fully opaque (255):** on patched files the OLD "the LAST HOURS" stamp is still in the picture underneath; at 248
+- **Stamp band is fully opaque (255)** (a see-through option exists, `brand_anim.erase_old_stamp` + `stamp_apply`: it rebuilds the scene under the old stamp; NOT used, the owner approved the solid band): on patched files the OLD "the LAST HOURS" stamp is still in the picture underneath; at 248
   it ghosted through for ~0.3 s before our letters built (seen in QA).
 
 ## QA before any bulk upload (`_cta/brand_qa.py [key ...]`)

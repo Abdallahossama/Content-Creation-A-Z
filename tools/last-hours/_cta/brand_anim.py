@@ -1,6 +1,6 @@
 """The File Keeper animations (owner, 30 Oct 2026: "make this display come in, not out of nowhere: the logo and the text written,
 a different cool sound for each, smoothly; subscribe and like too"). Shared by brand_patch.py (already-rendered files) and the renderers.
-  stamp_frame(u, label)  -> full-frame RGBA, STAMP_LEN s: dark band sweeps in, the mark slides + turns + lands, "the" drops,
+  stamp_apply(c, u, label) -> the stamp ON a frame (frosted see-through band); stamp_frame(u, label) -> full-frame RGBA, STAMP_LEN s: dark band sweeps in, the mark slides + turns + lands, "the" drops,
                             LAST HOURS builds letter by letter, the file line types out, all fade together.   STAMP_SFX
   pill_frame(u, text)    -> W x PILL_H RGBA, PILL_LEN s: the pill slides in, a cursor clicks SUBSCRIBE -> SUBSCRIBED + tick,
                             a LIKE chip pops, it slides out.                                                       PILL_SFX
@@ -9,7 +9,7 @@ a different cool sound for each, smoothly; subscribe and like too"). Shared by b
 Each SFX list: (seconds from the start, sfx file in _newchannel/sfx, dB under the voice, max length s)."""
 import math, os
 import numpy as np
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFilter
 import lastkit as L
 from lastkit import W, H, BONE, RED, STEEL, COND, TYPE, SER, ease
 MK = "D:/why habibi/_newchannel/brand/file_keeper/"
@@ -28,13 +28,69 @@ def fade(im, a):
 STAMP_LEN = 2.9
 STAMP_SFX = [(0.0, "whoosh_tunnel_reverb", -24, 1.2), (0.1, "whoosh_metal_hit", -22, 0.9), (0.42, "hit_cinematic_deep_impact", -21, 1.6),
              (0.95, "typewriter_typing_old", -27, 0.7), (2.5, "whoosh_fast_transition", -30, 0.8)]
-def stamp_frame(u, label, mark_name="noir_badge"):
+BAND_INK, BAND_DARK, BAND_BLUR = (7, 7, 8), 0.70, 3       # owner 30 Oct: the old see-through band, but darker: "just the background be seen"
+def band_mask(u):
+    """the band's cover 0..1 per pixel (H x W): sweeps in from the left, soft top/bottom edges, fades out with the stamp"""
+    out = ease((STAMP_LEN - u) / 0.35); ba = ease(u / 0.18) * out; sweep = int(W * ease(u / 0.22)); y0, y1 = H // 2 - 150, H // 2 + 150
+    m = np.zeros((H, W), np.float32); m[y0:y1 + 1, :sweep] = ba
+    for k in range(1, 18): m[y0 - k, :sweep] = m[y1 + k, :sweep] = ba * (1 - k / 18) ** 2
+    return m
+def _blur_np(a, s):
+    """gaussian-like blur of an H x W (x C) float array (three box passes per axis)"""
+    r = max(1, int(round(s * 0.87)))
+    for ax in (0, 1):
+        for _ in range(3):
+            cs = np.cumsum(np.pad(a, [(r + 1, r) if i == ax else (0, 0) for i in range(a.ndim)], mode="edge"), axis=ax); n = a.shape[ax]
+            a = (np.take(cs, np.arange(2 * r + 1, n + 2 * r + 1), axis=ax) - np.take(cs, np.arange(0, n), axis=ax)) / (2 * r + 1)
+    return a
+_OLD = {}
+_YC = np.array([[0.299, 0.587, 0.114], [-0.168736, -0.331264, 0.5], [0.5, -0.418688, -0.081312]], np.float32); _YCi = np.linalg.inv(_YC).astype(np.float32)
+def erase_old_stamp(c, u, label):
+    """Files rendered before 30 Oct carry the OLD 2.2 s stamp (lastkit: a 59 % black band H/2 +-150 + "the / LAST HOURS / file line",
+    alpha ease in/out 0.35 s). Rebuild the clean scene under it (RGBA, in place) so the see-through band shows the scene, not the old
+    letters. Same clock as the old render, so its alpha is known: the band and faint letters are SUBTRACTED exactly; where the letters
+    were nearly solid, the scene is filled from the pixels around them."""
+    if not 0 <= u < 2.2: return c
+    al = ease(u / 0.35) * ease((2.2 - u) / 0.35); a = int(150 * al) / 255; at = int(255 * al) / 255
+    if al <= 0: return c
+    if label not in _OLD:
+        cov = np.zeros((H, W), np.float32); col = np.zeros((H, W, 3), np.float32); sl = slice(H // 2 - 150, H // 2 + 151)
+        for s_, y_, sz, cl, fn in (("the", H / 2 - 95, 52, STEEL, SER), ("LAST HOURS", H / 2 + 5, 150, BONE, COND), (label, H / 2 + 105, 34, STEEL, TYPE)):
+            mk = Image.new("RGBA", (W, H), (0, 0, 0, 0)); L.text(mk, s_, W / 2, y_, sz, cl, fn); k = np.asarray(mk.getchannel("A"), np.float32) / 255
+            cov = np.maximum(cov, k); col[k > 0] = cl
+        hole = np.asarray(Image.fromarray((cov * 255).astype(np.uint8)).filter(ImageFilter.MaxFilter(7)), np.float32)[sl] > 8
+        _OLD[label] = (cov[sl], col[sl], hole)
+    cov, col, hole = _OLD[label]; ya = H // 2 - 150; al_t = (cov * at)[..., None]
+    arr = np.asarray(c, np.float32).copy(); x = arr[ya:ya + cov.shape[0], :, :3]
+    aY = al_t[..., 0]; aC = _blur_np(aY, 1.2)[..., None]; xy, cy = x @ _YC.T, col @ _YC.T                  # exact where the letters were faint;
+    rec = np.concatenate([(xy[..., :1] - cy[..., :1] * al_t) / np.maximum(1 - al_t, 0.1),                     # colour in YCbCr: the video's 4:2:0
+                          (xy[..., 1:] - cy[..., 1:] * aC) / np.maximum(1 - aC, 0.1)], -1) @ _YCi.T / max(1 - a, 0.05)   # colour is smeared 1-2 px
+    wf = np.maximum(np.clip((cov * at - 0.35) / 0.35, 0, 1), hole * np.clip((al - 0.5) / 0.3, 0, 1))[..., None]   # nearly solid -> fill
+    if wf.max() > 0:
+        ok = (~hole).astype(np.float32)
+        f7, w7 = _blur_np(rec * ok[..., None], 7), _blur_np(ok, 7); f22, w22 = _blur_np(rec * ok[..., None], 22), _blur_np(ok, 22)
+        fill = np.where((w7 > 0.05)[..., None], f7 / np.maximum(w7, 1e-4)[..., None], f22 / np.maximum(w22, 1e-4)[..., None])
+        rec = rec * (1 - wf) + fill * wf
+    arr[ya:ya + cov.shape[0], :, :3] = np.clip(rec, 0, 255); c.paste(Image.fromarray(arr.astype(np.uint8), "RGBA")); return c
+def stamp_apply(c, u, label, mark_name="noir_badge"):
+    """the stamp ON a frame (RGBA, in place): a see-through dark band (the scene darkened 70 %, a touch softened, still seen),
+    then the mark, the letters and the file line. Already-rendered files: erase_old_stamp() first."""
+    m = band_mask(u)
+    if m.max() > 0:
+        ya, yb, pad = H // 2 - 168, H // 2 + 169, 3 * BAND_BLUR
+        fro = np.asarray(c.crop((0, ya - pad, W, yb + pad)).convert("RGB").filter(ImageFilter.GaussianBlur(BAND_BLUR)), np.float32)[pad:pad + yb - ya]
+        fro = fro * (1 - BAND_DARK) + np.array(BAND_INK, np.float32) * BAND_DARK
+        base = np.asarray(c.crop((0, ya, W, yb)), np.float32).copy(); mm = m[ya:yb, :, None]
+        base[..., :3] = base[..., :3] * (1 - mm) + fro * mm; c.paste(Image.fromarray(base.astype(np.uint8), c.mode), (0, ya))
+    c.alpha_composite(stamp_frame(u, label, mark_name, band=False)); return c
+def stamp_frame(u, label, mark_name="noir_badge", band=True):
     out = ease((STAMP_LEN - u) / 0.35); c = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(c)
     ba = ease(u / 0.18) * out; y0, y1 = H / 2 - 150, H / 2 + 150
     sweep = W * ease(u / 0.22)                                                               # the band sweeps in from the left
-    d.rectangle((0, y0, sweep, y1), fill=(7, 7, 8, int(255 * ba)))   # 255: the old stamp underneath must not ghost through (QA 30 Oct)
-    for k in range(18):                                                                      # soft top/bottom edges
-        a = int(255 * ba * (1 - k / 18) ** 2); d.line((0, y0 - k, sweep, y0 - k), fill=(7, 7, 8, a)); d.line((0, y1 + k, sweep, y1 + k), fill=(7, 7, 8, a))
+    if band:                                                                                 # solid version (stamp_apply draws the frosted one)
+        d.rectangle((0, y0, sweep, y1), fill=BAND_INK + (int(255 * ba),))
+        for k in range(18):                                                                  # soft top/bottom edges
+            a = int(255 * ba * (1 - k / 18) ** 2); d.line((0, y0 - k, sweep, y0 - k), fill=BAND_INK + (a,)); d.line((0, y1 + k, sweep, y1 + k), fill=BAND_INK + (a,))
     k = back((u - 0.08) / 0.4); m = mark(mark_name, 250).rotate(-28 * (1 - clamp((u - 0.08) / 0.4)), resample=Image.BICUBIC)
     c.alpha_composite(fade(m, clamp((u - 0.08) / 0.12) * out), (int(-260 + (400 + 260) * k - m.width / 2), int(H / 2 - m.height / 2)))
     if u > 0.3:
