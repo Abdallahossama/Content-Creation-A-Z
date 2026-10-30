@@ -1,6 +1,6 @@
 """Download the approved Battle of Alcatraz visuals (assets.md sections A-F) into media/
 (approved by the owner 29 Oct 2026: "Safe set, ~225 MB"). Images as JPG/PNG, documents as PDF, video as MP4.
-Skipped: C13 (San Quentin gas chamber, source unclear). HABS TIFFs fetched as Commons' 2560 px JPEG rendering.
+Skipped: C13 (San Quentin gas chamber, source unclear). HABS TIFFs fetched as Commons' 3840 px JPEG rendering.
 Universal outtakes cut to the safe seconds only: D1 25-60, 100-135, 150-190, 225-260 s (never 280-505: shore crowds);
 D2 30-60, 105-190, 440-460 s (never 200-262: a woman at ~239 s; never 300-360 / 480-515: men not identified).
 One file at a time (Commons answers 429 to bursts). Bad files are moved to the archive, never deleted.
@@ -12,17 +12,18 @@ UAW = "TheLastHoursResearch/1.0 (https://www.youtube.com/@TheLastHoursDocs; docu
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36 TheLastHours-research"
 SEG = {"D1": [("25", "35"), ("100", "35"), ("150", "40"), ("225", "35")],
        "D2": [("30", "30"), ("105", "85"), ("440", "20")]}                           # start s, length s
-SKIP = {"C13"}
+SKIP = {"C13", "D1", "D2"}                                         # D1/D2 done (segments renamed D1a.. D2c; D2a trimmed)
 EXTRA = []
 
-def habs_jpg(u):                                                   # Commons TIFF -> its own 2560 px JPEG rendering
+def habs_jpg(u):                                                   # Commons TIFF -> its own 3840 px JPEG rendering (Commons serves standard widths only: 1920, 3840...)
     m = re.match(r"https://upload\.wikimedia\.org/wikipedia/commons/(\w)/(\w\w)/(.+\.tif)$", u)
-    if m: return f"https://upload.wikimedia.org/wikipedia/commons/thumb/{m[1]}/{m[2]}/{m[3]}/lossy-page1-2560px-{m[3]}.jpg"
+    if m: return f"https://upload.wikimedia.org/wikipedia/commons/thumb/{m[1]}/{m[2]}/{m[3]}/lossy-page1-3840px-{m[3]}.jpg"
     return re.sub(r"(archive\.org/download/[^/]+/page/n\d+)\.jpg$", r"\1_w2400.jpg", u)   # newspaper pages 2400 px wide (11 MB -> 3 MB; archive.org is slow here)
 def kind(p):
     if not os.path.exists(p) or os.path.getsize(p) < 3000: return None
     h = open(p, "rb").read(16)
-    if h[:3] == b"\xff\xd8\xff": return "jpg"
+    if h[:3] == b"\xff\xd8\xff":                                   # a cut-off transfer still starts right: need the end-of-image marker
+        with open(p, "rb") as f: f.seek(-64, 2); return "jpg" if b"\xff\xd9" in f.read() else None
     if h[:8] == b"\x89PNG\r\n\x1a\n": return "png"
     if h[:4] == b"%PDF": return "pdf"
     if h[4:8] == b"ftyp": return "mp4"

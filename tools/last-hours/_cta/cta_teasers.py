@@ -11,7 +11,8 @@ D = "D:/why habibi/_newchannel/_cta/"; os.makedirs(D + "takes", exist_ok=True)
 LINES = {"khuld": "The full file: Saddam Hussein called a meeting. Sixty-six names were read out. Link below.",
          "gaddafi": "The full file: Gaddafi's basketball court gallows. Link below.",
          "franklin": "The full file: one hundred and twenty-nine men vanished in the Arctic. This is their last note. Link below.",
-         "goering": "The full file: Hermann Goering was watched twenty-four seven. So how did he get cyanide? Link below."}
+         "goering": "The full file: Hermann Goering was watched twenty-four seven. So how did he get cyanide? Link below.",
+         "alcatraz46": "The full file: Alcatraz, nineteen forty-six. Marines dropped grenades through the roof. Link below."}
 import sys
 if len(sys.argv) > 1: LINES = {k: v for k, v in LINES.items() if k in sys.argv[1:]}     # only the keys named: cta_teasers.py goering
 m = ChatterboxTurboTTS.from_pretrained(device="cpu"); m.prepare_conditionals("E:/AskHabibiAI/voice/ref_s01_12s.wav"); sr = m.sr

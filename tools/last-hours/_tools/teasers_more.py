@@ -3,7 +3,7 @@ Andree teasers: hook text on top, the Case File frame in the middle (blur fill b
 the long video's title + a spoken line that NAMES the long video (owner, 26 Oct: the Short -> long CTA must say which video).
   uv run --no-project --with pillow --with numpy --with soundfile python teasers_more.py qa <file> <name> <t..> | render <file> <name> | all <file>
   <file> = khuld | gaddafi | franklin | goering"""
-import sys, os, json, subprocess, importlib
+import sys, os, re, json, subprocess, importlib
 import numpy as np, soundfile as sf
 from PIL import Image, ImageDraw, ImageFilter
 NC = "D:/why habibi/_newchannel/"
@@ -24,6 +24,10 @@ FILES = {
    "T1_hundred_searches": dict(a=(0, 0), b=(4, 0), hook=("100 SEARCHES.", "DEAD ANYWAY."), sub="NUREMBERG PRISON  \u00b7  TUE 15 OCT 1946"),
    "T2_his_own_note": dict(a=(44, 0), b=(48, 0), hook=("HIS OWN", "NOTE"), sub="G\u00d6RING TO THE COMMANDANT  \u00b7  11 OCT 1946"),
    "T3_four_answers": dict(a=(53, 0), b=(60, 0), hook=("4 MEN.", "4 ANSWERS."), sub="HOW DID G\u00d6RING GET THE CYANIDE?  \u00b7  1951-2026")}),
+ "alcatraz46": dict(dir="14_battle_of_alcatraz", mod="render_alcatraz46", title=("Alcatraz, 1946: Marines Dropped", "Grenades Through the Roof"), teasers={
+   "T1_gun_cage": dict(a=(13, 0), b=(16, 0), hook=("THE GUN", "CAGE"), sub="ALCATRAZ  \u00b7  THU 2 MAY 1946  \u00b7  2:00 PM"),
+   "T2_key_107": dict(a=(18, 0), b=(22, 0), hook=("KEY", "107"), sub="ALCATRAZ  \u00b7  CELLS 403 AND 402  \u00b7  2 MAY 1946"),
+   "T3_grenades_roof": dict(a=(41, 0), b=(44, 0), hook=("GRENADES", "THROUGH THE ROOF"), sub="ALCATRAZ  \u00b7  FRI 3 MAY 1946")}),
 }
 KEY = sys.argv[2] if len(sys.argv) > 2 else "khuld"; F = FILES[KEY]
 sys.path.insert(0, NC + F["dir"]); R = importlib.import_module(F["mod"])
@@ -44,7 +48,10 @@ WD = []                                                    # absolute words on t
 for sg in json.load(open(NC + F["dir"] + "/vo/vo_words.json", encoding="utf-8")):
     for w in sg["words"]:
         txt = R.capfix(sg["line"], w["w"].strip()) if hasattr(R, "capfix") else w["w"]          # the long edit's spelling fixes (Göring, Andrus...)
-        if txt.strip(): WD.append(dict(w=txt, s=T[sg["line"]] + w["s"] - sg["start"], e=T[sg["line"]] + w["e"] - sg["start"]))
+        if not txt.strip(): continue
+        if WD and len(txt) > 1 and txt[0] in ".," and txt[1].isalnum():                       # "2" + ".15" -> "2:15", as in the long edit
+            WD[-1]["w"] = re.sub(r"^(\d{1,2})\.(\d\d)", r"\1:\2", WD[-1]["w"] + txt); WD[-1]["e"] = T[sg["line"]] + w["e"] - sg["start"]; continue
+        WD.append(dict(w=txt, s=T[sg["line"]] + w["s"] - sg["start"], e=T[sg["line"]] + w["e"] - sg["start"]))
 def chunks(a, b):
     ws = [w for w in WD if a <= w["s"] < b]; out = []; cur = []
     for w in ws:
@@ -65,7 +72,9 @@ def vframe(name, t):
         bg = big.resize((int(1920 * VH / 1080), VH), Image.BILINEAR).crop(((int(1920 * VH / 1080) - VW) // 2, 0, (int(1920 * VH / 1080) - VW) // 2 + VW, VH))
         bg = bg.filter(ImageFilter.GaussianBlur(28)); bg = Image.fromarray((np.asarray(bg, np.float32) * 0.25).astype(np.uint8))
         c.paste(bg, (0, 0))
-        if R.shot_at(cfg["a"] + t)[1][1][0] in FIT_KINDS: c.paste(big.resize((VW, 608), Image.LANCZOS), (0, 661))   # left-set date text: whole frame
+        kind, a = R.shot_at(cfg["a"] + t)[1][1]
+        wide = kind == "kbp" and a.get("crop") and (a["crop"][2] - a["crop"][0]) * 16 > (a["crop"][3] - a["crop"][1]) * 9 * 2.5   # a headline strip
+        if kind in FIT_KINDS or wide: c.paste(big.resize((VW, 608), Image.LANCZOS), (0, 661))   # left-set date text / wide strip: whole frame
         else: c.paste(big.resize((1440, 810), Image.LANCZOS).crop((180, 0, 1260, 810)), (0, 560))
         d = ImageDraw.Draw(c); d.rectangle((0, 556, VW, 560), fill=RED); d.rectangle((0, 1370, VW, 1374), fill=RED)
         for i, (hk, col, y) in enumerate(((cfg["hook"][0], BONE, 215), (cfg["hook"][1], RED, 365))):

@@ -1,6 +1,10 @@
 THE LAST HOURS - GÖRING'S LAST NIGHT TEASER SHORTS - UPLOAD SHEET
 =====================================================================================
-RENDERED 29 Oct: T1 43.0 s, T2 39.1 s, T3 58.5 s (1080x1920, -15 LUFS). NOT uploaded yet: waiting for the owner OK to upload + schedule.
+RENDERED 29 Oct: T1 43.0 s, T2 39.1 s, T3 58.5 s (1080x1920, -15 LUFS); uploaded from lt10/ (<10 MB 2-pass copies).
+30 Oct UPLOADED + SCHEDULED (owner: "yes upload and schedule the teasers"; 19:00 Cairo = Studio 20:00):
+  T1 xoFhkNH8cN0 Mon 30 Nov  ·  T2 Pi5wwPxSBS4 Wed 2 Dec  ·  T3 -430uUw_W7s Fri 4 Dec
+  Filled: title, description, playlist Power and Purges, not for kids, 8 tags, English, Education. Checks: no issues (T3 still checking at schedule time).
+  TODO after Sun 29 Nov 22:00 (long public): related video = -5GSUfE4PEY on all 3 (the picker lists public videos only). Pin + heart each comment on its day.
 All 3: playlist "Files: Power and Purges" · not made for kids · no paid promotion · English · Education
 Altered content toggle: left for the creator. Related video: the long Göring video -5GSUfE4PEY (public Sun 29 Nov 22:00 Cairo).
 Schedule (19:00 Cairo = Studio field 20:00 in Nov/Dec), all AFTER the long goes public so the link works:

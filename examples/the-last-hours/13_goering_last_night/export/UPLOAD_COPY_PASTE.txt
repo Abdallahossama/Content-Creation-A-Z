@@ -4,7 +4,7 @@ File: export/TheLastHours_13_GoeringLastNight.mp4 (about 8:03)
 Schedule: Sun 29 Nov 2026, 22:00 Cairo  (Studio's "Local Time GMT+3" field: 23:00, because Cairo is UTC+2 in November)
 STATUS 29 Oct: UPLOADED + SCHEDULED as -5GSUfE4PEY (https://youtu.be/-5GSUfE4PEY), Sun 29 Nov 22:00 Cairo. A/B title+thumb test set (starts when public).
   End screen imported from EgyptAir (Subscribe + Best for viewer + playlist Files: Escapes and Disappearances, 7:43-8:03).
-  Captions: English draft saved (processing blocked publish) -> publish the draft once Studio finishes checks.
+  Captions: English PUBLISHED 30 Oct (the draft had been auto-synced to the audio).
 Playlist: Files: Power and Purges  ·  not made for kids  ·  no paid promotion  ·  English  ·  Education
 Altered-content toggle: left for the creator.
 Captions: upload export/captions_en.txt (Languages > Edit subtitles > Upload file > Without timing).
