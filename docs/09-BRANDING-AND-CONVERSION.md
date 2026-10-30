@@ -100,6 +100,10 @@ the ask as a VO line in the renderer (new files, like `14_battle_of_alcatraz/bra
 - **Stamp band is fully opaque (255)** (a see-through option exists, `brand_anim.erase_old_stamp` + `stamp_apply`: it rebuilds the scene under the old stamp; NOT used, the owner approved the solid band): on patched files the OLD "the LAST HOURS" stamp is still in the picture underneath; at 248
   it ghosted through for ~0.3 s before our letters built (seen in QA).
 
+- **QA catch 30 Oct (Cyclops):** an old end card can start MID-LINE (Cyclops: on "Tell me below", 0.7 s before the cut line), so the
+  -0.25 s rule is not enough. `brand_patch.END_AT[key]` = where our card starts instead; the old words still play over our card,
+  then the sign-off. Always look at the "end -0.4" tile: it must show the story, never "the LAST HOURS / SUBSCRIBE".
+
 ## QA before any bulk upload (`_cta/brand_qa.py [key ...]`)
 One contact sheet per file (`branded/qa_<key>.jpg`) + length + loudness (target about -16 LUFS). Tiles: stamp 0.3 / 1.0 / 1.8
 (no old-stamp ghost at 0.3), case tab, the frame before the ask, ask 1.0 / buttons / out, the reveal, the end junction -0.4 /

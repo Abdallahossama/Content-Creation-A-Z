@@ -124,12 +124,16 @@ def sfx_track(events, length, ref):
         s = s / (np.abs(s).max() + 1e-9) * ref * 3.2 * 10 ** (db / 20); j = max(0, int(t * SR)); y[j:j + len(s)] += s[: len(y) - j]
     return y
 
-def end_audio(n, ref, so, t_like=None, t_sub=None):
-    """music bed (fades in, dips 7 dB under the sign-off), the stamp thuds, the sign-off at 0.7 s"""
+END_AT = {"cyclops": 619.99}   # QA 30 Oct: Cyclops' old end card starts on "Tell me below" (620.29 s), not on the next line
+def end_audio(n, ref, so, t_like=None, t_sub=None, at=0.7, pre_audio=None):
+    """music bed (fades in, dips 7 dB under the sign-off), the stamp thuds, the sign-off at `at` s; pre_audio = the original
+    voice that still plays over the card's first moments (END_AT files)"""
     y = np.zeros((n, 2), np.float32)
+    if pre_audio is not None:
+        pa = pre_audio[:n].copy(); k = min(len(pa), int(0.25 * SR)); pa[len(pa) - k:] *= np.linspace(1, 0, k)[:, None]; y[:len(pa)] += pa
     mus = load(MUS + END_MUSIC, ss=20.0, t=n / SR + 0.1)[:n]; mus = mus / max(rms(mus), 1e-6) * ref * 10 ** (-15 / 20)
     g = np.ones(n, np.float32); fi = int(1.0 * SR); g[:fi] = np.linspace(0, 1, fi); fo = int(2.5 * SR); g[-fo:] = np.linspace(1, 0, fo)
-    i0 = int(0.7 * SR); L_ = len(so); lo = 10 ** (-7 / 20); r = int(0.3 * SR)
+    i0 = int(at * SR); L_ = len(so); lo = 10 ** (-7 / 20); r = int(0.3 * SR)
     d = np.ones(n, np.float32); a0, a1 = max(0, i0 - r), min(n, i0 + L_ + r); d[a0:a1] = lo; d[a0:a0 + r] = np.linspace(1, lo, r); d[a1 - r:a1] = np.linspace(lo, 1, r)
     y[: len(mus)] += mus * (g * d)[: len(mus), None]
     for name, t, db in (("metal_hammer_hit", 0.15, -16), ("hit_cinematic_deep_impact", 0.4, -14)):
@@ -142,6 +146,7 @@ def main():
     key = sys.argv[1]; qa = "--qa" in sys.argv
     if key == "alcatraz46": raise SystemExit("alcatraz46 is branded inside its own render (render_alcatraz46.py), not patched")
     R = json.load(open(CTA + "brand_times.json", encoding="utf-8"))[key]; src = R["src"]; cut = R["cut_t"] - 0.25   # the old end card starts 0.12 s before its line: never let a frame of it through
+    pre = round(cut - END_AT[key], 3) if key in END_AT else 0.0; cutv = cut - pre                  # END_AT: the old card starts mid-line; its words play over ours
     sop = CTA + f"so_{key}.wav"
     if os.path.exists(sop): so, ssr = sf.read(sop, dtype="float32", always_2d=True); so = so.mean(1)
     elif qa: so, ssr = np.zeros(int(15 * SR), np.float32), SR                      # QA before the sign-off is voiced
@@ -149,13 +154,13 @@ def main():
     if ssr != SR: so = np.interp(np.arange(int(len(so) * SR / ssr)) / SR, np.arange(len(so)) / ssr, so).astype(np.float32)
     caps = None; t_like = t_sub = None
     if os.path.exists(CTA + f"so_{key}.json"):
-        words = [(w0 + 0.7, w1 + 0.7, w) for w0, w1, w in json.load(open(CTA + f"so_{key}.json", encoding="utf-8"))]
+        words = [(w0 + 0.7 + pre, w1 + 0.7 + pre, w) for w0, w1, w in json.load(open(CTA + f"so_{key}.json", encoding="utf-8"))]
         caps = caption_chunks(words); t_like = BA.word_time(words, "like"); t_sub = BA.word_time(words, "subscribe")
     a_tail = load(src, ss=max(0, cut - 4.0), t=3.6); ref = rms(a_tail)                          # voice + music level of the last spoken line
     so = so / max(rms(so[:, None].repeat(2, 1)), 1e-6) * ref * 0.95; so2 = np.stack([so, so], 1)
-    end_len = round(max(20.0, 0.7 + len(so) / SR + 4.5), 2); n_end = int(end_len * FPS)
+    end_len = round(max(20.0, 0.7 + pre + len(so) / SR + 4.5), 2); n_end = int(end_len * FPS)
     tmp = tempfile.mkdtemp(); bgp = os.path.join(tmp, "bg.png")
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(cut - 0.1), "-i", src, "-frames:v", "1", bgp], check=True)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(cutv - 0.1), "-i", src, "-frames:v", "1", bgp], check=True)
     bg_sharp = Image.open(bgp).convert("RGB").resize((W, H)); bg_blur = Image.blend(bg_sharp.filter(ImageFilter.GaussianBlur(44)), Image.new("RGB", (W, H), INK), 0.62)
     g = (np.clip((np.arange(H) - 700) / 300, 0, 1) ** 1.2 * 0.85)[:, None, None]                         # the burned-in caption band: darkened away
     bg_blur = Image.fromarray((np.asarray(bg_blur, np.float32) * (1 - g)).astype(np.uint8))
@@ -210,8 +215,8 @@ def main():
     p.stdin.close(); p.wait()
     # A1 + M + A2 (the story to its question) + B (the end card)
     A1, A2 = os.path.join(tmp, "A1.mp4"), os.path.join(tmp, "A2.mp4")
-    seg(0.0, tm, A1, fout=0.25); seg(tm, cut, A2, fin=0.3, fout=0.5)
-    wav = os.path.join(tmp, "B.wav"); sf.write(wav, end_audio(int(end_len * SR), ref, so2, t_like, t_sub), SR, subtype="FLOAT")
+    seg(0.0, tm, A1, fout=0.25); seg(tm, cutv, A2, fin=0.3, fout=0.5 if not pre else 0.0)
+    wav = os.path.join(tmp, "B.wav"); sf.write(wav, end_audio(int(end_len * SR), ref, so2, t_like, t_sub, at=0.7 + pre, pre_audio=load(src, ss=cutv, t=pre) if pre else None), SR, subtype="FLOAT")
     B = os.path.join(tmp, "B.mp4")
     p = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-i", wav,
                           "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "256k", "-ar", str(SR), "-ac", "2", "-shortest", B], stdin=subprocess.PIPE)
