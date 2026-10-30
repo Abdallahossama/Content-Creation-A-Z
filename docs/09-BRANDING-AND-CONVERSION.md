@@ -1,6 +1,6 @@
 # 09 · Branding and conversion: "The File Keeper" (The Last Hours)
 
-Status: **DECIDED 30 Oct 2026** (owner). Applies to every new long file AND the re-brand of the already-scheduled long files.
+Status: **DECIDED + BUILT 30 Oct 2026** (owner). Final look: the NOIR set (below). Applies to every new long file AND the re-brand of the already-scheduled long files.
 Update this doc whenever a brand/CTA decision changes (owner's standing order: the repo is updated by default, unasked).
 
 ## Why
@@ -11,8 +11,14 @@ per-viewer conversion (this brand).
 
 ## The persona
 - **Name:** The File Keeper. Speaks as "I" in the narrator's (the owner's cloned) voice.
-- **Mark:** a drawn vector detective silhouette (fedora, raised coat collar, face in shadow, a case file). Drawn by us, no AI.
-  Shown to the owner for approval before use. Lives in `_newchannel/brand/file_keeper/` (sources + PNG exports).
+- **Mark (APPROVED 30 Oct):** a drawn vector detective silhouette (fedora with a red band, head under the brim in shadow, trench-coat
+  collar turned up, red tie). Drawn in code by us (`brand/file_keeper/draw_mark.py`), no AI, no photo. Three treatments:
+  `mark_v1_badge` (bone on ink, round: avatar, watermark, the 1.5 s video stamp), `mark_v2_stamp` (red rubber stamp "THE FILE KEEPER ·
+  THE LAST HOURS": the "CASE CLOSED" end card), `mark_v3_folder` (manila case file with a "FILE KEEPER" tab: thumbnail corner, the
+  mid-video badge). A "more realistic" code-drawn noir version was tried and REJECTED (looked like a mannequin); the owner chose to keep
+  the drawn mark everywhere rather than use a photo.
+- **Name check (30 Oct):** "The File Keeper" and "The Hour Keeper" (backup) are free on YouTube; "The Last Witness", "Mr. Midnight",
+  "The Archivist", "The Night Clerk" clash with films/shows. Changing the name later = folder tab + stamp ring + spoken sign-off only.
 - **Never:** a spoken channel ident, a backstory block, a pause for branding (LESSONS: viewers leave at the ident).
 
 ## Where it appears (timeline of one long file)
@@ -36,6 +42,31 @@ Sign-off template (end of narration):
   `_newchannel/_cta/` tools; no full re-render unless a patch can't reach a spot.
 - Old copies -> Private, renamed "OLD COPY (delete)"; only the owner deletes. Redo A/B tests, end screens, captions, playlists.
 - Shorts keep their current end cards.
+
+## FINAL (30 Oct, later): the noir set + where each piece lives
+The owner liked the noir (backlit, venetian-blind) rendering and asked for variants of it. Adopted:
+| File (`_newchannel/brand/file_keeper/`) | Use |
+|---|---|
+| `mark_noir_badge.png` | channel avatar (`channel/avatar_800.png`) and the 1.5 s in-video stamp |
+| `mark_noir_seal.png` | the "CASE CLOSED" end card (rim text THE FILE KEEPER · THE LAST HOURS) |
+| `mark_noir_folder.png` | the ~75 % subscribe pill and the thumbnail corner (bottom-left, 130 px, clear of the timestamp) |
+| `mark_v1_badge.png` (flat) | ONLY the Studio watermark (`channel/watermark_150.png`): noir is too dark at 48 px |
+| `channel/banner_2560x1440.jpg` | channel banner: THE LAST HOURS + tagline + "WITH THE FILE KEEPER · NEW FILES SUN + MON" (text inside 1546 x 423) |
+Sources: `draw_mark.py` (geometry, flat set), `draw_mark_real.py` (noir set), `brand_board.py` (channel files + `_brand_board.jpg`).
+Name: **The File Keeper**, no first name ("Noah"/"Noir" were considered: common/ungoogleable).
+
+## Tools (`_newchannel/_cta/`)
+- `signoff_gen.py` (Chatterbox, 3 takes per file) -> `signoff_pick.py` (whisper; numbers compared as words; writes `so_<key>.wav` +
+  `so_<key>.json` word timings, "File Keeper" capitalised) .
+- `brand_times.py` -> `brand_times.json`: per file, from its OWN render script: stamp time, pill time, the cut line (the first old end
+  line), and a check that the uploaded MP4 length equals the script's DUR.
+- `brand_patch.py <key> [--qa]`: re-encodes the uploaded MP4 up to the cut with the stamp mark + the File Keeper pill (covers the old red
+  pill: y 40 for Flannan/Andrée/EgyptAir renders, y 120 for the rest), then appends the end card (blurred last frame, seal, CASE CLOSED,
+  NEXT FILE, end-screen boxes, word-synced captions of the sign-off) -> `_upload_queue_last_hours/branded/*_FILEKEEPER.mp4`.
+- New files (from Alcatraz 1946 on) draw the same pieces INSIDE their renderer (`import brand_patch as BP`: `stamp_image`, `pill_image`,
+  `end_frame`), with the sign-off as the last VO line and TAIL 5 s.
+- The cut also removes STALE end lines: after schedule reshuffles several files said "Next, I'm opening the file on <wrong video>".
+  The sign-off always names the real next file in the current schedule.
 
 ## Measuring
 - Per file: subs per 1,000 views, likes per 100 views, end-screen click rate, and the retention dip (if any) at the like line.

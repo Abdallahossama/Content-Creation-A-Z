@@ -1,0 +1,98 @@
+{
+ "flannan": {
+  "src": "D:/why habibi/_upload_queue_last_hours/TheLastHours_05_Flannan_v3.mp4",
+  "dir": "06_flannan",
+  "cut_line": 128,
+  "cut_t": 698.548,
+  "cut_text": "Next, I'm opening the file on D.B. Cooper.",
+  "brand_t": 83.647,
+  "subpop_t": 384.589,
+  "vo_end": 701.517,
+  "dur_script": 721.517,
+  "dur_mp4": 721.5
+ },
+ "khuld": {
+  "src": "D:/why habibi/_upload_queue_last_hours/TheLastHours_10_KhuldHall.mp4",
+  "dir": "11_khuld_hall",
+  "cut_line": 101,
+  "cut_t": 654.459,
+  "cut_text": "If you want the next file, subscribe.",
+  "brand_t": 104.042,
+  "subpop_t": 504.45,
+  "vo_end": 656.838,
+  "dur_script": 676.838,
+  "dur_mp4": 676.833
+ },
+ "andree": {
+  "src": "D:/why habibi/_upload_queue_last_hours/TheLastHours_07_Andree_Balloon_v2.mp4",
+  "dir": "08_andree",
+  "cut_line": 128,
+  "cut_t": 810.335,
+  "cut_text": "Next, I'm opening the file on five Navy planes that took off",
+  "brand_t": 55.888,
+  "subpop_t": 433.468,
+  "vo_end": 819.718,
+  "dur_script": 839.718,
+  "dur_mp4": 839.7
+ },
+ "gaddafi": {
+  "src": "D:/why habibi/_upload_queue_last_hours/TheLastHours_11_GaddafiStadium.mp4",
+  "dir": "12_gaddafi_stadium",
+  "cut_line": 107,
+  "cut_t": 730.904,
+  "cut_text": "If you want the next file, subscribe.",
+  "brand_t": 189.87,
+  "subpop_t": 555.458,
+  "vo_end": 733.49,
+  "dur_script": 753.49,
+  "dur_mp4": 753.467
+ },
+ "flight19": {
+  "src": "D:/why habibi/_upload_queue_last_hours/TheLastHours_08_Flight19.mp4",
+  "dir": "09_flight19",
+  "cut_line": 139,
+  "cut_t": 868.842,
+  "cut_text": "Next, I'm opening the file on a Navy ship that vanished in n",
+  "brand_t": 51.859,
+  "subpop_t": 641.678,
+  "vo_end": 881.722,
+  "dur_script": 901.722,
+  "dur_mp4": 901.7
+ },
+ "cyclops": {
+  "src": "D:/why habibi/_upload_queue_last_hours/TheLastHours_09_Cyclops.mp4",
+  "dir": "10_cyclops",
+  "cut_line": 89,
+  "cut_t": 621.23,
+  "cut_text": "If you want the next file, subscribe.",
+  "brand_t": 57.414,
+  "subpop_t": 462.822,
+  "vo_end": 623.722,
+  "dur_script": 643.722,
+  "dur_mp4": 643.7
+ },
+ "egyptair": {
+  "src": "D:/why habibi/_upload_queue_last_hours/TheLastHours_06_EgyptAir990_COLOR_v3.mp4",
+  "dir": "07_egyptair",
+  "cut_line": 105,
+  "cut_t": 627.121,
+  "cut_text": "Next, I'm opening the file on three men who flew a balloon t",
+  "brand_t": 61.376,
+  "subpop_t": 429.593,
+  "vo_end": 636.132,
+  "dur_script": 656.132,
+  "dur_mp4": 656.1
+ },
+ "goering": {
+  "src": "D:/why habibi/_newchannel/13_goering_last_night/export/TheLastHours_13_GoeringLastNight.mp4",
+  "dir": "13_goering_last_night",
+  "cut_line": 80,
+  "cut_t": 446.08,
+  "cut_text": "This channel is brand new, and every file takes weeks to reb",
+  "brand_t": 47.464,
+  "subpop_t": 342.552,
+  "vo_end": 463.529,
+  "dur_script": 483.529,
+  "dur_mp4": 483.5
+ }
+}

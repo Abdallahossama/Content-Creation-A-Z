@@ -18,7 +18,7 @@ def P(pts, k=S / 1000, dx=0, dy=0): return [(x * k + dx, y * k + dy) for x, y in
 # the figure on a 1000 x 1000 grid (front view)
 CROWN = [(330, 300), (343, 215), (378, 150), (440, 118), (500, 140), (560, 118), (622, 150), (657, 215), (670, 300)]
 BAND = [(334, 256), (666, 256), (670, 298), (330, 298)]
-FACE = [(408, 318), (404, 380), (418, 430), (450, 468), (500, 482), (550, 468), (582, 430), (596, 380), (592, 318)]
+FACE = [(386, 318), (382, 388), (398, 444), (440, 486), (500, 502), (560, 486), (602, 444), (618, 388), (614, 318)]   # the head fills the hat
 COLL_L = [(292, 610), (350, 405), (444, 450), (488, 522), (452, 640)]
 COLL_R = [(1000 - x, y) for x, y in COLL_L]
 COAT = [(80, 1180), (128, 820), (160, 730), (215, 660), (292, 610), (452, 640), (500, 690), (548, 640), (708, 610), (785, 660), (840, 730), (872, 820), (920, 1180)]
@@ -30,7 +30,7 @@ def figure(fg, face, accent, scale=0.86, dy=60):
     im = Image.new("RGBA", (S, S), (0, 0, 0, 0)); d = ImageDraw.Draw(im); k = S / 1000 * scale; dx = S * (1 - scale) / 2; oy = dy * S / 1000
     q = lambda pts: P(pts, k, dx, oy)
     d.polygon(q(COAT), fill=fg); d.polygon(q(VEE), fill=face); d.polygon(q(TIE), fill=accent)
-    d.polygon(q(FACE), fill=face); d.polygon(q([(474, 470), (526, 470), (532, 600), (468, 600)]), fill=face)                      # a short neck
+    d.polygon(q(FACE), fill=face); d.polygon(q([(440, 450), (560, 450), (556, 600), (548, 640), (500, 690), (452, 640), (444, 600)]), fill=face)      # neck + throat: no gaps beside it
     d.polygon(q(COLL_L), fill=fg); d.polygon(q(COLL_R), fill=fg)
     bx0, by0 = q([(250, 254)])[0]; bx1, by1 = q([(750, 346)])[0]; d.ellipse((bx0, by0, bx1, by1), fill=fg)          # brim
     d.polygon(q(CROWN), fill=fg); d.polygon(q(BAND), fill=accent)
