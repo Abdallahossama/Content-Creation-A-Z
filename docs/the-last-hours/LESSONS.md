@@ -158,3 +158,13 @@ PRODUCTION MISTAKES 22-23 OCT (and the fix that is now the rule)
     read as black, a counter whose number fell into the next shot, and the end card followed by a stray shot. LIFT is a gamma: below 1 lifts.
 48. THUMBNAIL GLOW (31 Oct): blur a glow on a PADDED canvas, or its box edge shows as a square (owner spotted it on "ONE AFRICA").
     Faces in a bubble stay in natural colour over a toned background (owner: contrast).
+49. CHATTERBOX START STALLS (31 Oct): with ~3 GB free RAM the model load crawled (16 s CPU in 7 min, empty log). Kill it, free memory
+    (close browser tabs; WSL ~6.5 GB), restart with `python -u` so vo.log shows progress at once. An app restart also kills background
+    shells: a detached start via PowerShell Start-Process failed silently (wrong Git path), so check the process list after any restart.
+50. WHISPER INVENTS TAILS: "So, that's it for this video. If you liked it, subscribe..." appeared at the end of a line, all words packed
+    into 0.2 s. It is not in the audio. Drop words squeezed into a few hundredths of a second at a line's end before building captions.
+51. THUMBNAIL CUTOUTS (31 Oct): GrabCut cut half a face; MediaPipe 0.10.14 selfie segmentation (`mp.solutions`, model inside the wheel,
+    no extra download; newer mediapipe dropped `solutions`) gave a clean cutout. Put the cutout ABOVE every effect (glow, embers, board),
+    rim light from the dilated alpha, shadow offset left; only text may cover the person.
+52. A REAL CANDIDATE ON A THUMBNAIL (owner supports him): never blend his face with the subject, never tie him with a string, never put a
+    "who did it?" headline beside his face; every version carries a fair note big enough to read at 280 px wide.
