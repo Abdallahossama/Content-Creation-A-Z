@@ -8,13 +8,13 @@
 | live | Franklin | bUkhghG5Hs0 | title A/B: old vs "The Franklin Expedition: …" |
 | live | D.B. Cooper | 1rWdT-lGkBI | |
 | **Sat 31 Oct 22:00** | **18 The Muslim Brotherhood / Banna's last hours** | (uploading) | owner "release it today"; neutral; titles without El-Sayed; thumbs I / I4 / I5 (El-Sayed cutout + fair notes) |
-| Sun 1 Nov | Flannan Isles | Rz0qyy9-7GE | title+thumb A/B (new name title + E2) |
-| Mon 2 Nov | Saddam / al-Khuld Hall | 79Wix9PwPpY | owner keeps current A/B |
+| **Sun 1 Nov** | Saddam / al-Khuld Hall | 79Wix9PwPpY | MOVED from Mon 2 Nov (owner 31 Oct: 2 a week; today MB, tomorrow Saddam); owner keeps current A/B |
 | Sun 8 Nov | Andrée balloon | vyX1mYdiWGw | pair 2 title = "Andrée's Balloon: …" |
 | Mon 9 Nov | Gaddafi / Benghazi stadium | kJYD15hkP48 | |
 | Sun 15 Nov | Flight 19 | r0wpGQzHVJ8 | |
 | Mon 16 Nov | USS Cyclops | eyc6dLMqf-U | |
 | Sun 22 Nov | EgyptAir 990 | AIbcwBZsxdY | title A/B (old vs "EgyptAir 990: …") |
+| **Mon 23 Nov** | Flannan Isles | Rz0qyy9-7GE | MOVED from Sun 1 Nov (owner 31 Oct); title+thumb A/B (new name title + E2); its end card still says "next: Saddam" (already out by then: fine) |
 | Sun 29 Nov | **Göring's last night** (file 13) | XJYc9KLbzJ0 | scheduled 29 Oct; title+thumb A/B (mix: 1 B&W + 2 colour); English captions saved as draft, publish after processing |
 | Mon 30 Nov | **Battle of Alcatraz 1946** (file 14) | MiC9JTGkWq8 | File Keeper render; title+thumb A/B (A_KEY_107 B&W + 2 colour); teasers SCHEDULED 19:00: T1 KpQ1WWaIXLg Tue 1 Dec, T2 sjP79gckYY4 Thu 3 Dec, T3 KunZPPLxYlU Sat 5 Dec (Related video → MiC9JTGkWq8 after 30 Nov 22:00) |
 
