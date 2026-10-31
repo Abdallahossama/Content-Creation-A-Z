@@ -6,7 +6,7 @@
 | live | Alcatraz | 16b37-3-Z-Q | title A/B running |
 | live | Roanoke | EKnsZ8kI_1Q | |
 | live | Franklin | bUkhghG5Hs0 | title A/B: old vs "The Franklin Expedition: …" |
-| live | D.B. Cooper | 1rWdT-lGkBI | |
+| live | D.B. Cooper | 1rWdT-lGkBI | end screen 31 Oct: playlist box → Alcatraz video (end-screen CTR was 0 % vs Franklin 4 %); now Subscribe + Franklin + Alcatraz |
 | **Sat 31 Oct 22:00** | **18 The Muslim Brotherhood / Banna's last hours** | (uploading) | owner "release it today"; neutral; titles without El-Sayed; thumbs I / I4 / I5 (El-Sayed cutout + fair notes) |
 | **Sun 1 Nov** | Saddam / al-Khuld Hall | 79Wix9PwPpY | MOVED from Mon 2 Nov (owner 31 Oct: 2 a week; today MB, tomorrow Saddam); owner keeps current A/B |
 | Sun 8 Nov | Andrée balloon | vyX1mYdiWGw | pair 2 title = "Andrée's Balloon: …" |
