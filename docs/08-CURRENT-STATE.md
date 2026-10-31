@@ -47,7 +47,7 @@ Lr0iaGmD4kE (1 Nov) end on their own long files (old copies Private).
 ## Open tasks
 - THUMBNAIL PLAN (owner, 30 Oct): a dedicated plan later; click-through (2.6-2.8 %) is the bottleneck, retention is fine.
 - FILE KEEPER RE-BRAND (30 Oct): 8 scheduled long files patched (_cta/brand_patch.py) and re-uploaded on the same dates; Alcatraz 1946 branded in its render.
-- Related-video links (picker lists PUBLIC videos only; NxwUdovTFrw → 1rWdT-lGkBI done 30 Oct): Lr0iaGmD4kE (Flannan Short, still Sun 1 Nov) → Rz0qyy9-7GE after 23 Nov 22:00;
+- Related-video links (picker lists PUBLIC videos only; NxwUdovTFrw → 1rWdT-lGkBI done 30 Oct): Lr0iaGmD4kE (Flannan Short, MOVED 31 Oct to Tue 24 Nov 23:00 Cairo: 19:00 that day is a Cyclops Short) → Rz0qyy9-7GE after 23 Nov 22:00;
   Saddam teasers → 79Wix9PwPpY after 1 Nov 22:00; Gaddafi → _A_Ae9ddTSI after 9 Nov; Andrée → D6AbVT_ODoM after 8 Nov; Flight 19 → Sd9q1pKG4LM after 15 Nov.
 - Pin + heart each new video's comment on its day (texts in `docs/the-last-hours/PINNED_COMMENTS.txt` and each teaser sheet).
 - Göring (-5GSUfE4PEY): English captions published 30 Oct; pin + heart on 29 Nov.
