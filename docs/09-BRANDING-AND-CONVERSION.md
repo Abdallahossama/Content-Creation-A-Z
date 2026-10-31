@@ -48,7 +48,7 @@ The owner liked the noir (backlit, venetian-blind) rendering and asked for varia
 | File (`_newchannel/brand/file_keeper/`) | Use |
 |---|---|
 | `mark_noir_badge.png` | the 1.5 s in-video stamp (was the channel avatar until 31 Oct, see below) |
-| `channel/avatar_v2_G_800.png` | **channel avatar since 31 Oct**: same figure on an AMBER wall with the venetian-blind light streaks (`avatar_contrast.py G`) |
+| `channel/avatar_v2_P_800.png` | **channel avatar since 31 Oct**: same figure on an AMBER wall with the venetian-blind light streaks, collar LOWERED (`avatar_contrast.py P` = G + COLL_LOW) |
 | `mark_noir_seal.png` | the "CASE CLOSED" end card (rim text THE FILE KEEPER · THE LAST HOURS) |
 | `mark_noir_folder.png` | the ~75 % subscribe pill (thumbnail corner: ON HOLD, see below) |
 | `mark_v1_badge.png` (flat) | ONLY the Studio watermark (`channel/watermark_150.png`): noir is too dark at 48 px |
@@ -125,3 +125,5 @@ simulated low-brightness phone. Options: A amber, B bone, C yellow, D red, E/F r
 light, J/K/L amber with the light lower, M/N/O lighter/lower collar. Owner asked me to choose among G/H/I/E/F -> **G** (amber +
 the old avatar's light streaks): closest to the noir brand, readable at low brightness. Published 31 Oct (owner "go ahead").
 RULE: any brand mark must pass the low-brightness row of the sheet before it goes live.
+Same evening the owner asked "make the collar lower (on the y axis)": P = G with the collar tips moved down (COLL_LOW: tip y 405 -> 475,
+inner point 450 -> 500), so the head and neck read above the collar. Q (COLL_LOWER, much lower) looked like a scarf: rejected. P is live.
