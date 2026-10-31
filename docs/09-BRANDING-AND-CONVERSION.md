@@ -127,3 +127,7 @@ the old avatar's light streaks): closest to the noir brand, readable at low brig
 RULE: any brand mark must pass the low-brightness row of the sheet before it goes live.
 Same evening the owner asked "make the collar lower (on the y axis)": P = G with the collar tips moved down (COLL_LOW: tip y 405 -> 475,
 inner point 450 -> 500), so the head and neck read above the collar. Q (COLL_LOWER, much lower) looked like a scarf: rejected. P is live.
+Then the owner spotted the wall showing in two wedges where the lowered collar met the shoulders: the coat polygon is Chaikin-smoothed,
+so its corner at (292, 610) was cut away under the collar's sharp corner. Fix: collar outer corner -> (272, 628) and inner bottom ->
+(466, 664), both inside the coat. RULE: when a collar/lapel point moves, keep its bottom corners INSIDE the smoothed coat and zoom-check
+the joins at 2x before publishing. P re-published with the fix (31 Oct).
