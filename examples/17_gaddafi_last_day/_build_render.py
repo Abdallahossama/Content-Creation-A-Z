@@ -98,4 +98,5 @@ swap("CH = [", 'if __name__ == "__main__":', '''CH = [(0, "One morning in Sirte"
 
 ''')
 rep("NEXT = os.environ.get(\"LH_NEXT\", \"\")", "NEXT = os.environ.get(\"LH_NEXT\", \"\")\nENDL = 60                                                # the File Keeper sign-off line (the end card runs under it)")
+exec(open("D:/why habibi/_newchannel/17_gaddafi_last_day/build/post_patch.py", encoding="utf-8").read())   # owner 31 Oct: print cards, no text on faces
 open(DST, "w", encoding="utf-8").write(s); print("wrote", DST, len(s.splitlines()), "lines")

@@ -173,3 +173,9 @@ PRODUCTION MISTAKES 22-23 OCT (and the fix that is now the rule)
     never under text: frame 1 = portrait card on the right (x≈0.79) + SHORT hook lines on the left; quotes/lists move to the left half
     ("quoteL"/"listL", 18_muslim_brotherhood/build/post_patch.py). List every KB image's size before writing shots and check frame 1
     at full size.
+54. AUDIT OLD FILES FOR LESSON 53 BEFORE THEY GO OUT (31 Oct, Gaddafi 17, unscheduled): a frame sheet found the hook text on his face,
+    3 quotes and a "KING OF KINGS" title over faces, a question band over his chin, and 9 small/upright photos zoomed to fill the frame.
+    Fix in build/facefix_shots.py (exact string swaps, fails if a shot is missing) + build/post_patch.py (file 18's patch + "quoteR").
+    Footage where the person MOVES (Obama walking in the Rose Garden): don't chase him with a side quote; cut to a dim neutral still for
+    the quote. Workflow: `python - < size audit` (every KB id's px + UPRIGHT flag), then `render_*.py qa t1 t2 ...` on every changed
+    shot, then render. A wide hook card needs a crop that keeps the face and >= 60 px gap from the hook text box.
