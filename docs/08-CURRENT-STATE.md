@@ -7,6 +7,7 @@
 | live | Roanoke | EKnsZ8kI_1Q | |
 | live | Franklin | bUkhghG5Hs0 | title A/B: old vs "The Franklin Expedition: …" |
 | live | D.B. Cooper | 1rWdT-lGkBI | |
+| **Sat 31 Oct 22:00** | **18 The Muslim Brotherhood / Banna's last hours** | (uploading) | owner "release it today"; neutral; titles without El-Sayed; thumbs I / I4 / I5 (El-Sayed cutout + fair notes) |
 | Sun 1 Nov | Flannan Isles | Rz0qyy9-7GE | title+thumb A/B (new name title + E2) |
 | Mon 2 Nov | Saddam / al-Khuld Hall | 79Wix9PwPpY | owner keeps current A/B |
 | Sun 8 Nov | Andrée balloon | vyX1mYdiWGw | pair 2 title = "Andrée's Balloon: …" |
