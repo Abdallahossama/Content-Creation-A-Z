@@ -45,7 +45,7 @@ TB = {"A1": f"HASSAN AL-BANNA  ·  {PDE}", "A2": f"HASSAN AL-BANNA, FROM AL-ZIRI
       "A29": f"KING FAROUK  ·  {PDE}", "A30": f"MAHMOUD AL-NUQRASHI, 1924  ·  AL-MUSAWWAR, {PDE}", "A32": f"IBRAHIM ABDEL HADI, 30 DEC 1948  ·  ANEFO / {NA}",
       "A35": f"GAMAL ABDEL NASSER  ·  BIBLIOTHECA ALEXANDRINA, {PDE}", "A36": f"SAYYID QUTB  ·  {PDE}", "A37": f"QUTB AT HIS TRIAL, 1966  ·  {PDE}",
       "A39": f"UMAR AL-TILMISANI  ·  {PDE}", "A42": f"ANWAR SADAT, 1981  ·  ANEFO / {NA}", "A45": "PRESIDENT MORSI AND US DEFENSE SECRETARY PANETTA, 31 JUL 2012  ·  US DOD",
-      "A46": "MOHAMED MORSI, MAY 2013  ·  WILSON DIAS / AGÊNCIA BRASIL, CC BY 3.0 BR", "A50": "ABDUL EL-SAYED AT A SENATE HEARING, JULY 2024  ·  U.S. SENATE",
+      "A46": "MOHAMED MORSI, MAY 2013  ·  WILSON DIAS / AGÊNCIA BRASIL, CC BY 3.0 BR", "A50": "ABDUL EL-SAYED AT A SENATE HEARING, JULY 2024  ·  U.S. SENATE", "A50c": "ABDUL EL-SAYED, SENATE HEARING, JULY 2024 (BACKGROUND REMOVED)  ·  U.S. SENATE",
       "A51": "MICHIGAN STATE CAPITOL, LANSING  ·  CAROL M. HIGHSMITH / LIBRARY OF CONGRESS", "A52": "THE U.S. CAPITOL AT DAWN  ·  ARCHITECT OF THE CAPITOL",
       "A53": "THE U.S. CAPITOL  ·  ARCHITECT OF THE CAPITOL", "A54": "U.S. STATE DEPARTMENT, 2024  ·  U.S. DEPARTMENT OF STATE",
       "A55": "U.S. TREASURY  ·  CAROL M. HIGHSMITH / LIBRARY OF CONGRESS", "H1": "THE MUSLIM BROTHERHOOD'S EMBLEM  ·  SHOWN AS A HISTORICAL RECORD",
@@ -69,7 +69,7 @@ rep('wt(67, "like"), wt(67, "subscrib")', 'wt(ENDL, "like"), wt(ENDL, "subscrib"
 swap("CAPFIX = {", "def capfix(i, w):", '''CAPFIX = {"Bana": "Banna", "Banner": "Banna", "Ismailiya": "Ismailia", "Nokrashi": "Nuqrashi", "Nukrashi": "Nuqrashi", "Nookrahshee": "Nuqrashi",
           "Kasr": "Qasr", "Ainy": "Aini", "Mageed": "Magid", "Majid": "Magid", "Kareem": "Karim", "Mansoor": "Mansour", "Ebeyd": "Ebeid", "Obeid": "Ebeid",
           "Kutb": "Qutb", "Qotb": "Qutb", "Nazlee": "Nazli", "Nazly": "Nazli", "Mahmudiya": "Mahmudiyya", "Mahmoudiya": "Mahmudiyya", "El-Syed": "El-Sayed",
-          "El-Said": "El-Sayed", "Elsayed": "El-Sayed", "Politifact": "PolitiFact", "piasters": "piastres", (29, "Anna"): "Banna", "5pm": "5 p.m.", (9, "Ismaili"): "Ismailia", (9, "Liya"): "", "Kutb": "Qutb", "8.30": "8:30", "8.45": "8:45", "7.45": "7:45", "5.40": "5:40"}  # whisper spellings -> the record's
+          "El-Said": "El-Sayed", "Elsayed": "El-Sayed", "Politifact": "PolitiFact", "piasters": "piastres", (29, "Anna"): "Banna", (4, "gunman"): "gunmen", "5pm": "5 p.m.", (9, "Ismaili"): "Ismailia", (9, "Liya"): "", "Kutb": "Qutb", "8.30": "8:30", "8.45": "8:45", "7.45": "7:45", "5.40": "5:40"}  # whisper spellings -> the record's
 ''')
 swap('    music("Thunder Dreams.mp3", 0.0, tl(5)', "    for i, (key, (kind, a)) in enumerate(SHOTS):", '''    music("Thunder Dreams.mp3", 0.0, tl(5), -11, later=(tl(4), -15)); music("Rising Tide.mp3", tl(5), tl(16), -17); music("Industrial Cinematic.mp3", tl(16), tl(29), -17)
     music("Man Down.mp3", tl(29), tl(38), -17); music("Thunder Dreams.mp3", tl(39), tl(49), -17); music("Rising Tide.mp3", tl(49), tl(54), -17)

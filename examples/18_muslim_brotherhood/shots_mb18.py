@@ -11,8 +11,9 @@ SHOTS = [
  ((2, "ambulance|building"), KB("A24", z=(1.04, 1.12))),
  (3, KBP("A8", h=560)),
  ((3, "week|this"), KB("A52", z=(1.04, 1.12))),
- (4, KBP("N2a", h=960, rot=1.2)),
- ((4, "michigan|candidate"), KB("A51", z=(1.04, 1.12))),
+ ((3, "candidate|abdul|sayed"), KBP("A50c", h=780, rot=-1.2)),
+ (4, KB("A21", z=(1.06, 1.16), c0=(0.55, 0.55), dim=0.3)),                   # no text over the newspaper (the under band runs here)
+ ((4, "record|claim"), KB("A51", z=(1.04, 1.12))),
  # 9 A.M. -> THE BEGINNING
  (5, TCARD("9:00 AM", "Saturday, 12 February 1949  ·  the Prime Minister's house", "A32")),
  ((5, "prime|minister"), KB("A32", z=(1.04, 1.14), c0=(0.5, 0.35))),
@@ -103,11 +104,11 @@ SHOTS = [
  ((59, "lebanon|jordan"), NMAP(V_MIDEAST, ops=[("pin", *BEIRUT, "LEBANON", 0.1), ("pin", *AMMAN, "JORDAN", 0.4), ("pin", *CAIRO, "EGYPT", 0.7)])),
  ((59, "said|fight"), KB("A54", z=(1.04, 1.12))),
  (60, KB("A51", z=(1.04, 1.12))),
- ((60, "abdul|el-sayed|sayed"), KBP("A50", h=780, rot=-1.2)),
+ ((60, "abdul|el-sayed|sayed"), KBP("A50c", h=780, rot=-1.2)),
  (61, KB("A53", z=(1.04, 1.12), dim=0.3)),
  ((61, "pointed|donations"), KB("A51", z=(1.1, 1.18), dim=0.35)),
  (62, KB("A52", z=(1.1, 1.18), dim=0.35)),
- (63, KBP("A50", h=860, rot=1.0)),
+ (63, KBP("A50c", h=860, rot=1.0)),
  (64, KB("A53", z=(1.1, 1.18), dim=0.4)),
  (65, KB("A51", z=(1.08, 1.14), dim=0.2)),
  # WHAT THE RECORD SHOWS + ASKS
@@ -130,7 +131,9 @@ OV = [
  (1, 0.0, "badge", "SAT 12 FEB 1949"),
  (2, 0.3, "under", "ILLUSTRATIVE  ·  16 PIASTRES ON THE METER"),
  (2, "owner|hassan", "nameplate", ("HASSAN AL-BANNA", "42  ·  FOUNDER OF THE MUSLIM BROTHERHOOD")),
- (4, 0.2, "under", "WHO FIRED  ·  WHOSE CAR  ·  THE NUMBER  ·  MICHIGAN"),
+ (3, "candidate|abdul|sayed", "nameplate", ("ABDUL EL-SAYED", "DEMOCRATIC NOMINEE, U.S. SENATE, MICHIGAN")),
+ (3, "says|none", "under", "HE SAYS HE HAS NO TIES TO THE GROUP"),
+ (4, 0.2, "under", "WHO FIRED  ·  WHOSE CAR  ·  THE NUMBER  ·  THE CLAIM"),
  (5, 0.0, "brand", None),                                          # the File Keeper stamp, over moving footage, voice keeps going
  (5, "prime|minister", "nameplate", ("IBRAHIM ABDEL HADI", "PRIME MINISTER SINCE 28 DEC 1948")),
  (6, 0.3, "typecenter", "GO BACK TO 1906"),
