@@ -8,13 +8,13 @@
 | live | Franklin | bUkhghG5Hs0 | title A/B: old vs "The Franklin Expedition: …" |
 | live | D.B. Cooper | 1rWdT-lGkBI | end screen 31 Oct: playlist box → Alcatraz video (end-screen CTR was 0 % vs Franklin 4 %); now Subscribe + Franklin + Alcatraz |
 | **Sat 31 Oct 22:00** | **18 The Muslim Brotherhood / Banna's last hours** | (uploading) | owner "release it today"; neutral; titles without El-Sayed; thumbs I / I4 / I5 (El-Sayed cutout + fair notes) |
-| **Sun 1 Nov** | Saddam / al-Khuld Hall | 79Wix9PwPpY | MOVED from Mon 2 Nov (owner 31 Oct: 2 a week; today MB, tomorrow Saddam); owner keeps current A/B |
+| **Sun 1 Nov** | Saddam / al-Khuld Hall | 79Wix9PwPpY | MOVED from Mon 2 Nov (owner 31 Oct: 2 a week; today MB, tomorrow Saddam); owner keeps current A/B; Studio date changed 31 Oct ✅ |
 | Sun 8 Nov | Andrée balloon | vyX1mYdiWGw | pair 2 title = "Andrée's Balloon: …" |
 | Mon 9 Nov | Gaddafi / Benghazi stadium | kJYD15hkP48 | |
 | Sun 15 Nov | Flight 19 | r0wpGQzHVJ8 | |
 | Mon 16 Nov | USS Cyclops | eyc6dLMqf-U | |
 | Sun 22 Nov | EgyptAir 990 | AIbcwBZsxdY | title A/B (old vs "EgyptAir 990: …") |
-| **Mon 23 Nov** | Flannan Isles | Rz0qyy9-7GE | MOVED from Sun 1 Nov (owner 31 Oct); title+thumb A/B (new name title + E2); its end card still says "next: Saddam" (already out by then: fine) |
+| **Mon 23 Nov** | Flannan Isles | Rz0qyy9-7GE | MOVED from Sun 1 Nov (owner 31 Oct; Studio date changed 31 Oct ✅); title+thumb A/B (new name title + E2); its end card still says "next: Saddam" (already out by then: fine) |
 | Sun 29 Nov | **Göring's last night** (file 13) | XJYc9KLbzJ0 | scheduled 29 Oct; title+thumb A/B (mix: 1 B&W + 2 colour); English captions saved as draft, publish after processing |
 | Mon 30 Nov | **Battle of Alcatraz 1946** (file 14) | MiC9JTGkWq8 | File Keeper render; title+thumb A/B (A_KEY_107 B&W + 2 colour); teasers SCHEDULED 19:00: T1 KpQ1WWaIXLg Tue 1 Dec, T2 sjP79gckYY4 Thu 3 Dec, T3 KunZPPLxYlU Sat 5 Dec (Related video → MiC9JTGkWq8 after 30 Nov 22:00) |
 
@@ -47,8 +47,8 @@ Lr0iaGmD4kE (1 Nov) end on their own long files (old copies Private).
 ## Open tasks
 - THUMBNAIL PLAN (owner, 30 Oct): a dedicated plan later; click-through (2.6-2.8 %) is the bottleneck, retention is fine.
 - FILE KEEPER RE-BRAND (30 Oct): 8 scheduled long files patched (_cta/brand_patch.py) and re-uploaded on the same dates; Alcatraz 1946 branded in its render.
-- Related-video links (picker lists PUBLIC videos only; NxwUdovTFrw → 1rWdT-lGkBI done 30 Oct): Lr0iaGmD4kE → HxsSMAoVHfs after 1 Nov 22:00;
-  Saddam teasers → PTaKzDEHdaY after 2 Nov; Gaddafi → _A_Ae9ddTSI after 9 Nov; Andrée → D6AbVT_ODoM after 8 Nov; Flight 19 → Sd9q1pKG4LM after 15 Nov.
+- Related-video links (picker lists PUBLIC videos only; NxwUdovTFrw → 1rWdT-lGkBI done 30 Oct): Lr0iaGmD4kE (Flannan Short, still Sun 1 Nov) → Rz0qyy9-7GE after 23 Nov 22:00;
+  Saddam teasers → 79Wix9PwPpY after 1 Nov 22:00; Gaddafi → _A_Ae9ddTSI after 9 Nov; Andrée → D6AbVT_ODoM after 8 Nov; Flight 19 → Sd9q1pKG4LM after 15 Nov.
 - Pin + heart each new video's comment on its day (texts in `docs/the-last-hours/PINNED_COMMENTS.txt` and each teaser sheet).
 - Göring (-5GSUfE4PEY): English captions published 30 Oct; pin + heart on 29 Nov.
   3 teaser Shorts SCHEDULED 30 Oct (19:00 Cairo): T1 xoFhkNH8cN0 Mon 30 Nov, T2 Pi5wwPxSBS4 Wed 2 Dec, T3 -430uUw_W7s Fri 4 Dec.
