@@ -7,7 +7,7 @@
 | live | Roanoke | EKnsZ8kI_1Q | |
 | live | Franklin | bUkhghG5Hs0 | title A/B: old vs "The Franklin Expedition: …" |
 | live | D.B. Cooper | 1rWdT-lGkBI | end screen 31 Oct: playlist box → Alcatraz video (end-screen CTR was 0 % vs Franklin 4 %); now Subscribe + Franklin + Alcatraz |
-| **Sat 31 Oct 22:00** | **18 The Muslim Brotherhood / Banna's last hours** | 1CzBdYMw9T8 | SCHEDULED 31 Oct ~19:20; title+thumb A/B (I / I4 / I5, titles without El-Sayed); new playlist "Files: People" (created 31 Oct); end screen Cooper + Subscribe + Alcatraz (imported from Cooper); English captions = DRAFT (publish failed while uploading: publish after processing); pin + heart at 22:00 |
+| **Sat 31 Oct 22:00** | **18 The Muslim Brotherhood / Banna's last hours** | 1CzBdYMw9T8 | SCHEDULED 31 Oct ~19:20; title+thumb A/B (I / I4 / I5, titles without El-Sayed); new playlist "Files: People" (created 31 Oct); end screen Cooper + Subscribe + Alcatraz (imported from Cooper); English captions PUBLISHED (after processing; publishing during upload fails, save as draft first); pin + heart at 22:00 |
 | **Sun 1 Nov** | Saddam / al-Khuld Hall | 79Wix9PwPpY | MOVED from Mon 2 Nov (owner 31 Oct: 2 a week; today MB, tomorrow Saddam); owner keeps current A/B; Studio date changed 31 Oct ✅ |
 | Sun 8 Nov | Andrée balloon | vyX1mYdiWGw | pair 2 title = "Andrée's Balloon: …" |
 | Mon 9 Nov | Gaddafi / Benghazi stadium | kJYD15hkP48 | |
