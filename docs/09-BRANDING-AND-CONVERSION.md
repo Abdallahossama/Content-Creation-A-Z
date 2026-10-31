@@ -48,7 +48,7 @@ The owner liked the noir (backlit, venetian-blind) rendering and asked for varia
 | File (`_newchannel/brand/file_keeper/`) | Use |
 |---|---|
 | `mark_noir_badge.png` | the 1.5 s in-video stamp (was the channel avatar until 31 Oct, see below) |
-| `channel/avatar_v2_P_800.png` | **channel avatar since 31 Oct**: same figure on an AMBER wall with the venetian-blind light streaks, collar LOWERED (`avatar_contrast.py P` = G + COLL_LOW) |
+| `channel/avatar_v2_R_800.png` | **channel avatar since 31 Oct**: same figure on an AMBER wall with the venetian-blind light streaks, collar LOWER and NARROWER (`avatar_contrast.py R` = G + COLL_NARROW) |
 | `mark_noir_seal.png` | the "CASE CLOSED" end card (rim text THE FILE KEEPER · THE LAST HOURS) |
 | `mark_noir_folder.png` | the ~75 % subscribe pill (thumbnail corner: ON HOLD, see below) |
 | `mark_v1_badge.png` (flat) | ONLY the Studio watermark (`channel/watermark_150.png`): noir is too dark at 48 px |
@@ -131,3 +131,5 @@ Then the owner spotted the wall showing in two wedges where the lowered collar m
 so its corner at (292, 610) was cut away under the collar's sharp corner. Fix: collar outer corner -> (272, 628) and inner bottom ->
 (466, 664), both inside the coat. RULE: when a collar/lapel point moves, keep its bottom corners INSIDE the smoothed coat and zoom-check
 the joins at 2x before publishing. P re-published with the fix (31 Oct).
+Last pass (owner: "nice but make it thinner in width, to the centre"): R = COLL_NARROW [(330, 632), (392, 478), (450, 502), (490, 548),
+(466, 664)], outer corner still inside the coat, joins zoom-checked. **R is the live avatar.**
