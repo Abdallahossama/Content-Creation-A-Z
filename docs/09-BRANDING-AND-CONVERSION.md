@@ -47,7 +47,8 @@ Sign-off template (end of narration):
 The owner liked the noir (backlit, venetian-blind) rendering and asked for variants of it. Adopted:
 | File (`_newchannel/brand/file_keeper/`) | Use |
 |---|---|
-| `mark_noir_badge.png` | channel avatar (`channel/avatar_800.png`) and the 1.5 s in-video stamp |
+| `mark_noir_badge.png` | the 1.5 s in-video stamp (was the channel avatar until 31 Oct, see below) |
+| `channel/avatar_v2_G_800.png` | **channel avatar since 31 Oct**: same figure on an AMBER wall with the venetian-blind light streaks (`avatar_contrast.py G`) |
 | `mark_noir_seal.png` | the "CASE CLOSED" end card (rim text THE FILE KEEPER · THE LAST HOURS) |
 | `mark_noir_folder.png` | the ~75 % subscribe pill (thumbnail corner: ON HOLD, see below) |
 | `mark_v1_badge.png` (flat) | ONLY the Studio watermark (`channel/watermark_150.png`): noir is too dark at 48 px |
@@ -115,3 +116,12 @@ branded `vo_lines.txt` without `##`. Chapters after the ask move by the ask's le
 ## Measuring
 - Per file: subs per 1,000 views, likes per 100 views, end-screen click rate, and the retention dip (if any) at the like line.
 - The like-vote line goes channel-wide only if the Alcatraz 1946 curve shows no extra drop there.
+
+## Avatar v2 (31 Oct): contrast fix
+Owner: "on mobile with low brightness the logo doesn't appear, it is all black in black". The noir avatar (dark man on a dark wall)
+vanished on a dimmed phone. `brand/file_keeper/avatar_contrast.py` keeps the approved figure (`draw_mark_real.render(bg_on=False)`)
+and puts it on a BRIGHT wall; `_sheet_avatar_v2_*.png` previews every option at 88/48/32 px on YouTube dark + light mode and on a
+simulated low-brightness phone. Options: A amber, B bone, C yellow, D red, E/F red + blind light, G/H/I amber/bone/yellow + blind
+light, J/K/L amber with the light lower, M/N/O lighter/lower collar. Owner asked me to choose among G/H/I/E/F -> **G** (amber +
+the old avatar's light streaks): closest to the noir brand, readable at low brightness. Published 31 Oct (owner "go ahead").
+RULE: any brand mark must pass the low-brightness row of the sheet before it goes live.
