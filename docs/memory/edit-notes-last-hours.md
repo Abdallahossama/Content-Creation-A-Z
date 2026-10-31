@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: eff32ef8-e3b2-4b1b-abb9-4566220676dd
-  modified: 2026-10-19T14:18:14.304Z
+  modified: 2026-10-31T16:10:03.530Z
 ---
 
 User watched Alcatraz v1 and said "the rest of the video is insane wow", but:
@@ -47,3 +47,9 @@ mention of Saddam Hussein or any known figure", and "why there is no captions". 
 - No photo/clip more than twice; documents may repeat (different lines). Count repeats before rendering.
 - Thumbnails must show the famous person (user rejected a microphone-only thumbnail; a document-only one too).
 - User asked why the real 1979 film wasn't used: explained copyright/Content ID/reused-content risk; user moved on to other fixes (no explicit yes).
+
+31 Oct 2026 (Muslim Brotherhood, frame 1): user: "you zoom in a really bad way ... the text is covering the main person's face". He says it
+happened "a lot of times". RULES:
+- Never fill the frame (KB) with a SMALL (< ~1400 px wide) or UPRIGHT photo. Show it as a print card (KBP) at its true proportions.
+- A face is never under text. The hook text sits beside the card (card x≈0.79, short hook lines), and quotes/lists move left ("quoteL"/"listL").
+- Check frame 1 at full size before rendering. Build: 18_muslim_brotherhood/build/post_patch.py.

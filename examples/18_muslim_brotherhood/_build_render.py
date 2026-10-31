@@ -98,4 +98,6 @@ swap("CH = [", 'if __name__ == "__main__":', '''CH = [(0, "8:30 PM, Cairo"), (5,
 
 ''')
 rep("NEXT = os.environ.get(\"LH_NEXT\", \"\")", "NEXT = os.environ.get(\"LH_NEXT\", \"\")\nENDL = 70                                                # the File Keeper sign-off line (the end card runs under it)")
+
+exec(open("D:/why habibi/_newchannel/18_muslim_brotherhood/build/post_patch.py", encoding="utf-8").read())   # owner, 31 Oct: print cards off-centre, quotes/lists left
 open(DST, "w", encoding="utf-8").write(s); print("wrote", DST, len(s.splitlines()), "lines")

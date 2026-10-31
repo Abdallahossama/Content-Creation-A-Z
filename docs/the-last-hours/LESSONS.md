@@ -168,3 +168,8 @@ PRODUCTION MISTAKES 22-23 OCT (and the fix that is now the rule)
     rim light from the dilated alpha, shadow offset left; only text may cover the person.
 52. A REAL CANDIDATE ON A THUMBNAIL (owner supports him): never blend his face with the subject, never tie him with a string, never put a
     "who did it?" headline beside his face; every version carries a fair note big enough to read at 280 px wide.
+53. NO BAD ZOOMS, NO TEXT ON FACES (owner, 31 Oct, "a lot of times"): KB (fill the frame) on a small (< ~1400 px) or upright photo
+    blows a 300-800 px portrait up 3-8x and crops the face; show it as a print card (KBP) at its true proportions instead. A face is
+    never under text: frame 1 = portrait card on the right (x≈0.79) + SHORT hook lines on the left; quotes/lists move to the left half
+    ("quoteL"/"listL", 18_muslim_brotherhood/build/post_patch.py). List every KB image's size before writing shots and check frame 1
+    at full size.
