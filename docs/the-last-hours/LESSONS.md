@@ -147,3 +147,14 @@ PRODUCTION MISTAKES 22-23 OCT (and the fix that is now the rule)
     chain script (_tools/chain_vo*.sh) and check free memory (Win32_OperatingSystem) before starting.
 44. Whisper writes digits ("1,195", "900"): word keys must use the digit form too ("1195|eleven"), or the shot falls back to the line start.
 
+45. RENDER IN PARTS, ONE AT A TIME (31 Oct): parallel "all n" renders ran out of memory and wrote short parts. _tools/render_seq.sh
+    renders part i alone, checks its length with ffprobe, retries up to 3 times, then runs audio + final. Indianapolis (8 parts) and Cole & Roe
+    (5) finished clean this way.
+46. A FILE NAME IS NOT THE PICTURE (31 Oct, Gaddafi): the VOA Bani Walid set (A17-A22) held different frames than assets.md described
+    (the "shell casings" file was a fighter's face). It nearly put a young fighter's face under "he was beaten and abused". Check every
+    still on the contact sheet (_tools/stills_sheet.py) and tag it by what is SEEN, never by the download note.
+47. QA THE WHOLE CUT BEFORE THE RENDER: `render qa` (one mid-frame per shot) caught a 0.45-degree Natural Earth map that showed nothing
+    (too coarse below ~2 degrees: use a gulf-scale map or a COUNTER), a burned-in title in an EC clip (V10a), dark smoke clips that would
+    read as black, a counter whose number fell into the next shot, and the end card followed by a stray shot. LIFT is a gamma: below 1 lifts.
+48. THUMBNAIL GLOW (31 Oct): blur a glow on a PADDED canvas, or its box edge shows as a square (owner spotted it on "ONE AFRICA").
+    Faces in a bubble stay in natural colour over a toned background (owner: contrast).
