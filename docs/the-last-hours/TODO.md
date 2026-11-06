@@ -24,7 +24,7 @@ Who: [C] = Claude, [U] = owner.
 - [ ] [U] New amber logo on the watermark + new videos' stamp/end card (yes/no)
 - [x] [C] Cole & Roe teasers T2 x23BFO50yLY (Tue 8 Dec), T3 SI5hP4pC7C4 (Thu 10 Dec), T4 6AU17rfV-04 (Sat 12 Dec) [first T3 qfaB2g_ZGS0 / T4 GgRZKPIiGaU were pre-fix cuts -> PRIVATE, owner may delete], 19:00 Cairo, uploaded 6 Nov; after 7 Dec 22:00 set Related video = qxCLouHiLjE + pin/heart
 - [x] [C] Re-cut 6 Nov 15:05-15:34 (Chatterbox venv python: uv managed Pythons on C: broken by the cleanup) + uploaded: Indianapolis T2 3uDYFTYLZbw Mon 7 Dec, T1 3AcWe5o06ls Wed 9, T3 651VcEizRvM Fri 11, T4 Cbl_VEaMIKU Sun 13; Cole & Roe T1 -0Md-VcmQMQ Mon 14 Dec (all 19:00). After each long is public: Related video + pin/heart
-- [ ] [C] Repair uv managed Pythons on C: (uv python install 3.12 3.11 --reinstall); until then run renders with E:/AskHabibiAI/venv-chatterbox/Scripts/python.exe
+- [x] [C] uv repaired 6 Nov: uv python install 3.12 3.11 --reinstall + removed the half-deleted cache env (pillow/numpy/soundfile set) in AppDataocalpackagesclaude_*ocalcacheocalVcherchive-v0; other 4 envs checked ok. if uv says "no module named x" after a disk cleanup: uv run -v ... shows the archive-v0 env; delete that one folder
 
 ## On each release day (pin + heart, related links on teasers)
 - [ ] Sun 8 Nov Andrée (vyX1mYdiWGw) -> Andrée teasers ZLRPhFg8QeE / ggvMZQ6IbYA / yRYYIEbM14o (9-11 Nov)
