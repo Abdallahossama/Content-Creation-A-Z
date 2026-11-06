@@ -56,3 +56,13 @@ Lr0iaGmD4kE (1 Nov) end on their own long files (old copies Private).
 - Shorts gap: nothing scheduled 23-29 Nov.
 - Check Franklin/Cooper impressions after the title tests; ideas kept: Battle of Alcatraz 1946, Cole & Roe 1937, Oswald's last 48 hours.
 - 31 Oct 22:03: File 18 Muslim Brotherhood (1CzBdYMw9T8) PUBLIC; prepared comment posted as @TheLastHoursDocs, pinned + hearted.
+
+## December 2026 slate (owner 6 Nov: "ok swap escobar for washington, go ahead")
+| Slot (22:00 Cairo) | File | Folder | State |
+|---|---|---|---|
+| Mon 14 Dec | 19 Glenn Miller vanishes, 15 Dec 1944 | 19_glenn_miller | research agent running (research.md + assets.md) |
+| Sun 20 Dec | 20 Ceausescu's last days, 21-25 Dec 1989 | 20_ceausescu_last_days | research agent running |
+| Mon 21 Dec | 21 Pan Am 103 / Lockerbie, 21 Dec 1988 | 21_pan_am_103 | research agent running; accused's US trial Jan 2027: "accused/alleged" only |
+| Sun 27 Dec | 22 Washington crosses the Delaware -> Trenton, 25-26 Dec 1776 (250th) | 22_washington_trenton | research agent running (replaces Escobar) |
+| Mon 28 Dec | 23 Rasputin's last night, 29-30 Dec 1916 | 23_rasputin_last_night | research agent running |
+Next: owner OKs the download lists -> scripts -> voice -> renders -> thumbnails (owner) -> uploads. Research summary: docs/the-last-hours/research/DECEMBER_2026_TOPICS.md
