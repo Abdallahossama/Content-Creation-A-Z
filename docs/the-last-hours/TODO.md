@@ -57,3 +57,7 @@ Who: [C] = Claude, [U] = owner.
 - Filled from the video edit page in Claude's own tab (the owner's upload tab could not be added to the group); scheduled via "Edit draft" > Visibility (time = pick 22:00 from the list; typing it does not stick).
 - Both use the COLOR thumbnail for every A/B slot (owner "ok all"). Indianapolis end screen video 2 = Cole & Roe (private until 7 Dec, so YouTube shows a stand-in on day 1).
 - Still to do: publish both caption drafts after processing; pin + heart comments when public; teasers.
+
+## OWNER DECISION 6 Nov: no new videos for now
+- Production paused: only upload/finish what is already rendered. December slate research + file 19+ on hold.
+- Last scheduled long file: Gaddafi 17 (Sun 13 Dec). Remaining work = teaser Shorts, caption publishing, pin + heart, related links, title/thumbnail retests.
