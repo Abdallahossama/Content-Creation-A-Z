@@ -1,31 +1,39 @@
-# The Last Hours: to-do (6 Nov 2026)
-Who: [C] = Claude, [U] = owner. Tick and commit as things get done.
+# The Last Hours: to-do (6 Nov 2026, updated as work lands)
+Who: [C] = Claude, [U] = owner.
 
-## Now (this week)
-- [ ] [C] Saddam teaser Shorts (8, 12, 13 Nov): set "Related video" -> 79Wix9PwPpY (Saddam is public since 1 Nov)
-- [ ] [C] Muslim Brotherhood 1CzBdYMw9T8: reply under the pinned comment with the 3 Nov result (factual, one line), pin stays
-- [ ] [C] Roanoke EKnsZ8kI_1Q: 3 new thumbnails + titles (CTR 1.6% on 2.7K impressions) -> [U] pick -> new A/B test
-- [ ] [C] Cooper Shorts ($5,800 5.5% viewed): retitle / re-cut the first second
-- [ ] [U] Decide: new amber logo on the Studio watermark + the in-video stamp/end card of NEW files (yes/no)
+## Done 6 Nov
+- [x] [C] Pinned + hearted prepared comments (as @TheLastHoursDocs, NOT the personal channel) on 7 Shorts that had none:
+      Wow! bZMsdY47hiA, Cooper TI5keUWWPLA / K5lwZvWg8KI / oV6mECliTyA / NxwUdovTFrw, Kentucky meat IV8GHyD7B8U, Centralia AQJHXSes2JY
+- [x] [C] Saddam 79Wix9PwPpY: prepared comment posted, pinned, hearted (it had none since 1 Nov)
+- [x] [C] Roanoke: 3 new thumbnails + titles (thumbs_roanoke_v3.py, all titles say "Lost Colony") -> waiting for [U] pick
+- [x] [C] Teaser tool: side-card shots (LESSONS 53 layout) now show the whole frame in 9:16 (quotes were cut)
+- [x] [C] Gaddafi 17 teasers configured (4) + spoken end line added; render chained after Cole & Roe
+- [x] [C] Gaddafi 17 captions: published (no drafts left)
+- [x] [C] Diagnosis: old Cooper Shorts open on a near-black frame (typing hook) -> instant swipe; new teaser engine shows the hook on frame 1 (OK)
 
-## On each release day (pin + heart the prepared comment, related links on teasers)
-- [ ] Sun 8 Nov Andrée (vyX1mYdiWGw) -> Andrée teasers related -> vyX1mYdiWGw (the NEW File Keeper id; old notes say D6AbVT_ODoM = old copy, don't use)
-- [ ] Mon 9 Nov Gaddafi Benghazi (kJYD15hkP48) -> its teasers related
-- [ ] Sun 15 Nov Flight 19 (r0wpGQzHVJ8) -> teasers related
-- [ ] Mon 16 Nov Cyclops (eyc6dLMqf-U) -> gap Shorts 24/26/28/29 Nov related
-- [ ] Sun 22 Nov EgyptAir (AIbcwBZsxdY) -> gap Shorts 23/25/27 Nov related
-- [ ] Mon 23 Nov Flannan (Rz0qyy9-7GE) -> Flannan Short Lr0iaGmD4kE (24 Nov 23:00) related
-- [ ] Sun 29 Nov Göring (XJYc9KLbzJ0) -> Göring teasers related
-- [ ] Mon 30 Nov Alcatraz 1946 (MiC9JTGkWq8) -> 3 teasers (1/3/5 Dec) related
-- [ ] Sun 6 Dec USS Indianapolis · Mon 7 Dec Cole & Roe · Sun 13 Dec Gaddafi 17 (9kB8VIKkhJQ)
+## Blocked
+- [ ] Related-video links on teaser Shorts (Saddam 8/12/13 Nov -> 79Wix9PwPpY; Franklin 20/21/22 Nov -> bUkhghG5Hs0): Studio's picker
+      finds NO videos (glitch, also 29 Oct). [U] try the YouTube Studio phone app, or [C] retry later.
 
-## Production (to fill December, 2 a week)
-- [ ] [U] OK the 5 topics: Glenn Miller (Mon 14 Dec), Ceaușescu (Sun 20), Lockerbie Pan Am 103 (Mon 21), Escobar (Sun 27), Rasputin (Mon 28)
-- [ ] [C] Per file: research + copyright-safe assets -> [U] OK downloads -> script -> voice -> render -> thumbnails -> [U] approve -> upload
-- [ ] [C] NEW RULE for every file: first 60 s faster (Saddam lost half in minute 1); famous name + date in the first sentence
-- [ ] [C] Teasers still owed: Cole & Roe T3-T4 + lt10 copies; Gaddafi 17 (4 planned); Indianapolis (check uploaded/scheduled)
+## Waiting for the owner
+- [ ] [U] Pick the Roanoke A/B set (R1 Raleigh / R2 The only clue / R3 Never found)
+- [ ] [U] OK the Muslim Brotherhood reply (election result, factual, verified AP/NPR/PBS)
+- [ ] [U] Drag in USS Indianapolis (Sun 6 Dec) + Cole & Roe (Mon 7 Dec): files in _upload_queue_last_hours/DECEMBER_6_7, NOT in Studio yet; approve their thumbnails
+- [ ] [U] OK the December topics (research report pending) -> then downloads
+- [ ] [U] New amber logo on the watermark + new videos' stamp/end card (yes/no)
+- [ ] [U] Upload the teaser Shorts (Cole & Roe T2-T4, Gaddafi 17 T1-T4; <10 MB copies in teasers/lt10/ can be uploaded by [C] once approved)
+
+## On each release day (pin + heart, related links on teasers)
+- [ ] Sun 8 Nov Andrée (vyX1mYdiWGw) -> Andrée teasers ZLRPhFg8QeE / ggvMZQ6IbYA / yRYYIEbM14o (9-11 Nov)
+- [ ] Mon 9 Nov Gaddafi Benghazi (kJYD15hkP48) -> teasers oWsr5O01BCg / SA_3JF93tXo / poEGzUzC5OY (14, 15, 19 Nov)
+- [ ] Sun 15 Nov Flight 19 (r0wpGQzHVJ8) -> teasers KoaikuDbvNg / YLxJmb0tzkY / GeaoMFpU3mc (16-18 Nov)
+- [ ] Mon 16 Nov Cyclops (eyc6dLMqf-U) -> ccw9IAFC6fI (24), rglfPKhCUpM (26), L0YS7Y3U2Gg (28), vC0fLGBtvxU (29)
+- [ ] Sun 22 Nov EgyptAir (AIbcwBZsxdY) -> AdZ95n42xwI (23), _w492FOuMUU (25), rTYz0T8oPtk (27)
+- [ ] Mon 23 Nov Flannan (Rz0qyy9-7GE) -> Lr0iaGmD4kE (24 Nov 23:00)
+- [ ] Sun 29 Nov Göring (XJYc9KLbzJ0) -> xoFhkNH8cN0 (30), Pi5wwPxSBS4 (2 Dec), -430uUw_W7s (4 Dec)
+- [ ] Mon 30 Nov Alcatraz 1946 (MiC9JTGkWq8) -> KpQ1WWaIXLg (1 Dec), sjP79gckYY4 (3 Dec), KunZPPLxYlU (5 Dec)
+- [ ] Sun 13 Dec Gaddafi 17 (9kB8VIKkhJQ)
 
 ## Ongoing
-- [ ] [C] Thumbnail/CTR plan: review the thumbnails of every scheduled video before it airs (CTR 2.5% is the bottleneck)
-- [ ] [C] Weekly analytics check (next: Fri 13 Nov): Saddam + MB A/B results, subs from the mid-video ask
-- [ ] [C] Shorts rule: a concrete, strange moment in second 1 (Alcatraz Shorts 80-102% viewed)
+- [ ] [C] Weekly analytics (next Fri 13 Nov): Saddam + MB A/B results, subs after the mid-video ask
+- [ ] [C] Every new file: faster first 60 s; famous name + date in sentence 1; Shorts open on a concrete moment in second 1
