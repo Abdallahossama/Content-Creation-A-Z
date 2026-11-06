@@ -22,8 +22,8 @@ Who: [C] = Claude, [U] = owner.
 - [ ] [C] Publish both caption drafts once processing is done (Languages > English > Publish)
 - [ ] [U] OK the December topics (research report pending) -> then downloads
 - [ ] [U] New amber logo on the watermark + new videos' stamp/end card (yes/no)
-- [x] [C] Cole & Roe teasers T2 x23BFO50yLY (Tue 8 Dec), T3 qfaB2g_ZGS0 (Thu 10 Dec), T4 GgRZKPIiGaU (Sat 12 Dec), 19:00 Cairo, uploaded 6 Nov; after 7 Dec 22:00 set Related video = qxCLouHiLjE + pin/heart
-- [ ] [C] Re-cut before upload (old faults, LESSONS 55): Cole & Roe T1_the_count + Indianapolis T1-T4 (cut 31 Oct from the pre-fix render). Gaddafi 17 T1-T4 not rendered (C: full)
+- [x] [C] Cole & Roe teasers T2 x23BFO50yLY (Tue 8 Dec), T3 SI5hP4pC7C4 (Thu 10 Dec), T4 6AU17rfV-04 (Sat 12 Dec) [first T3 qfaB2g_ZGS0 / T4 GgRZKPIiGaU were pre-fix cuts -> PRIVATE, owner may delete], 19:00 Cairo, uploaded 6 Nov; after 7 Dec 22:00 set Related video = qxCLouHiLjE + pin/heart
+- [ ] [C] Re-cut before upload (old faults, LESSONS 55): Cole & Roe T1_the_count + Indianapolis T1-T4. 6 Nov re-cut ran OUT OF MEMORY (C: 0.4 GB free, page file cannot grow) -> [U] free C:, then bash _tools/chain_teasers_recut_6nov.sh (drop the coleroe T2-T4 jobs). Old copies kept in teasers/old_prefix/
 
 ## On each release day (pin + heart, related links on teasers)
 - [ ] Sun 8 Nov Andrée (vyX1mYdiWGw) -> Andrée teasers ZLRPhFg8QeE / ggvMZQ6IbYA / yRYYIEbM14o (9-11 Nov)

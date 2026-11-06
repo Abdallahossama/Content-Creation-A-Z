@@ -185,3 +185,8 @@ PRODUCTION MISTAKES 22-23 OCT (and the fix that is now the rule)
     Fix pattern = build/facefix_shots.py per file + the shared 17_gaddafi_last_day/build/post_patch.py (KBP x, quoteL/R, listL/R).
     When the FACE is on the left of a group photo (McVay): crop him to a card on the LEFT (KBP crop + x=0.27) and put his words RIGHT.
     Long quotes in a half: 3-4 short lines (44 px), never one 55-character line.
+
+56. A TEASER IS ONLY AS FIXED AS ITS RENDER TIME (6 Nov): Cole & Roe T3/T4 were rendered at 09:19/09:24, the face fix landed in
+    shots_coleroe.py at 09:29, so the "re-cut" teasers still had the fault and were scheduled (then replaced, old ones set Private).
+    Before uploading any teaser: compare its file time with the last change to shots_*.py / render_*.py, and look at a 1-frame-per-3-s
+    strip (ffmpeg fps=1/3,tile) for text on faces. Renders on a full C: drive die with MemoryError and leave SHORT files: check durations.
