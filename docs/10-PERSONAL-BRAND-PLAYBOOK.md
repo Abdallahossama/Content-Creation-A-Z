@@ -84,7 +84,7 @@ Reference look: @AbdaalWebdeveloper Short "ازاي عملت موبايل ابل
 - **Atmaal (أتمال)**: on-prem bilingual survey platform: AI writes the survey from a prompt or a PDF/Word, refines and
   auto-translates it, 12 question types with logic and piping, omnichannel distribution (link, QR, email, SMS, social,
   live agent) with per-channel attribution, real-time analytics, cross-tab, "ask your results", themes, 4-role RBAC.
-- **AI Assistant (مساعد ذكي, name not decided: ask before naming)**: pick specific knowledge (categories) and turn it into an
+- **Jawwab · جوّاب** (named 6 Nov; hook «جوّاب بيجاوب عملاءك من مستنداتك بس»): pick specific knowledge (categories) and turn it into an
   AI chatbot; one-line embed on any website, allowed domains, colours, welcome + starter questions, answers with source
   chips, "missed questions" gap analytics. A module of Razqora, shown as its own product.
 
@@ -92,4 +92,4 @@ Reference look: @AbdaalWebdeveloper Short "ازاي عملت موبايل ابل
 
 **Never claim** for any product: customer counts, accuracy or speed percentages, awards, certifications (ISO/SOC2),
 uptime SLAs, named third-party integrations, "the AI is always right", prices. Demo numbers only, labelled «بيانات تجريبية».
-Product content ideas live in the Notion Content Pipeline (titles starting "Razqora:" / "Atmaal:").
+Product content ideas live in the Notion Content Pipeline (titles starting "Razqora:" / "Atmaal:" / "Jawwab:").
