@@ -43,3 +43,10 @@ Who: [C] = Claude, [U] = owner.
 - [x] December research done: 19-23 research.md + assets.md (Miller 68 items/129 MB, Ceausescu 60/341 MB, Pan Am 60/194 MB, Washington 60/418 MB, Rasputin 53/145 MB)
 - [ ] BLOCKED: Gaddafi 17 teaser outro voice -> Chatterbox "paging file too small": C: drive is FULL (0 MB). [U] free space on C: (and close Brave), then rerun _tools/chain_teasers_gaddafi17.sh
 - [ ] [U] delete temp folders left by the research agents: D:\_claude_tmp_19_glenn_miller, E:\_claude_tmp_rasputin, D:\_claude_tmp_checks
+
+## HANDOFF -> next session (6 Nov, ~11:45)
+- The owner is UPLOADING USS Indianapolis now (Chrome, Studio upload dialog). Next session: fill it from
+  15_uss_indianapolis/export/UPLOAD_COPY_PASTE.txt (titles + 3 COLOR thumbnails A/B, description, tags, Files playlist, captions draft,
+  end screen) and schedule **Sun 6 Dec 22:00**. Then Cole & Roe (16_cole_roe_1937, **Mon 7 Dec 22:00**).
+- Thumbnails: the owner reviewed both sheets; C_NEVER_FOUND fixed twice (mugshot zoomed out, full head in the circle). Confirm "ok all" first.
+- DON'T navigate the tab that holds the upload.
