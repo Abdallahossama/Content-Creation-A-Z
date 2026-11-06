@@ -8,7 +8,7 @@ metadata:
   modified: 2026-10-25T15:22:34.354Z
 ---
 
-Razqora (رازقورا) = the user's own SaaS knowledge-base product (repo F:\WEB DEV\kbs local try\Old-kquires-deployment-v2, live demo kbs.nxtaut.com).
+Razqora (رازقورا) = the user's own SaaS knowledge-base product (repo F:\WEB DEV\kbs local try\Old-kquires-deployment-v2; the demo host domain is never shown or named).
 On 21 Oct 2026 the user asked for its promo video from docs\RAZQORA_VIDEO_BRIEF.md; a background subagent builds it into
 F:\WEB DEV\kbs local try\razqora_video\ (16:9 + 9:16 MP4, WebM, silent hero loop; no-music main version; cloned voice as draft).
 
@@ -29,7 +29,7 @@ PRODUCT_PROFILE_EN/AR, 56 screenshots EN+AR). English first; Arabic only when as
 (3:11, 7 chapters Find/Answer/Guide/Trust/Improve/Beyond your team/Fit; README there). Pipeline: script_en.txt -> vo/vo_chatterbox.py
 -> vo/transcribe_lines.py (words_en.json) -> vo/fix_lines.py gen/pick ("13:2" forces a take) -> build/make_tl.py -> render_v3.js
 -> make_audio_v3.py -> mux with h264_metadata BT.709 tags. Gotchas: measure highlight boxes on a gridded crop of the ORIGINAL
-screenshot (pill row y .242-.282, not guessed); blur the demo host kbs.nxtaut.com + token in 52; Whisper pick can prefer a take that
+screenshot (pill row y .242-.282, not guessed); blur the demo host + token in 52; Whisper pick can prefer a take that
 drops "A I" (check by ear/text). Open: razqora.com on end card (site not live).
 Owner music feedback 25 Oct: "Rising Tide" (106 BPM driving) = too frantic, "not for app"; "Dream Culture" (70 BPM piano) = too
 sleepy ("I will go to sleep"). Target = the middle: bright, upbeat app-launch energy, not driving. Downloaded (approved) to

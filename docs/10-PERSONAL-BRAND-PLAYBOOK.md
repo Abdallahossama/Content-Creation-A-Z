@@ -10,7 +10,7 @@ link the two). Scripting skill: `skills/brand-funnel-shorts/`. Edit tools: `tool
 |---|---|
 | Name on screen | عبدالله أسامة (Abdullah Osama) |
 | Handle | @codebyabdullah everywhere (YouTube + GitHub already his); backup @abdullahosama.dev |
-| Site | https://codebyabdullah.com (5 yrs, 8 live projects: Cetus Design, CoachMind, Next Automation, Qsah, Hayyiz, Athar, Layan, Rakeeza) |
+| Site | https://codebyabdullah.com (5 yrs, 8 live projects: Cetus Design, CoachMind, Qsah, Hayyiz, Athar, Layan, Rakeeza) |
 | Clients | Gulf SMEs (KSA/UAE), Arab founders, agencies (white-label) |
 | Services | automation, AI for business, custom systems / SaaS MVP, websites and landing pages |
 | Prices (from, SAR) | landing 1,900 · UI/UX site 2,500 · automation sprint 2,600 · AI 2,900 · custom/MVP 5,900 · free 20-min check-up |
@@ -79,12 +79,17 @@ Reference look: @AbdaalWebdeveloper Short "ازاي عملت موبايل ابل
   operations. Bilingual hybrid search (cross-language, typo tolerant), AI assistant that answers ONLY from approved articles
   and shows sources, decision trees (best demo), approval + verified badges, content-gap insights, embeddable website
   assistant, assessments, tasks, announcements, live agent mode (speech → suggested procedure). Cloud or on-prem.
-  Tagline «كل إجابة، على بُعد بحث واحد». Demo kbs.nxtaut.com (sample data) · razqora.vercel.app. Pillars: Find · Answer ·
+  Tagline «كل إجابة، على بُعد بحث واحد». Site razqora.vercel.app (never show the demo host domain). Pillars: Find · Answer ·
   Guide · Trust · Improve · Fit. Never show old names (KQuires, KBS, Terhab, AROYA).
 - **Atmaal (أتمال)**: on-prem bilingual survey platform: AI writes the survey from a prompt or a PDF/Word, refines and
   auto-translates it, 12 question types with logic and piping, omnichannel distribution (link, QR, email, SMS, social,
   live agent) with per-channel attribution, real-time analytics, cross-tab, "ask your results", themes, 4-role RBAC.
+- **AI Assistant (مساعد ذكي, name not decided: ask before naming)**: pick specific knowledge (categories) and turn it into an
+  AI chatbot; one-line embed on any website, allowed domains, colours, welcome + starter questions, answers with source
+  chips, "missed questions" gap analytics. A module of Razqora, shown as its own product.
 
-**Never claim** for either product: customer counts, accuracy or speed percentages, awards, certifications (ISO/SOC2),
+**Never mention "Next Automation"** (owner order 6 Nov): not its name, domain, CRM or CX projects, in any content.
+
+**Never claim** for any product: customer counts, accuracy or speed percentages, awards, certifications (ISO/SOC2),
 uptime SLAs, named third-party integrations, "the AI is always right", prices. Demo numbers only, labelled «بيانات تجريبية».
 Product content ideas live in the Notion Content Pipeline (titles starting "Razqora:" / "Atmaal:").
