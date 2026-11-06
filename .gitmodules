@@ -1,0 +1,12 @@
+[submodule "third_party/claude-shorts"]
+	path = third_party/claude-shorts
+	url = https://github.com/AgriciDaniel/claude-shorts.git
+[submodule "third_party/ffmpeg-skill"]
+	path = third_party/ffmpeg-skill
+	url = https://github.com/kajisho5/ffmpeg-skill.git
+[submodule "third_party/OpenMontage"]
+	path = third_party/OpenMontage
+	url = https://github.com/calesthio/OpenMontage.git
+[submodule "third_party/VibeVoice"]
+	path = third_party/VibeVoice
+	url = https://github.com/microsoft/VibeVoice.git

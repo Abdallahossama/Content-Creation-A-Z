@@ -17,6 +17,7 @@ what the owner approved, what they rejected, what the numbers said, and the exac
    - "why is this video not growing / what should we make" → `docs/04-GROWTH-AND-ANALYTICS.md`
    - brand, persona, calls to action, likes/subscriber conversion (The File Keeper) → `docs/09-BRANDING-AND-CONVERSION.md`
    - the on-camera Arabic PERSONAL BRAND (codebyabdullah: weekly viral/value/convert Shorts, LinkedIn, reel editing) → `docs/10-PERSONAL-BRAND-PLAYBOOK.md` + `skills/brand-funnel-shorts/`
+   - third-party video tools (claude-shorts, ffmpeg-skill, OpenMontage, VibeVoice) in `third_party/` → `docs/11-THIRD-PARTY-TOOLS.md`
    - an Ask Habibi episode or Short in CapCut → `docs/06-ASK-HABIBI-PLAYBOOK.md` (+ `skills/habibi-video/`)
 4. `docs/05-TOOLS-INDEX.md` before writing new code: the engine you need probably exists.
 5. `docs/memory/`: the raw learned memories (owner feedback with dates and reasons). Search them when a detail is unclear.
