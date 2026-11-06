@@ -84,7 +84,7 @@ First 2 seconds = the hook spoken AND shown as text. No intro, no logo, no «ا�
 - All: brighter neutral grade (never yellow), orange background lamp glow, denoise, clean voice
   -14 LUFS, Alexandria ExtraBold captions with one orange word, two audio versions
   (chill music + **halal** vocal nasheed beat).
-- Pop-up cards sit on the CHEST, tilted ±3°, never on the face; captions drop under them.
+- DEFAULT look = UI depth (v3): real-content panels BEHIND the head (hair overlaps a corner), small tags IN FRONT on the chest, one at a time, synced to the word (`tools/personal-brand-reel/depth/`). Never cover the face; no glass/gradient/glow/fake buttons.
 - REACH: a card or screen on almost every line, punch-in zoom on every cut, whoosh on each card.
 - TRUST: longer screen recordings with zoom on clicks, numbered step cards (01/02/03).
 - CONVERT: real client/project screens, before → after split, the number on a card, end on his face

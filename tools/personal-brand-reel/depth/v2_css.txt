@@ -1,0 +1,16 @@
+@font-face{font-family:A;src:url('file:///C:/Users/ossam/AppData/Local/Claude-Data/claude_pzs8sxrjxfjjc/scratch-workspaces/cbe7bc10-d625-4434-82c4-f8967c032c9f/13580dea-f3a7-4ecb-93ff-59148270826e/scratch-2026-10-12-1ceecf/edit//fonts/Alexandria-ExtraBold.ttf')}
+html,body{margin:0;background:transparent}
+body{width:1080px;height:1920px;position:relative;font-family:A,sans-serif;color:#F2F0EC;perspective:1600px}
+.ed{position:absolute;background:#1D1D1D;border:1.5px solid #2A2A2A;border-radius:14px;overflow:hidden;
+ box-shadow:34px 44px 60px rgba(0,0,0,.55), inset 3px 0 0 rgba(255,140,60,.55), inset 14px 0 24px -14px rgba(255,120,40,.35)}
+.tb{height:46px;display:flex;align-items:center;gap:12px;padding:0 18px;border-bottom:1px solid #2A2A2A;font-family:Consolas,monospace;font-size:20px;color:#9D9A92;direction:ltr}
+.tb b{color:#F2F0EC;font-weight:400}.tb s{color:#FF4F2B;text-decoration:none}
+.code{padding:18px 0 22px;font-size:25px;line-height:1.7}
+.ln{display:flex;direction:ltr}
+.ln i{width:58px;flex:none;text-align:right;padding-right:16px;font-style:normal;font-family:Consolas,monospace;font-size:20px;color:#55524c}
+.ln span{flex:1;direction:rtl;text-align:right;padding-right:26px;white-space:nowrap}
+.h{color:#FF4F2B}.dim{color:#9D9A92}.ok{color:#34C77B;font-family:Consolas,monospace}
+.cur{display:inline-block;width:12px;height:30px;background:#FF4F2B;vertical-align:-5px;margin-right:4px}
+.tag{position:absolute;background:#1D1D1D;border:1.5px solid #2A2A2A;border-radius:14px;padding:18px 26px;
+ box-shadow:30px 38px 50px rgba(0,0,0,.5), inset 3px 0 0 rgba(255,140,60,.55);font-family:Consolas,monospace;color:#9D9A92;font-size:24px;direction:ltr}
+.tag .big{display:block;font-family:A,sans-serif;color:#F2F0EC;font-size:56px;margin-top:4px;position:relative}

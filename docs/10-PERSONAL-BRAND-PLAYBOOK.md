@@ -44,11 +44,17 @@ Reference look: @AbdaalWebdeveloper Short "ازاي عملت موبايل ابل
 5. **Voice**: highpass 85, afftdn, EQ −2 dB @200 / +3 dB @3.2k, compressor 3:1, loudnorm −14 LUFS.
 6. **Captions**: Alexandria ExtraBold full TTF (from Google Fonts CSS; fontsource subsets lose
    glyphs), `ass=...:shaping=complex` (simple shaping shows boxes), 2–3 words, one orange word.
-7. **B-roll**: tilted pop-up cards (`card.html` rendered with headless Edge; add
+7. **B-roll (old v2 style)**: tilted pop-up cards (`card.html` rendered with headless Edge; add
    `[hidden]{display:none!important}`) and his own website screenshots. Cards sit on the **chest**
    (centre y≈1280, 600 px; sites 470 px side by side), **never on the face, no face dimming**;
    captions switch to a lower style while a card shows (`build4.py`). He rejected: cards over the
    face; full-screen cutaway slides ("before was better").
+7b. **DEFAULT since 6 Nov: UI depth (v3)** (`tools/personal-brand-reel/depth/`): MediaPipe person mask per frame;
+    real-content panels (code files that type line by line, client/own site in a browser frame) BEHIND the head,
+    hair overlapping a corner; small mono tags (`01 / scope`, `02 / comment`, inbox) IN FRONT on the chest with a
+    hand-drawn orange circle or letter-by-letter typing; one panel at a time, synced to the spoken word; captions drop
+    under front tags. Anti-AI-look: no glass blur, gradients, glow or fake buttons. Owner picked it over v2 on 6 Nov.
+    The brighter colour test was rejected: keep the current grade.
 8. **SFX**: soft whoosh/pop from `D:\why habibi\_style_kit\sfx`.
 9. **Two audio versions every time**: chill music (Incompetech "Late Night Radio", CC BY → credit in
    description, −18 dB, sidechain duck) and **halal** = vocal nasheed beat
