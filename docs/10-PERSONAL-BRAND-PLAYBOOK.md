@@ -73,7 +73,7 @@ Reference look: @AbdaalWebdeveloper Short "ازاي عملت موبايل ابل
 ## Services and products (owner, 6 Nov)
 
 **Services (sold):** automation · landing pages · UI/UX design · custom solutions (AI integration included).
-**Products (shown AS PRODUCTS, not services)** in profiles ("صانع Razqora وAtmaal") and in TRUST/CONVERT videos:
+**Products (shown AS PRODUCTS, not services)** in profiles ("صانع Razqora ومنصة الاستبيانات وJawwab") and in TRUST/CONVERT videos:
 
 - **Razqora (رازكورا, spelled with kaf)**: AI knowledge base for contact centers, HR/onboarding, compliance/government and
   operations. Bilingual hybrid search (cross-language, typo tolerant), AI assistant that answers ONLY from approved articles
@@ -81,7 +81,7 @@ Reference look: @AbdaalWebdeveloper Short "ازاي عملت موبايل ابل
   assistant, assessments, tasks, announcements, live agent mode (speech → suggested procedure). Cloud or on-prem.
   Tagline «كل إجابة، على بُعد بحث واحد». Site razqora.vercel.app (never show the demo host domain). Pillars: Find · Answer ·
   Guide · Trust · Improve · Fit. Never show old names (KQuires, KBS, Terhab, AROYA).
-- **Atmaal (أتمال)**: on-prem bilingual survey platform: AI writes the survey from a prompt or a PDF/Word, refines and
+- **Survey platform (name not decided; never call it "Atmaal")**: on-prem bilingual survey platform: AI writes the survey from a prompt or a PDF/Word, refines and
   auto-translates it, 12 question types with logic and piping, omnichannel distribution (link, QR, email, SMS, social,
   live agent) with per-channel attribution, real-time analytics, cross-tab, "ask your results", themes, 4-role RBAC.
 - **Jawwab · جوّاب** (named 6 Nov; hook «جوّاب بيجاوب عملاءك من مستنداتك بس»): pick specific knowledge (categories) and turn it into an
@@ -92,4 +92,4 @@ Reference look: @AbdaalWebdeveloper Short "ازاي عملت موبايل ابل
 
 **Never claim** for any product: customer counts, accuracy or speed percentages, awards, certifications (ISO/SOC2),
 uptime SLAs, named third-party integrations, "the AI is always right", prices. Demo numbers only, labelled «بيانات تجريبية».
-Product content ideas live in the Notion Content Pipeline (titles starting "Razqora:" / "Atmaal:" / "Jawwab:").
+Product content ideas live in the Notion Content Pipeline (titles starting "Razqora:" / "Jawwab:" / survey ideas).
