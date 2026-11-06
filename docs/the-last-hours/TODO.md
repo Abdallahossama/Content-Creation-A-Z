@@ -18,7 +18,7 @@ Who: [C] = Claude, [U] = owner.
 ## Waiting for the owner
 - [ ] [U] Pick the Roanoke A/B set (R1 Raleigh / R2 The only clue / R3 Never found)
 - [ ] [U] OK the Muslim Brotherhood reply (election result, factual, verified AP/NPR/PBS)
-- [ ] [U] Drag in USS Indianapolis (Sun 6 Dec) + Cole & Roe (Mon 7 Dec): files in _upload_queue_last_hours/DECEMBER_6_7, NOT in Studio yet; approve their thumbnails
+- [ ] [U] Drag in USS Indianapolis (Sun 6 Dec) + Cole & Roe (Mon 7 Dec): RE-RENDERED 6 Nov with the face/zoom fixes (LESSONS 55), files in _upload_queue_last_hours/DECEMBER_6_7; approve their thumbnails
 - [ ] [U] OK the December topics (research report pending) -> then downloads
 - [ ] [U] New amber logo on the watermark + new videos' stamp/end card (yes/no)
 - [ ] [U] Upload the teaser Shorts (Cole & Roe T2-T4, Gaddafi 17 T1-T4; <10 MB copies in teasers/lt10/ can be uploaded by [C] once approved)
@@ -37,3 +37,9 @@ Who: [C] = Claude, [U] = owner.
 ## Ongoing
 - [ ] [C] Weekly analytics (next Fri 13 Nov): Saddam + MB A/B results, subs after the mid-video ask
 - [ ] [C] Every new file: faster first 60 s; famous name + date in sentence 1; Shorts open on a concrete moment in second 1
+
+## 6 Nov, end of session
+- [x] Cole & Roe (8:15) + Indianapolis (11:37) re-rendered with the fixes; queue copies updated (hard links)
+- [x] December research done: 19-23 research.md + assets.md (Miller 68 items/129 MB, Ceausescu 60/341 MB, Pan Am 60/194 MB, Washington 60/418 MB, Rasputin 53/145 MB)
+- [ ] BLOCKED: Gaddafi 17 teaser outro voice -> Chatterbox "paging file too small": C: drive is FULL (0 MB). [U] free space on C: (and close Brave), then rerun _tools/chain_teasers_gaddafi17.sh
+- [ ] [U] delete temp folders left by the research agents: D:\_claude_tmp_19_glenn_miller, E:\_claude_tmp_rasputin, D:\_claude_tmp_checks
