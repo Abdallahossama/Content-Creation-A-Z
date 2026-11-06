@@ -18,7 +18,8 @@ Who: [C] = Claude, [U] = owner.
 ## Waiting for the owner
 - [ ] [U] Pick the Roanoke A/B set (R1 Raleigh / R2 The only clue / R3 Never found)
 - [ ] [U] OK the Muslim Brotherhood reply (election result, factual, verified AP/NPR/PBS)
-- [ ] [U] Drag in USS Indianapolis (Sun 6 Dec) + Cole & Roe (Mon 7 Dec): RE-RENDERED 6 Nov with the face/zoom fixes (LESSONS 55), files in _upload_queue_last_hours/DECEMBER_6_7; approve their thumbnails
+- [x] [C] USS Indianapolis YXgJ09aCfXw scheduled Sun 6 Dec 22:00 + Cole & Roe qxCLouHiLjE scheduled Mon 7 Dec 22:00 (6 Nov; owner "ok all" on the COLOR thumbs; A/B 3 titles+thumbs, playlist, end screens, captions DRAFT)
+- [ ] [C] Publish both caption drafts once processing is done (Languages > English > Publish)
 - [ ] [U] OK the December topics (research report pending) -> then downloads
 - [ ] [U] New amber logo on the watermark + new videos' stamp/end card (yes/no)
 - [ ] [U] Upload the teaser Shorts (Cole & Roe T2-T4, Gaddafi 17 T1-T4; <10 MB copies in teasers/lt10/ can be uploaded by [C] once approved)
@@ -50,3 +51,9 @@ Who: [C] = Claude, [U] = owner.
   end screen) and schedule **Sun 6 Dec 22:00**. Then Cole & Roe (16_cole_roe_1937, **Mon 7 Dec 22:00**).
 - Thumbnails: the owner reviewed both sheets; C_NEVER_FOUND fixed twice (mugshot zoomed out, full head in the circle). Confirm "ok all" first.
 - DON'T navigate the tab that holds the upload.
+
+## 6 Nov (afternoon): both December files scheduled
+- 15 USS Indianapolis = **YXgJ09aCfXw**, Sun 6 Dec 22:00. 16 Cole & Roe = **qxCLouHiLjE**, Mon 7 Dec 22:00.
+- Filled from the video edit page in Claude's own tab (the owner's upload tab could not be added to the group); scheduled via "Edit draft" > Visibility (time = pick 22:00 from the list; typing it does not stick).
+- Both use the COLOR thumbnail for every A/B slot (owner "ok all"). Indianapolis end screen video 2 = Cole & Roe (private until 7 Dec, so YouTube shows a stand-in on day 1).
+- Still to do: publish both caption drafts after processing; pin + heart comments when public; teasers.
