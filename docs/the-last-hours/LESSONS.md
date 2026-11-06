@@ -179,3 +179,9 @@ PRODUCTION MISTAKES 22-23 OCT (and the fix that is now the rule)
     Footage where the person MOVES (Obama walking in the Rose Garden): don't chase him with a side quote; cut to a dim neutral still for
     the quote. Workflow: `python - < size audit` (every KB id's px + UPRIGHT flag), then `render_*.py qa t1 t2 ...` on every changed
     shot, then render. A wide hook card needs a crop that keeps the face and >= 60 px gap from the hook text box.
+55. AUDIT EVERY UNRELEASED FILE, NOT ONLY THE NEXT ONE (6 Nov): Cole & Roe and USS Indianapolis (6/7 Dec, rendered 30-31 Oct, before
+    LESSONS 53) had the same faults: 600-1280 px NHHC/NPS photos stretched to fill the frame (Cole & Roe G8 = 348 px, 5x), quotes on
+    mugshots and on McVay, titles on the guards / crew. A teaser cut from it showed it first ("THE NEXT DAY: NO MATCH" across Cole's eyes).
+    Fix pattern = build/facefix_shots.py per file + the shared 17_gaddafi_last_day/build/post_patch.py (KBP x, quoteL/R, listL/R).
+    When the FACE is on the left of a group photo (McVay): crop him to a card on the LEFT (KBP crop + x=0.27) and put his words RIGHT.
+    Long quotes in a half: 3-4 short lines (44 px), never one 55-character line.
