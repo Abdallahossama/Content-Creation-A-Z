@@ -17,7 +17,7 @@ software engineer who builds automation, AI and custom systems for Gulf SMEs, Ar
 agencies. Videos are filmed by him on camera, in light "white" Egyptian Arabic. This brand is
 **completely separate from The Last Hours** (never cross-link, never mention one in the other).
 
-Read `docs/10-PERSONAL-BRAND-PLAYBOOK.md` first: it holds the brand facts, the edit pipeline and
+Read `docs/10-PERSONAL-BRAND-PLAYBOOK.md` first: it holds the brand facts, services, the two PRODUCTS (Razqora, Atmaal) with their never-claim list, the edit pipeline and
 every rule the owner approved or rejected.
 
 ## The weekly trio (content funnel)

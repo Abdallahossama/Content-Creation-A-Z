@@ -69,3 +69,22 @@ Reference look: @AbdaalWebdeveloper Short "ازاي عملت موبايل ابل
 - Back camera, 4K 30 fps, lock exposure/focus (long-press), clean the lens, phone at eye level.
 - Record the HOOK line first, then the rest; leave 1 s of silence between retakes.
 - Lavalier or phone close to the mouth; no fan/AC noise.
+
+## Services and products (owner, 6 Nov)
+
+**Services (sold):** automation · landing pages · UI/UX design · custom solutions (AI integration included).
+**Products (shown AS PRODUCTS, not services)** in profiles ("صانع Razqora وAtmaal") and in TRUST/CONVERT videos:
+
+- **Razqora (رازكورا, spelled with kaf)**: AI knowledge base for contact centers, HR/onboarding, compliance/government and
+  operations. Bilingual hybrid search (cross-language, typo tolerant), AI assistant that answers ONLY from approved articles
+  and shows sources, decision trees (best demo), approval + verified badges, content-gap insights, embeddable website
+  assistant, assessments, tasks, announcements, live agent mode (speech → suggested procedure). Cloud or on-prem.
+  Tagline «كل إجابة، على بُعد بحث واحد». Demo kbs.nxtaut.com (sample data) · razqora.vercel.app. Pillars: Find · Answer ·
+  Guide · Trust · Improve · Fit. Never show old names (KQuires, KBS, Terhab, AROYA).
+- **Atmaal (أتمال)**: on-prem bilingual survey platform: AI writes the survey from a prompt or a PDF/Word, refines and
+  auto-translates it, 12 question types with logic and piping, omnichannel distribution (link, QR, email, SMS, social,
+  live agent) with per-channel attribution, real-time analytics, cross-tab, "ask your results", themes, 4-role RBAC.
+
+**Never claim** for either product: customer counts, accuracy or speed percentages, awards, certifications (ISO/SOC2),
+uptime SLAs, named third-party integrations, "the AI is always right", prices. Demo numbers only, labelled «بيانات تجريبية».
+Product content ideas live in the Notion Content Pipeline (titles starting "Razqora:" / "Atmaal:").
