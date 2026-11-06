@@ -1,0 +1,1 @@
+format=gbrp,split[gl_o][gl_w];[gl_w]colorbalance=rs=0.15:gs=-0.04:bs=-0.2:rm=0.32:gm=-0.06:bm=-0.32:rh=0.35:gh=-0.08:bh=-0.35,eq=saturation=1.5,format=gbrp[gl_wc];[gl_o]split[gl_o1][gl_o2];[gl_o2]format=gray,curves=all='0/0 0.77/0 0.92/1 1/1',gblur=sigma=40,format=gbrp[gl_m];[gl_o1][gl_wc][gl_m]maskedmerge
