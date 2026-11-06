@@ -22,7 +22,8 @@ Who: [C] = Claude, [U] = owner.
 - [ ] [C] Publish both caption drafts once processing is done (Languages > English > Publish)
 - [ ] [U] OK the December topics (research report pending) -> then downloads
 - [ ] [U] New amber logo on the watermark + new videos' stamp/end card (yes/no)
-- [ ] [U] Upload the teaser Shorts (Cole & Roe T2-T4, Gaddafi 17 T1-T4; <10 MB copies in teasers/lt10/ can be uploaded by [C] once approved)
+- [x] [C] Cole & Roe teasers T2 x23BFO50yLY (Tue 8 Dec), T3 qfaB2g_ZGS0 (Thu 10 Dec), T4 GgRZKPIiGaU (Sat 12 Dec), 19:00 Cairo, uploaded 6 Nov; after 7 Dec 22:00 set Related video = qxCLouHiLjE + pin/heart
+- [ ] [C] Re-cut before upload (old faults, LESSONS 55): Cole & Roe T1_the_count + Indianapolis T1-T4 (cut 31 Oct from the pre-fix render). Gaddafi 17 T1-T4 not rendered (C: full)
 
 ## On each release day (pin + heart, related links on teasers)
 - [ ] Sun 8 Nov Andrée (vyX1mYdiWGw) -> Andrée teasers ZLRPhFg8QeE / ggvMZQ6IbYA / yRYYIEbM14o (9-11 Nov)
