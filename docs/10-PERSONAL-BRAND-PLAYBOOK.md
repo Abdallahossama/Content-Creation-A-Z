@@ -15,11 +15,30 @@ link the two). Scripting skill: `skills/brand-funnel-shorts/`. Edit tools: `tool
 | Services | automation, AI for business, custom systems / SaaS MVP, websites and landing pages |
 | Prices (from, SAR) | landing 1,900 · UI/UX site 2,500 · automation sprint 2,600 · AI 2,900 · custom/MVP 5,900 · free 20-min check-up |
 | Dialect | light "white" Egyptian (understood in the Gulf); never fake Gulf dialect |
-| Sign-off / keyword | «خلّيها شغّالة» · comment keyword «شغّال» |
-| Look | HIS WEBSITE: bg #151515 + faint grid, cards #1D1D1D, text #F2F0EC, muted #9D9A92, border #2A2A2A, ONE orange #FF4F2B; Alexandria (Arabic), Bricolage Grotesque (Latin display), JetBrains Mono |
+| Sign-off / keyword | «خلّيها شغّالة» · comment keyword «دليل» (was «شغّال» until 8 Nov 2026); product keywords «موقع» «رازكورا» «رفيق» «قياس»; sales videos «استشارة» → codebyabdullah.com/consult |
+| Look | **Pistachio palette (7 Nov 2026, replaces the old orange, which read as Claude/AI)**: paper #F3EEE3 · ink #121212 · pistachio #B9DD74 (signature; ink text on it, never white) · cobalt #2E5BFF (small pops). Site bg #151515 + faint grid. Alexandria (Arabic), Bricolage Grotesque (Latin display), JetBrains Mono |
 | Brand kit page | https://claude.ai/artifact/HkjjtyMwpxyLZLvpAxMo58 (private) |
 
 Rejected on 6 Nov: an invented pine/saffron palette ("I like the branding on my website").
+
+## Style reference: darbyirl_ (7 Nov 2026)
+
+Copy her EDIT style (paper collage in Pistachio, `D:/codebyabdullah_assets/workspace/edit_paper/`), hooks, keyword CTA and Trial Reels; analysis in `D:/codebyabdullah_assets/workspace/darby_style_analysis.md`. REJECTED: the «حديد وكود» saga series and any "first 10 clients" public goal. Tone = 5-year specialist/consultant; mention Gulf clients naturally («عميل من السعودية…»). Captions: ONE pistachio keyword box per line.
+
+## Voice: problem first (owner approved, 8 Nov 2026)
+
+Talk about the pain the business owner FEELS, never the tool or the feature. Every point is a small real scene (who, when, what was lost), then the fix in one short calm line.
+
+Pattern per point: **المشكلة كمشهد حقيقي** (وقت، موقف، خسارة) ← **الحل في سطر** (هادي وسريع).
+
+- Hook names the loss, not the tool: «3 حاجات بتخسّرك عملاء كل أسبوع… ومن غير ما تحس», not «3 حاجات ممكن تتعمل أوتوماتيك».
+- Point = a scene: «عميل بعتلك الساعة 11 بالليل… ومحدش رد لحد الصبح. والصبح كان اشترى من غيرك.» Fix: «مساعد يرد عليه في ساعتها من معلوماتك انت… ويسجّل طلبه.»
+- More examples: «عرض السعر بياخد يوم… والعميل مستعجل. ولما يوصل، يبقى فيه غلطة في السعر.» / «عميل طلب سعر… ومحدش تابع معاه. الصفقة ماتت في صمت.»
+- Caption reframes the cost: «مش محتاج موظف زيادة… محتاج تقفل الثغرات اللي بتضيّع منك عملاء.»
+- Delivery: say the problem with real feeling, the fix calmer and faster. That contrast is the point.
+- The lead magnet matches the frame: «10 مشاكل بتخسّرك عملاء… وتتحل أوتوماتيك».
+- Tone is a 5-year specialist and consultant: confident, no "first clients" or underdog story, no hype. Gulf clients come up naturally («عميل من السعودية طلب…»), only when real.
+- Numbers in a scene (11 بالليل، يومين) are illustrative situations, not claims; any stat must be real or labelled «مثال».
 
 ## Weekly content: the funnel trio
 
@@ -43,7 +62,7 @@ Reference look: @AbdaalWebdeveloper Short "ازاي عملت موبايل ابل
    tints the whole frame orange (shipped once by mistake; the owner hated it).
 5. **Voice**: highpass 85, afftdn, EQ −2 dB @200 / +3 dB @3.2k, compressor 3:1, loudnorm −14 LUFS.
 6. **Captions**: Alexandria ExtraBold full TTF (from Google Fonts CSS; fontsource subsets lose
-   glyphs), `ass=...:shaping=complex` (simple shaping shows boxes), 2–3 words, one orange word.
+   glyphs), `ass=...:shaping=complex` (simple shaping shows boxes), 2–3 words, one pistachio keyword box (was one orange word until 7 Nov).
 7. **B-roll (old v2 style)**: tilted pop-up cards (`card.html` rendered with headless Edge; add
    `[hidden]{display:none!important}`) and his own website screenshots. Cards sit on the **chest**
    (centre y≈1280, 600 px; sites 470 px side by side), **never on the face, no face dimming**;
@@ -52,7 +71,7 @@ Reference look: @AbdaalWebdeveloper Short "ازاي عملت موبايل ابل
 7b. **DEFAULT since 6 Nov: UI depth (v3)** (`tools/personal-brand-reel/depth/`): MediaPipe person mask per frame;
     real-content panels (code files that type line by line, client/own site in a browser frame) BEHIND the head,
     hair overlapping a corner; small mono tags (`01 / scope`, `02 / comment`, inbox) IN FRONT on the chest with a
-    hand-drawn orange circle or letter-by-letter typing; one panel at a time, synced to the spoken word; captions drop
+    pistachio marker or letter-by-letter typing; one panel at a time, synced to the spoken word; captions drop
     under front tags. Anti-AI-look: no glass blur, gradients, glow or fake buttons. Owner picked it over v2 on 6 Nov.
     The brighter colour test was rejected: keep the current grade.
 8. **SFX**: soft whoosh/pop from `D:\why habibi\_style_kit\sfx`.
@@ -65,7 +84,7 @@ Reference look: @AbdaalWebdeveloper Short "ازاي عملت موبايل ابل
 
 ## Filming checklist (fixes "bad camera quality" at the source)
 
-- Face the window or put a soft light in front of the face, 45° up; keep the orange lamp behind.
+- Face the window or put a soft light in front of the face, 45° up; keep a warm lamp behind (no orange tint in the edit).
 - Back camera, 4K 30 fps, lock exposure/focus (long-press), clean the lens, phone at eye level.
 - Record the HOOK line first, then the rest; leave 1 s of silence between retakes.
 - Lavalier or phone close to the mouth; no fan/AC noise.
@@ -81,10 +100,10 @@ Reference look: @AbdaalWebdeveloper Short "ازاي عملت موبايل ابل
   assistant, assessments, tasks, announcements, live agent mode (speech → suggested procedure). Cloud or on-prem.
   Tagline «كل إجابة، على بُعد بحث واحد». Site razqora.vercel.app (never show the demo host domain). Pillars: Find · Answer ·
   Guide · Trust · Improve · Fit. Never show old names (KQuires, KBS, Terhab, AROYA).
-- **Survey platform (name not decided; never call it "Atmaal")**: on-prem bilingual survey platform: AI writes the survey from a prompt or a PDF/Word, refines and
+- **Qyas · قياس (survey platform; never call it "Atmaal")**: on-prem bilingual survey platform: AI writes the survey from a prompt or a PDF/Word, refines and
   auto-translates it, 12 question types with logic and piping, omnichannel distribution (link, QR, email, SMS, social,
   live agent) with per-channel attribution, real-time analytics, cross-tab, "ask your results", themes, 4-role RBAC.
-- **Jawwab · جوّاب** (named 6 Nov; hook «جوّاب بيجاوب عملاءك من مستنداتك بس»): pick specific knowledge (categories) and turn it into an
+- **Rafiq · رفيق** (renamed from Jawwab on 7 Nov; old note: hook «جوّاب بيجاوب عملاءك من مستنداتك بس»): pick specific knowledge (categories) and turn it into an
   AI chatbot; one-line embed on any website, allowed domains, colours, welcome + starter questions, answers with source
   chips, "missed questions" gap analytics. A module of Razqora, shown as its own product.
 

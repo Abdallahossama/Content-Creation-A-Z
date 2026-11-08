@@ -33,12 +33,27 @@ Gulf work week. Same vertical file to TikTok, Instagram Reels, YouTube Shorts, F
 | Length | 15–30 s | 30–60 s | 30–60 s |
 | Pace | Fastest: cut every 1.5–2.5 s, B-roll every line | Calm teacher: 1 idea per beat, screen recordings | Story pace: problem → build → result, proof on screen |
 | Tone | Bold, curious, a bit provocative, never insulting | Generous, clear, "خد دي مني" | Confident, specific, numbers and real screens |
-| CTA | «تابعني» / save / share with a business owner | «احفظ الفيديو» + «اكتب شغّال وهبعتلك …» (lead magnet) | «اكتب شغّال» / «كلمني واتساب» / «احجز 20 دقيقة مجانًا» (link in bio) |
-| KPI | Views, shares, follows, 3-s hold | Saves, follows, comments «شغّال» | DMs, link clicks, booked calls, WhatsApp chats |
+| CTA | «تابعني» / save / share with a business owner | «احفظ الفيديو» + «اكتب دليل وهبعتلك …» (lead magnet) | «اكتب دليل» / «كلمني واتساب» / «احجز 20 دقيقة مجانًا» (link in bio) |
+| KPI | Views, shares, follows, 3-s hold | Saves, follows, comments «دليل» | DMs, link clicks, booked calls, WhatsApp chats |
 
 Rule of thumb: while the account is under ~5K followers keep the trio 1:1:1 but pick the
 REACH topic with the biggest audience; once leads come in steadily, swap one REACH for a second
 TRUST or CONVERT. Never post two CONVERT videos in a row.
+
+## Voice rule: problem first (owner approved, 8 Nov 2026)
+
+Talk about the pain the business owner FEELS, never the tool or the feature. Every point is a small real scene (who, when, what was lost), then the fix in one short calm line.
+
+Pattern per point: **المشكلة كمشهد حقيقي** (وقت، موقف، خسارة) ← **الحل في سطر** (هادي وسريع).
+
+- Hook names the loss, not the tool: «3 حاجات بتخسّرك عملاء كل أسبوع… ومن غير ما تحس», not «3 حاجات ممكن تتعمل أوتوماتيك».
+- Point = a scene: «عميل بعتلك الساعة 11 بالليل… ومحدش رد لحد الصبح. والصبح كان اشترى من غيرك.» Fix: «مساعد يرد عليه في ساعتها من معلوماتك انت… ويسجّل طلبه.»
+- More examples: «عرض السعر بياخد يوم… والعميل مستعجل. ولما يوصل، يبقى فيه غلطة في السعر.» / «عميل طلب سعر… ومحدش تابع معاه. الصفقة ماتت في صمت.»
+- Caption reframes the cost: «مش محتاج موظف زيادة… محتاج تقفل الثغرات اللي بتضيّع منك عملاء.»
+- Delivery: say the problem with real feeling, the fix calmer and faster. That contrast is the point.
+- The lead magnet matches the frame: «10 مشاكل بتخسّرك عملاء… وتتحل أوتوماتيك».
+- Tone is a 5-year specialist and consultant: confident, no "first clients" or underdog story, no hype. Gulf clients come up naturally («عميل من السعودية طلب…»), only when real.
+- Numbers in a scene (11 بالليل، يومين) are illustrative situations, not claims; any stat must be real or labelled «مثال».
 
 ## Hook formulas per type (write 3, score, pick 1)
 
@@ -73,7 +88,7 @@ First 2 seconds = the hook spoken AND shown as text. No intro, no logo, no «ا�
 3. **Shot list** per line: `A` = face to camera, `S` = screen recording (what exactly to record),
    `C` = brand card (title + 3–4 bullets, made from `tools/personal-brand-reel/card.html`),
    `W` = his website/project screenshot, `B` = desk B-roll (typing, monitor, phone).
-4. **On-screen caption words** + the ONE orange word per line (`#FF4F2B`).
+4. **On-screen caption words** + the ONE pistachio keyword per line (box #B9DD74, ink #121212 text).
 5. **Post caption** (2–3 lines + question) and 3–5 hashtags (#برمجة #اتمتة #ذكاء_اصطناعي #السعودية …).
 6. **Pinned comment** with the CTA keyword.
 7. **LinkedIn version** (see below).
@@ -81,8 +96,8 @@ First 2 seconds = the hook spoken AND shown as text. No intro, no logo, no «ا�
 
 ## Visual rules per type (edit pipeline in the playbook)
 
-- All: brighter neutral grade (never yellow), orange background lamp glow, denoise, clean voice
-  -14 LUFS, Alexandria ExtraBold captions with one orange word, two audio versions
+- All: brighter neutral grade (never yellow), no orange anywhere (reads as Claude/AI), denoise, clean voice
+  -14 LUFS, Alexandria ExtraBold captions with one pistachio keyword box (Pistachio palette, professional paper style, no doodles/stars), two audio versions
   (chill music + **halal** vocal nasheed beat).
 - DEFAULT look = UI depth (v3): real-content panels BEHIND the head (hair overlaps a corner), small tags IN FRONT on the chest, one at a time, synced to the word (`tools/personal-brand-reel/depth/`). Never cover the face; no glass/gradient/glow/fake buttons.
 - REACH: a card or screen on almost every line, punch-in zoom on every cut, whoosh on each card.
