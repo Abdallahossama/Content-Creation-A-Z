@@ -40,6 +40,18 @@ Pattern per point: **المشكلة كمشهد حقيقي** (وقت، موقف،
 - Tone is a 5-year specialist and consultant: confident, no "first clients" or underdog story, no hype. Gulf clients come up naturally («عميل من السعودية طلب…»), only when real.
 - Numbers in a scene (11 بالليل، يومين) are illustrative situations, not claims; any stat must be real or labelled «مثال».
 
+## Edit styles by video type (owner approved, 8 Nov 2026)
+
+Three approved styles, all Pistachio, professional, no doodles. Scripts and details: `tools/personal-brand-reel/styles/README.md`.
+
+| Video | Style |
+|---|---|
+| Reach, Sunday | **E · Bold Kinetic**: huge popping captions, keyword box, a zoom on every cut, full-screen title cards |
+| Value, Tuesday | **A · Paper Pro**: pistachio frame, keyword boxes, graph-paper beats, straight cards, mono step pills |
+| Sales, Thursday (case study, product demo) | **D · Tech Depth**: dark background, code, PRD and product panels behind the head, mono tags |
+
+Not chosen: B Minimal Keynote, C Editorial Magazine.
+
 ## Weekly content: the funnel trio
 
 3 videos a week = REACH (viral), TRUST (value), CONVERT (lead). Sun/Tue/Thu 21:00 KSA.

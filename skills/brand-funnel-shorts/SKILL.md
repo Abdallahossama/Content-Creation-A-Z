@@ -96,6 +96,9 @@ First 2 seconds = the hook spoken AND shown as text. No intro, no logo, no «ا�
 
 ## Visual rules per type (edit pipeline in the playbook)
 
+**Edit style per type (approved 8 Nov 2026):** REACH = **E Bold Kinetic**, TRUST = **A Paper Pro**, CONVERT = **D Tech Depth** (`tools/personal-brand-reel/styles/`). Name the style in every script.
+
+
 - All: brighter neutral grade (never yellow), no orange anywhere (reads as Claude/AI), denoise, clean voice
   -14 LUFS, Alexandria ExtraBold captions with one pistachio keyword box (Pistachio palette, professional paper style, no doodles/stars), two audio versions
   (chill music + **halal** vocal nasheed beat).
