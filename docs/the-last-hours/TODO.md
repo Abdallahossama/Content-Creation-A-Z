@@ -63,3 +63,7 @@ Who: [C] = Claude, [U] = owner.
 ## OWNER DECISION 6 Nov: no new videos for now
 - Production paused: only upload/finish what is already rendered. December slate research + file 19+ on hold.
 - Last scheduled long file: Gaddafi 17 (Sun 13 Dec). Remaining work = teaser Shorts, caption publishing, pin + heart, related links, title/thumbnail retests.
+
+## 11 Nov: File 25 Mallory & Irvine ready to upload
+- [ ] Owner picks the date (22:00 Cairo). Then upload via Studio from `25_mallory_irvine/export/` with the sheet: 3 titles + 3 thumbs A/B,
+      playlist Files: Escapes and Disappearances, captions draft from vo_lines.txt, end screen import, pin + heart on air day.

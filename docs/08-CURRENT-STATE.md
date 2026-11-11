@@ -66,3 +66,16 @@ Lr0iaGmD4kE (1 Nov) end on their own long files (old copies Private).
 | Sun 27 Dec | 22 Washington crosses the Delaware -> Trenton, 25-26 Dec 1776 (250th) | 22_washington_trenton | research agent running (replaces Escobar) |
 | Mon 28 Dec | 23 Rasputin's last night, 29-30 Dec 1916 | 23_rasputin_last_night | research agent running |
 Next: owner OKs the download lists -> scripts -> voice -> renders -> thumbnails (owner) -> uploads. Research summary: docs/the-last-hours/research/DECEMBER_2026_TOPICS.md
+
+## 11 Nov 2026: File 25 Mallory & Irvine (Everest 1924) RENDERED, not uploaded
+- Owner asked to copy the editing style of a Mudawanat explainer (youtu.be/qAp0-wVxg3E): light grid paper, red/yellow word labels,
+  cream chapter cards with a de-blurring title, archive photos with slow push-ins, 1920x1080/30. Own script, own voice clone, no copying of
+  that video's script/title/thumbnail.
+- First topic (Patient Zero / HIV origin) was dropped: the renderer and shot list got stopped by a safety check 3 times. Files kept in
+  `_newchannel/24_patient_zero/` (script, 30 images, English VO 9:06), unused.
+- `_newchannel/25_mallory_irvine/export/TheLastHours_25_Mallory_Irvine.mp4` (7:16) + thumbs A DID THEY MAKE IT? / B LAST SEEN 12:50 PM /
+  C THE CAMERA IS STILL UP THERE + UPLOAD_COPY_PASTE.txt (3 titles, chapters, sources, credits, tags, pinned comment).
+- Engine: `pz_base.py / pz_draw.py / pz_scenes.py / pz_map.py / pz_main.py` + `mi_shots.py` (shot list) + `thumbs_mi.py`; kit `_arabic_docs/_tools/akit.py`.
+- Lessons: check every group photo's caption (the 1924 "European members" photo was taken AFTER Mallory/Irvine died); verify every
+  download opens before a render (a Wikimedia error page cost one segment); cast numpy floats to float before PIL filters.
+- Schedule: waiting for the owner (22:00 Cairo; production was paused 6 Nov, last scheduled long = Gaddafi Sun 13 Dec).
