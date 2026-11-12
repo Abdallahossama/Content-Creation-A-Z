@@ -65,5 +65,6 @@ Who: [C] = Claude, [U] = owner.
 - Last scheduled long file: Gaddafi 17 (Sun 13 Dec). Remaining work = teaser Shorts, caption publishing, pin + heart, related links, title/thumbnail retests.
 
 ## 11 Nov: File 25 Mallory & Irvine ready to upload
-- [ ] Owner picks the date (22:00 Cairo). Then upload via Studio from `25_mallory_irvine/export/` with the sheet: 3 titles + 3 thumbs A/B,
+- [x] Uploaded + scheduled 12 Nov: 6RvE-avL4NI, Thu 12 Nov 22:00 Cairo.
+- [ ] After processing: publish the English caption draft. On air day: post the pinned comment, pin + heart.
       playlist Files: Escapes and Disappearances, captions draft from vo_lines.txt, end screen import, pin + heart on air day.

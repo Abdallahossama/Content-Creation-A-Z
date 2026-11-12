@@ -78,4 +78,5 @@ Next: owner OKs the download lists -> scripts -> voice -> renders -> thumbnails 
 - Engine: `pz_base.py / pz_draw.py / pz_scenes.py / pz_map.py / pz_main.py` + `mi_shots.py` (shot list) + `thumbs_mi.py`; kit `_arabic_docs/_tools/akit.py`.
 - Lessons: check every group photo's caption (the 1924 "European members" photo was taken AFTER Mallory/Irvine died); verify every
   download opens before a render (a Wikimedia error page cost one segment); cast numpy floats to float before PIL filters.
-- Schedule: waiting for the owner (22:00 Cairo; production was paused 6 Nov, last scheduled long = Gaddafi Sun 13 Dec).
+- UPLOADED 12 Nov: **6RvE-avL4NI**, SCHEDULED Thu 12 Nov 2026 22:00 Cairo (owner: "schedule soonest"). A/B title+thumb A/B/C, Files: Escapes and Disappearances, captions DRAFT, end screen from qxCLouHiLjE.
+- Upload trick for files > 10 MB (owner upload never showed up): split into 9.5 MB parts, load each into a hidden file input made in the Studio page, join as one File in JS and set it on the uploader input (DataTransfer). Captions file: patch HTMLInputElement.click once to fill the picker.
