@@ -37,3 +37,10 @@ On 14 Nov 2026 the owner sent https://www.youtube.com/@sparrow0y0/videos (an Ara
 **Why:** the old videos have stalled (Alcatraz 4 views in 48 h, Roanoke 1.6% CTR); see [[last-hours-analytics-nov14]].
 
 **How to apply:** after approval, add the picks to Test & Compare against the current thumbnail (don't replace blindly). Re-check CTR after 7-14 days.
+
+**v2, same day.** The owner said: "make it colorful and make it that same cut the same font same everything". Built `thumbs_sparrow_v2.py`, with output in `out_v2/`.
+- **The real sparrow recipe:** each line is a left word + a long baseline BAR (the Arabic kashida) + a right word. The bar runs BEHIND the subject in the middle, and the words are sized to fit beside it.
+- **Lettering:** Lalezar (OFL, sparrow-like heavy face, `_rethumb_nov14/fonts/`). Letters are a white-to-grey gradient with a 7-px multicolour 3D offset and a soft shadow.
+- **Background:** navy with a faint 64-px grid, 3 colour blobs, grain, and a giant faint ghost word.
+- **Subjects:** cut out with a coloured sticker outline. Where flood-fill fails (Franklin plate, Raleigh, the colour dummy photo, the engraving), I used a tilted rounded photo card with a coloured border. A true cutout would need rembg/MediaPipe (not installed; ask before downloading).
+- **Still waiting for approval.**

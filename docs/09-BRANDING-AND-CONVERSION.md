@@ -143,3 +143,9 @@ The owner asked to copy the @sparrow0y0 thumbnail look for the old long videos t
 - The date goes in an accent block (the owner's date rule). Add a thin accent frame and a small `#THELASTHOURS` tag top right.
 - No cartoon or 3D props (sparrow uses them; we don't). Real archival images only.
 - Tool: `tools/last-hours/thumbs_sparrow.py`. When approved, use Test & Compare against the current thumbnail, not a blind swap.
+- v2 (owner: "colorful, same cut, same font, same everything"):
+  - **The cut:** each line is left word + long baseline bar + right word, and the bar runs behind the subject.
+  - **Lettering:** Lalezar, with white-grey letters on a multicolour 3D offset.
+  - **Background:** grid + colour blobs + a giant faint ghost word.
+  - **Subjects:** sticker-outlined cutouts; a tilted outlined photo card when a cutout fails.
+  - **Tool:** `tools/last-hours/thumbs_sparrow_v2.py`.
