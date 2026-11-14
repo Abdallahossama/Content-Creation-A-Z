@@ -133,3 +133,13 @@ so its corner at (292, 610) was cut away under the collar's sharp corner. Fix: c
 the joins at 2x before publishing. P re-published with the fix (31 Oct).
 Last pass (owner: "nice but make it thinner in width, to the centre"): R = COLL_NARROW [(330, 632), (392, 478), (450, 502), (490, 548),
 (466, 664)], outer corner still inside the coat, joins zoom-checked. **R is the live avatar.**
+
+## Sparrow-style re-thumbs (14 Nov 2026, proposed, waiting for owner approval)
+The owner asked to copy the @sparrow0y0 thumbnail look for the old long videos that stalled. Saddam stays as it is.
+- One big real subject: a face or the key object, in high-contrast B&W, on a dark grainy navy background with a soft spotlight.
+- ONE accent colour per video: Alcatraz orange, Franklin ice blue, Cooper red, Roanoke yellow.
+- A huge 1-2 word headline: the accent word partly behind the subject, a white word in front.
+- A "slice" low in the white letters: a gap, the part below nudged right, and an accent stripe inside the glyphs only. Never a mid-height line, which reads as strikethrough.
+- The date goes in an accent block (the owner's date rule). Add a thin accent frame and a small `#THELASTHOURS` tag top right.
+- No cartoon or 3D props (sparrow uses them; we don't). Real archival images only.
+- Tool: `tools/last-hours/thumbs_sparrow.py`. When approved, use Test & Compare against the current thumbnail, not a blind swap.
