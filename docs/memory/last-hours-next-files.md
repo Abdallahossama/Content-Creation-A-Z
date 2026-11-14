@@ -38,3 +38,10 @@ Owner approved on 30 Oct 2026: download both safe sets, then "go ahead" (scripts
 
 **Why:** two long files a week; the owner wants finished results.
 **How to apply:** check thumbnails with the owner before upload. Never run Chatterbox beside OCR or renders: on 30 Oct it segfaulted and hit "paging file too small" while WSL held ~6 GB. See [[last-hours-file-keeper-brand]] and [[studio-timezone]].
+
+**Captions, 14 Nov 2026.** Draft English captions were PUBLISHED for:
+- Gaddafi 17 (9kB8VIKkhJQ)
+- Cole & Roe (qxCLouHiLjE)
+- Indianapolis (YXgJ09aCfXw)
+
+Studio > Languages > **Drafts** tab is now empty. That tab is the reliable check: the "All" tab lists every video and looks like drafts. Path: video > Languages > Edit subtitles > Publish.

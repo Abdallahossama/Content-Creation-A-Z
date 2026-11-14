@@ -106,3 +106,4 @@ Two Shorts moved:
   - Indianapolis -> Cole & Roe
 - A teaser Short never goes out before its long video.
 - 14 Nov: Gaddafi last day (9kB8VIKkhJQ) English captions published (were a draft).
+- 14 Nov: Cole & Roe (qxCLouHiLjE) and Indianapolis (YXgJ09aCfXw) captions published too; Studio Languages > Drafts tab is empty (check THAT tab, not All).
