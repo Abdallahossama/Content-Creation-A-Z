@@ -34,3 +34,16 @@ Full tables: `docs/the-last-hours/ANALYTICS_2026-11-14.md` in [[content-creation
 - Judge a video after day 4-7, not day 1.
 - Shorts: only 2-3 a week, only for live long videos with a Related link, the shock in frame 1, aim for 55%+ stayed-to-watch.
 - Plan via schedule reorder: famous files first.
+
+**SCHEDULE REORDER (owner said "Yes, reorder", 14 Nov 2026).** Famous names go first. Every slot is 22:00 Cairo (the field shows 22:00).
+- **New order:**
+  - Sun 15 Nov: **Gaddafi last day** (9kB8VIKkhJQ, was 13 Dec).
+  - Mon 16 Nov: Flight 19 (r0wpGQzHVJ8, was 15 Nov).
+  - Sun 22 Nov: Cyclops (eyc6dLMqf-U, was 16 Nov).
+  - Mon 23 Nov: EgyptAir (AIbcwBZsxdY, was 22 Nov).
+  - Sun 29 Nov: Göring; Mon 30 Nov: Alcatraz 1946; Sun 6 Dec: Indianapolis; Mon 7 Dec: Cole & Roe (all unchanged).
+  - Sun 13 Dec: **Flannan** (Rz0qyy9-7GE, was 23 Nov).
+- **Shorts moved:**
+  - EgyptAir teaser AdZ95n42xwI: 23 Nov 19:00 -> 24 Nov 23:00, so it no longer airs before its long video.
+  - Flannan teaser Lr0iaGmD4kE: 24 Nov 23:00 -> 15 Dec 23:00.
+- **Why this order:** the burned-in "NEXT FILE" end cards form chains: Flight 19 -> Cyclops -> EgyptAir -> Göring -> Alcatraz 46, and Indianapolis -> Cole & Roe (spoken "Next: two men cut through the bars..."). Gaddafi 17, Cole & Roe and Alcatraz 46 end on "A NEW FILE EVERY WEEK". Any future reorder must keep those chains, and every teaser Short must air AFTER its long video.

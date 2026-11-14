@@ -80,3 +80,28 @@ Next: owner OKs the download lists -> scripts -> voice -> renders -> thumbnails 
   download opens before a render (a Wikimedia error page cost one segment); cast numpy floats to float before PIL filters.
 - UPLOADED 12 Nov: **6RvE-avL4NI**, SCHEDULED Thu 12 Nov 2026 22:00 Cairo (owner: "schedule soonest"). A/B title+thumb A/B/C, Files: Escapes and Disappearances, captions DRAFT, end screen from qxCLouHiLjE.
 - Upload trick for files > 10 MB (owner upload never showed up): split into 9.5 MB parts, load each into a hidden file input made in the Studio page, join as one File in JS and set it on the uploader input (DataTransfer). Captions file: patch HTMLInputElement.click once to fill the picker.
+
+## Schedule reorder, 14 Nov 2026 (owner OK: "Yes, reorder")
+All long videos go out at 22:00 Cairo.
+
+| Date | Video | Studio ID | Note |
+|---|---|---|---|
+| Sun 15 Nov | **Gaddafi last day** | 9kB8VIKkhJQ | famous name first; was 13 Dec |
+| Mon 16 Nov | Flight 19 | r0wpGQzHVJ8 | |
+| Sun 22 Nov | Cyclops | eyc6dLMqf-U | |
+| Mon 23 Nov | EgyptAir | AIbcwBZsxdY | |
+| Sun 29 Nov | Göring | | unchanged |
+| Mon 30 Nov | Alcatraz 1946 | | unchanged |
+| Sun 6 Dec | Indianapolis | | unchanged |
+| Mon 7 Dec | Cole & Roe | | unchanged |
+| Sun 13 Dec | Flannan | Rz0qyy9-7GE | was 23 Nov |
+
+Two Shorts moved:
+- The EgyptAir teaser AdZ95n42xwI moved to 24 Nov 23:00, so it lands after its long video.
+- The Flannan teaser Lr0iaGmD4kE moved to 15 Dec 23:00.
+
+**Rule for future reorders:**
+- Keep the burned-in NEXT FILE chains in order:
+  - Flight 19 -> Cyclops -> EgyptAir -> Göring -> Alcatraz 46
+  - Indianapolis -> Cole & Roe
+- A teaser Short never goes out before its long video.
