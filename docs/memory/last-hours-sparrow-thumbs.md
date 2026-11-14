@@ -1,6 +1,6 @@
 ---
 name: last-hours-sparrow-thumbs
-description: "14 Nov 2026: the owner asked to copy the @sparrow0y0 thumbnail look for The Last Hours re-thumbs. 8 options for Alcatraz/Franklin/Cooper/Roanoke are WAITING for approval. Keep Saddam as is."
+description: "14 Nov 2026: tried the @sparrow0y0 look for re-thumbs (v1 B&W + v2 colourful). Owner REJECTED both: the CURRENT channel thumbnails are better. Nothing changed."
 metadata:
   node_type: memory
   type: feedback
@@ -49,3 +49,8 @@ On 14 Nov 2026 the owner sent https://www.youtube.com/@sparrow0y0/videos (an Ara
 - **v2 is REJECTED:** colourful blobs and grid, Lalezar, the kashida bars, photo cards.
 - **v1 is the approved direction:** `out/`, `thumbs_sparrow.py`, a B&W subject, one accent colour, Impact, huge words layered behind/in front, the date block, a thin accent frame.
 - No upload has happened yet. The owner still has to pick which v1 thumbnails go into A/B tests.
+
+**Correction, same day (FINAL):** the owner clarified "no i mean the current on the channel". The thumbnails ALREADY on the channel are better than both v1 and v2.
+- **The sparrow re-thumb idea is rejected.** Keep the current thumbnails. Nothing was uploaded.
+- Don't propose sparrow-style thumbnails again unless the owner asks. The files stay in `_rethumb_nov14` for reference only.
+- **Lesson:** the owner's own Hakawi-style thumbnails ([[last-hours-thumbnail-style]]) beat copied tech-channel styles for this niche.

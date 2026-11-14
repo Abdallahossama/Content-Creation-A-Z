@@ -150,3 +150,4 @@ The owner asked to copy the @sparrow0y0 thumbnail look for the old long videos t
   - **Subjects:** sticker-outlined cutouts; a tilted outlined photo card when a cutout fails.
   - **Tool:** `tools/last-hours/thumbs_sparrow_v2.py`.
 - **Owner verdict:** "not good, before was better". **v2 is REJECTED** (colour blobs + grid, Lalezar, kashida bars, photo cards). **Use v1** (B&W subject, one accent colour, Impact, layered huge words, date block, thin accent frame).
+- **FINAL (owner, 14 Nov):** "no i mean the current on the channel". The CURRENT channel thumbnails beat both sparrow versions. **Sparrow re-thumbs are rejected; keep the current ones.**
