@@ -198,3 +198,8 @@ PRODUCTION MISTAKES 22-23 OCT (and the fix that is now the rule)
 58. SHORTS 14 NOV: stayed-to-watch 24-40% -> YouTube stops testing (Nov Shorts 0-8 views; 3 subs ever, all from one Short; views from
     low-value countries). Only Saddam-topic Shorts moved (94, 48). Rule: 2-3 Shorts/week max, only for LIVE long videos (Related video set),
     shock already in frame 1 (moving real image + 3-5 burned-in words), no date-first opening, under 35 s; target 55%+ stayed to watch.
+59. FILES 26+27 (14 Nov) BUILD CHECKS: (a) whisper invents words on a line's silent tail ("thanks for watching... next one",
+    a stray "begins."): all at the same timestamp -> cut them from vo_words.json before captions; (b) a TCARD side image must be a STILL
+    (an mp4 rid crashes qa); (c) TCARD subtitles over ~45 chars run under the side card: keep them short; (d) read assets.md crop notes
+    before using any crowd/aerial photo (Kadhimiya bridge = pilgrims, women likely -> CROP y 0-55%); (e) TB credit labels must match
+    the licence column (Flickr CC BY / CC BY-SA authors named on screen and in the description); CC BY-SA never in thumbnails.

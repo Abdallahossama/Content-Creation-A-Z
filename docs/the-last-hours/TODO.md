@@ -68,3 +68,8 @@ Who: [C] = Claude, [U] = owner.
 - [x] Uploaded + scheduled 12 Nov: 6RvE-avL4NI, Thu 12 Nov 22:00 Cairo.
 - [ ] After processing: publish the English caption draft. On air day: post the pinned comment, pin + heart.
       playlist Files: Escapes and Disappearances, captions draft from vo_lines.txt, end screen import, pin + heart on air day.
+
+## 14 Nov 2026: Files 26 + 27 rendered (Saddam capture 10:11, Saddam last day 10:02)
+- export/ has the mp4, captions_en.txt, UPLOAD_COPY_PASTE.txt; thumbnails (3 each) in export/thumbnails/, NOT approved yet.
+- Proposed: File 26 Sun 13 Dec 22:00 (Flannan -> Mon 14 Dec), File 27 Sun 27 Dec 22:00. Waiting for the owner.
+- Thumbnail script: _newchannel/_tools/thumbs_saddam2627.py (channel style: colour scene + Saddam + black/yellow blocks + red date).
