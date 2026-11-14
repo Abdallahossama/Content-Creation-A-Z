@@ -87,7 +87,7 @@ Reference look: @AbdaalWebdeveloper Short "ازاي عملت موبايل ابل
     under front tags. Anti-AI-look: no glass blur, gradients, glow or fake buttons. Owner picked it over v2 on 6 Nov.
     The brighter colour test was rejected: keep the current grade.
 8. **SFX**: soft whoosh/pop from `D:\why habibi\_style_kit\sfx`.
-9. **Two audio versions every time**: chill music (Incompetech "Late Night Radio", CC BY → credit in
+9. **Music only (owner, 8 Nov 2026: halal beds rejected, no halal version needed).** Previously: two audio versions: chill music (Incompetech "Late Night Radio", CC BY → credit in
    description, −18 dB, sidechain duck) and **halal** = vocal nasheed beat
    (`D:\codebyabdullah_assets\music\halal_nasheed_60.mp3`, Pixabay licence, −21 dB, ducked).
    Silence + room tone was not accepted as "halal".

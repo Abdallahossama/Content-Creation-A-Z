@@ -190,3 +190,11 @@ PRODUCTION MISTAKES 22-23 OCT (and the fix that is now the rule)
     shots_coleroe.py at 09:29, so the "re-cut" teasers still had the fault and were scheduled (then replaced, old ones set Private).
     Before uploading any teaser: compare its file time with the last change to shots_*.py / render_*.py, and look at a 1-frame-per-3-s
     strip (ffmpeg fps=1/3,tile) for text on faces. Renders on a full C: drive die with MemoryError and leave SHORT files: check durations.
+57. DATA 14 NOV: FAMOUS ECOSYSTEM BEATS EVERYTHING. Saddam (3.6% CTR, 87% Suggested next to million-view Iraq videos, 149 views/48 h
+    on day 13) passed Alcatraz while having WORSE retention (38% vs 55%). Obscure files (Andree 0% CTR/89 impr., Mallory 6 impr.)
+    get no test at all. Pick subjects that already have big videos to sit beside; title = number + consequence; judge after day 4-7.
+    Saddam bleeds 0:40-3:30 (57% at 1:20): war-doc viewers need the purge on screen in the first 30 s.
+    Finished title A/B tests: read the result and apply the winner (Saddam's winner sat unused).
+58. SHORTS 14 NOV: stayed-to-watch 24-40% -> YouTube stops testing (Nov Shorts 0-8 views; 3 subs ever, all from one Short; views from
+    low-value countries). Only Saddam-topic Shorts moved (94, 48). Rule: 2-3 Shorts/week max, only for LIVE long videos (Related video set),
+    shock already in frame 1 (moving real image + 3-5 burned-in words), no date-first opening, under 35 s; target 55%+ stayed to watch.
