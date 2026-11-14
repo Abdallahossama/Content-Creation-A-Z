@@ -105,3 +105,4 @@ Two Shorts moved:
   - Flight 19 -> Cyclops -> EgyptAir -> Göring -> Alcatraz 46
   - Indianapolis -> Cole & Roe
 - A teaser Short never goes out before its long video.
+- 14 Nov: Gaddafi last day (9kB8VIKkhJQ) English captions published (were a draft).
