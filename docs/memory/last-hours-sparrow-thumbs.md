@@ -44,3 +44,8 @@ On 14 Nov 2026 the owner sent https://www.youtube.com/@sparrow0y0/videos (an Ara
 - **Background:** navy with a faint 64-px grid, 3 colour blobs, grain, and a giant faint ghost word.
 - **Subjects:** cut out with a coloured sticker outline. Where flood-fill fails (Franklin plate, Raleigh, the colour dummy photo, the engraving), I used a tilted rounded photo card with a coloured border. A true cutout would need rembg/MediaPipe (not installed; ask before downloading).
 - **Still waiting for approval.**
+
+**Owner verdict, same day, on v2:** "not good, before was better".
+- **v2 is REJECTED:** colourful blobs and grid, Lalezar, the kashida bars, photo cards.
+- **v1 is the approved direction:** `out/`, `thumbs_sparrow.py`, a B&W subject, one accent colour, Impact, huge words layered behind/in front, the date block, a thin accent frame.
+- No upload has happened yet. The owner still has to pick which v1 thumbnails go into A/B tests.

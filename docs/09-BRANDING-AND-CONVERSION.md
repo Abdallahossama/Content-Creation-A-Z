@@ -149,3 +149,4 @@ The owner asked to copy the @sparrow0y0 thumbnail look for the old long videos t
   - **Background:** grid + colour blobs + a giant faint ghost word.
   - **Subjects:** sticker-outlined cutouts; a tilted outlined photo card when a cutout fails.
   - **Tool:** `tools/last-hours/thumbs_sparrow_v2.py`.
+- **Owner verdict:** "not good, before was better". **v2 is REJECTED** (colour blobs + grid, Lalezar, kashida bars, photo cards). **Use v1** (B&W subject, one accent colour, Impact, layered huge words, date block, thin accent frame).
