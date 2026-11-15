@@ -50,3 +50,9 @@ The Bill, Explained (@TheBillExplained, my pick) / The Real Price Of (@RealPrice
   | Fri 20 Nov | Short 2 | cDs8LfpRhHM | |
 
 - Still to do after the long video goes public: set each Short's Related video to mJuihLRaZnI, post/pin/heart the comments, and check the captions show as Published.
+
+**15 Nov 2026 ~19:30 Cairo: owner said "lets upload today". New publish status:**
+- **LIVE now:** EP1 long mJuihLRaZnI. Our timed English (US) captions are confirmed on the watch page; the thumbnail A/B test runs from now. Comment posted, pinned and hearted.
+- **LIVE now:** Short 1 zT7Uc-yy54s. Related video = EP1; comment pinned and hearted.
+- **Scheduled Mon 16 Nov 19:00 Cairo:** Short 2 cDs8LfpRhHM, related video = EP1. Its comment still has to be posted, pinned and hearted after it goes live: "Truckers: does your fuel surcharge cover it? Tell us below."
+- **Next checks:** impressions/CTR/retention on day 2-4. Retitle flat Shorts after ~1 day. Next long episode = Wednesday slot.

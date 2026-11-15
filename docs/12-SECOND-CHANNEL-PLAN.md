@@ -1,6 +1,6 @@
 # 12 - Second channel: what replaces Ask Habibi (decided 15 Nov 2026)
 
-Status (15 Nov 2026, evening): the owner chose to REBRAND the existing Ask Habibi channel (UCJXUO3S0AtoQvmWHqpGp_ow) instead of a new one, because new channels kept asking for a phone number. Name **The Bill, Explained**, handle **@TheBill.Explained** (@TheBillExplained was taken). All old Ask Habibi videos are private. EP1 + 2 Shorts are scheduled 18-20 Nov.
+Status (15 Nov 2026, evening): the owner chose to REBRAND the existing Ask Habibi channel (UCJXUO3S0AtoQvmWHqpGp_ow) instead of a new one, because new channels kept asking for a phone number. Name **The Bill, Explained**, handle **@TheBill.Explained** (@TheBillExplained was taken). All old Ask Habibi videos are private. EP1 + Short 1 went LIVE 15 Nov (owner: "lets upload today"); Short 2 is scheduled for Mon 16 Nov 19:00 Cairo.
 The Last Hours is not touched by this plan.
 
 ## Why change
