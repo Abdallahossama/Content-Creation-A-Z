@@ -47,4 +47,4 @@
 - [Explainer edit style](last-hours-explainer-style.md) — 11 Nov: Mudawanat-style look (grid paper, red/yellow labels, cream cards) for Last Hours; File 25 Mallory & Irvine 6RvE-avL4NI airs Thu 12 Nov 22:00; big-file upload trick
 - [Analytics 14 Nov](last-hours-analytics-nov14.md) — Saddam #1 (87% Suggested from Iraq videos, 149/48h, title test winner "21 Men Were Gone in 17 Days" not applied); Shorts dead (24-40% stayed); obscure topics get no impressions
 - [Sparrow re-thumbs rejected](last-hours-sparrow-thumbs.md) — 14 Nov: tried @sparrow0y0 look (v1 B&W, v2 colourful); owner: CURRENT channel thumbnails are better, keep them
-- [Second channel money plan](second-channel-money-plan.md) — 15 Nov: replace Ask Habibi with NEW faceless "Why X Costs $Y" US-economics channel (long-first, 1/wk); awaits owner OK on niche/new-vs-rebrand/name
+- [Second channel money plan](second-channel-money-plan.md) — 15 Nov: replace Ask Habibi with NEW faceless "Why X Costs $Y" US-economics channel (long-first, 1/wk); APPROVED new channel 15 Nov; name pending (pick: The Bill, Explained)

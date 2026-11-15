@@ -1,11 +1,11 @@
 ---
 name: second-channel-money-plan
-description: "15 Nov 2026 recommendation to replace Ask Habibi with a NEW faceless \"everyday-America economics\" channel (why X costs that / follow the money maps); awaiting owner OK on niche, new-vs-rebrand, name"
+description: "15 Nov 2026 APPROVED: a NEW faceless \"everyday-America economics\" channel replaces Ask Habibi (why X costs that / follow the money maps); name pending, shortlist inside"
 metadata:
   node_type: memory
   type: project
   originSessionId: dd4ea468-cfe1-4e18-822b-fae3d192e994
-  modified: 2026-11-15T14:19:18.767Z
+  modified: 2026-11-15T14:28:57.487Z
 ---
 
 15 Nov 2026: owner wants the second channel (Ask Habibi, stopped 30 Oct) to make money from US viewers, maybe "YouTube automation"/faceless. The Last Hours stays unchanged.
@@ -20,3 +20,7 @@ Recommendation given (full doc: `docs/12-SECOND-CHANNEL-PLAN.md` in [[content-cr
 
 **Why:** money-number Shorts were Ask Habibi's only wins ([[shorts-title-money-hook]]); the long videos failed from topic spread and brand mismatch.
 **How to apply:** don't create/rename channels or touch YouTube Studio until the owner OKs. Once the owner approves, script with yt-script and reuse the s01/s03 map engine + Chatterbox ([[local-ai-stack]]). Keep [[no-women-in-visuals]] (shopper photos are risky, so use objects, buildings, men only), [[real-not-cartoon]], [[copyright-safe-only]]. The Last Hours keeps priority ([[focus-last-hours]]).
+
+**15 Nov 2026, owner: "Yes, new channel"** -> APPROVED: niche #1 + a NEW channel (Ask Habibi stays online, untouched). Name still open.
+Name shortlist (handles that returned 404 on youtube.com on 15 Nov, so probably free; confirm in YouTube's handle field):
+The Bill, Explained (@TheBillExplained, my pick) / The Real Price Of (@RealPriceOf) / Paid For (@PaidForChannel). Owner creates the channel in their own account; I don't.
