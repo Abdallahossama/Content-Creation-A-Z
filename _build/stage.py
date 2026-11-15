@@ -53,6 +53,10 @@ one(WH + "TODO.md", REPO + "docs/ask-habibi/TODO_snapshot.md")
 # 3b. The Bill, Explained (second channel since 15 Nov 2026): brand kit code + rules
 tree("D:/the-bill-explained/tools", REPO + "tools/the-bill-explained/")
 one("D:/the-bill-explained/BRAND.md", REPO + "docs/the-bill-explained/BRAND.md")
+one("D:/the-bill-explained/LESSONS.md", REPO + "docs/the-bill-explained/LESSONS.md")
+tree("D:/the-bill-explained/videos", REPO + "examples/the-bill-explained/")          # spec, vo_lines, research, credits (no media/export/build)
+for f in glob.glob("D:/the-bill-explained/videos/**/UPLOAD_COPY_PASTE*.txt", recursive=True) + glob.glob("D:/the-bill-explained/videos/**/captions_en.txt", recursive=True):
+    one(f, REPO + "examples/the-bill-explained/" + os.path.relpath(f, "D:/the-bill-explained/videos").replace(os.sep, "/"))
 # 4. The Last Hours: shared engine, tools, CTA voice scripts, mystery-Shorts engine, lessons, every episode's text files
 NC = WH + "_newchannel/"
 for f in ("lastkit.py", "vidclip.py", "thumbs_hakawi.py"): one(NC + f, REPO + "tools/last-hours/" + f)

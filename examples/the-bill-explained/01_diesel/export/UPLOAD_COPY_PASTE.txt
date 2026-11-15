@@ -1,0 +1,75 @@
+THE BILL, EXPLAINED  #1  -  UPLOAD SHEET
+================================================================
+FILE:        TheBillExplained_01_Diesel.mp4
+THUMBNAIL:   thumb_A_nozzles.png  (A/B test with thumb_C_station.png)
+WHEN:        Wednesday 18 Nov 2026, 19:00 Cairo  (= 12:00 PM ET). Studio field = 19:00 local.
+VISIBILITY:  Schedule (Public at the time above)
+
+TITLE (A):   Why Diesel Costs $2 More Than Gas Right Now
+TITLE (B):   Why Diesel Suddenly Costs $2 More Than Gas
+TITLE (C):   Diesel Is $2 More Than Gas. Who Gets the Money?
+(Studio > Test & compare: 3 titles, or thumbnails A vs C)
+
+DESCRIPTION
+----------------------------------------------------------------
+Diesel costs $6.13 a gallon. Gas costs $3.99. That $2.13 gap is the biggest on record, and you pay part of it even if you never buy diesel. Here is the bill, line by line: the barrel, the refiner's cut, the world's lost supply, America's empty tanks, and taxes + winter.
+
+New bill every Wednesday. Subscribe: what should we explain next?
+
+CHAPTERS
+0:00 Diesel vs. gas: the $2.13 gap
+0:17 The bill as it stands
+1:06 Line 1: the barrel
+1:45 Line 2: the refiner's cut
+2:25 Line 3: the world wants the same gallon
+3:23 Line 4: fewer refineries, emptier tanks
+4:25 Line 5: taxes and winter
+4:56 Where the bill lands on you
+6:05 Diesel prices by region
+6:22 Will it come down?
+6:44 The full bill
+
+SOURCES (prices change weekly; all figures as of the week of Nov 9, 2026)
+- EIA Gasoline and Diesel Fuel Update: https://www.eia.gov/petroleum/gasdiesel/
+- EIA weekly price history (gas, diesel): https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_nus_w.htm
+- EIA Short-Term Energy Outlook, Nov 2026: https://www.eia.gov/outlooks/steo/
+- EIA, Refining crude oil: https://www.eia.gov/energyexplained/oil-and-petroleum-products/refining-crude-oil.php
+- EIA Refinery Capacity Report 2026: https://www.eia.gov/todayinenergy/detail.php?id=67807
+- EIA weekly distillate stocks: https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WDISTUS1&f=W
+- EIA fuel taxes by state: https://www.eia.gov/todayinenergy/detail.php?id=67165
+- Crux Investor (ULSD crack spread): https://www.cruxinvestor.com/posts/crude-exports-recovered-to-98-of-pre-war-levels-diesel-did-not
+- OFAC General License 135: https://ofac.treasury.gov/media/937216/download
+- American Farm Bureau, harvest diesel costs: https://www.fb.org/intel/markets/diesel-costs-increase-for-harvest
+- ATA freight share via Truckinginfo: https://www.truckinginfo.com/news/march-truck-tonnage-posts-strongest-annual-gain-since-2022
+- UKMTO Hormuz traffic (via Gulf News): https://gulfnews.com/world/mena/hormuz-shipping-below-normal-but-not-stalled-ukmto-1.500741839
+- World Bank estimate (via Economist.kg): https://economist.kg/enierghietika/2026/11/03/dizel-eksport-rossiya-blizhniy-vostok-60.md
+Semi-truck math is ours: 100,000 mi / 6.5 mpg = 15,385 gal x $2.13.
+
+Photos: Pexels, NASA (public domain), Wikimedia Commons CC0. Maps: Natural Earth.
+Music: Kevin MacLeod (incompetech.com), "Stay the Course", "Floating Cities", "Industrial Cinematic", "Daily Beetle". Licensed under Creative Commons: By Attribution 4.0 http://creativecommons.org/licenses/by/4.0/
+
+This video explains prices; it is not financial advice.
+
+#diesel #gasprices #economics
+----------------------------------------------------------------
+
+TAGS
+diesel prices, why is diesel so expensive, diesel vs gas, diesel price 2026, gas prices, fuel prices, trucking costs, crack spread, refinery, EIA, heating oil, economics explained, the bill explained
+
+SETTINGS
+- Audience: No, it's not made for kids
+- Altered or synthetic content: No (narration is the creator's own cloned voice; no realistic synthetic scenes)
+- Category: Education
+- Language: English (United States); Caption language: English
+- Captions: upload captions_en.txt as "Transcript (without timing)"  (file in this folder)
+- Comments: on, "Hold potentially inappropriate"
+- Playlist: "The Bill, Explained" (create it)
+- Licence: Standard YouTube
+- Paid promotion: No
+
+END SCREEN (last 12 s; the video leaves two empty frames for it)
+- Element 1: Subscribe (channel logo)
+- Element 2: Video > "Best for viewer" (until episode 2 exists)
+
+PINNED COMMENT (post, pin, heart)
+Diesel's bill, in one line: less diesel per barrel + record refiner margins + lost Russian and Middle East supply + the emptiest tanks on record (+ a few cents of tax). What bill should we explain next? Rent? Car insurance? Eggs?

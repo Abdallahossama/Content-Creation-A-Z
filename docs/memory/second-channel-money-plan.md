@@ -26,3 +26,12 @@ Name shortlist (handles that returned 404 on youtube.com on 15 Nov, so probably 
 The Bill, Explained (@TheBillExplained, my pick) / The Real Price Of (@RealPriceOf) / Paid For (@PaidForChannel). Owner creates the channel in their own account; I don't.
 **NAME CHOSEN 15 Nov 2026** (owner: "u pick"): **The Bill, Explained**, handle @TheBillExplained. Owner creates the channel in their own Google account.
 **Brand kit built 15 Nov 2026** in `D:\the-bill-explained\` (BRAND.md; tools/brandkit.py renders logo/banner/watermark, tools/thumbkit.py renders thumbnails). Look: a torn receipt priced "$?.??", TOTAL row in yellow highlighter, price red #D62820, ink, paper; thumbnails = real object + red price tag + optional 2-4-word receipt strip. Fonts: Arial Black, Impact, Consolas. Awaiting the owner's look verdict.
+
+**Episode #1 RENDERED 15 Nov 2026** (owner: "make the first video... finish the whole thing"):
+- Long: `D:\the-bill-explained\videos\01_diesel\export\TheBillExplained_01_Diesel.mp4`, 7:41, 1080p, -16 LUFS.
+- Shorts: `shorts\s1_gap` ($2.13, 0:41) and `shorts\s2_semi` ($32,800, 0:37).
+- Thumbnails A (nozzles) and C (night station). Upload sheets are in `export\` and `shorts\`.
+- Planned slots: long Wed 18 Nov 19:00 Cairo; Shorts Thu 19 + Fri 20 Nov 19:00. They need the owner to create the channel first and to upload in Studio.
+- Engine: `tools/billvid.py` (+ `vo_chatterbox`, `transcribe_lines`, `fix_lines`, `thumbkit`).
+- Process + lessons: `D:\the-bill-explained\LESSONS.md`.
+- Hard lesson: C: at 0 GB crashed Chatterbox. Route `TMP` to D:, and run one heavy job at a time.
