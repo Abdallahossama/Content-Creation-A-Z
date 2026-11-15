@@ -8,6 +8,7 @@ metadata:
   modified: 2026-10-24T13:37:12.890Z
 ---
 
+30 Oct 2026: FINAL: the user stops Ask Habibi completely ("I will make content only for The Last Hours"); its files are archived ([[disk-space-cleanup]]).
 24 Oct 2026: user decided to STOP making new Ask Habibi content. The already-scheduled Ask Habibi videos (Diesel 24 Oct, Ancient Fun v2 25 Oct,
 Dog v2 29 Oct, Walking v2 1 Nov) and any scheduled Ask Habibi Shorts still go out as a test; I pin their comments, nothing new is made.
 Do NOT delete the channel. All production goes to The Last Hours: 2 long files a week (Sun + Sat, 12 PM New York) + 2-3 teaser Shorts per file.

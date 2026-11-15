@@ -59,7 +59,7 @@ def DT(rid): return TB.get(rid, "THE RECORD, 1937")
 ''')
 rep('def KBP(rid, crop=None, h=880, rot=-1.5, tag=None): return ("kbp", dict(rid=rid, crop=crop, h=h, rot=rot, tag=tag or (DT(rid) if rid[0] == "A" else TB.get(rid))))',
     'def KBP(rid, crop=None, h=880, rot=-1.5, tag=None): return ("kbp", dict(rid=rid, crop=crop or CROP.get(rid), h=h, rot=rot, tag=tag or DT(rid)))')
-swap("CROPV = {", "def VID(rid", '''CROPV = {"D1": (0.12, 0.0, 0.62, 0.5)}                                   # D1: only the sky and the bridge tower (visitors stand on the hill below)
+swap("CROPV = {", "def VID(rid", '''CROPV = {"D1": (0.12, 0.13, 0.52, 0.53)}                                   # D1: only the sky and the bridge tower (visitors stand on the hill below)
 LIFT = {"V3": 0.8, "V4": 0.8}
 ''')
 swap("SHOTS = [", "def OT(ln, off)", open("D:/why habibi/_newchannel/16_cole_roe_1937/shots_coleroe.py", encoding="utf-8").read())
@@ -69,7 +69,7 @@ rep('sh = tone("F13")', 'sh = tone("G17")')
 rep('wt(67, "like"), wt(67, "subscrib")', 'wt(ENDL, "like"), wt(ENDL, "subscrib")', 2)
 swap("CAPFIX = {", "def capfix(i, w):", '''CAPFIX = {"Noah's": "NOAA's", "Noahs": "NOAA's", "Kretzer": "Cretzer", "Kretzer's": "Cretzer's", "Cretser": "Cretzer", "Kratzer": "Cretzer", "Johnson": "Johnston",
           "Leavenwerth": "Leavenworth", "Rowe": "Roe", "Row": "Roe", "Roe's": "Roe's", "Rowe's": "Roe's", "F.B.I.": "FBI", "F.B.I.'s": "FBI's", "PM": "p.m.", "PM,": "p.m.,",
-          "1.30": "1:30", "4.52": "4:52", "1.00": "1:00", "Alcatraz,": "Alcatraz,", "Tulsa,": "Tulsa,"}  # whisper spellings -> the record's
+          "1.30": "1:30", "4.52": "4:52", "1.00": "1:00", "Gorn": "Gone", (61, "Nobody"): "No body", (50, "2."): "No. 2:", (50, "3."): "No. 3:", "$3": "$3"}  # whisper spellings -> the record's
 ''')
 swap('    music("Thunder Dreams.mp3", 0.0, tl(5)', "    for i, (key, (kind, a)) in enumerate(SHOTS):", '''    music("Thunder Dreams.mp3", 0.0, tl(5), -11, later=(tl(4), -15)); music("Industrial Cinematic.mp3", tl(5), tl(18), -17); music("Man Down.mp3", tl(18), tl(29), -17)
     music("Rising Tide.mp3", tl(29), tl(42), -17); music("Thunder Dreams.mp3", tl(42), tl(53), -17); music("Industrial Cinematic.mp3", tl(53), tl(61), -17)
@@ -97,4 +97,5 @@ swap("CH = [", 'if __name__ == "__main__":', '''CH = [(0, "Counted at one"), (5,
 
 ''')
 rep("NEXT = os.environ.get(\"LH_NEXT\", \"\")", "NEXT = os.environ.get(\"LH_NEXT\", \"\")\nENDL = 69                                                # the File Keeper sign-off line (the end card runs under it)")
+exec(open("D:/why habibi/_newchannel/17_gaddafi_last_day/build/post_patch.py", encoding="utf-8").read())   # 6 Nov (LESSONS 53/54): print-card x, quoteL/listL/quoteR
 open(DST, "w", encoding="utf-8").write(s); print("wrote", DST, len(s.splitlines()), "lines")

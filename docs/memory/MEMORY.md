@@ -26,11 +26,25 @@
 - [Last Hours hook style](last-hours-hook-style.md) — first 2 s = imagine/shock hook, then weekday + date + clock; teaser titles = action + shock ("He Touched the Sleeping Man's Head. It Rolled Off.")
 - [Last Hours lessons](last-hours-lessons.md) — viewers leave at ident + backstory after cold open; LESSONS.md checklist for every file
 - [Razqora SaaS video](razqora-saas-video.md) — Razqora = the user's SaaS product, not YouTube; promo video outputs in F:\WEB DEV\kbs local try\razqora_video\
-- [Focus on The Last Hours](focus-last-hours.md) — 24 Oct: no new Ask Habibi work after the scheduled 4; Last Hours 2 long/week; Andrée Sun 8 Nov
+- [Focus on The Last Hours](focus-last-hours.md) — 30 Oct: Ask Habibi STOPPED for good, Last Hours only (2 long/week); Andrée Sun 8 Nov
 - [Last Hours subscribe asks](last-hours-subscribe-asks.md) — silent badge at 60-80% after a payoff + polite spoken like/subscribe + "whose last hours next?" at the very end (29 Oct)
-- [Disk space cleanup](disk-space-cleanup.md) — 25 Oct: 36 GB Ask Habibi media moved to E:\why habibi OLD ask habibi (delete me); never move _style_kit/_music_library/_pipeline/AskHabibiAI
+- [Disk space cleanup](disk-space-cleanup.md) — Ask Habibi files sit in "(delete me)" folders on E: (36 GB, 25 Oct) and D: (1.6 GB, 30 Oct); never move _style_kit/_music_library/_pipeline/AskHabibiAI
 - [Alcatraz analytics + follow-ups](last-hours-alcatraz-analytics.md) — 49% viewed, 90% Up next, TV 68%; ideas kept: Battle of Alcatraz 1946, Cole & Roe 1937
 - [Pin + heart every new video](last-hours-pin-heart.md) — owner rule 27 Oct: post the prepared comment, pin it and heart it on every new long video and Short
 - [The File Keeper brand](last-hours-file-keeper-brand.md) — 30 Oct: NOIR detective set (badge/seal/folder, flat badge = tiny watermark), no first name, re-brand all 8 scheduled long files, like-vote test on Alcatraz 1946
 - [Content-Creation-A-Z repo](content-creation-repo.md) — private GitHub repo = whole system as a skill; D:\Content-Creation-A-Z; owner order 30 Oct: write EVERY edit/brand decision into it + push, unasked
 - [Studio time zone](studio-timezone.md) — schedule field = Local Time; since 29 Oct 2026 GMT+2, so 22:00 Cairo = 22:00 field (not 23:00)
+- [Analytics 6 Nov](last-hours-analytics-nov6.md) — 2.2K views, 94 h, 7 subs, CTR 2.5%, avg view 7 min; Saddam CTR 4-5% (famous name); Roanoke 1.6%; Alcatraz Shorts win
+- [uv after disk cleanup](uv-after-disk-cleanup.md) — C: cleanups break uv: reinstall Pythons, delete the half-empty archive-v0 env; fallback venv-chatterbox python
+- [Production paused 6 Nov -> LIFTED 14 Nov](last-hours-production-paused.md) — Files 26 Saddam capture + 27 Saddam last day RENDERED 14 Nov; thumbs + dates (13 Dec, 27 Dec) await owner OK
+- [Last Hours files 15-18](last-hours-next-files.md) — Indianapolis Sun 6 Dec, Cole & Roe Mon 7 Dec, Gaddafi = first "Files: People"; 18 Muslim Brotherhood (Banna 1949 spine, El-Sayed factual only); Chatterbox never beside renders
+- [Personal brand](personal-brand.md) — Abdullah Osama, codebyabdullah.com / @codebyabdullah, Gulf SMEs automation/AI; look = his website (dark + orange #FF4F2B), kit artifact HkjjtyMw
+- [Personal brand edit style](personal-brand-edit-style.md) — reels copy @AbdaalWebdeveloper Short: dark desk room, teal-orange grade, face → screenshot pop-ins → B-roll → screen recordings
+- [Personal brand products](personal-brand-products.md) — services + 3 products: Razqora (AI KB), Qyas · قياس (surveys), Rafiq · رفيق (chatbot, was Jawwab); never "Atmaal"; never mention Next Automation
+- [No-spend rule](personal-brand-no-spend.md) — no money on the brand for now (no domains/paid tools); products as pages on codebyabdullah.com; site repo path
+- [Use skills proactively](use-skills-proactively.md) — never wait to be told which skill; map every content task to brand-funnel-shorts / yt-* / claude-shorts / ffmpeg-skill myself
+- [Rafiq promo videos](rafiq-promo-video.md) — 6 Nov: rafiq_video folder, Rafeek + Message us confirmed, all 8 files done (Arabic Cut B on 2nd ElevenLabs account)
+- [Explainer edit style](last-hours-explainer-style.md) — 11 Nov: Mudawanat-style look (grid paper, red/yellow labels, cream cards) for Last Hours; File 25 Mallory & Irvine 6RvE-avL4NI airs Thu 12 Nov 22:00; big-file upload trick
+- [Analytics 14 Nov](last-hours-analytics-nov14.md) — Saddam #1 (87% Suggested from Iraq videos, 149/48h, title test winner "21 Men Were Gone in 17 Days" not applied); Shorts dead (24-40% stayed); obscure topics get no impressions
+- [Sparrow re-thumbs rejected](last-hours-sparrow-thumbs.md) — 14 Nov: tried @sparrow0y0 look (v1 B&W, v2 colourful); owner: CURRENT channel thumbnails are better, keep them
+- [Second channel money plan](second-channel-money-plan.md) — 15 Nov: replace Ask Habibi with NEW faceless "Why X Costs $Y" US-economics channel (long-first, 1/wk); awaits owner OK on niche/new-vs-rebrand/name

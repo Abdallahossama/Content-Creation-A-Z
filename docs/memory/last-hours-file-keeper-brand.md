@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: eff32ef8-e3b2-4b1b-abb9-4566220676dd
-  modified: 2026-10-30T05:55:19.051Z
+  modified: 2026-10-31T17:41:37.534Z
 ---
 
 30 Oct 2026 the owner said views + retention are good but likes/subs conversion is "very bad" and asked for a persona brand: a
@@ -34,5 +34,7 @@ Related: [[last-hours-subscribe-asks]], [[new-channel-last-hours]], [[content-cr
 - 30 Oct: owner OK -> channel branding PUBLISHED on The Last Hours: banner_2560x1440.jpg, avatar_800.png (noir badge), watermark_150.png (flat badge, display: ENTIRE video). Re-uploads start with Saddam (old PTaKzDEHdaY): A/B 1 'Saddam Hussein Called a Meeting. 66 Names Were Read Out.'+B_HIS_OWN_MEN, 2 '...1979 Purge: 66 Names, One by One'+A_WHOS_NEXT, 3 '66 Names Were Read Out. 21 Men Were Gone in 17 Days.'+C_HE_CRIED; playlist Power and Purges; shifted description in Studio localStorage fk_desc_khuld.
 - 30 Oct later: banner v2 LIVE (owner picked "1"): channel/banner_2560x1440_v2.jpg (banner_v2.py) = old Alcatraz photo under the noir dark layer at 70 % + streaks, File Keeper cut out, hat inside the desktop strip (owner: "the head is cropped" on v1). Always check *_HOW_IT_SHOWS.jpg (desktop strip y 508-931, phone x 507-2053) before a banner upload. When the owner says "banner" he means the CHANNEL banner, not the in-video stamp band (I misread it once); the stamp stays the approved SOLID band.
 - 30 Oct DONE: all 9 File Keeper files live in Studio, scheduled 22:00 Cairo (NEW ids: Flannan Rz0qyy9-7GE 1 Nov, Saddam 79Wix9PwPpY 2 Nov, Andrée vyX1mYdiWGw 8 Nov, Gaddafi kJYD15hkP48 9 Nov, Flight19 r0wpGQzHVJ8 15 Nov, Cyclops eyc6dLMqf-U 16 Nov, EgyptAir AIbcwBZsxdY 22 Nov, Göring XJYc9KLbzJ0 29 Nov, Alcatraz46 MiC9JTGkWq8 30 Nov). Old copies PRIVATE + "OLD COPY (delete)" for the owner to delete. Full table: _upload_queue_last_hours/branded/REUPLOAD_PLAN.txt. When public: repoint Shorts related links + pin/heart comment on NEW ids.
+- 31 Oct (later): owner "make the collar (ياقة) lower, on the y axis" -> P = G with COLL_LOW (collar tips moved down; Q much lower looked like a scarf). Then: wall showed in gaps at the collar/shoulder joins (smoothed coat corner) -> keep collar bottom corners INSIDE the coat. Then "thinner in width, to the centre" -> **LIVE avatar = avatar_v2_R_800.png** (COLL_NARROW).
+- 31 Oct: AVATAR v2 LIVE = channel/avatar_v2_G_800.png (same figure, AMBER wall + the old venetian-blind light streaks; avatar_contrast.py). Owner: the noir avatar was "all black in black" on a dimmed phone. Owner liked red + the streaks, then amber; asked me to pick among G/H/I/E/F -> G. RULE: every brand mark must pass the low-brightness row of _sheet_avatar_v2_*.png before going live.
 - 30 Oct: Alcatraz 1946 teasers scheduled (owner OK): T1 KpQ1WWaIXLg 1 Dec, T2 sjP79gckYY4 3 Dec, T3 KunZPPLxYlU 5 Dec, 19:00 Cairo. After 30 Nov 22:00: Related video -> MiC9JTGkWq8 + pin/heart comments.
 - 30 Oct: Shorts gap 23-29 Nov filled (19:00): EgyptAir AdZ95n42xwI 23, _w492FOuMUU 25, rTYz0T8oPtk 27 (related -> AIbcwBZsxdY after 22 Nov); Cyclops ccw9IAFC6fI 24, rglfPKhCUpM 26, L0YS7Y3U2Gg 28, vC0fLGBtvxU 29 (related -> eyc6dLMqf-U after 16 Nov). Next longs: USS Indianapolis (Sun 6 Dec, folder 15_uss_indianapolis) + Cole & Roe 1937 (Mon 7 Dec, 16_cole_roe_1937): research done, asset downloads await owner OK.

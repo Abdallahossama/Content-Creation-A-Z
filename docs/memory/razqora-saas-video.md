@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: eff32ef8-e3b2-4b1b-abb9-4566220676dd
-  modified: 2026-10-25T15:22:34.354Z
+  modified: 2026-11-06T15:05:15.364Z
 ---
 
 Razqora (رازقورا) = the user's own SaaS knowledge-base product (repo F:\WEB DEV\kbs local try\Old-kquires-deployment-v2; the demo host domain is never shown or named).

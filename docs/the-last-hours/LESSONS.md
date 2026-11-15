@@ -138,58 +138,6 @@ PRODUCTION MISTAKES 22-23 OCT (and the fix that is now the rule)
 41. SHORT TITLES THAT WIN (Studio, 25 Oct): the Alcatraz teaser "He Touched the Sleeping Man's Head. It Rolled Off." got 139 views and 51.4%
     viewed within hours, more than any long file. Formula: two short sentences, a concrete physical action by one person, then a shocking
     result; no date, no logistics. Long files keep their viewers (Alcatraz 47.2% average view) but get few impressions: teasers feed them.
-42. NEW FILES 15-16 (30 Oct): build render_<file>.py from the newest branded engine with a small _build_render.py that swaps blocks
-    (paths, TB tags, CROP, SHOTS/OV from shots_<file>.py, CAPFIX, music, EV, CH, ENDL) instead of hand-editing 900 lines.
-    Scanned PDFs: render pages to media/<rid>p<n>_page.jpg and OCR once (_tools/ocr_pages.py); find marks with _tools/ocr_find.py.
-    PDFs with a text layer (Utah newspapers, NHHC book): build the OCR json from the words (exact boxes). Mark DOC spots by OCR row
-    numbers ("69+70"). Cards with red ink: COLORDOC (page_img keeps colour) so the "ESCAPED" stamp stays red.
-43. MEMORY: Chatterbox segfaulted / "paging file too small" when it ran beside OCR while WSL held ~6 GB. Run voice jobs alone in a
-    chain script (_tools/chain_vo*.sh) and check free memory (Win32_OperatingSystem) before starting.
-44. Whisper writes digits ("1,195", "900"): word keys must use the digit form too ("1195|eleven"), or the shot falls back to the line start.
-
-45. RENDER IN PARTS, ONE AT A TIME (31 Oct): parallel "all n" renders ran out of memory and wrote short parts. _tools/render_seq.sh
-    renders part i alone, checks its length with ffprobe, retries up to 3 times, then runs audio + final. Indianapolis (8 parts) and Cole & Roe
-    (5) finished clean this way.
-46. A FILE NAME IS NOT THE PICTURE (31 Oct, Gaddafi): the VOA Bani Walid set (A17-A22) held different frames than assets.md described
-    (the "shell casings" file was a fighter's face). It nearly put a young fighter's face under "he was beaten and abused". Check every
-    still on the contact sheet (_tools/stills_sheet.py) and tag it by what is SEEN, never by the download note.
-47. QA THE WHOLE CUT BEFORE THE RENDER: `render qa` (one mid-frame per shot) caught a 0.45-degree Natural Earth map that showed nothing
-    (too coarse below ~2 degrees: use a gulf-scale map or a COUNTER), a burned-in title in an EC clip (V10a), dark smoke clips that would
-    read as black, a counter whose number fell into the next shot, and the end card followed by a stray shot. LIFT is a gamma: below 1 lifts.
-48. THUMBNAIL GLOW (31 Oct): blur a glow on a PADDED canvas, or its box edge shows as a square (owner spotted it on "ONE AFRICA").
-    Faces in a bubble stay in natural colour over a toned background (owner: contrast).
-49. CHATTERBOX START STALLS (31 Oct): with ~3 GB free RAM the model load crawled (16 s CPU in 7 min, empty log). Kill it, free memory
-    (close browser tabs; WSL ~6.5 GB), restart with `python -u` so vo.log shows progress at once. An app restart also kills background
-    shells: a detached start via PowerShell Start-Process failed silently (wrong Git path), so check the process list after any restart.
-50. WHISPER INVENTS TAILS: "So, that's it for this video. If you liked it, subscribe..." appeared at the end of a line, all words packed
-    into 0.2 s. It is not in the audio. Drop words squeezed into a few hundredths of a second at a line's end before building captions.
-51. THUMBNAIL CUTOUTS (31 Oct): GrabCut cut half a face; MediaPipe 0.10.14 selfie segmentation (`mp.solutions`, model inside the wheel,
-    no extra download; newer mediapipe dropped `solutions`) gave a clean cutout. Put the cutout ABOVE every effect (glow, embers, board),
-    rim light from the dilated alpha, shadow offset left; only text may cover the person.
-52. A REAL CANDIDATE ON A THUMBNAIL (owner supports him): never blend his face with the subject, never tie him with a string, never put a
-    "who did it?" headline beside his face; every version carries a fair note big enough to read at 280 px wide.
-53. NO BAD ZOOMS, NO TEXT ON FACES (owner, 31 Oct, "a lot of times"): KB (fill the frame) on a small (< ~1400 px) or upright photo
-    blows a 300-800 px portrait up 3-8x and crops the face; show it as a print card (KBP) at its true proportions instead. A face is
-    never under text: frame 1 = portrait card on the right (x≈0.79) + SHORT hook lines on the left; quotes/lists move to the left half
-    ("quoteL"/"listL", 18_muslim_brotherhood/build/post_patch.py). List every KB image's size before writing shots and check frame 1
-    at full size.
-54. AUDIT OLD FILES FOR LESSON 53 BEFORE THEY GO OUT (31 Oct, Gaddafi 17, unscheduled): a frame sheet found the hook text on his face,
-    3 quotes and a "KING OF KINGS" title over faces, a question band over his chin, and 9 small/upright photos zoomed to fill the frame.
-    Fix in build/facefix_shots.py (exact string swaps, fails if a shot is missing) + build/post_patch.py (file 18's patch + "quoteR").
-    Footage where the person MOVES (Obama walking in the Rose Garden): don't chase him with a side quote; cut to a dim neutral still for
-    the quote. Workflow: `python - < size audit` (every KB id's px + UPRIGHT flag), then `render_*.py qa t1 t2 ...` on every changed
-    shot, then render. A wide hook card needs a crop that keeps the face and >= 60 px gap from the hook text box.
-55. AUDIT EVERY UNRELEASED FILE, NOT ONLY THE NEXT ONE (6 Nov): Cole & Roe and USS Indianapolis (6/7 Dec, rendered 30-31 Oct, before
-    LESSONS 53) had the same faults: 600-1280 px NHHC/NPS photos stretched to fill the frame (Cole & Roe G8 = 348 px, 5x), quotes on
-    mugshots and on McVay, titles on the guards / crew. A teaser cut from it showed it first ("THE NEXT DAY: NO MATCH" across Cole's eyes).
-    Fix pattern = build/facefix_shots.py per file + the shared 17_gaddafi_last_day/build/post_patch.py (KBP x, quoteL/R, listL/R).
-    When the FACE is on the left of a group photo (McVay): crop him to a card on the LEFT (KBP crop + x=0.27) and put his words RIGHT.
-    Long quotes in a half: 3-4 short lines (44 px), never one 55-character line.
-
-56. A TEASER IS ONLY AS FIXED AS ITS RENDER TIME (6 Nov): Cole & Roe T3/T4 were rendered at 09:19/09:24, the face fix landed in
-    shots_coleroe.py at 09:29, so the "re-cut" teasers still had the fault and were scheduled (then replaced, old ones set Private).
-    Before uploading any teaser: compare its file time with the last change to shots_*.py / render_*.py, and look at a 1-frame-per-3-s
-    strip (ffmpeg fps=1/3,tile) for text on faces. Renders on a full C: drive die with MemoryError and leave SHORT files: check durations.
 57. DATA 14 NOV: FAMOUS ECOSYSTEM BEATS EVERYTHING. Saddam (3.6% CTR, 87% Suggested next to million-view Iraq videos, 149 views/48 h
     on day 13) passed Alcatraz while having WORSE retention (38% vs 55%). Obscure files (Andree 0% CTR/89 impr., Mallory 6 impr.)
     get no test at all. Pick subjects that already have big videos to sit beside; title = number + consequence; judge after day 4-7.

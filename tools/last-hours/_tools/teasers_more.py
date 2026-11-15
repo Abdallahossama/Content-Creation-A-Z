@@ -49,6 +49,11 @@ FILES = {
    "T2_the_warden": dict(a=(44, 0), b=(48, 0), hook=("THE WARDEN", "CHANGED HIS MIND"), sub="ALCATRAZ  \u00b7  MON 20 DEC 1937"),
    "T3_the_postcard": dict(a=(57, 0), b=(60, 0), hook=("\u201cBUSINESS WAS", "GOOD IN JULY\u201d"), sub="SAN FRANCISCO CHRONICLE  \u00b7  APRIL 1941"),
    "T4_tulsa": dict(a=(53, 0), b=(56, 0), hook=("SHOT IN", "THE BACK"), sub="TULSA, OKLAHOMA  \u00b7  APRIL 1940")}),
+ "gaddafi17": dict(dir="17_gaddafi_last_day", mod="render_gaddafi17", title=("Gaddafi's Last Convoy Left at 8 AM.", "By 11 He Was Captured."), teasers={
+   "T1_the_convoy": dict(a=(11, 0), b=(15, 0), hook=("THEY LEFT", "IN DAYLIGHT"), sub="SIRTE, LIBYA  \u00b7  THU 20 OCT 2011  \u00b7  8:00 AM"),
+   "T2_whose_aircraft": dict(a=(17, 0), b=(20, 0), hook=("WHOSE", "AIRCRAFT?"), sub="NATO NEVER SAID  \u00b7  20 OCT 2011"),
+   "T3_the_grenade": dict(a=(29, 0), b=(33, 0), hook=("IT BOUNCED", "BACK"), sub="SIRTE  \u00b7  THE DRAINAGE PIPES  \u00b7  20 OCT 2011"),
+   "T4_king_of_kings": dict(a=(24, 0), b=(27, 0), hook=("KING OF", "KINGS"), sub="200 AFRICAN KINGS  \u00b7  28 AUG 2008")}),
 }
 KEY = sys.argv[2] if len(sys.argv) > 2 else "khuld"; F = FILES[KEY]
 sys.path.insert(0, NC + F["dir"]); R = importlib.import_module(F["mod"])
@@ -99,7 +104,8 @@ def vframe(name, t):
         c.paste(bg, (0, 0))
         kind, a = R.shot_at(cfg["a"] + t)[1][1]
         wide = kind == "kbp" and a.get("crop") and (a["crop"][2] - a["crop"][0]) * 16 > (a["crop"][3] - a["crop"][1]) * 9 * 2.5   # a headline strip
-        if kind in FIT_KINDS or wide: c.paste(big.resize((VW, 608), Image.LANCZOS), (0, 661))   # left-set date text / wide strip: whole frame
+        side = kind == "kbp" and abs(a.get("x", 0.5) - 0.5) > 0.05                                    # LESSONS 53: card on one side, quote on the other
+        if kind in FIT_KINDS or wide or side: c.paste(big.resize((VW, 608), Image.LANCZOS), (0, 661))   # left-set date text / wide strip / side card: whole frame
         else: c.paste(big.resize((1440, 810), Image.LANCZOS).crop((180, 0, 1260, 810)), (0, 560))
         d = ImageDraw.Draw(c); d.rectangle((0, 556, VW, 560), fill=RED); d.rectangle((0, 1370, VW, 1374), fill=RED)
         for i, (hk, col, y) in enumerate(((cfg["hook"][0], BONE, 215), (cfg["hook"][1], RED, 365))):

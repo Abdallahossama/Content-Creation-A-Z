@@ -72,7 +72,7 @@ rep('wt(67, "like"), wt(67, "subscrib")', 'wt(ENDL, "like"), wt(ENDL, "subscrib"
 swap("CAPFIX = {", "def capfix(i, w):", '''CAPFIX = {"Lighty": "Leyte", "Leighty": "Leyte", "Laity": "Leyte", "Layte": "Leyte", "Pelelu": "Peleliu", "Pelilu": "Peleliu", "Pellalu": "Peleliu", "Peleleu": "Peleliu",
           "McVeigh": "McVay", "McVey": "McVay", "Mcvay": "McVay", "Gwyn": "Gwinn", "Gwen": "Gwinn", "Gwin": "Gwinn", "Hashimodo": "Hashimoto", "Tinnian": "Tinian",
           "Farallone": "Farallon", "Faralon": "Farallon", "Haynes'": "Haynes", "Hayes": "Haynes", "Doil": "Doyle", "SOS": "S.O.S.", "S.O.S": "S.O.S.", "LST": "LST-779",
-          "I58": "I-58", "I-58.": "I-58.", "11.18": "11:18", "11.25": "11:25", "10.42": "10:42", "5.05": "5:05", "10.30": "10:30", "11.30": "11:30", "9.10": "9:10"}  # whisper spellings -> the record's
+          "I58": "I-58", "I-58.": "I-58.", "11.18": "11:18", "11.25": "11:25", "10.42": "10:42", "5.05": "5:05", "10.30": "10:30", "11.30": "11:30", "9.10": "9:10", (61, "arrived."): "arrived", (61, "Late."): "Leyte.", (61, "Advise."): "Advise."}  # whisper spellings -> the record's
 ''')
 swap('    music("Thunder Dreams.mp3", 0.0, tl(5)', "    for i, (key, (kind, a)) in enumerate(SHOTS):", '''    music("Thunder Dreams.mp3", 0.0, tl(5), -11, later=(tl(4), -15)); music("Rising Tide.mp3", tl(5), tl(17), -17); music("Industrial Cinematic.mp3", tl(17), tl(24), -17)
     music("Man Down.mp3", tl(24), tl(33), -17); music("Thunder Dreams.mp3", tl(33), tl(47), -17); music("Rising Tide.mp3", tl(47), tl(56), -17)
@@ -101,4 +101,5 @@ swap("CH = [", 'if __name__ == "__main__":', '''CH = [(0, "Nobody came"), (5, "T
 
 ''')
 rep("NEXT = os.environ.get(\"LH_NEXT\", \"\")", "NEXT = os.environ.get(\"LH_NEXT\", \"\")\nENDL = 90                                                # the File Keeper sign-off line (the end card runs under it)")
+exec(open("D:/why habibi/_newchannel/17_gaddafi_last_day/build/post_patch.py", encoding="utf-8").read())   # 6 Nov (LESSONS 53/54): print-card x, quoteL/R, listL/R
 open(DST, "w", encoding="utf-8").write(s); print("wrote", DST, len(s.splitlines()), "lines")

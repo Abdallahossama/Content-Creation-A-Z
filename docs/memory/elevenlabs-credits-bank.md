@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: eff32ef8-e3b2-4b1b-abb9-4566220676dd
-  modified: 2026-10-19T11:18:00.607Z
+  modified: 2026-11-06T19:56:15.168Z
 ---
 
 19 Oct 2026: the user has 24,665 / 40,000 ElevenLabs Starter credits left and will cancel the plan; billing period
@@ -24,4 +24,6 @@ mystery Shorts (33-40) + best of the rest (06, 07, 09, 10, 20, 22, 24, 25, 29, 3
 User kept the channel name "The Last Hours" (declined a personal-storyteller brand, 19 Oct).
 DONE 19 Oct: credits EXHAUSTED (0 left). The user's "24,665 / 40,000" meant USED, so only ~15.3k remained (my misread).
 Voiced with ElevenLabs: 26 Shorts = 01-05, 08, 11-19, 21, 23, 26-28, 31, 33-36, 39. Failed (not charged): 37 Wow!, 38 Centralia,
+6 Nov 2026 (Rafiq promo): the MCP account is on FREE tier; one 525-credit Arabic take worked, the next failed with
+"Unusual activity... Free Tier access has been disabled, upgrade to paid". Treat ElevenLabs as unavailable until the owner pays.
 40 Tunguska -> voice these + 06, 07, 09, 10, 20, 22, 24, 25, 29, 30, 32 locally with Chatterbox (free).

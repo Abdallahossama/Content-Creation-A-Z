@@ -82,3 +82,10 @@ Altered content: left for you. TODO after 19:00: pin the comment above; check th
 22 Oct 2026 (user "yes upload them"): A/B test REPLACED with v2 thumbnails (thumbs_roanoke_v2.py), restarted:
   A2_WHERE_DID_THEY_GO (1876 engraving as a clear sepia print + red CROATOAN zoom bubble), B2_115_PEOPLE_MAP (John White's
   1585 map, Roanoke circled, names-list bubble, 1587 / 1590: EMPTY), C2_ONE_WORD_SHIP (ship reframed big). B3 forest rejected.
+
+6 NOV 2026: NEW A/B PROPOSAL (analytics: CTR 1.6% on 2,702 impressions, channel's worst; Saddam's famous face got 4.3-5%)
+thumbs_roanoke_v3.py -> export/thumbnails/R*_upload.jpg. Every title now carries "Lost Colony" (the phrase people search).
+  1 (main)  R1_RALEIGH_115_VANISHED_upload.jpg + "What Really Happened to the Lost Colony of Roanoke?"
+  2         R2_THE_ONLY_CLUE_upload.jpg        + "The Lost Colony of Roanoke: 115 People, One Word, No Grave"
+  3         R3_NEVER_FOUND_upload.jpg          + "Roanoke's Lost Colony Left One Word. It Points to an Island."
+Status: WAITING FOR THE OWNER'S PICK (then: Title and thumbnail A/B test in Studio, replaces the current test).

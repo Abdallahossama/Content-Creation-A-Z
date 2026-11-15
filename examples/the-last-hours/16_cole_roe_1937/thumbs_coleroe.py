@@ -48,7 +48,8 @@ def B():   # Roe's card (A2), the red stamp "ESCAPED DECEMBER 16, 1937" and his 
 
 def C():   # the FBI's aerial of Alcatraz before 1934 (G1) + Cole's mug in a bubble: NEVER / FOUND
     c = bw(cover(src(EP, "G1_"), TW, TH, cx=0.5, cy=0.55, z=1.6)); c = vign(c, 0.5).convert("RGBA")
-    bubble(c, mug("A1_", 420), 1060, 470, r=160)
+    m = mug("A1_", 420); k = int(m.width * 1.15); x0 = int(m.width * 0.62 - k / 2); bgc = m.convert("RGB").getpixel((m.width - 3, 5)); sq = Image.new("RGB", (k, k), bgc); sq.paste(m.convert("RGB"), (-x0, 0)); m = sq      # owner 6 Nov: square from the TOP, so his eyes stay in the circle
+    bubble(c, m, 1060, 470, r=160)
     block(c, "NEVER", 40, 300, 150)
     block(c, "FOUND", 40, 480, 160, fill=WHITE, bg=RED + (255,))
     block(c, "THE FOG ESCAPE · 1937", 40, 92, 46, fill=(0, 0, 0), bg=YEL + (255,))
