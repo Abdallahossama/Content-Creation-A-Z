@@ -1,6 +1,6 @@
 # 12 - Second channel: what replaces Ask Habibi (decided 15 Nov 2026)
 
-Status: APPROVED 15 Nov 2026 (owner: "Yes, new channel") - niche #1 + a NEW channel. Name still open: The Bill, Explained (@TheBillExplained, pick) / The Real Price Of (@RealPriceOf) / Paid For (@PaidForChannel); handles looked free on 15 Nov.
+Status: APPROVED 15 Nov 2026 (owner: "Yes, new channel") - niche #1 + a NEW channel named **The Bill, Explained** (@TheBillExplained), chosen 15 Nov (owner: "u pick"). The owner creates it in their own Google account.
 The Last Hours is not touched by this plan.
 
 ## Why change

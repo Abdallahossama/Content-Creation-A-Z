@@ -1,6 +1,6 @@
 ---
 name: second-channel-money-plan
-description: "15 Nov 2026 APPROVED: a NEW faceless \"everyday-America economics\" channel replaces Ask Habibi (why X costs that / follow the money maps); name pending, shortlist inside"
+description: "15 Nov 2026 APPROVED: a NEW faceless \"everyday-America economics\" channel replaces Ask Habibi (why X costs that / follow the money maps); name = The Bill, Explained (@TheBillExplained)"
 metadata:
   node_type: memory
   type: project
@@ -24,3 +24,4 @@ Recommendation given (full doc: `docs/12-SECOND-CHANNEL-PLAN.md` in [[content-cr
 **15 Nov 2026, owner: "Yes, new channel"** -> APPROVED: niche #1 + a NEW channel (Ask Habibi stays online, untouched). Name still open.
 Name shortlist (handles that returned 404 on youtube.com on 15 Nov, so probably free; confirm in YouTube's handle field):
 The Bill, Explained (@TheBillExplained, my pick) / The Real Price Of (@RealPriceOf) / Paid For (@PaidForChannel). Owner creates the channel in their own account; I don't.
+**NAME CHOSEN 15 Nov 2026** (owner: "u pick"): **The Bill, Explained**, handle @TheBillExplained. Owner creates the channel in their own Google account.
