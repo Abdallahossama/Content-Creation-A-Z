@@ -60,3 +60,11 @@ or the **remove-related-video X**. Always `find` fresh on each page; after any s
 - Channel: `/analytics/tab-overview|tab-content|tab-build_audience/period-lifetime`. Video: `/video/<id>/analytics/tab-overview|tab-reach_viewers/period-since_publish`.
 - Read with `document.querySelector('main').innerText`. The Advanced-mode explore URL with custom metrics can error ("Oops").
 - Exact retention curves: Engagement tab → read the pink retention `<path d>` and axis labels with JS.
+
+## Lessons from The Bill, Explained launch (15 Nov 2026)
+- **Rebrand an old channel:** Customisation → Profile (banner/picture/watermark through the hidden file inputs; name; handle; description) → Publish. The page width can shift after the crop dialogs, so click Publish by `find` ref, not by coordinate. Then check the public page `youtube.com/@handle`.
+- **Bulk private:** Content → Videos (then Shorts) → Select all → Edit → Visibility → Private → Update videos → tick "I understand" → Update. Reversible.
+- **Big-file upload worked:** `split -b 9500000` → one `file_upload` per part (a browser_batch counts as ONE call, so the 10 MB limit applies to the whole batch) into a page-made `<input id=claude_parts>` that collects the files → join the parts as a Blob → DataTransfer onto `input[name=Filedata]` → change event. Check that the byte size matches.
+- **Captions during processing:** "Without timing" uploads fail ("caption track failed to update") while YouTube is still generating auto-subtitles. Upload a **timed SRT** instead (`tools/the-bill-explained/make_srt.py` writes it from the render's word-timed caption chunks): Edit subtitles → Options → Upload file → With timing → Publish.
+- **AI-use question (new wording):** "Was AI used to ... make a real person say/do, alter real footage, realistic scene, music". Our own cloned voice + charts + real photos = **No**.
+- **A/B test:** edit page → A/B testing → Thumbnail only → the dialog's file inputs (label them by JS, then `find`) → Set test → page Save.

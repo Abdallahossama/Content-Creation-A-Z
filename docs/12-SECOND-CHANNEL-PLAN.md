@@ -1,6 +1,6 @@
 # 12 - Second channel: what replaces Ask Habibi (decided 15 Nov 2026)
 
-Status: APPROVED 15 Nov 2026 (owner: "Yes, new channel") - niche #1 + a NEW channel named **The Bill, Explained** (@TheBillExplained), chosen 15 Nov (owner: "u pick"). The owner creates it in their own Google account.
+Status (15 Nov 2026, evening): the owner chose to REBRAND the existing Ask Habibi channel (UCJXUO3S0AtoQvmWHqpGp_ow) instead of a new one, because new channels kept asking for a phone number. Name **The Bill, Explained**, handle **@TheBill.Explained** (@TheBillExplained was taken). All old Ask Habibi videos are private. EP1 + 2 Shorts are scheduled 18-20 Nov.
 The Last Hours is not touched by this plan.
 
 ## Why change
@@ -98,7 +98,7 @@ The Last Hours is not touched by this plan.
   2. **Follow the Money** (maps: debt, oil, canals)
   3. **The Price of Power** (big machines, PD military/space photos)
 
-## New channel, not a rebrand (recommended)
+## New channel vs rebrand: recommended a new one, owner chose REBRAND (phone-verification limit)
 - Ask Habibi's history works against it:
   - the name + potato read as Arabic/kids to a US adult;
   - its ~20 subs and Shorts audience are mostly low-RPM regions;

@@ -1,6 +1,6 @@
 ---
 name: second-channel-money-plan
-description: "15 Nov 2026 APPROVED: a NEW faceless \"everyday-America economics\" channel replaces Ask Habibi (why X costs that / follow the money maps); name = The Bill, Explained (@TheBillExplained)"
+description: "Ask Habibi channel REBRANDED 15 Nov 2026 to The Bill, Explained (@TheBill.Explained, same channel ID); everyday-America economics; EP1 Diesel + 2 Shorts scheduled 18-20 Nov"
 metadata:
   node_type: memory
   type: project
@@ -35,3 +35,18 @@ The Bill, Explained (@TheBillExplained, my pick) / The Real Price Of (@RealPrice
 - Engine: `tools/billvid.py` (+ `vo_chatterbox`, `transcribe_lines`, `fix_lines`, `thumbkit`).
 - Process + lessons: `D:\the-bill-explained\LESSONS.md`.
 - Hard lesson: C: at 0 GB crashed Chatterbox. Route `TMP` to D:, and run one heavy job at a time.
+
+**15 Nov 2026 evening: REBRANDED the Ask Habibi channel instead of opening a new one.** The owner said new channels keep asking for a phone number, and they have only a few.
+- Channel ID `UCJXUO3S0AtoQvmWHqpGp_ow`, now named **The Bill, Explained**, handle **@TheBill.Explained**. @TheBillExplained was taken.
+- New description, receipt logo, banner and watermark are published.
+- All 24 old Ask Habibi videos (12 long + 12 Shorts) set to **Private**: owner OK, reversible, nothing deleted.
+- Playlist "The Bill, Explained" created.
+- Scheduled (19:00 Cairo):
+
+  | Date | Video | ID | Notes |
+  |---|---|---|---|
+  | Wed 18 Nov | Long "Why Diesel Costs $2 More Than Gas Right Now" | mJuihLRaZnI | thumbnail A/B test A nozzles vs C station; end screen subscribe + best-for-viewer; timed SRT captions uploaded |
+  | Thu 19 Nov | Short 1 | zT7Uc-yy54s | |
+  | Fri 20 Nov | Short 2 | cDs8LfpRhHM | |
+
+- Still to do after the long video goes public: set each Short's Related video to mJuihLRaZnI, post/pin/heart the comments, and check the captions show as Published.

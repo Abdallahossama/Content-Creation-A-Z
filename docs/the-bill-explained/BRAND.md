@@ -1,6 +1,6 @@
 # The Bill, Explained - brand kit (15 Nov 2026)
 
-Channel: **The Bill, Explained** · handle **@TheBillExplained** · faceless, everyday-America economics.
+Channel: **The Bill, Explained** · handle **@TheBill.Explained** (the existing Ask Habibi channel, rebranded 15 Nov 2026) · faceless, everyday-America economics.
 Promise: "Why everyday things cost what they cost." New long video ("new bill") every Wednesday, 12 PM ET (19:00 Cairo).
 
 ## Idea

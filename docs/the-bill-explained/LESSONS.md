@@ -21,3 +21,4 @@
    - Grocery aisles can hide a shopper at the edge (crop N3 by 12%).
    - Drop foreign-currency shelves (N1).
    - Drop price signs that show an old, wrong price (A2).
+8. **Studio launch (15 Nov):** rebranded the old Ask Habibi channel; big file uploaded in 9.5 MB parts; captions = timed SRT from `tools/make_srt.py` (untimed fails while YouTube processes). Details: docs/03-YOUTUBE-STUDIO-PLAYBOOK.md.
