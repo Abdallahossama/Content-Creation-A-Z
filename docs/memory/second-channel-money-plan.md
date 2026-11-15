@@ -25,3 +25,4 @@ Recommendation given (full doc: `docs/12-SECOND-CHANNEL-PLAN.md` in [[content-cr
 Name shortlist (handles that returned 404 on youtube.com on 15 Nov, so probably free; confirm in YouTube's handle field):
 The Bill, Explained (@TheBillExplained, my pick) / The Real Price Of (@RealPriceOf) / Paid For (@PaidForChannel). Owner creates the channel in their own account; I don't.
 **NAME CHOSEN 15 Nov 2026** (owner: "u pick"): **The Bill, Explained**, handle @TheBillExplained. Owner creates the channel in their own Google account.
+**Brand kit built 15 Nov 2026** in `D:\the-bill-explained\` (BRAND.md; tools/brandkit.py renders logo/banner/watermark, tools/thumbkit.py renders thumbnails). Look: a torn receipt priced "$?.??", TOTAL row in yellow highlighter, price red #D62820, ink, paper; thumbnails = real object + red price tag + optional 2-4-word receipt strip. Fonts: Arial Black, Impact, Consolas. Awaiting the owner's look verdict.

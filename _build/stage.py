@@ -50,6 +50,9 @@ one(WH + "_pipeline/README.md", REPO + "docs/ask-habibi/PIPELINE_README.md")
 for f in ("README.md", "STYLE_RULES.md", "DOC_MODE.md"): one(WH + "_style_kit/" + f, REPO + "docs/ask-habibi/style_kit_" + f)
 tree(WH + "_style_kit/tools", REPO + "tools/style-kit/")
 one(WH + "TODO.md", REPO + "docs/ask-habibi/TODO_snapshot.md")
+# 3b. The Bill, Explained (second channel since 15 Nov 2026): brand kit code + rules
+tree("D:/the-bill-explained/tools", REPO + "tools/the-bill-explained/")
+one("D:/the-bill-explained/BRAND.md", REPO + "docs/the-bill-explained/BRAND.md")
 # 4. The Last Hours: shared engine, tools, CTA voice scripts, mystery-Shorts engine, lessons, every episode's text files
 NC = WH + "_newchannel/"
 for f in ("lastkit.py", "vidclip.py", "thumbs_hakawi.py"): one(NC + f, REPO + "tools/last-hours/" + f)

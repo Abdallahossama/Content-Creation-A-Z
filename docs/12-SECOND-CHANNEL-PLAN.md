@@ -147,3 +147,9 @@ The Last Hours is not touched by this plan.
   10. Why America Can't Build Ships Anymore (PD photos)
 - **Judge** each video on day 4-7: CTR > 4%, avg view > 35%. Retitle flat ones after ~2 days.
 - **Capacity risk:** the owner already makes 2 Last Hours files a week. If the new channel slows them, The Last Hours wins.
+
+## Brand kit (built 15 Nov 2026, owner: "Yes, brand kit")
+- Working folder: `D:\the-bill-explained\`. Code: `tools/brandkit.py` (logo, banner, watermark) and `tools/thumbkit.py` (thumbnails). Rules: `docs/the-bill-explained/BRAND.md`.
+- Idea: a torn paper receipt. Items are priced "$?.??" (the question) and the TOTAL row gets the yellow highlighter (the answer).
+- Logo: the receipt with a big "B" on price red. Banner: the wordmark on a receipt band across the ink background, with "NEW BILL ..... EVERY WEDNESDAY".
+- Thumbnails: a real object photo full bleed, a red price tag carrying the money number, and an optional 2-4-word receipt strip.
