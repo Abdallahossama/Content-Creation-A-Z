@@ -56,3 +56,5 @@ The Bill, Explained (@TheBillExplained, my pick) / The Real Price Of (@RealPrice
 - **LIVE now:** Short 1 zT7Uc-yy54s. Related video = EP1; comment pinned and hearted.
 - **Scheduled Mon 16 Nov 19:00 Cairo:** Short 2 cDs8LfpRhHM, related video = EP1. Its comment still has to be posted, pinned and hearted after it goes live: "Truckers: does your fuel surcharge cover it? Tell us below."
 - **Next checks:** impressions/CTR/retention on day 2-4. Retitle flat Shorts after ~1 day. Next long episode = Wednesday slot.
+
+**16 Nov 2026: EP2 "Why Your Power Bill Jumped $43 (It's Partly AI)".** Owner asked for "video inside the video, not only images" and a trending/viral idea, so EP2 = AI data centers on your electric bill, built mostly from stock video clips (billclip.py `VID` shots). Folder: D:/the-bill-explained/videos/02_ai_power (export/ has the upload sheet, thumbs A servers "+$43" / B meters "$157", SRT; CREDITS.md). 2 Shorts: s1_homes (80,000 homes), s2_auction (NJ +$26). Proposed slot Wed 18 Nov 19:00 Cairo; upload/schedule needs the owner's OK.

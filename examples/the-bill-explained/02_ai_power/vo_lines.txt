@@ -1,0 +1,84 @@
+Your power bill is about forty-three dollars a month higher than in twenty twenty.
+Part of that money is keeping the lights on for AI. And nobody told you.
+Not the chatbot on your phone. The buildings that run it.
+In twenty twenty, the average American electric bill was about a hundred and thirteen dollars a month. Today it's about a hundred and fifty-seven.
+This is the bill, explained.
+##
+Let's start with what you pay.
+The Energy Information Administration says the average American home paid about eighteen point two cents per kilowatt-hour in August.
+In twenty twenty, it was about thirteen point two cents.
+A typical home uses about eight hundred and sixty kilowatt-hours a month.
+At today's price, that's about forty-three dollars more every month than at twenty twenty prices. About five hundred and twenty dollars a year.
+Some of that is inflation. Some of it is natural gas. Some of it is storms.
+But one line on this bill is new. And it's growing faster than all the others.
+To find it, we need to read the bill line by line.
+##
+Line one. The appetite.
+This is a data center.
+Rows and rows of computers, running day and night, and every one of them needs electricity, and more electricity to keep it cool.
+In twenty twenty-three, data centers used about four point four percent of all the electricity in America.
+Berkeley Lab now projects about twelve percent by twenty thirty.
+That's almost three times as much, in seven years.
+And the new AI buildings are enormous.
+A single hundred-megawatt data center running around the clock can use as much power as roughly eighty thousand homes.
+The biggest new AI campuses are planned at one to five gigawatts.
+The OpenAI and Oracle site in Abilene, Texas, had about six hundred and eighteen megawatts delivered by September.
+Meta's Hyperion campus in Louisiana is planned at two gigawatts, and up to five.
+That's more power than many American cities use.
+So where does all that power come from? And who pays to make sure it's there?
+##
+Line two. The standby charge.
+This is the line almost nobody has heard of, and it's the biggest one.
+Thirteen states and Washington D.C. share one giant power grid, called PJM. About sixty-seven million people.
+Every year, PJM holds an auction. It pays power plants to be ready to run three years from now, just in case.
+You pay for that auction in the supply part of your bill.
+For the year that ended in May twenty twenty-five, that auction cost about two point two billion dollars.
+Then data centers started lining up.
+The next auction cost fourteen point seven billion. The one after that, sixteen point one billion.
+The price per megawatt jumped more than nine times in a single auction.
+PJM's own independent market monitor looked at why.
+It said data centers were responsible for sixty-three percent of that increase. About nine point three billion dollars.
+The last three auctions all hit the legal price cap. And the last two still fell short of the grid's reliability target.
+##
+Here's where that lands.
+In June twenty twenty-five, electric bills in New Jersey jumped seventeen to twenty percent.
+For one big utility, that was about twenty-six dollars more a month.
+New Jersey's utility board said the PJM auction was the main driver.
+In Maryland, the state's consumer advocate calculated the auction alone added ten to twenty-one dollars a month, depending on the utility.
+And it said most of the new demand came from data centers.
+##
+Line three. The wires.
+More power has to travel farther, through new lines and new substations.
+That's the delivery part of your bill.
+In the first half of twenty twenty-six, utilities asked regulators for eighteen point six billion dollars in rate increases, for gas and electric together.
+Not all of that is data centers. Storms, wildfires and old equipment are a big part of it.
+But in Virginia, home to the biggest cluster of data centers in the world, regulators have now ordered the utility to shift more of these costs onto the data centers themselves.
+##
+Line four. The fuel.
+About forty percent of America's electricity comes from natural gas.
+And in twenty twenty-five, gas cost about sixty percent more than the year before.
+That has nothing to do with AI. And it's a big reason bills rose almost everywhere, even in states with almost no data centers.
+Maine, New Hampshire and Hawaii all saw big price jumps, without a data center boom.
+##
+Line five. Who should pay.
+This is the fight happening right now in state capitals.
+Ohio and Virginia now make big data centers sign long contracts and pay for most of the power they reserve, whether they use it or not.
+In Oregon, one utility raised rates for data centers by twenty-nine percent, and cut them slightly for homes.
+Researchers at Berkeley Lab found that when big new customers pay their full share, more demand can actually spread the grid's fixed costs and lower prices for everyone.
+So the question isn't only how much power AI uses. It's who gets the bill.
+##
+So, how much of your bill is AI?
+Economists at the Dallas Fed estimate data centers had raised wholesale power prices about seven percent nationally by twenty twenty-five, and fifteen percent in northern Virginia.
+Wholesale is roughly half of what you pay. So for a typical home, our rough estimate is a few dollars a month.
+But on the PJM grid, from New Jersey to Virginia to Ohio, the standby charge has added ten to twenty-five dollars a month on many bills. Not all of it from data centers, but a big share.
+And the EIA expects prices to climb again in twenty twenty-seven, to about eighteen point seven cents.
+##
+So here's the full bill.
+Line one: AI data centers are on track to use almost three times more of America's power.
+Line two: on the biggest grid, the standby charge went from two billion to sixteen billion dollars, and data centers drove a big share of it.
+Line three: new wires and substations, plus storms and old equipment.
+Line four: natural gas, which has nothing to do with AI.
+Line five: the fight over who pays, and that's being decided right now.
+Total: about a hundred and fifty-seven dollars a month. And a growing piece of it is the price of keeping the lights on for AI.
+If this bill made sense, subscribe to The Bill, Explained. Every week, we read the bill for one thing you pay for.
+And tell me in the comments: what's your electric bill this month, and what state are you in?

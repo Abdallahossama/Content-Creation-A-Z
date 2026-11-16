@@ -77,7 +77,13 @@ def media(rid):
 def photo(rid, crop=None):
     k = (rid, crop)
     if k not in _IM:
-        im = Image.open(media(rid)).convert("RGB")
+        f = media(rid)
+        if f.lower().endswith((".mp4", ".mov", ".webm", ".mkv")):                 # a video used as a still (blurred backgrounds, thumbnails)
+            import billclip as BC, io; _, _, ln = BC.probe(f)
+            png = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{ln / 2:.2f}", "-i", f, "-frames:v", "1", "-f", "image2pipe", "-vcodec", "png", "-"], capture_output=True).stdout
+            im = Image.open(io.BytesIO(png)).convert("RGB")
+        else:
+            im = Image.open(f).convert("RGB")
         if crop: im = im.crop(tuple(int(v * s) for v, s in zip(crop, (im.width, im.height, im.width, im.height))))
         if max(im.size) > 2600: im.thumbnail((2600, 2600), Image.LANCZOS)
         if len(_IM) > 8: _IM.pop(next(iter(_IM)))                             # small cache: 4 render processes must fit in RAM
@@ -158,6 +164,9 @@ def pop(c, spr, cx, cy, t, t0, dur=0.22):
 # ------------------------------------------------------------------ shot kinds
 def KB(rid, crop=None, z=(1.03, 1.12), c0=(.5, .5), c1=None, credit=None, tags=(), dim=0.0):
     return ("kb", dict(rid=rid, crop=crop, z=z, c0=c0, c1=c1 or c0, credit=credit, tags=tags, dim=dim))
+def VID(rid, at=0.0, speed=1.0, crop=None, z=(1.0, 1.06), c=(.5, .5), credit=None, tags=(), dim=0.0):
+    """stock video clip: rid = media file id (e.g. "VA1"), at = seconds into the source, speed < 1 = slow motion"""
+    return ("vid", dict(rid=rid, at=at, speed=speed, crop=crop, z=z, c=c, credit=credit, tags=tags, dim=dim))
 def RECEIPT(title, rows, total=None, bg=None, sub=None, src=None):
     """rows: [(key, left, right)], total: (key, left, right) highlighted"""
     return ("receipt", dict(title=title, rows=rows, total=total, bg=bg, sub=sub, src=src))
@@ -183,6 +192,21 @@ def tags_on(c, tags, t):
 def kb_frame(a, t, t0, t1):
     u = cl((t - t0) / max(t1 - t0, 1e-6))
     c = kenburns(photo(a["rid"], a["crop"]), u, a["z"][0], a["z"][1], a["c0"], a["c1"])
+    if a["dim"]: c.alpha_composite(Image.new("RGBA", (W, H), (0, 0, 0, int(255 * a["dim"]))))
+    tags_on(c, a["tags"], t); credit(c, a["credit"]); return c
+
+CLIPS = {}
+def clip_for(a, t0, t1):
+    import billclip as BC
+    k = (a["rid"], a["at"], round(t0, 3))
+    if k not in CLIPS:
+        for k2 in list(CLIPS): CLIPS.pop(k2).close()                    # one reader at a time inside a segment
+        f = media(a["rid"]); need = max(t1 - t0, 0.5); _, _, ln = BC.probe(f)
+        avail = max(ln - a["at"] - 0.1, 0.5); sp = min(a["speed"], max(0.4, avail / need))   # stretch a short clip, never below 0.4x
+        CLIPS[k] = BC.Clip(f, out=(W, H), src_in=a["at"], speed=sp, crop=a["crop"], z0=a["z"][0], z1=a["z"][1], c=a["c"], dur=need)
+    return CLIPS[k]
+def vid_frame(a, t, t0, t1):
+    c = clip_for(a, t0, t1).at(t - t0)
     if a["dim"]: c.alpha_composite(Image.new("RGBA", (W, H), (0, 0, 0, int(255 * a["dim"]))))
     tags_on(c, a["tags"], t); credit(c, a["credit"]); return c
 
@@ -294,6 +318,16 @@ def geo():
             g = f["geometry"]; polys = g["coordinates"] if g["type"] == "MultiPolygon" else [g["coordinates"]]
             _GEO[f["properties"].get("ADMIN") or f["properties"].get("NAME")] = [p[0] for p in polys]
     return _GEO
+_ST = {}
+def us_states():
+    if not _ST:
+        js = json.load(open("D:/why habibi/_style_kit/maps/ne_50m_admin_1_states_provinces_lakes.geojson", encoding="utf-8"))
+        for f in js["features"]:
+            pr = f["properties"]
+            if pr.get("iso_a2") != "US": continue
+            g = f["geometry"]; polys = g["coordinates"] if g["type"] == "MultiPolygon" else [g["coordinates"]]
+            _ST[pr.get("name")] = [p[0] for p in polys]
+    return _ST
 def merc(lat): lat = max(-84.0, min(84.0, lat)); return math.log(math.tan(math.pi / 4 + math.radians(lat) / 2))
 _MB = {}
 def map_frame(a, t, t0, t1):
@@ -308,18 +342,24 @@ def map_frame(a, t, t0, t1):
                 if max(xs) < lon_c - deg_w or min(xs) > lon_c + deg_w: continue
                 q = [xy(lo, la) for lo, la in ring]
                 if len(q) > 2: d.polygon(q, fill=LAND, outline=(176, 168, 152))
+        if -130 < lon_c < -60:                                                   # US views: state borders
+            for name, polys in us_states().items():
+                for ring in polys:
+                    q = [xy(lo, la) for lo, la in ring]
+                    if len(q) > 2: d.line(q + [q[0]], fill=(196, 188, 172), width=2)
         _MB[key] = m
     u = cl((t - t0) / max(t1 - t0, 1e-6)); z = a["z"][0] + (a["z"][1] - a["z"][0]) * u
     ww, hh = W / z, H / z; x0, y0 = MW / 2 - ww / 2 * S2 / S2 * 1, MH / 2 - hh / 2
     base = _MB[key].copy(); d = ImageDraw.Draw(base); tt = t
     for op in a["ops"]:
         kind = op[0]
-        if kind == "country":
+        if kind in ("country", "states"):
             _, name, kk = op
             if tt < AT(kk): continue
             al = ease((tt - AT(kk)) / 0.5)
             lay = Image.new("RGBA", base.size, (0, 0, 0, 0)); dl = ImageDraw.Draw(lay)
-            for ring in geo().get(name, []):
+            rings = geo().get(name, []) if kind == "country" else [r for n in name for r in us_states().get(n, [])]
+            for ring in rings:
                 q = [xy(lo, la) for lo, la in ring]
                 if len(q) > 2: dl.polygon(q, fill=RED + (int(120 * al),), outline=RED + (int(255 * al),))
             base.alpha_composite(lay); d = ImageDraw.Draw(base)
@@ -364,7 +404,7 @@ def end_frame(a, t, t0, t1):
         d.rectangle((x0, 640, x0 + 740, 640 + 416 - 40), outline=(60, 60, 60), width=3)
     return c
 
-KINDS = dict(kb=kb_frame, receipt=receipt_frame, bars=bars_frame, line=line_frame, big=big_frame, chapter=chapter_frame, map=map_frame, end=end_frame)
+KINDS = dict(vid=vid_frame, kb=kb_frame, receipt=receipt_frame, bars=bars_frame, line=line_frame, big=big_frame, chapter=chapter_frame, map=map_frame, end=end_frame)
 
 # ------------------------------------------------------------------ overlays + captions
 def shot_at(t):
@@ -466,7 +506,7 @@ def audio():
         a = a[:n] / (np.sqrt(np.mean(a[:n] ** 2)) + 1e-9) * vr; put(a, t0, db, fade=2.0)
     for i, (key, (kind, a)) in enumerate(G["SHOTS"]):
         t0 = G["SHOT_T"][i]
-        if kind == "kb":
+        if kind in ("kb", "vid"):
             sfx("whoosh_fast", t0 - 0.12, -30)
             for k2, *_ in a["tags"]: sfx("sticker_slap", AT(k2), -20)
         elif kind == "receipt":
@@ -482,7 +522,7 @@ def audio():
         elif kind == "map":
             sfx("paper_page_turn", t0, -22)
             for op in a["ops"]:
-                kk = op[2] if op[0] in ("country", "route") else op[4] if op[0] == "pin" else op[3]
+                kk = op[2] if op[0] in ("country", "states", "route") else op[4] if op[0] == "pin" else op[3]
                 sfx("pop" if op[0] == "pin" else "marker_squeak" if op[0] == "route" else "hit_short_bass", AT(kk), -22)
         elif kind == "end": sfx("cash_register", t0 + 0.2, -18)
     for j, (key, kind, a) in enumerate(G.get("OV", [])):

@@ -22,3 +22,8 @@
    - Drop foreign-currency shelves (N1).
    - Drop price signs that show an old, wrong price (A2).
 8. **Studio launch (15 Nov):** rebranded the old Ask Habibi channel; big file uploaded in 9.5 MB parts; captions = timed SRT from `tools/make_srt.py` (untimed fails while YouTube processes). Details: docs/03-YOUTUBE-STUDIO-PLAYBOOK.md.
+9. **Video inside the video (EP2, 16 Nov, owner ask):** `VID(id, at=, speed=, z=, c=)` shots play real stock clips through `tools/billclip.py` (one ffmpeg rgb24 pipe per shot, slow push-in, same light grade as photos; short clips are slowed, never below 0.4x). Aim for most shots to be VID, with charts/maps/receipts between them. Pick a clip start (`at=`) that skips logos and people, and watch every clip for women before use.
+10. **US state maps:** MAP op `("states", [names], key)` fills states from Natural Earth admin-1. Centre the view on the state itself (lon of the state, not west of it), then check one full-size `frame t`; the title box covers the top-left.
+11. **Wait for the whole fix_lines chain (gen → pick → transcribe_lines) before reading vo_words.json.** Reading it mid-chain shows the OLD transcript (line 17 looked like "12th ascent" but the final pass heard "12%"). A CAPFIX for a word that no longer exists is harmless.
+12. **A shot keyed to a line's last word lasts under 1 s.** Key cut-ins to a mid-line word ("needs", not "cool").
+13. **Trending topic pick:** an AI + your-bill angle (data centers on the power bill) ties a viral subject to the channel's money promise. Hook = $ number on your own bill + "nobody told you".

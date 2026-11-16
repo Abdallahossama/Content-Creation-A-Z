@@ -1,0 +1,7 @@
+This building uses as much electricity as eighty thousand homes.
+It's a data center. Rows of computers running AI, day and night, plus the cooling to keep them alive.
+In twenty twenty-three, data centers used about four point four percent of America's power.
+Berkeley Lab projects about twelve percent by twenty thirty. Almost three times as much.
+And the newest AI campuses are planned at one to five gigawatts. That's more than many cities.
+All that power has to be built, wired and kept on standby.
+And on America's biggest grid, a big share of that bill has landed on regular households.

@@ -1,0 +1,58 @@
+Your power bill is about $43 a month higher than in 2020. Part of that money is keeping the lights 
+on for AI and nobody told you. Not the chatbot on your phone, the buildings that run it. In 2020, 
+the average American electric bill was about $113 a month. Today, it's about $157. This is the bill 
+explained. Let's start with what you pay. The Energy Information Administration says the average 
+American home paid about 18.2 cents per kilowatt -hour in August. In 2020, was about 13.2 cents. A 
+typical home uses about 860 kilowatt -hours a month. At today's price, that's about $43 more every 
+month than at 2020 prices, about $520 a year. Some of that is inflation, some of it is natural gas, 
+some of it is storms. But one line in this bill is new, and it's growing faster than all the 
+others. To find it, we need to read the bill line by line. Line 1, The Appetite This is a data 
+center. rows and rows of computers running day and night and every one of them needs electricity 
+and more electricity to keep it cool. In 2023, data centers used about 4.4% of all the electricity 
+in America. Berkeley Lab now projects about 12% by 2030. That's almost three times as much in seven 
+years. and the new AI buildings are enormous. A single 100 megawatt data center running around the 
+clock can use as much power as roughly 80,000 homes. The biggest new AI campuses are planned at one 
+to five gigawatts. The OpenAI and Oracle site in Abilene, Texas had about 618 megawatts delivered 
+by September. Meta's Hyperion campus in Louisiana is planned at two gigawatts and up to five. 
+That's more power than many American cities use. So where does all that power come from and who 
+pays to make sure it's there? Line 2, the standby charge. This is the line almost nobody has heard 
+of, and it's the biggest one. 13 states and Washington DC share one giant power grid called PJM, 
+about 67 million people. Every year PJM holds an auction. It pays power plants to be ready to run 
+three years from now, just in case. You pay for that auction in the supply part of your bill. For 
+the year that ended in May 2025, that auction cost about $2.2 billion. Then data centers started 
+lining up. The next auction costs $14.7 billion, the one after that $16.1 billion. The price per 
+megawatt jumped more than nine times in a single auction. PJM's own independent market monitor 
+looked at why. It said data centers were responsible for 63% of that increase, about $9.3 billion. 
+The last three auctions all hit the legal price cap, and the last two still fell short of the 
+grid's reliability target. Here's where that lands... In June 2025, electric bills in New Jersey 
+jumped 17 to 20 percent. For one big utility, that was about $26 more a month. New Jersey's utility 
+board said the PJM auction was the main driver. In Maryland, the state's consumer advocate 
+calculated the auction alone added $10 to $21 a month, depending on the utility. and it said most 
+of the new demand came from data centers. Line 3, the wires More power has to travel farther 
+through new lines and new substations. That's the delivery part of your bill. In the first half of 
+2026, utilities asked regulators for $18.6 billion in rate increases for gas and electric together. 
+Not all of that is data centers. Storms, wildfires and old equipment are a big part of it. But in 
+Virginia, home to the biggest cluster of data centers in the world, regulators have now ordered the 
+utility to shift more of these costs onto the data centers themselves. Line 4, the fuel. About 40% 
+of America's electricity comes from natural gas. and in 2025, gas cost about 60% more than the year 
+before. that has nothing to do with AI. And it's a big reason bills rose almost everywhere, even in 
+states with almost no data centers. Maine, New Hampshire, Hawaii all saw big price jumps without a 
+data center boom. Line 5, who should pay? This is the fight happening right now in state capitals. 
+Ohio and Virginia now make big data centers sign long contracts and pay for most of the power they 
+reserve, whether they use it or not. In Oregon, one utility raised rates for data centers by 29% 
+and cut them slightly for homes. Researchers at Berkeley Lab found that when big new customers pay 
+their full share, more demand can actually spread the grid's fixed costs and lower prices for 
+everyone. So the question isn't only how much power AI uses, it's who gets the bill. So, how much 
+of your bill is AI? Economists at the Dallas Fed estimate data centers had raised wholesale power 
+prices about 7% nationally by 2025 and 15% in Northern Virginia. Wholesale is roughly half of what 
+you pay, so for a typical home, our rough estimate is a few dollars a month. But on the PJM grid, 
+from New Jersey to Virginia to Ohio, the standby charge has added $10 to $25 a month on many bills. 
+Not all of it from data centers, but a big share. and the EIA expects prices to climb again in 2027 
+to about 18.7 cents. So here's the full bill. Line 1, AI data centers are on track to use almost 
+three times more of America's power. Line 2, on the biggest grid, the standby charge went from $2 
+billion to $16 billion, and data centers drove a big share of it. Line 3, new wires and 
+substations, plus storms and old equipment. Line 4, natural gas, which has nothing to do with AI. 
+Line 5, the fight over who pays, and that's being decided right now. Total, about $157 a month, and 
+a growing piece of it is the price of keeping the lights on for AI. If this bill made sense, 
+subscribe to the bill explained. Every week we read the bill for one thing you pay for. And tell me 
+in the comments, what's your electric bill this month, and what state are you in? 

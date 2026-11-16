@@ -1,0 +1,7 @@
+New Jersey electric bills jumped up to twenty-six dollars a month. The reason is an auction you've never heard of.
+Thirteen states and D.C. share one grid, called PJM.
+Every year, it pays power plants to be ready three years ahead, just in case. You pay for that in your bill.
+That auction used to cost about two point two billion dollars a year. Then it jumped to sixteen billion.
+The grid's own independent monitor said data centers caused sixty-three percent of the first big jump.
+New Jersey's utility board called that auction the main driver of the bill increase.
+So yes. Part of your power bill is now keeping the lights on for AI.

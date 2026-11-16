@@ -1,0 +1,102 @@
+THE BILL, EXPLAINED  #2  -  UPLOAD SHEET
+================================================================
+FILE:        TheBillExplained_02_AI_Power.mp4
+THUMBNAIL:   thumb_A_servers_upload.jpg  (A/B test with thumb_B_meters_upload.jpg)
+WHEN:        Wednesday 18 Nov 2026, 19:00 Cairo  (= 12:00 PM ET). Studio field = 19:00 local.
+             (Owner to confirm the date before scheduling.)
+VISIBILITY:  Schedule (Public at the time above)
+
+TITLE (A):   Why Your Power Bill Jumped $43 (It's Partly AI)
+TITLE (B):   AI Is Quietly Raising Your Electric Bill. Here's the Math.
+TITLE (C):   The Hidden AI Charge on Your Power Bill
+(Studio > Test & compare: 3 titles, or thumbnails A vs B)
+
+DESCRIPTION
+----------------------------------------------------------------
+The average US electric bill is about $157 a month, roughly $43 more than in 2020. Part of that is paying for AI data centers, and almost nobody told you. Here is the bill, line by line: the appetite, the standby charge, the wires, the fuel, and the fight over who pays.
+
+New bill every Wednesday. Subscribe, and tell us: what's your electric bill this month, and what state are you in?
+
+CHAPTERS
+0:00 The hidden AI charge
+0:23 What you pay
+1:01 Line 1: the appetite
+2:01 Line 2: the standby charge
+3:02 Where it lands: New Jersey, Maryland
+3:31 Line 3: the wires
+4:06 Line 4: the fuel
+4:31 Line 5: who should pay
+5:07 How much of your bill is AI?
+5:45 The full bill
+
+SOURCES (figures as of mid-November 2026)
+- EIA Electric Power Monthly, Table 5.3 (Aug 2026 residential price): https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_3
+- EIA Electric Power Annual (2020 price): https://www.eia.gov/electricity/annual/html/epa_02_04.html
+- EIA home use, 863 kWh/month: https://www.eia.gov/todayinenergy/detail.php?id=65244
+- EIA Short-Term Energy Outlook, Nov 2026: https://www.eia.gov/outlooks/steo/report/elec_coal_renew.php
+- DOE / Berkeley Lab data center report: https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers
+- Berkeley Lab 2025 Update: https://eta-publications.lbl.gov/publications/united-states-data-center-energy-2025
+- Epoch AI, Abilene (Stargate) status: https://epoch.ai/blog/openai-stargate-where-the-us-sites-stand
+- TechCrunch, Meta Hyperion: https://techcrunch.com/2025/07/14/mark-zuckerberg-says-meta-is-building-a-5gw-ai-data-center
+- PJM 2026/27 auction report: https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2026-2027/2026-2027-bra-report.pdf
+- Utility Dive, PJM auctions and the market monitor: https://www.utilitydive.com/news/data-centers-pjm-capacity-auction/808951/
+- IEEFA, the 63% share: https://ieefa.org/resources/projected-data-center-growth-spurs-pjm-capacity-prices-factor-10
+- POWER Magazine, auction short of reliability target: https://www.powermag.com/pjms-2028-2029-capacity-auction-falls-short-of-reliability-standard-for-second-straight-year/
+- CBS News, New Jersey bills June 2025: https://www.cbsnews.com/newyork/news/new-jersey-energy-power-bills-going-up-2025/
+- Maryland Office of People's Counsel: https://content.govdelivery.com/accounts/MDOPC/bulletins/3ead2f8
+- PowerLines, $18.6B in rate requests: https://powerlines.org/utilities-request-18-6-billion-in-rate-increases-in-first-half-of-2026/
+- Virginia Mercury, SCC order Aug 2026: https://virginiamercury.com/2026/08/05/scc-orders-dominion-to-develop-tariff-to-assign-more-transmission-costs-to-data-centers/
+- EIA natural gas outlook: https://www.eia.gov/outlooks/steo/report/natgas.php
+- electricrates.org state report: https://electricrates.org/states/report/2026-08/
+- AEP Ohio data center tariff: https://www.powermag.com/regulator-approves-aep-ohios-landmark-data-center-tariff/
+- Berkeley Lab / Brattle, retail price drivers 2026: https://energyanalysis.lbl.gov/publications/retail-electricity-price-trends-and
+- Dallas Fed working paper 2606: https://www.dallasfed.org/research/papers/2026/wp2606
+"About $43 more" and "a few dollars a month" are our own math from the sources above.
+
+Video: Pexels, Pixabay, Wikimedia Commons (CC0 / public domain). Full list in the pinned credits on request. Maps: Natural Earth.
+Music: Kevin MacLeod (incompetech.com), "Industrial Cinematic", "Floating Cities", "Daily Beetle", "Stay the Course". Licensed under Creative Commons: By Attribution 4.0 http://creativecommons.org/licenses/by/4.0/
+
+This video explains prices; it is not financial advice.
+
+#electricbill #AI #datacenters
+----------------------------------------------------------------
+
+TAGS
+electric bill, why is my electric bill so high, electricity prices 2026, AI data centers, data centers electricity, AI power bill, PJM capacity auction, utility bills, power bill increase, energy prices, economics explained, the bill explained
+
+SETTINGS
+- Audience: No, it's not made for kids
+- Altered or synthetic content: No (narration is the creator's own cloned voice; real stock footage)
+- Category: Education
+- Language: English (United States); Caption language: English
+- Captions: upload captions_en.srt (TIMED; untimed text fails while YouTube is still processing)
+- Comments: on, "Hold potentially inappropriate"
+- Playlist: "The Bill, Explained"
+- Licence: Standard YouTube
+- Paid promotion: No
+
+END SCREEN (last 12 s; the video leaves two empty frames for it)
+- Element 1: Subscribe (channel logo)
+- Element 2: Video > "Why Diesel Costs $2 More Than Gas Right Now" (EP1)
+
+PINNED COMMENT (post, pin, heart)
+The AI part of your power bill, in one line: data centers' share of US power is on track to nearly triple, the biggest grid's standby charge went from $2B to $16B, and states are still fighting over who pays. What's your electric bill this month, and what state are you in?
+
+================================================================
+SHORT 1  -  Short1_AI_80000_homes.mp4  (shorts/s1_homes/export)
+TITLE:     One AI Building Uses the Power of 80,000 Homes
+DESCRIPTION:
+A single 100-megawatt data center can use as much power as about 80,000 US homes. Full bill on the channel: "Why Your Power Bill Jumped $43 (It's Partly AI)".
+Sources: Berkeley Lab / DOE; EIA. Video: Pexels/Pixabay. Music: Kevin MacLeod (incompetech.com), CC BY 4.0.
+#shorts #AI #electricbill
+RELATED VIDEO: the EP2 long video
+PINNED COMMENT: Would you live next to one of these? Yes or no.
+
+SHORT 2  -  Short2_PJM_auction.mp4  (shorts/s2_auction/export)
+TITLE:     New Jersey Power Bills Jumped $26 a Month. Here's Why.
+DESCRIPTION:
+One auction on America's biggest grid went from $2.2B to $16B, and data centers drove a big share of it. Full bill on the channel: "Why Your Power Bill Jumped $43 (It's Partly AI)".
+Sources: PJM; PJM Independent Market Monitor; NJ BPU. Video: Pexels/Pixabay. Music: Kevin MacLeod (incompetech.com), CC BY 4.0.
+#shorts #electricbill #newjersey
+RELATED VIDEO: the EP2 long video
+PINNED COMMENT: Did your bill jump in 2025? Drop your state below.
