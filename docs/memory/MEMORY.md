@@ -48,3 +48,4 @@
 - [Analytics 14 Nov](last-hours-analytics-nov14.md) — Saddam #1 (87% Suggested from Iraq videos, 149/48h, title test winner "21 Men Were Gone in 17 Days" not applied); Shorts dead (24-40% stayed); obscure topics get no impressions
 - [Sparrow re-thumbs rejected](last-hours-sparrow-thumbs.md) — 14 Nov: tried @sparrow0y0 look (v1 B&W, v2 colourful); owner: CURRENT channel thumbnails are better, keep them
 - [Second channel = The Bill, Explained](second-channel-money-plan.md) — 15 Nov: Ask Habibi channel REBRANDED (same ID) to @TheBill.Explained, US "Why X costs $Y" economics, old videos private; EP1 Diesel + Short 1 LIVE 15 Nov, Short 2 Mon 16 Nov 19:00; EP2 AI power bill (video clips) rendered 16 Nov; kit in D:/the-bill-explained
+- [Bill thumbnails = real photos](free-ai-thumbnails.md) — 16 Nov: owner rejected AI scenes as slop; documentary style on real photos (thumbdoc.py: labels, arrows, rings, big number) copied from million-view refs
