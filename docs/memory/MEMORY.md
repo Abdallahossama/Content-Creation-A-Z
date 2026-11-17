@@ -22,7 +22,7 @@
 - [New channel: The Last Hours](new-channel-last-hours.md) — separate brand, hour-by-hour true mysteries; #1 Alcatraz 1962 ~20 min, user's own voice, PD archives
 - [Edit notes: Last Hours](edit-notes-last-hours.md) — no text over text; spotlight+underline (not ellipses) synced to words; hero image frame 1; teaser Shorts -> long video
 - [Shorts title money hook](shorts-title-money-hook.md) — money-number titles win (France €3.6T: 1.7K, 75.7% viewed); retitle flat Shorts after ~1 day; 20 Oct numbers
-- [Last Hours thumbnail style](last-hours-thumbnail-style.md) — copy Hakawi (@7akawi-AA): full-colour cinematic scene, ghosted real portraits, huge question text on black/yellow blocks
+- [Last Hours thumbnail style](last-hours-thumbnail-style.md) — since 17 Nov: owner's ChatGPT-ref look (AI scene + REAL archive face + distressed Anton on red brush + date); thumbls.py + ChatGPT prompt in _rethumb_nov17; re-thumbs await picks
 - [Last Hours hook style](last-hours-hook-style.md) — first 2 s = imagine/shock hook, then weekday + date + clock; teaser titles = action + shock ("He Touched the Sleeping Man's Head. It Rolled Off.")
 - [Last Hours lessons](last-hours-lessons.md) — viewers leave at ident + backstory after cold open; LESSONS.md checklist for every file
 - [Razqora SaaS video](razqora-saas-video.md) — Razqora = the user's SaaS product, not YouTube; promo video outputs in F:\WEB DEV\kbs local try\razqora_video\
@@ -48,4 +48,4 @@
 - [Analytics 14 Nov](last-hours-analytics-nov14.md) — Saddam #1 (87% Suggested from Iraq videos, 149/48h, title test winner "21 Men Were Gone in 17 Days" not applied); Shorts dead (24-40% stayed); obscure topics get no impressions
 - [Sparrow re-thumbs rejected](last-hours-sparrow-thumbs.md) — 14 Nov: tried @sparrow0y0 look (v1 B&W, v2 colourful); owner: CURRENT channel thumbnails are better, keep them
 - [Second channel = The Bill, Explained](second-channel-money-plan.md) — 15 Nov: Ask Habibi channel REBRANDED (same ID) to @TheBill.Explained, US "Why X costs $Y" economics, old videos private; EP1 Diesel + Short 1 LIVE 15 Nov, Short 2 Mon 16 Nov 19:00; EP2 AI power bill (video clips) rendered 16 Nov; kit in D:/the-bill-explained
-- [Bill thumbnails = real photos](free-ai-thumbnails.md) — 16 Nov: owner rejected AI scenes as slop; documentary style on real photos (thumbdoc.py: labels, arrows, rings, big number) copied from million-view refs
+- [Bill thumbnails = real photos](free-ai-thumbnails.md) — 16 Nov: owner rejected AI scenes as slop; documentary style on real photos (thumbdoc.py: labels, arrows, rings, big number) copied from million-view refs (Last Hours exception: AI scenes OK since 17 Nov)

@@ -51,6 +51,14 @@ transcription when digits matter (the scorer ignores digits). Known misreads: "g
 
 ## 6. Package
 - `thumbs_<file>.py`: breakout or channel-colour variants; contact sheet at full + phone size → owner approval.
+- **Thumbnail style from 17 Nov 2026 (owner's ChatGPT refs, e.g. "66 NAMES. ONE ORDER.")** with `tools/last-hours/thumbls/`:
+  - A cinematic photoreal scene: a Z-Image AI background (places, objects, anonymous men only) or a real archive photo.
+  - The REAL person's face from an archive photo, big, on one side, B&W or sepia.
+  - 2-4 distressed Anton words. Line 2 sits on a torn red brush stroke, or uses one colour word (yellow, icy blue or red).
+  - A date block, story props (a real record as a print, a red circle, a FILE folder), a dark vignette and grain.
+  - Never an AI-invented face for a real person. No women. No fake records.
+  - Fast path: `CHATGPT_THUMBNAIL_PROMPT.md` in ChatGPT/Gemini with the real photo attached.
+  - Make 3 variants per file and show them next to the CURRENT thumbnail at phone size. Upload only after the owner's OK, then add them to Test & Compare.
 - `title.py` (skills/yt-package): ≤ 60 chars, a number/name, no repetition between title and its thumbnail; 3 title+thumbnail pairs for the A/B test.
 - `export/UPLOAD_COPY_PASTE.txt`, `export/captions_en.txt` (plain text, "Without timing"), `CREDITS.md`, chapters from `render … chapters`.
 

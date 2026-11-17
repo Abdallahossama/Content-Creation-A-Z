@@ -1,6 +1,6 @@
 ---
 name: last-hours-thumbnail-style
-description: "The Last Hours thumbnails must copy the Hakawi (@7akawi-AA) style - full-colour cinematic scene, huge question text on black/yellow blocks"
+description: "Last Hours thumbnails: since 17 Nov 2026 = owner's ChatGPT-ref look (AI cinematic scene + REAL archive face + distressed Anton 2-4 words on red brush/colour word + date); thumbls.py pipeline. Older Hakawi notes below."
 metadata:
   node_type: memory
   type: feedback
@@ -38,3 +38,26 @@ engraving + note bubble); rejected N1 (note+numbers), N2 (Crozier face), N5 (rew
 25 Oct 2026 (Gaddafi file): the user called the flat colour-field thumbnails "very bad" (E: face fading into a plain red field with one
 red word; F: plain Libyan-green field with spaced text). Never make plain/flat colour-background thumbnails. Keep a real photo scene filling
 the frame behind the face (A-C style was approved: "the thumbnails is good"). Style research: _newchannel/research/thumb_styles/NOTES.md.
+
+**17 Nov 2026: NEW STYLE (supersedes the Hakawi/sparrow looks above).** The owner made refs in ChatGPT and loves them: "66 NAMES. ONE ORDER." (Saddam), "NO WAY HOME", "HE DISAPPEARED", "THEY LEFT ONE WORD", "THE MISSING LINK", "NOT A REAL BODY". They think thumbnails are why the older files stall.
+- **Look:**
+  - A photoreal cinematic scene. AI is OK here, for places, objects and anonymous men only.
+  - The REAL person, big on one side, from an archive photo (B&W or sepia).
+  - 2-4 huge distressed condensed words (Anton). Line 2 is white on a torn red brush stroke, or one colour word in yellow, icy blue or red.
+  - Story props: a real record as a print, a red hand-drawn circle, a FILE folder.
+  - Dark vignette, grain, and the date block (24 Oct rule).
+- **Free pipeline:**
+  - Folder: `D:\why habibi\_newchannel\_rethumb_nov17\` with `thumbls.py`, `make_all.py` and `CHATGPT_THUMBNAIL_PROMPT.md`.
+  - Run with `F:/thumbkit/venv/Scripts/python.exe` (Pillow, MediaPipe 0.10.14; fonts in `F:/thumbkit/fonts`).
+  - Backgrounds: the Z-Image stack at `F:/zimage` via `D:/the-bill-explained/tools/zimage.py`, about 4 min per 1344x768 image on the 780M. Queue scripts are in `F:/thumbkit`.
+  - The repo copy is `tools/last-hours/thumbls/`.
+- **Rules:**
+  - Never an AI face for a real person.
+  - AI people come out doll-like or androgynous: re-render or drop them (no-women rule).
+  - Keep the bottom-right 170x70 px clear.
+  - Check every thumbnail at 320x180.
+- **Re-thumb round 1 (17 Nov):** 3 variants each for Alcatraz 1962, Cooper, Franklin, Andrée and Roanoke. Leave Saddam alone. Skip Muslim Brotherhood (sensitive).
+  - The sheet compares each variant with the CURRENT thumbnail.
+  - **Waiting for the owner's picks. Nothing has been uploaded.**
+- **Why:** lifetime CTR to 15 Nov: Alcatraz 3.0%, Cooper 2.6%, Franklin 2.2%, Andrée 1.9%, Roanoke 1.6% (Saddam 3.8%).
+- **How to apply:** every new and older long file gets 3 variants in this look. Show them, wait for the OK, then add them to Test & Compare against the current thumbnail.

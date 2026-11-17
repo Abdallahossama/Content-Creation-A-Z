@@ -8,6 +8,7 @@ Paths in the scripts point at the owner's machine (`D:/why habibi/...`, `E:/AskH
 | File | What it does |
 |---|---|
 | `lastkit.py` | lastkit: The Last Hours editing kit (16:9 documentary). Black / bone / evidence-red, typewriter timestamps, real archive photos in black and white with slow push-ins, case-file prints, red evidence marks, hard cuts. |
+| `thumbls/thumbls.py` | **Current Last Hours thumbnail style (17 Nov 2026)**, copied from the owner's ChatGPT refs. Z-Image AI scene (no real faces) + REAL archive face (MediaPipe cutout / white_cut for sketches) + distressed Anton 2-4 words (red brush / yellow / ice / red) + date block + props (print, red circle, folder). Free and local, ~4 min bg + 3 s compose. `make_all.py` = 15 worked examples; `CHATGPT_THUMBNAIL_PROMPT.md` = the paste-ready ChatGPT/Gemini template. |
 | `thumbs_hakawi.py` | Hakawi-style (@7akawi-AA) colour thumbnails for The Last Hours (1280x720), 3 per video for the A/B test. One full-colour cinematic real scene (only colour-graded), a real period photo ghosted in, 1-2 huge lines on solid  |
 | `vidclip.py` | vidclip: moving archive footage for the Last Hours renderers. A clip is decoded through ffmpeg in order (one reader per clip per render process), cover-fit to 1920x1080 and toned like |
 

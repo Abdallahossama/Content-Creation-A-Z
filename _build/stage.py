@@ -61,6 +61,7 @@ for f in glob.glob("D:/the-bill-explained/videos/**/UPLOAD_COPY_PASTE*.txt", rec
 NC = WH + "_newchannel/"
 for f in ("lastkit.py", "vidclip.py", "thumbs_hakawi.py"): one(NC + f, REPO + "tools/last-hours/" + f)
 tree(NC + "_tools", REPO + "tools/last-hours/_tools/")
+for f in ("thumbls.py", "make_all.py", "CHATGPT_THUMBNAIL_PROMPT.md"): one(NC + "_rethumb_nov17/" + f, REPO + "tools/last-hours/thumbls/" + f)   # 17 Nov 2026 ChatGPT-ref thumbnail style
 tree(NC + "_cta", REPO + "tools/last-hours/_cta/")
 tree(NC + "brand/file_keeper", REPO + "tools/last-hours/brand/file_keeper/")   # The File Keeper mark (drawn in code, docs/09)
 for f in ("mshorts.py", "specs.py", "refix.py"): one(NC + "02_halloween/" + f, REPO + "tools/last-hours/mystery-shorts/" + f)

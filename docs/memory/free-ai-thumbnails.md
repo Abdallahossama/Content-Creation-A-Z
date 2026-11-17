@@ -10,3 +10,5 @@ Tool: D:/the-bill-explained/tools/thumbdoc.py (base, label, bigtext, arrow, ring
 Free AI image stack (F:/zimage, zimage.py, Z-Image Turbo via sd.cpp Vulkan, ~4 min/img) is installed; Open-Higgsfield is just a paid-API UI. Don't use AI scenes for thumbnails unless the owner asks.
 **Why:** owner wants clicks from real-looking, attention-grabbing thumbnails, not AI art.
 **How to apply:** every Bill thumbnail: research top thumbnails for the topic → 3 real-photo options with thumbdoc → show the owner. Related: [[second-channel-money-plan]], [[no-ai-slop-design]]
+
+EXCEPTION 17 Nov 2026: for The Last Hours the owner WANTS AI cinematic scenes (their own ChatGPT refs). Real people's faces still come only from real photos. See [[last-hours-thumbnail-style]]. The Bill stays on real photos.
