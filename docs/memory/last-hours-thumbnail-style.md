@@ -59,7 +59,8 @@ the frame behind the face (A-C style was approved: "the thumbnails is good"). St
 - **Re-thumb round 1 (17 Nov):** 3 variants each for Alcatraz 1962, Cooper, Franklin, Andrée and Roanoke. Leave Saddam alone. Skip Muslim Brotherhood (sensitive).
   - The sheet compares each variant with the CURRENT thumbnail.
   - **17 Nov: the owner said "use those thumbnails".** New thumbnail-only Test & Compare (A/B/C = the new set; the old thumb is out) is LIVE on Alcatraz 16b37-3-Z-Q, Cooper 1rWdT-lGkBI, Franklin bUkhghG5Hs0 and Roanoke EKnsZ8kI_1Q. The old tests had finished with no winner (Franklin's was a title test, also no winner).
-  - **Andrée vyX1mYdiWGw: NOT changed.** Its title+thumbnail test was still RUNNING (about 3.5 days left), and stopping it was blocked. The plan, once the owner OKs it: a title+thumbnail test with the same 3 titles paired with the new A/B/C. The other option is to wait for it to end.
+  - **Andrée vyX1mYdiWGw: NOT changed.** Its title+thumbnail test was still RUNNING (about 3.5 days left), and stopping it was blocked. The plan, once the owner OKs it: a title+thumbnail test with the same 3 titles paired with the new A/B/C. **Owner, 17 Nov: "Wait until it ends"** (about 21 Nov). Then start a thumbnail-only test with andree_A/B/C (out/ folder), or a title+thumbnail test with the same 3 titles.
+  - Muslim Brotherhood 1CzBdYMw9T8: new El-Sayed-hero A/B/C test LIVE 17 Nov (see [[last-hours-next-files]]).
   - Check CTR after 7-14 days.
 - **Why:** lifetime CTR to 15 Nov: Alcatraz 3.0%, Cooper 2.6%, Franklin 2.2%, Andrée 1.9%, Roanoke 1.6% (Saddam 3.8%).
 - **How to apply:** every new and older long file gets 3 variants in this look. Show them, wait for the OK, then add them to Test & Compare against the current thumbnail.

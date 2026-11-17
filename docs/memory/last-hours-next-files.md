@@ -27,6 +27,12 @@ Owner approved on 30 Oct 2026: download both safe sets, then "go ahead" (scripts
   - **Thumbnails** (the owner's picks I, I4, I5): El-Sayed's MediaPipe cutout from his PD Senate photo, on the 1949 case board. The headline is "WHY HIM?" with a **big fair note**: "AP: NO EVIDENCE OF ANY LINK" / "HE SAYS: NEVER A MEMBER".
   - **Refused:** a half-face blend with Banna; any string linking him to the board; the emblem on a thumbnail; "WHO GAVE THE ORDER?" next to his face.
   - **Reference used:** Abdullah Elshrif ep 30, for structure only.
+  - **17 Nov 2026 re-thumb (owner: "use abdul image in all the thumbnails", NEW photo; rejected a Banna+panel set; OK'd the hero set).** Thumbnail-only Test & Compare LIVE, built with `make_all.py brotherhood2`:
+    - A "THE CLAIM: FALSE." + POLITIFACT: PANTS ON FIRE
+    - B "1928 TO 2026" + AP: NO EVIDENCE OF ANY LINK
+    - C "HIS ANSWER:" + his Fox News quote (23 Oct 2026)
+    - Photos: Kenneth C. Zirkel + Conlan Houston (2025, Wikimedia, CC BY-SA 4.0). The credit line was added to the description and to CREDITS.md. Never use the meet-and-greet photo with the audience (women in it).
+    - The old test had stopped as ineligible because the video was private for a while.
 - **December 2026 slate** (owner 6 Nov: "swap Escobar for Washington, go ahead"), all at 22:00 Cairo:
   - 19 Glenn Miller: Mon 14 Dec.
   - 20 Ceaușescu: Sun 20 Dec. Elena is narration only.
