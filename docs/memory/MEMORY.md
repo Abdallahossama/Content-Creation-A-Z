@@ -22,7 +22,7 @@
 - [New channel: The Last Hours](new-channel-last-hours.md) — separate brand, hour-by-hour true mysteries; #1 Alcatraz 1962 ~20 min, user's own voice, PD archives
 - [Edit notes: Last Hours](edit-notes-last-hours.md) — no text over text; spotlight+underline (not ellipses) synced to words; hero image frame 1; teaser Shorts -> long video
 - [Shorts title money hook](shorts-title-money-hook.md) — money-number titles win (France €3.6T: 1.7K, 75.7% viewed); retitle flat Shorts after ~1 day; 20 Oct numbers
-- [Last Hours thumbnail style](last-hours-thumbnail-style.md) — since 17 Nov: owner's ChatGPT-ref look (AI scene + REAL archive face + distressed Anton on red brush + date); thumbls.py + ChatGPT prompt in _rethumb_nov17; re-thumbs await picks
+- [Last Hours thumbnail style](last-hours-thumbnail-style.md) — since 17 Nov: owner's ChatGPT-ref look (AI scene + REAL archive face + distressed Anton on red brush + date); thumbls.py + ChatGPT prompt in _rethumb_nov17; A/B/C tests LIVE 17 Nov on Alcatraz/Cooper/Franklin/Roanoke, Andrée pending
 - [Last Hours hook style](last-hours-hook-style.md) — first 2 s = imagine/shock hook, then weekday + date + clock; teaser titles = action + shock ("He Touched the Sleeping Man's Head. It Rolled Off.")
 - [Last Hours lessons](last-hours-lessons.md) — viewers leave at ident + backstory after cold open; LESSONS.md checklist for every file
 - [Razqora SaaS video](razqora-saas-video.md) — Razqora = the user's SaaS product, not YouTube; promo video outputs in F:\WEB DEV\kbs local try\razqora_video\
