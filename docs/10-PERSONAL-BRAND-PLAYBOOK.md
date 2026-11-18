@@ -57,6 +57,19 @@ Not chosen: B Minimal Keynote, C Editorial Magazine.
 3 videos a week = REACH (viral), TRUST (value), CONVERT (lead). Sun/Tue/Thu 21:00 KSA.
 Full rules, hooks and the LinkedIn version: `skills/brand-funnel-shorts/SKILL.md`.
 
+## Talking-head edit: current approved recipe (18 Nov 2026)
+
+**Use `docs/13-TALKING-HEAD-REEL-EDIT.md` first.** It supersedes the older steps below where they conflict:
+- pick takes by eyes-on-camera + energy, not "last take";
+- cut on speech islands with no gaps, and transcribe each piece without a prompt to catch repeats;
+- DeepFilterNet voice;
+- no animated punch zoom (smooth 2.5 % push, supersampled);
+- shot-match all pieces to the hook;
+- stickers above the head, not on the beard;
+- music = calm Eternity about 16 dB under the voice, no ducking;
+- B-roll ≥ 2.2 s, never looking at the lens;
+- always deliver a CapCut project.
+
 ## Edit pipeline (what the owner approved, 6 Nov)
 
 Reference look: @AbdaalWebdeveloper Short "ازاي عملت موبايل ابلكيشن" (copy style only).

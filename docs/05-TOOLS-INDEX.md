@@ -128,3 +128,7 @@ Paths in the scripts point at the owner's machine (`D:/why habibi/...`, `E:/AskH
 |---|---|
 | `setup_local_ai.sh` | Ask Habibi local AI setup (approved by the user 18 Oct 2026). Everything lives on E:\AskHabibiAI. |
 | `setup_voice.sh` | Ask Habibi local AI setup (approved by the user 18 Oct 2026). Everything lives on E:\AskHabibiAI. |
+
+## Talking-head reel (codebyabdullah), 18 Nov 2026
+
+`tools/personal-brand-reel/talking-head/`: `cands.js` (take contact sheets), `score.py` (energy/words-per-second per take), `segs.py` (speech-island cuts), `rep.py` (repeat finder), `segs3.js` (grade + smooth push + shot-match curves), `voice.js` (voice pieces → DeepFilterNet), `comp2.js` (B-roll, cards, step bar, stickers, paper card, CTA, captions, SFX, music; `DRY=1` writes `manifest2.json`), `capcut_build.py` + `capcut_create.py` (editable CapCut project), `cards/gen_ar.js` + `cards/gen2.js` (brand PNGs via headless Edge). Recipe: `docs/13-TALKING-HEAD-REEL-EDIT.md`.
