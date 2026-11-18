@@ -10,7 +10,7 @@ E.forEach(c=>c.segs.forEach(([p,n])=>{
   const L=`(0.5*W*(1-1/${Z}))`,T=`(0.35*H*(1-1/${Z}))`,R=`(${L}+W/${Z})`,B=`(${T}+H/${Z})`;
   const per=`perspective=x0='${L}':y0='${T}':x1='${R}':y1='${T}':x2='${L}':y2='${B}':x3='${R}':y3='${B}':interpolation=cubic:eval=frame`;
   const cv=CUR[k]?`,curves=all='${CUR[k]}'`:'';
-  const fc=grade+`;[g]setpts=PTS-STARTPTS,scale=2160:3840:flags=lanczos,${per},scale=1080:1920:flags=lanczos${cv},setsar=1,fps=30,format=yuv420p[v]`;
+  const fc=grade+`;[g]setpts=PTS-STARTPTS,scale=2160:3840:flags=lanczos,${per},scale=1080:1920:flags=lanczos${cv},huesaturation=saturation=-0.4:colors=r+y:strength=1,huesaturation=hue=-4:colors=r+y,eq=saturation=0.88,setsar=1,fps=30,format=yuv420p[v]`;
   const out=`seg2/s${String(k).padStart(3,'0')}.mov`;
   execFileSync('ffmpeg',['-y','-v','error','-ss',String(p),'-i',SRC,'-loop','1','-t',(n/30+0.3).toFixed(2),'-i','ellipse.png','-filter_complex',fc,'-map','[v]','-frames:v',String(n),'-an','-c:v','libx264','-preset','fast','-crf','14','-g','15',out]);
   list.push(`file '${out}'`);k++;process.stdout.write('.');

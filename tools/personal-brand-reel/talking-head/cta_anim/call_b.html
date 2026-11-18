@@ -1,0 +1,61 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:A;src:url('file:///D:/codebyabdullah_assets/workspace/edit/fonts/Alexandria-ExtraBold.ttf')}
+html,body{margin:0;background:transparent;overflow:hidden}*{box-sizing:border-box}
+body{width:1080px;height:720px;position:relative;font-family:A,sans-serif;direction:rtl}
+.pn{position:absolute;left:160px;top:200px;width:760px;height:300px;background:#121212;border:2px solid #B9DD74;border-radius:16px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:14px;
+background-image:linear-gradient(rgba(243,238,227,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(243,238,227,.05) 1px,transparent 1px);background-size:24px 24px}
+h1{margin:0;font-size:56px;color:#F3EEE3;font-weight:400}h1 span{background:#B9DD74;color:#121212;padding:0 14px;border-radius:6px;display:inline-block}
+p{margin:0;font-size:30px;color:rgba(243,238,227,.8);position:relative}
+p u{text-decoration:none;position:relative}p u:after{content:'';position:absolute;right:0;bottom:-6px;height:5px;width:var(--w,0%);background:#B9DD74;border-radius:3px}
+code{font-family:Consolas,monospace;font-size:26px;color:#B9DD74;direction:ltr;letter-spacing:1px}
+#ph{position:absolute;left:96px;top:136px;width:128px;height:128px}
+#ph .c{position:absolute;inset:0;border-radius:50%;background:#B9DD74;border:4px solid #121212;box-shadow:7px 7px 0 #121212;display:grid;place-items:center}
+#ph .r{position:absolute;inset:0;border-radius:50%;border:4px solid #B9DD74}
+#ph svg{width:62px;height:62px}
+#tag{position:absolute;left:236px;top:150px;background:#121212;color:#F3EEE3;font-family:Consolas,monospace;font-size:24px;padding:8px 16px;border-radius:10px;border:2px solid #B9DD74;direction:ltr;white-space:nowrap}
+#tag i{font-style:normal;color:#B9DD74}
+#stk{position:absolute;left:50%;top:530px;white-space:nowrap}
+#stk div{background:#B9DD74;color:#121212;font-size:44px;padding:8px 30px 16px;border:4px solid #121212;border-radius:16px;box-shadow:8px 8px 0 #121212}
+#arr{position:absolute;left:515px;top:498px;font-size:64px;color:#B9DD74;text-shadow:0 3px 8px rgba(0,0,0,.6)}
+</style></head><body>
+<div class="pn" id="pn"><h1>احجز <span id="hl">استشارة مجانية</span></h1><p><span>20 دقيقة · </span><u id="u">اللينك في البايو</u></p><code>codebyabdullah.com</code></div>
+<div id="ph"><div class="r" id="r1"></div><div class="r" id="r2"></div><div class="c" id="phc"><svg viewBox="0 0 24 24"><path id="ico" fill="#121212" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg></div></div>
+<div id="tag"></div>
+<div id="stk"><div>مكالمة 20 دقيقة · مجاناً</div></div>
+<div id="arr">↓</div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));const p=(t,a,b)=>cl((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3);const back=x=>{const c1=1.9,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)};
+const IN=0.2,PH=0.45,TAP=1.54,SUB=3.14,LINK=5.43;
+function render(t){
+  // card: same entry as the approved v5 (fade 0.12 + slide 30px)
+  const a=p(t,IN,IN+0.12);const sl=30*Math.pow(Math.max(0,1-(t-IN)/0.22),2);
+  const pn=$('pn');pn.style.opacity=a;pn.style.transform=`translateY(${t<IN?30:sl}px)`;
+  // phone badge pops and rings until the tap
+  const bp=p(t,PH,PH+0.3);const ph=$('ph');ph.style.opacity=bp>0?1:0;
+  const ring=t>PH+0.25&&t<TAP;const conn=t>=TAP;
+  const wig=ring?Math.sin(t*2*Math.PI*8)*14*(Math.sin((t-PH)*Math.PI*1.7)>-0.3?1:0.1):0;
+  ph.style.transform=`scale(${back(bp)*(t>=TAP&&t<TAP+0.2?1+0.12*Math.sin(p(t,TAP,TAP+0.2)*Math.PI):1)}) rotate(${wig-8*(1-bp)}deg)`;
+  [['r1',0],['r2',0.5]].forEach(([id,o])=>{const f=((t+o)%1);const e=$(id);e.style.transform=`scale(${1+f*0.7})`;e.style.opacity=bp>=1?(1-f)*(conn?0.3:0.9):0;});
+  // icon turns to a check when "connected"
+  $('ico').setAttribute('d',conn?'M4 12.5l5 5L20 6.5':'M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z');
+  $('ico').setAttribute('fill',conn?'none':'#121212');$('ico').setAttribute('stroke',conn?'#121212':'none');$('ico').setAttribute('stroke-width','3.2');$('ico').setAttribute('stroke-linecap','round');$('ico').setAttribute('stroke-linejoin','round');
+  // tag: incoming… -> connected timer
+  const tg=$('tag');tg.style.opacity=p(t,PH+0.2,PH+0.4);tg.style.transform=`translateX(${(1-eo(p(t,PH+0.2,PH+0.45)))*-20}px)`;
+  const s=Math.max(0,Math.floor(t-TAP));
+  tg.innerHTML=conn?`<i>${Math.floor(t*2)%2?'●':'○'}</i> connected 00:${String(s).padStart(2,'0')}`:`<i>☎</i> incoming call…`;
+  // highlight pulses on "احجز استشارة مجانية" at the tap
+  $('hl').style.transform=`scale(${t>=TAP&&t<TAP+0.3?1+0.07*Math.sin(p(t,TAP,TAP+0.3)*Math.PI):1})`;
+  // sticker at "20 دقيقة"
+  const k=p(t,SUB,SUB+0.18);const st=$('stk');st.style.opacity=k>0?1:0;
+  st.style.transform=`translateX(-50%) rotate(-2deg) scale(${t<SUB?0:(t<SUB+0.18?1.25-0.25*eo(k):1)})`;
+  // link in bio: underline sweep + bouncing arrow
+  $('u').style.setProperty('--w',(eo(p(t,LINK,LINK+0.35))*100)+'%');
+  const ar=$('arr');ar.style.opacity=p(t,LINK+0.1,LINK+0.3);
+  ar.style.transform=`translateY(${t>LINK?Math.abs(Math.sin((t-LINK)*Math.PI*2.4))*12:0}px)`;
+  // the sticker gives way to the arrow area: shift it down a little
+  st.style.top=(530+ (t>LINK?eo(p(t,LINK,LINK+0.3))*40:0))+'px';
+}
+render(0);
+</script></body></html>

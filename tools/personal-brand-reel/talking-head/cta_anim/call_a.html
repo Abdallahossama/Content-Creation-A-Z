@@ -1,0 +1,90 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:A;src:url('file:///D:/codebyabdullah_assets/workspace/edit/fonts/Alexandria-ExtraBold.ttf')}
+html,body{margin:0;background:transparent;overflow:hidden}*{box-sizing:border-box}
+body{width:1080px;height:720px;position:relative;font-family:A,sans-serif;direction:rtl}
+#card{position:absolute;left:50%;top:70px;width:900px;height:240px;margin-left:-450px;background:#121212;border:2px solid #B9DD74;border-radius:44px;overflow:hidden;
+ background-image:linear-gradient(rgba(243,238,227,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(243,238,227,.05) 1px,transparent 1px);background-size:24px 24px;box-shadow:0 18px 40px rgba(0,0,0,.45);transform-origin:50% 0}
+#in{position:absolute;inset:0}
+#av{position:absolute;right:38px;top:50%;width:136px;height:136px;margin-top:-68px}
+#av .c{position:absolute;inset:0;border-radius:50%;background:#B9DD74;display:grid;place-items:center}
+#av .r{position:absolute;inset:0;border-radius:50%;border:3px solid #B9DD74}
+#av svg{width:66px;height:66px}
+#tx{position:absolute;right:200px;top:50%;transform:translateY(-50%);text-align:right}
+#lab{font-family:Consolas,monospace;font-size:24px;color:rgba(243,238,227,.62);direction:ltr;text-align:right;letter-spacing:1px}
+#lab i{font-style:normal;color:#B9DD74}
+#big{font-size:48px;color:#F3EEE3;line-height:1.25;margin-top:6px}
+#big span{background:#B9DD74;color:#121212;padding:0 12px;border-radius:8px}
+#sub{font-size:28px;color:rgba(243,238,227,.82);margin-top:8px;white-space:nowrap}
+#sub b{color:#B9DD74;font-weight:400}
+.bt{position:absolute;top:50%;width:96px;height:96px;margin-top:-48px;border-radius:50%;display:grid;place-items:center}
+#no{left:150px;background:#2a2a2a;border:2px solid rgba(243,238,227,.25)}
+#yes{left:36px;background:#B9DD74}
+.bt svg{width:46px;height:46px}
+#tm{position:absolute;left:44px;top:50%;transform:translateY(-50%);font-family:Consolas,monospace;font-size:46px;color:#B9DD74;direction:ltr;text-align:left}
+#tm small{display:block;font-size:19px;color:rgba(243,238,227,.62);letter-spacing:1px}
+#tm small i{font-style:normal;color:#B9DD74}
+#fing{position:absolute;width:84px;height:84px;border-radius:50%;background:rgba(243,238,227,.55);border:3px solid rgba(255,255,255,.9)}
+#rip{position:absolute;width:96px;height:96px;border-radius:50%;border:4px solid #F3EEE3}
+#tab{position:absolute;left:50%;top:330px;transform:translateX(-50%);display:flex;align-items:center;gap:18px;white-space:nowrap}
+#tab .p{background:#B9DD74;color:#121212;font-size:40px;padding:10px 30px 16px;border:4px solid #121212;border-radius:16px;box-shadow:8px 8px 0 #121212}
+#tab code{font-family:Consolas,monospace;font-size:28px;color:#F3EEE3;background:rgba(18,18,18,.82);padding:10px 18px;border-radius:12px;direction:ltr}
+</style></head><body>
+<div id="card"><div id="in">
+ <div id="av"><div class="r" id="r1"></div><div class="r" id="r2"></div><div class="c" id="avc"><svg viewBox="0 0 24 24" id="avi"><path fill="#121212" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg></div></div>
+ <div id="tx"><div id="lab">codebyabdullah · <i id="st">incoming call…</i></div><div id="big"><span>استشارة مجانية</span></div><div id="sub"></div></div>
+ <div class="bt" id="no"><svg viewBox="0 0 24 24"><path stroke="#F3EEE3" stroke-width="2.6" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg></div>
+ <div class="bt" id="yes"><svg viewBox="0 0 24 24"><path fill="#121212" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg></div>
+ <div id="tm"></div>
+</div></div>
+<div id="fing"></div><div id="rip"></div>
+<div id="tab"><code>codebyabdullah.com</code><div class="p">اللينك في البايو ↓</div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,b)=>cl((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3);
+const back=x=>{const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)};
+const TAP=1.54, SUB=3.14, LINK=5.43;
+function render(t){
+  // island -> card morph
+  const m=eo(p(t,0.15,0.6));
+  const w=220+(900-220)*m, h=64+(240-64)*m;
+  const c=$('card');c.style.width=w+'px';c.style.height=h+'px';c.style.marginLeft=(-w/2)+'px';
+  c.style.top=(40+30*m)+'px';c.style.borderRadius=(32+12*m)+'px';c.style.opacity=t<0.15?0:cl((t-0.15)/0.08);
+  $('in').style.opacity=p(t,0.45,0.7);
+  // ringing wiggle (before tap)
+  const ring=t>0.6&&t<TAP-0.1;
+  const wig=ring?Math.sin(t*2*Math.PI*9)*1.2*(Math.sin(t*Math.PI*1.6)>-0.2?1:0.15):0;
+  c.style.transform=`rotate(${wig}deg) scale(${t>TAP&&t<TAP+0.25?1-0.02*Math.sin(p(t,TAP,TAP+0.25)*Math.PI):1})`;
+  // avatar rings
+  const conn=t>=TAP+0.1;
+  [['r1',0],['r2',0.5]].forEach(([id,o])=>{const ph=((t+o)%1);const e=$(id);
+    e.style.transform=`scale(${1+ph*0.55})`;e.style.opacity=(t>0.5?(1-ph)*(conn?0.35:0.9):0);});
+  $('avc').style.transform=`scale(${ring?1+0.05*Math.sin(t*2*Math.PI*2):1})`;
+  // buttons
+  const bo=1-p(t,TAP+0.1,TAP+0.35);
+  $('no').style.opacity=bo;$('no').style.transform=`scale(${0.6+0.4*bo})`;
+  const pulse=ring?1+0.08*Math.sin(t*2*Math.PI*2.5):1;
+  $('yes').style.opacity=bo;$('yes').style.transform=`scale(${(t>TAP-0.05&&t<TAP+0.12?0.86:pulse)*(0.6+0.4*bo)})`;
+  // status + timer
+  $('st').textContent=conn?'● connected':'incoming call…';
+  const tmo=p(t,TAP+0.3,TAP+0.55);const tm=$('tm');tm.style.opacity=tmo;
+  const secs=Math.max(0,t-(TAP+0.3));const ss=Math.floor(secs);
+  tm.innerHTML=`<small><i>${Math.floor(t*2)%2?'●':'○'}</i> FREE · 20 MIN</small>00:${String(ss).padStart(2,'0')}`;
+  // subtitle line
+  const so=p(t,SUB,SUB+0.25);const sub=$('sub');
+  sub.innerHTML=`<b>20 دقيقة</b> · على الويبسايت`;sub.style.opacity=so;sub.style.transform=`translateY(${(1-eo(so))*14}px)`;
+  const big=$('big');big.style.marginTop=(6-0*so)+'px';
+  // fingertip tap
+  const f=$('fing');const fo=t>TAP-0.45&&t<TAP+0.35?(t<TAP?p(t,TAP-0.45,TAP-0.25):1-p(t,TAP+0.1,TAP+0.35)):0;
+  const yx=540-450+36+48, yy=70+120; // centre of accept button (card fully open)
+  const fs=t<TAP?1.25-0.25*p(t,TAP-0.45,TAP):(t<TAP+0.1?0.85:1);
+  f.style.opacity=fo;f.style.left=(yx-42+ (1-p(t,TAP-0.45,TAP-0.1))*60)+'px';f.style.top=(yy-42+(1-p(t,TAP-0.45,TAP-0.1))*90)+'px';f.style.transform=`scale(${fs})`;
+  const r=$('rip');const rp=p(t,TAP,TAP+0.4);r.style.left=(yx-48)+'px';r.style.top=(yy-48)+'px';r.style.opacity=t>=TAP&&rp<1?(1-rp):0;r.style.transform=`scale(${1+rp*1.4})`;
+  // link tab
+  const lp=p(t,LINK,LINK+0.3);const tab=$('tab');tab.style.opacity=lp;
+  const bounce=t>LINK+0.3?Math.abs(Math.sin((t-LINK-0.3)*Math.PI*2.2))*8:0;
+  tab.style.transform=`translateX(-50%) translateY(${(1-back(lp))*-40+bounce}px)`;
+}
+render(0);
+</script></body></html>

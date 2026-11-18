@@ -5,9 +5,10 @@ import json, os, sys, time, uuid, shutil, subprocess
 LA = os.environ["LOCALAPPDATA"].replace("\\", "/")
 ROOT = LA + "/CapCut/User Data/Projects/com.lveditor.draft"
 SRC = ROOT + "/overthincking ! FINAL"
-NAME = "codebyabdullah - 1st video A to Z v5"
+NAME = os.environ.get("NAME", "codebyabdullah - 1st video A to Z v5")
 DST = ROOT + "/" + NAME
-CONTENT = "D:/personal brand/07_workspace/1st_video/capcut/draft_content_1st.json"
+CONTENT = os.environ.get("CONTENT", "D:/personal brand/07_workspace/1st_video/capcut/draft_content_1st.json")
+COVER = os.environ.get("COVER", "D:/personal brand/02_videos/1st_video_A-to-Z_v5.mp4")
 
 if "capcut.exe" in subprocess.run(["tasklist"], capture_output=True, text=True).stdout.lower():
     sys.exit("CapCut is still running - close it fully first")
@@ -74,7 +75,7 @@ for g in vs["draft_virtual_store"]:
 jsave(DST + "/draft_virtual_store.json", vs)
 
 rm = jload(ROOT + "/root_meta_info.json")
-shutil.copy2(ROOT + "/root_meta_info.json", ROOT + "/root_meta_info.json.before_1st_video_v5_project")
+shutil.copy2(ROOT + "/root_meta_info.json", ROOT + "/root_meta_info.json.before_" + NAME.replace(" ", "_"))
 src_e = next(e for e in rm["all_draft_store"] if e["draft_name"] == "overthincking ! FINAL")
 e = json.loads(json.dumps(src_e))
 e.update(draft_cover=DST + "\\draft_cover.jpg", draft_fold_path=DST, draft_id=DID, draft_json_file=DST + "\\draft_content.json",

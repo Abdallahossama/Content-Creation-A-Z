@@ -3,7 +3,9 @@ voice / music / SFX stems. Template = the clean Ask Habibi Ep1 FINAL draft (no P
 import json, copy, uuid, os, subprocess
 W = "D:/personal brand/07_workspace/1st_video/"
 TPL = "D:/why habibi/_pipeline/episodes/ep01_overthinking/new_draft_content.json"
-OUT = W + "capcut/draft_content_1st.json"
+OUT = os.environ.get("OUT", W + "capcut/draft_content_1st.json")
+SFX_STEM = os.environ.get("SFX_STEM", W + "capcut/sfx_stem.wav")
+CTA_MOV = os.environ.get("CTA_MOV")
 FONT = "D:/codebyabdullah_assets/workspace/edit/fonts/Alexandria-ExtraBold.ttf"
 CW, CH = 1080, 1920
 def uid(): return str(uuid.uuid4()).upper()
@@ -105,7 +107,8 @@ def ovl(o):
     y = o["y"] if isinstance(o["y"], (int, float)) else float(str(o["y"]).split("+")[0].strip("'"))
     return vseg(f, o["s"], o["e"] - o["s"], kind="photo", geo=(o["x"], y, w, h, dw))
 paper = [ovl(o) for o in MAN["overlays"] if "paper_" in o["file"]]
-cards = [ovl(o) for o in MAN["overlays"] if any(x in o["file"] for x in ("/bf", "/an", "/prd", "/bd", "/ho", "/af", "cta.png"))]
+cards = [ovl(o) for o in MAN["overlays"] if not o.get("seq") and any(x in o["file"] for x in ("/bf", "/an", "/prd", "/bd", "/ho", "/af", "cta.png"))]
+cards += [vseg(CTA_MOV, o["s"], o["e"] - o["s"], geo=(0, 0, 1080, 720, 1080)) for o in MAN["overlays"] if o.get("seq") and CTA_MOV]
 steps = [ovl(o) for o in MAN["overlays"] if "/step" in o["file"]]
 pills = [ovl(o) for o in MAN["overlays"] if "/p_" in o["file"]]
 wm = [ovl(o) for o in MAN["overlays"] if "wm.png" in o["file"]]
@@ -118,7 +121,7 @@ d["tracks"] = [track("video", face, "Face (graded, tight cuts)"), track("video",
                track("video", wm, "Watermark", 2), track("text", caps, "Captions"),
                track("audio", [aseg(W + "capcut/voice_clean.wav", name="Voice (DeepFilterNet + EQ)")], "Voice"),
                track("audio", [aseg(W + "capcut/music_bed.wav", name="Eternity bed (Incompetech, CC BY)")], "Music"),
-               track("audio", [aseg(W + "capcut/sfx_stem.wav", name="SFX stem")], "SFX")]
+               track("audio", [aseg(SFX_STEM, name="SFX stem")], "SFX")]
 for i, tr in enumerate(d["tracks"]):
     for j, s in enumerate(tr["segments"]):
         s["track_render_index"] = i; s["render_index"] = (14001 + j) if tr["type"] == "text" else i

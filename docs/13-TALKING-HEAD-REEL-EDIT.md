@@ -54,3 +54,23 @@ breaks older projects, so tell the owner to delete them.
 - D: fills up. Clean your own intermediates (old pieces, base.mov) before a render; never write to C:.
 - Always send a phone copy under 30 MB (crf 25, maxrate 4M).
 - Mirror: footage filmed with this phone is not actually mirrored, so flipping it makes monitor text read backwards. Flip only on request.
+
+## Round 6 (18 Nov 2026): skin not orange + animated phone-call CTA
+
+- **"Don't make the colours super saturated, I look orange."** The contrast S-curve + shot-match curves pushed skin to orange
+  (hands worst). Fix appended after the shot-match curves in `segs3.js`:
+  `huesaturation=saturation=-0.4:colors=r+y:strength=1, huesaturation=hue=-4:colors=r+y, eq=saturation=0.88`.
+  It only pulls reds/yellows (skin, warm wall light) and leaves the blue monitor alone. Always check hands, not just the face.
+- **Animated CTA, "phone call" style, two variants** (`cta_anim/call_a.html`, `call_b.html`), timed to the CTA captions
+  (0 / 1.54 / 3.14 / 5.43 s after the CTA cut):
+  - **A, incoming call:** a dynamic-island pill morphs into an ink call card (pistachio avatar with pulsing rings, «استشارة مجانية»,
+    decline + accept buttons, ring wiggle) → a fingertip taps accept on «تقدر تحجز» → "● connected" + running 00:0x timer,
+    "FREE · 20 MIN" → «20 دقيقة · على الويبسايت» line → «اللينك في البايو ↓» sticker tab + codebyabdullah.com bounce in.
+  - **B, approved card + ringing phone:** the v5 CTA card enters the same way; a pistachio sticker phone badge rings (wiggle + rings)
+    with an "incoming call…" tag → on the tap it flips to ✓ and "connected 00:0x" → «مكالمة 20 دقيقة · مجاناً» sticker slaps in
+    at «20 دقيقة» → underline sweep on «اللينك في البايو» + bouncing ↓.
+  - SFX: phone_ring −22 · click on the tap −16/−17 · pop −20 + bell −24 on "link in bio" · riser_short −27 into the CTA.
+- **Rendering HTML animations to frames:** `cta_anim/frames.js` drives headless Edge over CDP (Node 24 global `WebSocket`):
+  transparent background override, `render(t)` per frame, `Page.captureScreenshot` → PNG sequence (198 frames in about 1 min).
+  The compositor overlays the sequence directly (`CTA=a|b node comp2.js out.mp4`); CapCut gets a ProRes 4444 alpha `.mov`
+  of the same frames (`CTA_MOV`, `SFX_STEM`, `OUT` env vars on `capcut_build.py`; `NAME`, `CONTENT`, `COVER` on `capcut_create.py`).
