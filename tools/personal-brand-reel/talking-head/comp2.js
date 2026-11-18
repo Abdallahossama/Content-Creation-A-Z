@@ -73,8 +73,8 @@ for (const c of E) if (c.cta) {
   fc.push(`[${k}:v]format=rgba,setpts=PTS-STARTPTS+${c.t.toFixed(3)}/TB[cta]`);
   fc.push(`[${prev}][cta]overlay=0:0:eof_action=repeat:enable='gte(t,${c.t.toFixed(3)})'[o${j}]`); prev = `o${j}`; j++; k++;
   const T0 = c.t, TAP = c.t + 1.54, SUB = c.t + 3.14, LINK = c.t + 5.43;
-  if (CTA === 'a') { fx.push([SFX + 'swoosh_in.wav', T0 + 0.05, -22]); fx.push([SFX + 'phone_ring.wav', T0 + 0.15, -22]); fx.push([CLICK, TAP, -16]); fx.push([SFX + 'pop.wav', TAP + 0.02, -22]); fx.push([CLICK, SUB, -24]); }
-  else { fx.push([SFX + 'pop.wav', T0 + 0.2, -18]); fx.push([SFX + 'phone_ring.wav', T0 + 0.45, -22]); fx.push([CLICK, TAP, -17]); fx.push([SFX + 'sticker_slap.wav', SUB, -19]); fx.push([SFX + 'pop.wav', SUB + 0.02, -22]); }
+  if (CTA === 'a') { fx.push([SFX + 'swoosh_in.wav', T0 + 0.05, -22]); fx.push(['D:/personal brand/07_workspace/1st_video/sfx/soft_ring.wav', T0 + 0.15, 3]); fx.push([CLICK, TAP, -16]); fx.push([SFX + 'pop.wav', TAP + 0.02, -22]); fx.push([CLICK, SUB, -24]); }
+  else { fx.push([SFX + 'pop.wav', T0 + 0.2, -18]); fx.push(['D:/personal brand/07_workspace/1st_video/sfx/soft_ring.wav', T0 + 0.45, 3]); fx.push([CLICK, TAP, -17]); fx.push([SFX + 'sticker_slap.wav', SUB, -19]); fx.push([SFX + 'pop.wav', SUB + 0.02, -22]); }
   fx.push([SFX + 'pop.wav', LINK, -20]); fx.push([SFX + 'bell.wav', LINK + 0.05, -24]);
 }
 // 7) watermark

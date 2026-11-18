@@ -69,7 +69,7 @@ breaks older projects, so tell the owner to delete them.
   - **B, approved card + ringing phone:** the v5 CTA card enters the same way; a pistachio sticker phone badge rings (wiggle + rings)
     with an "incoming call…" tag → on the tap it flips to ✓ and "connected 00:0x" → «مكالمة 20 دقيقة · مجاناً» sticker slaps in
     at «20 دقيقة» → underline sweep on «اللينك في البايو» + bouncing ↓.
-  - SFX: phone_ring −22 · click on the tap −16/−17 · pop −20 + bell −24 on "link in bio" · riser_short −27 into the CTA.
+  - SFX: the stock `phone_ring.wav` was rejected ("awful"); use the synthesized soft marimba ring `sfx/soft_ring.wav` (E5-G#5-B5-E6 arpeggio twice, expression in `sfx/ring_expr.txt`) at +3 dB · click on the tap −16/−17 · pop −20 + bell −24 on "link in bio" · riser_short −27 into the CTA.
 - **Rendering HTML animations to frames:** `cta_anim/frames.js` drives headless Edge over CDP (Node 24 global `WebSocket`):
   transparent background override, `render(t)` per frame, `Page.captureScreenshot` → PNG sequence (198 frames in about 1 min).
   The compositor overlays the sequence directly (`CTA=a|b node comp2.js out.mp4`); CapCut gets a ProRes 4444 alpha `.mov`
