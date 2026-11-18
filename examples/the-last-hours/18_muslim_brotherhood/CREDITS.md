@@ -48,3 +48,7 @@ Only the items below appear in the edit (render_mb18.py SHOTS). Full URLs, licen
   licensed under Creative Commons: By Attribution 4.0.
 - Sound effects: Mixkit (free licence).
 - Narration: an AI clone of the creator's own voice (Chatterbox, local).
+
+## Thumbnail re-design (17 Nov 2026)
+- Abdul El-Sayed portraits: "Abdul El-Sayed.jpg" by Kenneth C. Zirkel (2025) and "Abdul El-Sayed meet-and-greet by Conlan Houston 5 (cropped).jpg" by Conlan Houston (2025), Wikimedia Commons, CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Cut out and colour-graded. Add this line to the video description when the thumbnail goes live.
+- Background crowd and night street: generated locally (Z-Image Turbo); men only, no flags or emblems.
