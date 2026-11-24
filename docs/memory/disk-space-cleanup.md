@@ -24,3 +24,5 @@ Watch D: before big renders (the Saddam v2 master alone was 2.6 GB). Old Last Ho
 candidates if space runs low again; ask first. Related: [[focus-last-hours]], [[local-ai-stack]].
 
 C: fills fast (0 MB free on 6 and 8 Nov). Main culprits: other sessions' scratchpads in %TEMP%\claude\*\*\scratchpad (8 Nov: ~7 GB of throwaway edge-profile-* browser profiles), uv/npm caches, CapCut User Data\Cache. Safe routine: delete scratchpad edge-profile-* not touched in 60 min, %TEMP% items older than 6 h (skip %TEMP%\claude), `npm cache clean --force`, `uv cache clean` (then see [[uv-after-disk-cleanup]]). Use Bash rm; PowerShell Remove-Item on these paths is blocked.
+
+D: (19 Nov 2026, 0.1 -> 44 GB free): biggest win = D:\why habibi\_newchannel\<NN_topic>\build (intermediate render files, 2-6 GB each) — delete once the video's export/ final exists and it is uploaded; keep build of unuploaded files. _upload_queue_last_hours\branded = the ONLY copy of the File Keeper (uploaded) versions — keep. Other queue files: delete only exact size-matches of export/ finals. "(delete me)" archive on D: is gone.

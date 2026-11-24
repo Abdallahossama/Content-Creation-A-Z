@@ -53,6 +53,8 @@ one(WH + "TODO.md", REPO + "docs/ask-habibi/TODO_snapshot.md")
 # 3b. The Bill, Explained (second channel since 15 Nov 2026): brand kit code + rules
 tree("D:/the-bill-explained/tools", REPO + "tools/the-bill-explained/")
 tree("F:/stick-survival/tools", REPO + "tools/stick-survival/")
+tree("F:/speed-gta6/tools", REPO + "tools/speed-gta6/")
+one("F:/speed-gta6/export/UPLOAD_COPY_PASTE.txt", REPO + "examples/speed-gta6/UPLOAD_COPY_PASTE.txt")
 tree("F:/stick-survival/videos", REPO + "examples/stick-survival/")
 for f in glob.glob("F:/stick-survival/videos/**/UPLOAD_COPY_PASTE*.txt", recursive=True):
     one(f, REPO + "examples/stick-survival/" + os.path.relpath(f, "F:/stick-survival/videos").replace(os.sep, "/"))
