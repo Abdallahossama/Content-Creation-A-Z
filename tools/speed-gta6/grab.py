@@ -23,7 +23,13 @@ def cut(url, t0, t1, path):
     for typ, pos, size, hdr in boxes(head):
         if typ == "moov": init_end = pos + size
         if typ == "sidx": sidx = (pos, size, hdr); break
-    if sidx is None: raise SystemExit("no sidx in first 400 KB")
+        if pos + size > len(head) and typ in ("moov", "free", "uuid", "styp"):     # box runs past what we read: fetch more
+            head += rng(url, len(head), pos + size + 400_000)
+    if sidx is None:
+        for typ, pos, size, hdr in boxes(head):
+            if typ == "moov": init_end = pos + size
+            if typ == "sidx": sidx = (pos, size, hdr); break
+    if sidx is None: raise RuntimeError("no sidx in header")
     pos, size, hdr = sidx
     if pos + size > len(head): head += rng(url, len(head), pos + size)
     b = head[pos + hdr: pos + size]; ver = b[0]

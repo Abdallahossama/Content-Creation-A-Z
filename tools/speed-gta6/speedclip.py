@@ -38,9 +38,18 @@ for ch in chunks:
 ap = out.replace(".mp4", ".ass"); open(ap, "w", encoding="utf-8").write("\n".join(ass) + "\n")
 
 sub = ap.replace("\\", "/").replace(":", "\\:")
-fc = (f"[0:v]crop=iw*{fw}:ih*{fh}:iw*{fx}:ih*{fy},scale=1080:700:force_original_aspect_ratio=increase,crop=1080:700[top];"
-      f"[0:v]crop=ih*1080/1220:ih:(iw-ih*1080/1220)/2:0,scale=1080:1220" + (",gblur=sigma=45,eq=brightness=-0.12" if os.environ.get("SC_BLUR") else "") + "[bot];"
-      f"[top][bot]vstack,setsar=1,subtitles='{sub}'[v]")
+FIT = os.environ.get("SC_FIT")
+if FIT:   # landscape camera clip: 16:9 video centred on a blurred fill, hook above it, captions below
+    ass = [l.replace("{\\pos(540,700)}", "{\\pos(540,470)}") for l in ass]
+    open(ap, "w", encoding="utf-8").write("\n".join(ass) + "\n")
+BLUR = ",gblur=sigma=45,eq=brightness=-0.12" if os.environ.get("SC_BLUR") else ""
+if FIT:
+    fc = (f"[0:v]split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,gblur=sigma=30,eq=brightness=-0.25[bg];"
+          f"[b]scale=1080:-2[fg];[bg][fg]overlay=0:(H-h)/2-80,setsar=1,subtitles='{sub}'[v]")
+else:
+    fc = (f"[0:v]crop=iw*{fw}:ih*{fh}:iw*{fx}:ih*{fy},scale=1080:700:force_original_aspect_ratio=increase,crop=1080:700[top];"
+          f"[0:v]crop=ih*1080/1220:ih:(iw-ih*1080/1220)/2:0,scale=1080:1220{BLUR}[bot];"
+          f"[top][bot]vstack,setsar=1,subtitles='{sub}'[v]")
 cmd = ["ffmpeg", "-v", "error", "-y", "-ss", str(t0)] + (["-to", str(t1)] if t1 else []) + ["-i", src, "-filter_complex", fc, "-map", "[v]", "-map", "0:a",
        "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "192k",
        "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-movflags", "+faststart", out]
