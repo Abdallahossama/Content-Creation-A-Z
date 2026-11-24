@@ -51,3 +51,4 @@
 - [Bill thumbnails = real photos](free-ai-thumbnails.md) — 16 Nov: owner rejected AI scenes as slop; documentary style on real photos (thumbdoc.py: labels, arrows, rings, big number) copied from million-view refs (Last Hours exception: AI scenes OK since 17 Nov)
 - [Stick-figure niche](stick-figure-niche.md) — 18 Nov: owner dislikes Bill channel; stick-figure research: survival diaries + 'Why it sucks to be' history win; tiny channels hit 47-432x
 - [Speed GTA 6 clipping](speed-gta6-clipping.md) — 24 Nov: owner wants auto Shorts of IShowSpeed GTA 6; no official Speed clip program, YouTube downranks re-uploads; only licensed campaigns or real commentary
+- [Speed clip edit style](speed-clip-edit-style.md) — 24 Nov: hype edit (tracking, punch zooms, flashes, colour pop captions, original phonk, skull end) for IRL; TikTok purple-karaoke style for GTA; captions snapped to audio (whisper ~0.3 s late)
