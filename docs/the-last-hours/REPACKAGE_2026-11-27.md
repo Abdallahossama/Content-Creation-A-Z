@@ -18,3 +18,11 @@ Proposal: new thumbnail per file in the Noah rebrand look (host left, real evide
 pattern (famous name / big keyword first, 2-3 numbers, outcome last), run as Title+thumbnail Test & Compare: current vs T1+N vs T2+N.
 Sheet: _newchannel/_rethumb_nov27/REPACKAGE_SHEET_27nov.jpg; builder make_noah.py + sheet.py. Waiting for the owner's OK.
 Channel name: recommended to KEEP "The Last Hours" (format promise + already on 27 files); Noah lives in banner, picture, videos.
+
+## LIVE 27 Nov 2026 (owner: "Yes, start the tests")
+Title+thumbnail Test & Compare on all 9 (old tests deleted; current pair kept as option 1, then T1+N and T2+N):
+Roanoke EKnsZ8kI_1Q, Franklin bUkhghG5Hs0, Cooper 1rWdT-lGkBI, Alcatraz 16b37-3-Z-Q, Andrée vyX1mYdiWGw, Flight 19 r0wpGQzHVJ8,
+Gaddafi gallows kJYD15hkP48, Gaddafi convoy 9kB8VIKkhJQ, Muslim Brotherhood 1CzBdYMw9T8. All show "A/B test running" in Studio.
+Old results seen while replacing: Andrée and Gaddafi-gallows title+thumb tests (8-23 Nov) = "not enough impressions to declare a winner";
+Roanoke/Franklin/Cooper/Flight 19/convoy/MB tests were still running with no leader shown.
+Check results in ~2 weeks (by 11 Dec); low-impression videos may again end with no winner.
