@@ -166,3 +166,11 @@ PRODUCTION MISTAKES 22-23 OCT (and the fix that is now the rule)
 - Pexels clips: clamp every VID at= to (duration - 5 s) or the shot goes black.
 - Host avatar: Noah cutaways (~1 per 3 min) + 4 corner pops + full-body wave on the name card and the goodbye; idle sway/breathing in hostkit.alive().
 - Thumbnails: owner wants the Omar-Qany GTA poster: Noah centred, archetypes around, "grand theft auto" lettering top-right (Pricedown, Typodermic free EULA), one title line at the bottom. Never Rockstar characters/logo art.
+
+## Thumbnails: the "pop" treatment (27 Nov 2026, owner)
+- Owner: ChatGPT scenes are good but Noah "melts into" them and reads as an AI picture. Fix = cut Noah out (rembg isnet-general-use),
+  blur (3 px) + darken (0.62) the scene, enlarge him 1.14x bottom-anchored, warm back glow behind the head, blue->orange rim light on
+  his edges, then real-photo cards / words / stamp. Script: brand/thumbs_pop/make_pop.py (+ make_pop_all.py for Files 29-31).
+- Never put a card or stamp over Noah's face; drop the card if the scene's prop (check, TV) already tells the story.
+- Ask the owner for FULL-SIZE single images from ChatGPT (collage panels are ~830x310 and crop the hat). He chose the small ones for 29-31.
+- Topic props without IP: describe them in the ChatGPT prompt (swamp + outhouse, film canisters, cracked checker TV); no characters, logos, desk lamp (Pixar).
