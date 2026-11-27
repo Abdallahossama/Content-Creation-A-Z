@@ -151,3 +151,9 @@ PRODUCTION MISTAKES 22-23 OCT (and the fix that is now the rule)
     (an mp4 rid crashes qa); (c) TCARD subtitles over ~45 chars run under the side card: keep them short; (d) read assets.md crop notes
     before using any crowd/aerial photo (Kadhimiya bridge = pilgrims, women likely -> CROP y 0-55%); (e) TB credit labels must match
     the licence column (Flickr CC BY / CC BY-SA authors named on screen and in the description); CC BY-SA never in thumbnails.
+
+## Title pattern from the Saddam A/B test (finished 1-14 Nov 2026, logged 27 Nov)
+- Winner: "66 Names Were Read Out. 21 Men Were Gone in 17 Days." = 48.0% watch-time share.
+- Losers: "Saddam Hussein's 1979 Purge: ..." 30.4%, "Saddam Hussein Called a ..." 21.6%.
+- Rule: short stacked sentences, 2-3 concrete numbers, the outcome last; the name does not have to come first (Suggested traffic already supplies the context). Always test one title in this pattern.
+- Applied: Files 26 (capture) and 27 (last day) option 2 in their UPLOAD_COPY_PASTE.txt.
