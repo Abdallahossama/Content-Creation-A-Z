@@ -73,3 +73,5 @@ One long working day: Vice City finished, the Omar Qany "Full Story" format adop
 
 ## 6. Schedule set on 27 Nov (22:00 Cairo)
 Sat 28 Nov Vice City · Wed 2 Dec DreamWorks · Sat 5 Dec Pixar · Wed 9 Dec Cartoon Network · Sat 12 Dec Göring · Wed 16 Dec Alcatraz 1946 · Sat 19 Dec Indianapolis · Wed 23 Dec Cole & Roe · Sat 26 Dec Flannan.
+
+Shorts (teasers, after their long video, one a day, original clock time kept): Göring 13-15 Dec · Alcatraz 1946 17-19 Dec · Indianapolis 20-23 Dec · Cole & Roe 24-27 Dec · Flannan 28 Dec. Cyclops Shorts 28-29 Nov unchanged. Lesson: when long videos move, move their teaser Shorts too (Studio > Content > Shorts).
