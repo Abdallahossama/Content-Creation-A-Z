@@ -158,3 +158,11 @@ PRODUCTION MISTAKES 22-23 OCT (and the fix that is now the rule)
 - Rule: short stacked sentences, 2-3 concrete numbers, the outcome last; the name does not have to come first (Suggested traffic already supplies the context). Always test one title in this pattern.
 - Applied: Files 26 (capture) and 27 (last day) option 2 in their UPLOAD_COPY_PASTE.txt.
 - 27 Nov: applied in Studio via View test report > Set this option (Studio said 'They all performed well', so it had NOT auto-applied the 48% winner). Check every finished test this way.
+
+## File 28 Vice City (27 Nov 2026)
+- Chatterbox: run it ALONE and resumable (vo/lines/l####.wav per line); it crashed out of memory at line 125 when thumbnails ran beside it.
+- Whisper invents "thanks for watching / see you next time" on line tails and short lines: scan vo_words.json for more words than the script, truncate.
+- Word keys: whisper writes numbers as digits ("621", "$10,000" -> "10"): add the digit form to every number key ("621|six").
+- Pexels clips: clamp every VID at= to (duration - 5 s) or the shot goes black.
+- Host avatar: Noah cutaways (~1 per 3 min) + 4 corner pops + full-body wave on the name card and the goodbye; idle sway/breathing in hostkit.alive().
+- Thumbnails: owner wants the Omar-Qany GTA poster: Noah centred, archetypes around, "grand theft auto" lettering top-right (Pricedown, Typodermic free EULA), one title line at the bottom. Never Rockstar characters/logo art.

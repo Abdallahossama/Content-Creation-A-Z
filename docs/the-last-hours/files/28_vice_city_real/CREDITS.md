@@ -1,0 +1,88 @@
+# The Last Hours #28: Vice City Was Real - credits (generated from research/assets.md; only items used in shots_vice.py)
+
+| ID | Item | Licence | Credit | Page |
+|---|---|---|---|---|
+| A1 | White House minutes, 'Meeting of Task Force on South Florida', 27 Jan 1982, Roosevelt Room | PD (White House / federal staff records, Reagan Library) | Ronald Reagan Presidential Library | https://reaganlibrary.gov/public/digitallibrary/smof/counsellor/meese/oa11841/40-373-7789427-OA11841-001-2019.pdf (PDF p |
+| A2 | Press release: Remarks of Vice President Bush, Miami Citizens Against Crime luncheon, Omni | PD (Office of the Vice President) | Ronald Reagan Presidential Library | https://reaganlibrary.gov/public/digitallibrary/smof/counsellor/meese/oa11841/40-373-7789427-OA11841-001-2019.pdf (PDF p |
+| A3 | 'SOUTH FLORIDA SPECIAL TASK FORCE' fact sheet: 'President Reagan set up South Florida Spec | PD (White House) | Ronald Reagan Presidential Library | https://reaganlibrary.gov/public/digitallibrary/smof/counsellor/meese/oa11841/40-373-7789427-OA11841-001-2019.pdf (PDF p |
+| A4 | 'REQUIRE THAT BANKS COMPLY WITH THE BANK SECRECY ACT' (Jan 1982 request from a Florida sen | PD (US Senate office paper in White House files) | Ronald Reagan Presidential Library | https://reaganlibrary.gov/public/digitallibrary/smof/counsellor/meese/oa11841/40-373-7789427-OA11841-001-2019.pdf (PDF p |
+| A7 | 'FACT SHEET: DOD SUPPORT TO CIVILIAN NARCOTICS ENFORCEMENT AGENCIES' (FY82 Authorization A | PD (DoD / White House) | Ronald Reagan Presidential Library | https://reaganlibrary.gov/public/digitallibrary/smof/counsellor/meese/oa11841/40-373-7789427-OA11841-001-2019.pdf (PDF p |
+| A8 | Public Law 99-570, Anti-Drug Abuse Act of 1986, Title I Subtitle H = Money Laundering Cont | PD (US statute) | U.S. Government Publishing Office |  |
+| B1 | Special Agents Jerry Dove (left) and Benjamin Grogan (right), FBI portraits | PD (FBI, US federal) | FBI | [page](https://commons.wikimedia.org/wiki/File:Jerry_Dove_and_Ben_Grogan.jpg) |
+| B2 | Ronald Reagan, official portrait, 7 Feb 1981 | PD (White House / Michael Evans) | The White House | [page](https://commons.wikimedia.org/wiki/File:Official_Portrait_of_President_Reagan_1981.jpg) |
+| B3 | George H. W. Bush, vice-presidential portrait (c. 1981) | PD (White House) | The White House | [page](https://commons.wikimedia.org/wiki/File:George_H._W._Bush_vice_presidential_portrait.jpg) |
+| B4 | Reagan and Bush, official portrait together, 16 Jul 1981 (NARA 198518) | PD (NARA) | National Archives (NARA 198518) | [page](https://commons.wikimedia.org/wiki/File:Photograph_of_the_Official_Portrait_of_President_Reagan_and_Vice-Presiden |
+| B6 | Reagan addresses the South Florida Task Force and Miami Citizens Against Crime, Homestead  | PD (White House Photographic Office) | Reagan Library / White House Photographic Office | [page](https://commons.wikimedia.org/wiki/File:President_Ronald_Reagan_Addresses_a_South_Florida_Task_Force_and_Miami_Ci |
+| B7 | Jimmy Carter, official portrait, 31 Jan 1977 | PD (White House) | The White House | [page](https://commons.wikimedia.org/wiki/File:Official_Portrait_of_Jimmy_Carter_(1977).jpg) |
+| B8 | Fidel Castro arriving at the MATS Terminal, Washington, 15 Apr 1959 (Warren K. Leffler, U. | PD (LOC: U.S. News & World Report collection, no known restr | Library of Congress, U.S. News & World Report collection | [page](https://commons.wikimedia.org/wiki/File:Fidel_Castro_-_MATS_Terminal_Washington_1959.jpg) |
+| B9 | Cuban men crowd the rail of the boat 'El Dorado' arriving at Key West, 1980 (from USCG rep | PD (US Coast Guard / DHS) | U.S. Coast Guard | [page](https://commons.wikimedia.org/wiki/File:Mariel_Refugees.jpg) |
+| B10 | Older Cuban man wiping tears on arrival in Key West, 1980 (Dale M. McDonald collection) | PD (State Archives of Florida, Florida Memory) | State Archives of Florida, Florida Memory | [page](https://commons.wikimedia.org/wiki/File:Cuban_refugee_upon_arrival_in_Key_West_during_the_Mariel_boatlift_(815841 |
+| B11 | Man at a fruit and vegetable stand, Little Havana, Miami, c. 1980 | PD (State Archives of Florida) | State Archives of Florida, Florida Memory | [page](https://commons.wikimedia.org/wiki/File:Fruit_and_vegetable_stand_in_Little_Havana-_Miami,_Florida_(7629968464).j |
+| C1 | Metromover train at night with the lit downtown Miami skyline, May 1984 (Florida Division  | CC0 | Florida Division of Tourism / Florida Memory | [page](https://commons.wikimedia.org/wiki/File:Miami_Skyline_and_Metrorail,_1984.jpg) |
+| C2 | Metrorail and Metromover with the downtown skyline, 1986 | PD (Metropolitan Dade County Transit Agency) | Metro-Dade Transit Agency | [page](https://commons.wikimedia.org/wiki/File:Metrorail_and_Metromover_in_1986.jpg) |
+| C3 | Metrorail guideway under construction, 1980s (aerial) | PD (Florida Memory) | State Archives of Florida, Florida Memory | [page](https://commons.wikimedia.org/wiki/File:Guideway_construction.jpg) |
+| C5 | Aerial of Bayfront Park, Miamarina and the port, June 1985 | CC0 | Florida Department of Commerce / Florida Memory | [page](https://commons.wikimedia.org/wiki/File:Miami_Bayfront_Park,_1985.jpg) |
+| C6 | HABS 1980: 700 block of Ocean Drive (Colony, Beacon, Park Central) looking south, 1980s ca | PD (HABS, Library of Congress) | Walter Smalling Jr., HABS / Library of Congress | [page](https://commons.wikimedia.org/wiki/File:700_BLOCK_OCEAN_DRIVE,_VIEW_TO_SOUTH_SHOWING_OCEAN_FRONT_HOTELS_-_Miami_B |
+| C7 | HABS: Cardozo Hotel, 1300 Ocean Drive, east elevation | PD (HABS, LOC) | HABS / Library of Congress | [page](https://commons.wikimedia.org/wiki/File:EAST_ELEVATION_-_Cardoza_Hotel,_1300_Ocean_Drive,_Miami,_Miami-Dade_Count |
+| C8 | HABS: neon 'Apartments' script sign, 1025 Collins Ave | PD (HABS, LOC) | Walter Smalling Jr., HABS / LOC | [page](https://commons.wikimedia.org/wiki/File:1025_COLLINS_AVENUE,_DETAIL_OF_NEON_SIGN_-_Miami_Beach_Art_Deco_Historic_ |
+| C9 | HABS: Henrosa Hotel, 1435 Collins Ave, with vertical HOTEL sign and palm | PD (HABS, LOC) | Walter Smalling Jr., HABS / LOC | [page](https://commons.wikimedia.org/wiki/File:HENROSA_HOTEL,_1435_COLLINS_AVENUE,_SOUTHWEST_ELEVATION_-_Miami_Beach_Art |
+| C10 | HABS: 'Tommy's Deck Bar' ship-wheel sign, 'OPEN ALL NIGHT', Fifth Street | PD (HABS, LOC) | Walter Smalling, HABS / LOC | [page](https://commons.wikimedia.org/wiki/File:TOMMY%27S_DECK_BAR,_FIFTH_STREET_-_Miami_Beach_Art_Deco_Historic_District |
+| C11 | HABS: 400 block Española Way, Cameo Hotel, empty street in low sun | PD (HABS, LOC) | Walter Smalling, HABS / LOC | [page](https://commons.wikimedia.org/wiki/File:400_BLOCK_ESPANOLA_WAY,_VIEW_OF_NORTH_SIDE_OF_STREET_-_Miami_Beach_Art_De |
+| C12 | Refugee boats tied up at the Key West pier, Coast Guard boat behind, 1980 | CC BY 2.0 | Florida Keys--Public Libraries, CC BY 2.0 | [page](https://commons.wikimedia.org/wiki/File:Mariel_Boatlift_Refugee_boats_(7167081147).jpg) |
+| C13 | Impounded boat 'Silver Sea' and others, Key West, 1980 | CC BY 2.0 | Florida Keys--Public Libraries, CC BY 2.0 | [page](https://commons.wikimedia.org/wiki/File:Mariel_Boatlift_impounded_boats_(7167081647).jpg) |
+| C14 | Shrimp boat 'Americana' at the dock, 1980 | CC BY 2.0 | Florida Keys--Public Libraries, CC BY 2.0 | [page](https://commons.wikimedia.org/wiki/File:Shrimp_Boat_Americana_Mariel_Boatlift_(7349229206).jpg) |
+| C15 | Rows of impounded boatlift boats at Truman Annex, gulls in front, 1980 | CC BY 2.0 | Florida Keys--Public Libraries, CC BY 2.0 | [page](https://commons.wikimedia.org/wiki/File:Boats_impounded_at_Truman_Annex_during_the_Mariel_Boatlift_(7164218101).j |
+| C16 | Shrimp boats 'Peggy Jo', 'Liby Sara', 'Miss Louise' at the pier, 1980 | CC BY 2.0 | Florida Keys--Public Libraries, CC BY 2.0 | [page](https://commons.wikimedia.org/wiki/File:Peggy_Jo,_Liby_Sara_and_Miss_Louise_during_the_Mariel_Boatlift_(716418439 |
+| C17 | 'Red Diamond V' and 'Lil Kandy' tied up, 1980 | CC BY 2.0 | Florida Keys--Public Libraries, CC BY 2.0 | [page](https://commons.wikimedia.org/wiki/File:Red_Diamond_V_and_Lil_Kandy_Mariel_Boatlift_(7349393736).jpg) |
+| C18 | USCGC Diligence (W616) behind a pile of seized refugee skiffs and life rafts, 1980 | CC BY 2.0 | Florida Keys--Public Libraries, CC BY 2.0 | [page](https://commons.wikimedia.org/wiki/File:USCGC_Diligence_(WMEC-616)_Mariel_Boatlift_(7164217189).jpg) |
+| C19 | USCGC Valiant (621) at Key West, 1980 | CC BY 2.0 | Florida Keys--Public Libraries, CC BY 2.0 | [page](https://commons.wikimedia.org/wiki/File:USCGC_Valiant_(WMEC-621)_Mariel_Boatlift_(7349429162).jpg) |
+| C21 | Dadeland North Metrorail station, Kendall (2008) | CC BY 3.0 | FrickFrack, CC BY 3.0 | [page](https://commons.wikimedia.org/wiki/File:Dadeland_North.jpg) |
+| C22 | Kendall: Dadeland ramp and office towers, highway view | CC BY-SA 3.0 (**never thumbnail**) | Averette, CC BY-SA 3.0 | [page](https://commons.wikimedia.org/wiki/File:Kendall_Dadeland_ramp.jpg) |
+| C23 | Miami River in downtown, Brickell towers (2021) | CC BY 2.0 | Sharon Hahn Darlin, CC BY 2.0 | [page](https://commons.wikimedia.org/wiki/File:Miami_River,_Miami,_Florida_2021.jpg) |
+| C24 | Mouth of the Miami River (2010) | CC BY 3.0 | Marc Averette, CC BY 3.0 | [page](https://commons.wikimedia.org/wiki/File:Mouth_of_Miami_River_20100211.jpg) |
+| C25 | Miami River with working boats and freighters, north view (2016) | CC BY-SA 4.0 (**never thumbnail**) | DXR, CC BY-SA 4.0 | [page](https://commons.wikimedia.org/wiki/File:North_View_of_Miami_and_Miami_River_from_1st_St_20160709_1.jpg) |
+| C26 | 'Welcome to Historic Overtown' sign | CC BY 2.0 | Phillip Pessar, CC BY 2.0 | [page](https://commons.wikimedia.org/wiki/File:Welcome_to_Historic_Overtown_sign,_Miami_FL.jpg) |
+| C27 | SW 82nd Avenue at SW 122nd Street, Pinecrest (the shootout street, 2013) | CC BY-SA 3.0 (**never thumbnail**) | Aquariuspl, CC BY-SA 3.0 | [page](https://commons.wikimedia.org/wiki/File:82ndAve122StMiami_24Nov2013.JPG) |
+| C28 | Pinecrest memorial marker 'Special Agent Jerry Dove / Special Agent Benjamin Grogan' on SW | CC BY-SA 3.0 (**never thumbnail**) | Aquariuspl, CC BY-SA 3.0 | [page](https://commons.wikimedia.org/wiki/File:Grogan%26Dove_monument.JPG) |
+| C29 | Same marker, close and readable ('...during a gun battle at this site on April 11, 1986') | CC BY-SA 3.0 (**never thumbnail**) | Crashbc, CC BY-SA 3.0 | [page](https://commons.wikimedia.org/wiki/File:Miami_FBI_site.JPG) |
+| C30 | Street sign 'AGENT JERRY DOVE AV / AGENT BENJAMIN GROGAN AV / SW 82 AV' on the signal arm | CC BY-SA 3.0 (**never thumbnail**) | Aquariuspl, CC BY-SA 3.0 | [page](https://commons.wikimedia.org/wiki/File:Grogan%26Dove_sign.JPG) |
+| C31 | Ruger Mini-14 rifle, side view on plain background | PD | LWF (Wikipedia), public domain | [page](https://commons.wikimedia.org/wiki/File:Ruger_Mini-14.jpg) |
+| C32 | Smith & Wesson 1006 (10 mm), side view | CC BY-SA 3.0 (**never thumbnail**) | Davphil, CC BY-SA 3.0 | [page](https://commons.wikimedia.org/wiki/File:Smith_wesson_1006.jpg) |
+| C33 | Smith & Wesson 4006 (.40 S&W), side view | CC BY-SA 3.0 (**never thumbnail**) | Matthew craigge, CC BY-SA 3.0 | [page](https://commons.wikimedia.org/wiki/File:S%26W4006.jpg) |
+| M3 | CIA Cuba relief map, 1994: Havana, Straits of Florida, Key West, Key Largo | PD (CIA, via UT Austin PCL) | CIA | [page](https://commons.wikimedia.org/wiki/File:Cuba_rel94.jpg) |
+| M4 | CIA map of Cuba, 1964 (LOC), large scan incl. Florida Keys | PD (CIA / LOC 2002627935) | CIA / Library of Congress | [page](https://commons.wikimedia.org/wiki/File:Cuba._LOC_2002627935.jpg) |
+| M5 | NOAA map of the Florida Straits (Florida, Keys, Bahamas, Cuba) | PD (NOAA) | NOAA Ocean Explorer | [page](https://commons.wikimedia.org/wiki/File:The_Florida_straits,_the_L-shaped_channel_between_southeastern_Florida_an |
+| M6 | Diagram: relative positions of the vehicles, 1986 FBI Miami shootout (Grogan/Dove, McNeill | CC BY 3.0 | Kguirnela (English Wikipedia), CC BY 3.0 | [page](https://commons.wikimedia.org/wiki/File:1986_FBI_Miami_shootout_relative_positions_of_vehicles_edited.jpg) |
+| E1 | Downtown/Brickell skyline at night over the water, slow move | Pexels licence | see page | https://videos.pexels.com/video-files/6345205/6345205-hd_1920_1080_30fps.mp4 |
+| E2 | Day-to-night hyperlapse over the port and downtown, lights come on | Pexels licence | see page | https://videos.pexels.com/video-files/8524839/8524839-hd_1920_1080_30fps.mp4 |
+| E3 | Park Central Hotel, Ocean Drive, at dusk: blue neon deco towers, palms | Pexels licence | Samuel Etienne | https://videos.pexels.com/video-files/32438232/13835047_1920_1080_24fps.mp4 |
+| E4 | Drone rising over South Beach rooftops, overcast | Pexels licence | see page | https://videos.pexels.com/video-files/3850289/3850289-hd_1920_1080_25fps.mp4 |
+| E5 | Palm silhouettes against a deep-blue twilight sky | Pexels licence | Burak Elçi | https://videos.pexels.com/video-files/34352895/14553881_1920_1080_24fps.mp4 |
+| E6 | Palms at dusk with a single streetlight on sand | Pexels licence | see page | https://videos.pexels.com/video-files/4441056/4441056-hd_1920_1080_25fps.mp4 |
+| E7 | Top-down drone: speedboat cutting a long white wake over turquoise water | Pexels licence | see page | https://videos.pexels.com/video-files/12715328/12715328-hd_1920_1080_30fps.mp4 |
+| E8 | Small single-engine plane taxiing on a grass field | Pexels licence | see page | https://videos.pexels.com/video-files/8723067/8723067-hd_1920_1080_25fps.mp4 |
+| E9 | Light plane taking off from a grass strip and climbing away | Pexels licence | see page | https://videos.pexels.com/video-files/10906942/10906942-hd_1920_1080_30fps.mp4 |
+| E10 | Dark sea at blue hour, low clouds | Pexels licence | see page | https://videos.pexels.com/video-files/4938208/4938208-hd_1920_1080_25fps.mp4 |
+| E11 | Night waves rolling in under a dark pier | Pexels licence | see page | https://videos.pexels.com/video-files/5560759/5560759-hd_1920_1080_30fps.mp4 |
+| E12 | Close-up of a police light bar switching on, red then blue | Pexels licence | see page | https://videos.pexels.com/video-files/7714378/7714378-hd_1920_1080_30fps.mp4 |
+| E13 | Out-of-focus red/blue emergency-light bokeh on black | Pexels licence | see page | https://videos.pexels.com/video-files/3350820/3350820-hd_1920_1080_30fps.mp4 |
+| E14 | Flat-lay of US $100 bills, slow slide | Pexels licence | see page | https://videos.pexels.com/video-files/5651780/5651780-hd_1920_1080_25fps.mp4 |
+| E15 | Pile of $100 bills, slow rotating close-up | Pexels licence | see page | https://videos.pexels.com/video-files/12245077/12245077-hd_1920_1080_30fps.mp4 |
+| E16 | US banknotes spread on a white table (low angle) | Pexels licence | see page | https://videos.pexels.com/video-files/856668/856668-hd_1920_1080_30fps.mp4 |
+| E17 | Rain on a window at night, streetlight and houses beyond | Pexels licence | see page | https://videos.pexels.com/video-files/4458918/4458918-hd_1920_1080_30fps.mp4 |
+| E18 | Raindrops running down glass, blurred night lights | Pexels licence | see page | https://videos.pexels.com/video-files/15161525/15161525-hd_1920_1080_24fps.mp4 |
+| E19 | Driver's view down a dark highway at night | Pexels licence | see page | https://videos.pexels.com/video-files/856148/856148-hd_1920_1080_25fps.mp4 |
+| E20 | Night highway POV, streetlights and signs passing | Pexels licence | Ricardo Audiovisuais | https://videos.pexels.com/video-files/28928755/12519833_2560_1440_30fps.mp4 |
+| E21 | Top view: a typewriter on a wooden desk; a man in a dark suit loads paper and types | Pexels licence | Burak Bahadır Büyükkılınç | https://videos.pexels.com/video-files/34187599/14491456_1920_1080_60fps.mp4 |
+| E22 | Extreme close-up: typebars striking paper | Pexels licence | see page | https://videos.pexels.com/video-files/6980916/6980916-hd_1920_1080_25fps.mp4 |
+| E23 | Newspaper press running at speed, close-up of printed sheets | Pexels licence | Somogro Bangladesh | https://videos.pexels.com/video-files/38826405/16503972_2560_1440_60fps.mp4 |
+| E24 | Old CRT TV in the dark showing colour static | Pexels licence | see page | https://videos.pexels.com/video-files/20063221/20063221-hd_1920_1080_24fps.mp4 |
+| E25 | A Scotch VHS cassette loading into an open VCR | Pexels licence | see page | https://videos.pexels.com/video-files/13438344/13438344-hd_1920_1080_24fps.mp4 |
+| E26 | Soft-focus close-up of VCR buttons, 'play' light | Pexels licence | see page | https://videos.pexels.com/video-files/855908/855908-hd_1920_1080_25fps.mp4 |
+| E27 | Helicopter silhouette crossing a cloudy sky | Pexels licence | see page | https://videos.pexels.com/video-files/14371007/14371007-hd_1920_1080_30fps.mp4 |
+| E28 | Brass shell casings on a wooden floor, shallow focus | Pexels licence | see page | https://videos.pexels.com/video-files/5243140/5243140-hd_1920_1080_25fps.mp4 |
+| E29 | Semi-auto pistol lying on a table under blue light (side view) | Pexels licence | see page | https://videos.pexels.com/video-files/7231377/7231377-hd_1920_1080_25fps.mp4 |
+| E30 | Brass scales of justice on a desk by a window | Pexels licence | see page | https://videos.pexels.com/video-files/5636967/5636967-hd_1920_1080_24fps.mp4 |
+
+Music: Kevin MacLeod (incompetech.com), CC BY 4.0: I Can Feel it Coming, Stay the Course, Late Night Radio, Floating Cities, Man Down, Industrial Cinematic, Rising Tide, Thunder Dreams, Promises to Keep.
+Narration: the creator's own voice, cloned locally (Chatterbox Turbo). Host avatar: the creator, illustrated (ChatGPT image from his photo).
