@@ -12,3 +12,6 @@ research/qany_videos/CARTOON_NETWORK_analysis.md). Facts: research/research.md (
           2) "A Cartoon Shut Down Boston's Bridges. The Channel Behind It Is Fading."
           3) "The Rise and Fall of Cartoon Network (1992-2026)"
 - Thumbnail: Noah centred, a glowing CRT TV with a cracking black-and-white checker pattern (no logo), "$320M" + red stamp "FADING?".
+
+## Thumbnails (27 Nov)
+CN_A "34 MILLION HOMES GONE." + FADING? / CN_B "$320 MILLION. THEN IT FADED.": Ted Turner April 1985 (PD, Bernard Gotfryd / LOC) + our drawn CRT with cracking checker (no logo).

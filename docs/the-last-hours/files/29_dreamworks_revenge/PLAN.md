@@ -51,3 +51,6 @@ Lasseter; Disney Burbank lot, DreamWorks Glendale entrance, PDI Redwood City, Co
 write-down waterfall, DWA share-price line, deal sheets typeset. Illustrated: empty Burbank office 1994 with nameplate,
 helicopter over snowy peaks at dusk (no wreck), three empty director's chairs, a 3D-glasses crate, a closing studio door.
 Films named by title only on typeset cards, never posters or frames.
+
+## Thumbnails (27 Nov)
+DW_A "DISNEY SAID NO." + "$3.8 BILLION" stamp / DW_B "$3.8 BILLION REVENGE": Eisner 1977 (PD) vs Katzenberg 2014 (CC BY 2.0, credit World Travel & Tourism Council), Noah centred.

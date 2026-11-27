@@ -8,6 +8,8 @@ N = "D:/why habibi/_newchannel/"; CUT = N + "brand/avatar/cut/"
 C = "C:/Users/ossam/AppData/Local/Temp/claude/4e5240680a12582b/0deccdd2-4bb6-4df6-90bc-0ed43495fcc4/scratchpad/chars/"
 ANTON = "F:/thumbkit/fonts/Anton-Regular.ttf"; W, H = 1280, 720
 def F(s): return ImageFont.truetype(ANTON, s)
+TFONT = os.environ.get("TFONT", ANTON)
+def TF(s): return ImageFont.truetype(TFONT, s)
 
 def burst_bg(inner, outer, seed=1):
     random.seed(seed); c = Image.new("RGB", (W, H), outer); d = ImageDraw.Draw(c); cx, cy = W // 2, 300
@@ -55,15 +57,17 @@ def noah(c, pose, h, rim=(255, 210, 120)):
     im = outline(pd, (15, 10, 20), 4, glow=rim)
     c.alpha_composite(im, (W // 2 - im.width // 2, H - im.height + 90))
 
-def logo_row(c, logo_path, left, right, lh, y, white=False, lw=None):
+def logo_row(c, logo_path, left, right, lh, y, white=False, lw=None, top_frac=1.0, bold=0):
     lg = Image.open(logo_path).convert("RGBA"); lg = lg.crop(lg.split()[3].getbbox())
+    if top_frac < 1.0: lg = lg.crop((0, 0, lg.width, int(lg.height * top_frac))); lg = lg.crop(lg.split()[3].getbbox())
+    if bold: a0 = lg.split()[3].filter(ImageFilter.MaxFilter(bold)); lg = Image.new("RGBA", lg.size, (255, 255, 255, 255)); lg.putalpha(a0)
     if white:
         a = lg.split()[3]; lg = Image.new("RGBA", lg.size, (255, 255, 255, 255)); lg.putalpha(a)
     s = lh / lg.height
     if lw and lg.width * s > lw: s = lw / lg.width
     lg = lg.resize((int(lg.width * s), int(lg.height * s)), Image.LANCZOS)
     lg = outline(lg, (10, 10, 25), 5, glow=(0, 0, 0))
-    d = ImageDraw.Draw(c); f = F(92); wl = d.textlength(left, font=f); wr = d.textlength(right, font=f); gap = 26
+    d = ImageDraw.Draw(c); f = TF(92); wl = d.textlength(left, font=f); wr = d.textlength(right, font=f); gap = 26
     total = wl + gap + lg.width + gap + wr; x0 = W / 2 - total / 2
     lay = Image.new("RGBA", c.size, (0, 0, 0, 0)); g = ImageDraw.Draw(lay)
     for yy in range(y - 140, H): g.line((0, yy, W, yy), fill=(5, 3, 10, int(190 * min(1, (yy - y + 140) / 140) ** 1.3)))

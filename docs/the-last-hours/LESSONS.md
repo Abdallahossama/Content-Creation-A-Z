@@ -181,3 +181,6 @@ screen-blended; "Fireball pretty", Focal Intent, CC BY 2.0 + 2 smaller side fire
 borders, mirrored 2+2 -> NOAH centred (clean rembg cut-out, warm rim) -> "THE FULL | studio logo | STORY". No date tag.
 Never real-life statue photos of characters (Toy Story park statues looked bad). Script: brand/thumbs_pop/make_omar3.py.
 Small Wikipedia renders (~300 px) limit close-up framing; big fandom renders need the owner to save them by hand (Cloudflare; browser download denied).
+
+## 27 Nov 2026: the full list
+See LEARNINGS_2026-11-27.md (thumbnails Omar recipe, Studio operations, research, voice fixes, render checks, disk).

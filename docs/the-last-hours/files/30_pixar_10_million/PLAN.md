@@ -14,3 +14,7 @@ research/qany_videos/PIXAR_analysis.md). Facts: research/research.md (SEC 10-K 1
           2) "Pixar Lost Money for 9 Years. Then One Week Made Steve Jobs a Billionaire."
           3) "$10 Million to $7.4 Billion: The True Story of Pixar"
 - Thumbnail: Noah centred holding a folder "$10M -> $7.4B", a beige 1980s monitor with a wireframe teapot (Utah teapot), no lamp, no characters.
+
+## Thumbnails (27 Nov, _rethumb_nov27/make_qany3.py)
+PX_A "FROM $10M TO $7.4B" (Jobs 1984 PD + Jobs 2007 CC BY, credit Jurvetson) / PX_B "NOBODY WANTED IT." (Jobs 1984 + our illustrated $10,000,000 check). Pixar gate photos with the PIXAR sign: NOT used (owner let Claude pick).
+RULE: Jobs+Macintosh 1984 photo (B1) shows a drawing of a WOMAN on the Mac screen -> always cover the screen (box 1175,2765-2045,3415) and blur the Apple badge, in the video too.

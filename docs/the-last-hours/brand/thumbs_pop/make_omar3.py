@@ -65,12 +65,12 @@ for nm, pose, sd in (("OMAR3_PX_A", "master", 61), ("OMAR3_PX_B", "shock_s7", 62
     bg = city_sky(MED("E23_"), (40, 30, 90), (250, 140, 60), horizon=0.7, fy=0.6, stars=False, seed=sd, bright=1.15)
     OUT.append(build(nm, bg, px_side, "px", pose, sd, "30_pixar_10_million"))
 cn_extra = [n for n in ("cn_mojo.png", "cn_grim.png", "cn_mordecai.png", "cn_rigby.png", "cn_iceking.png", "cn_bmo.png", "cn_courage.png", "cn_gumball.png", "cn_darwin.png") if have(n)]
-cn_chars = [("cn_jake.png", 430, 175, 520, False, 6), ("cn_iceking.png", 430, 1105, 540, True, -5),
-            ("cn_finn.png", 560, 330, 800, False, -3), ("cn_ben1.png", 640, 960, 860, True)]
+cn_chars = [("cn_jake.png", 470, 150, 600, False, 6), ("cn_iceking.png", 470, 1110, 610, True, -5),
+            ("cn_finn.png", 700, 330, 960, False, -3), ("cn_ben1.png", 760, 960, 1010, True), ("cn_ben0.png", 380, 1215, 760, True, -6), ("cn_gumball.png", 360, 95, 770, False, 5)]
 if False: cn_chars = [(cn_extra[0], 380, 90, 330, False, 6), (cn_extra[1], 380, 1190, 330, True, -6)] + cn_chars
 for nm, pose, sd in (("OMAR3_CN_A", "shock_s7", 71), ("OMAR3_CN_B", "master", 72)):
     bg = city_sky(MED("E18_"), (30, 8, 55), (110, 30, 140), moon_at=(1080, 95), seed=sd)
     OUT.append(build(nm, bg, cn_chars, "cn", pose, sd, "31_cartoon_network"))
 ims = [Image.open(o).resize((640, 360), Image.LANCZOS) for o in OUT]; sheet = Image.new("RGB", (1280, 1080))
 for i, im in enumerate(ims): sheet.paste(im, ((i % 2) * 640, (i // 2) * 360))
-sheet.save(os.path.dirname(os.path.abspath(__file__)) + "/OMAR3_STYLE_SHEET.jpg", quality=90); print("ok", cn_extra)
+sheet.save(os.path.dirname(os.path.abspath(__file__)) + "/OMAR3_STYLE_SHEET" + os.environ.get("TAG", "") + ".jpg", quality=90); print("ok", cn_extra)

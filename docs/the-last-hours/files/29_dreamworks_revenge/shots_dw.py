@@ -1,5 +1,5 @@
 RUBY, BURBANK, GLENDALE, REDWOOD, PHILLY, SHANGHAI = (-115.45, 40.6), (-118.31, 34.18), (-118.25, 34.15), (-122.24, 37.52), (-75.17, 39.95), (121.47, 31.23)
-V_WEST, V_US, V_LA = (-117.5, 37.6, 9.5), (-97.0, 38.5, 34.0), (-118.3, 34.17, 0.5)
+V_WEST, V_US, V_LA = (-120.0, 36.0, 30.0), (-97.0, 38.5, 34.0), (-118.3, 34.17, 0.5)
 def HOST(expr, name=None): return ("host", dict(expr=expr, name=name))
 SHOTS = [
  # COLD OPEN (0-9)
@@ -28,7 +28,7 @@ SHOTS = [
  ((15, "lion"), KB("E24", z=(1.03, 1.12))),
  (16, KB("E11", z=(1.03, 1.12))),
  (17, HOST("laugh")),
- (18, KB("B4", z=(1.02, 1.12))),
+ (18, KB("B4", z=(1.02, 1.1), c0=(0.62, 0.3))),
  (19, KB("B15", z=(1.03, 1.12))),
  (20, KB("B14", z=(1.06, 1.18), c0=(0.5, 0.3))),
  (21, KB("C10", z=(1.06, 1.16), c0=(0.4, 0.5), dim=0.2)),
@@ -169,7 +169,7 @@ SHOTS = [
  (144, COUNTER([((144, "three|hundred"), "300+ HOURS")], "NETFLIX DEAL, 2013", "E15", size=260)),
  (145, COUNTER([((145, "thirty"), "$33M")], "AWESOMENESSTV, 2013  ·  UP FRONT", "E7", size=320)),
  (146, HOST("shock")),
- (147, KB("B4", z=(1.04, 1.14))),
+ (147, KB("B4", z=(1.02, 1.1), c0=(0.62, 0.3))),
  (148, KB("E4", z=(1.04, 1.14))),
  (149, KB("E16", z=(1.04, 1.14), dim=0.15)),
  ((149, "before|open"), ("midask", dict(bg="E1", ln=149))),                  # the spoken mid-video ask (owner rule 29 Oct), at the cliffhanger
@@ -225,7 +225,7 @@ SHOTS = [
  (194, KB("C6", z=(1.04, 1.14))),
  (195, HOST("smirk")),
  # AFTER (196-204)
- (196, KB("B4", z=(1.03, 1.12))),
+ (196, KB("B4", z=(1.02, 1.1), c0=(0.62, 0.3))),
  (197, KB("E14", z=(1.05, 1.15))),
  (198, COUNTER([((198, "one|point"), "$1.75 BILLION")], "RAISED FOR QUIBI", "E6", size=260)),
  (199, KB("E19", z=(1.05, 1.15))),

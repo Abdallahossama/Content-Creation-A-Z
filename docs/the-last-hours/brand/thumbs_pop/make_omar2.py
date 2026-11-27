@@ -95,7 +95,7 @@ def char(c, path, h, xy, flip=False, rot=0, bright=1.0, crop_bottom=0.0):
 
 def logo(c, key, y=615):
     if key == "dw": O.logo_row(c, C + "logo_dw.png", "THE FULL", "STORY", 175, y, white=True)
-    if key == "px": O.logo_row(c, C + "logo_px.png", "THE FULL", "STORY", 120, y, white=True, lw=560)
+    if key == "px": O.logo_row(c, C + "logo_px.png", "THE FULL", "STORY", 120, y - 5, white=True, lw=470, top_frac=0.68, bold=9)
     if key == "cn": O.logo_row(c, C + "logo_cn.png", "THE FULL", "STORY", 160, y)
 
 def have(n): return os.path.exists(C + n)

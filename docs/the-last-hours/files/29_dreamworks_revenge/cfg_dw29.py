@@ -12,7 +12,7 @@ Real images only: Wikimedia Commons (PD / CC BY / CC BY-SA, credits in CREDITS.m
 Never shown: film clips, posters, characters, studio logos or signs, any woman. Facts: research/research.md.
   uv run --no-project --with pillow --with numpy --with soundfile python render_dw29.py times | qa [t..] | seg i n | audio | final n | all n | chapters | prep"""
 '''
-TBLOCK = r'''CROP = {"C6": (0.0, 0.3, 1.0, 1.0), "C9": (0.0, 0.22, 1.0, 1.0), "B4": (0.38, 0.0, 1.0, 1.0), "B6": (0.0, 0.0, 0.85, 1.0)}
+TBLOCK = r'''CROP = {"C6": (0.0, 0.3, 1.0, 1.0), "C9": (0.0, 0.22, 1.0, 1.0), "B6": (0.0, 0.0, 0.85, 1.0)}
 ILL = "ILLUSTRATIVE  ·  PEXELS"
 TB = {"B1": "JEFFREY KATZENBERG, 2014  ·  WTTC (CC BY 2.0)", "B3": "JEFFREY KATZENBERG, 2014  ·  WIKIMEDIA COMMONS", "B4": "JEFFREY KATZENBERG, 2022  ·  WIKIMEDIA COMMONS",
       "B5": "JEFFREY KATZENBERG, 2007  ·  WIKIMEDIA COMMONS", "B6": "OBAMA AND KATZENBERG, WHITE HOUSE, 2014  ·  WHITE HOUSE (PD)",
@@ -39,7 +39,7 @@ def DT(rid):
 LIFT = {"E16": 0.7, "E15": 0.75, "E3": 0.75, "E19": 0.7, "E26": 0.7}
 CAPFIX = {"Far-kwahd": "Farquaad", "Farquad": "Farquaad", "Styg": "Steig", "Stig": "Steig", "Kwib-ee": "Quibi", "Quibie": "Quibi", "Kwibi": "Quibi",
           "Mel-eh-dan-dree": "Meledandri", "Meladandri": "Meledandri", "Katzenburg": "Katzenberg", "Geffin": "Geffen", "Ants": "Antz",
-          "Awesomeness T V": "AwesomenessTV", "Lassiter": "Lasseter", "Eisener": "Eisner", "Ice-ner": "Eisner", "Wall-E": "WALL-E"}
+          "Awesomeness T V": "AwesomenessTV", "Lassiter": "Lasseter", "Eisener": "Eisner", "Ice-ner": "Eisner", "Wall-E": "WALL-E", "Farbwad": "Farquaad", "Farkwad": "Farquaad", "Farquad": "Farquaad"}
 MUSIC = '''    music("Darkling.mp3", 0.0, tl(10), -12, later=(tl(9), -16)); music("Marty Gots a Plan.mp3", tl(10), tl(28), -18)
     music("Inspired.mp3", tl(28), tl(49), -19); music("Late Night Radio.mp3", tl(49), tl(63), -19); music("Dream Culture.mp3", tl(63), tl(71), -19)
     music("Son Of A Rocket.mp3", tl(71), tl(91), -19); music("Overcast.mp3", tl(91), tl(98), -19); music("Vibing Over Venus.mp3", tl(98), tl(108), -18)

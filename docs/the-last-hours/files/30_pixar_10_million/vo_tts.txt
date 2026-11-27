@@ -1,0 +1,203 @@
+Imagine you put ten million dollars into a company. It loses money year after year. You keep paying the salaries out of your own pocket. And then, in one day, it makes you a billionaire.
+Wednesday, November twenty-ninth, nineteen ninety-five. The Nasdaq stock market.
+A small company from northern California goes public. Ticker symbol, P I X R.
+The shares are priced at twenty-two dollars.
+Within hours, they hit forty-nine fifty. By the close, thirty-nine dollars. Up seventy-seven percent in a single day.
+The man who owns about eighty percent of the company is now, on paper, worth more than a billion dollars.
+His name is Steve Jobs. Ten years earlier, Apple had pushed him out.
+And the company is Pixar. One week earlier, it released the first movie ever made entirely on computers. Toy Story.
+But for almost ten years before that, Pixar was the investment nobody wanted. Including, at times, Steve Jobs.
+I'm Noah, the File Keeper. And this is the file on the ten million dollar bet that became Pixar.
+##
+Let's go back to the day he bought it.
+Monday, February third, nineteen eighty-six. Northern California.
+Steve Jobs is thirty years old, and he's just been through the worst year of his life.
+In September, he was pushed out of Apple. The company he started in a garage.
+He's already starting a new computer company, called Next. But he wants something else too.
+So he buys a small group of about forty computer scientists and artists, from George Lucas. Yes, the Star Wars guy.
+Here's the deal. Jobs pays five million dollars to Lucasfilm for the technology. And he puts five million dollars in cash into the new company.
+Ten million dollars total. Jobs takes seventy percent. The employees keep thirty.
+And here's my favorite detail in this whole file.
+One of the founders, Alvy Ray Smith, later wrote that Jobs' first check was for five million dollars. And Ed Cat-mull, the other founder, signed it straight over to Lucasfilm, to pay for the technology.
+So half of Jobs' big investment walked right out the door, on day one.
+##
+So who were these people? Quick, because it matters.
+In nineteen seventy-nine, George Lucas hired a computer scientist named Ed Cat-mull to run a computer division at Lucasfilm.
+Cat-mull and Alvy Ray Smith had a dream. One day, they wanted to make a whole feature film on a computer.
+In nineteen seventy-nine, that was science fiction. Computers could barely draw a shaded ball.
+Then, around nineteen eighty-four, they hired a young animator who'd just been let go by Disney. His name was John Lasseter.
+Lasseter had been pushing Disney to try computer animation. Disney wasn't interested.
+Lasseter's own version of the story goes like this. A Disney executive asked him whether computer animation would make movies faster, or cheaper. When the answer was neither, that was the end of it.
+Soon after, he was out of a job at Disney.
+Then Lucas went through an expensive divorce, and needed money. So he put the computer division up for sale.
+A deal with General Motors and Philips fell apart. And in August nineteen eighty-five, Steve Jobs made an offer.
+Lucasfilm ignored him at first. A few months later, he got it.
+They named the new company after their main product. A machine called the Pixar Image Computer. Smith said the name came from a made-up Spanish-sounding word. To make pictures.
+##
+And here's the first big problem. Pixar wasn't a movie studio. Not yet.
+It was a hardware company. It sold computers.
+The Pixar Image Computer cost around a hundred and thirty-five thousand dollars. And you needed another expensive workstation just to run it.
+Who bought it? Hospitals, for medical scans. Government agencies. Intelligence agencies.
+Not Hollywood.
+By nineteen ninety, it had sold a few hundred, at most.
+In April nineteen ninety, Pixar gave up and sold its hardware business. Eighteen of its roughly one hundred employees went with it.
+The next year, nineteen ninety-one, about thirty more people were let go. Pixar was down to forty-two employees.
+And every time the company ran out of money, it went back to the same person. Jobs.
+Alvy Ray Smith later described how it went. Jobs would yell at management. Then he'd write another check.
+And every new check shrank the employees' share of the company. Until, in March nineteen ninety-one, Jobs bought out the rest. He owned Pixar outright.
+That same year, Alvy Ray Smith, one of the two founders, left. After a clash with Jobs in a meeting, he later described Jobs as being in full bullying, tyrannical mode.
+All in, Jobs put in about fifty million dollars. Smith said that's more than a hundred million in today's money.
+And it still wasn't working. Pixar's own filings show it lost money in nineteen ninety-two, nineteen ninety-three, and nineteen ninety-four.
+When a new finance chief, Lawrence Levy, arrived in late nineteen ninety-four, he found Jobs covering payroll with personal checks.
+The company's losses over the years added up to around fifty million dollars.
+Honestly, think about this. Jobs got kicked out of Apple with a lot of money. And he poured a huge chunk of it into a company that kept losing it.
+##
+So why didn't Pixar just die?
+Because of one little film.
+Sunday, August seventeenth, nineteen eighty-six. Dallas, Texas. A computer graphics conference called Sig-graph.
+About six thousand people. Engineers, scientists, programmers.
+John Lasseter shows a short film. It's less than two minutes long. Two desk lamps. A parent, and a kid. And a rubber ball.
+No dialogue. Just two lamps.
+And before the film even ends, the room is on its feet. A standing ovation. From a room full of engineers.
+Afterwards, one of the most famous people in computer graphics, Jim Blinn, walks up to Lasseter. And he asks him a question.
+John, was the parent lamp a mother or a father?
+Lasseter loved that question. Because nobody asked how the software worked. They asked about the characters.
+The short was called Lux-oh Junior. It became the first fully computer-animated film nominated for an Oscar.
+It didn't win. But two years later, another Pixar short, Tin Toy, did. In March nineteen eighty-nine, it became the first computer-animated film ever to win an Oscar.
+And Pixar had one more thing that actually made money. Software. A program called Render Man, that makes computer images look real.
+Pixar sold it to effects studios. It was used on Terminator two. And Jurassic Park.
+So the dinosaurs you remember from nineteen ninety-three? Part of the reason Pixar survived long enough to make Toy Story.
+##
+And then, the phone call that changed everything. Disney.
+In nineteen ninety-one, Disney agrees to fund and distribute three computer-animated movies made by Pixar. About twenty-six million dollars.
+The first one is a movie about toys.
+But the deal is terrible for Pixar. Disney controls almost everything. And in Pixar's own words, its share of the money would be very small compared to Disney's.
+Remember the name of the Disney executive on the other side of that deal? Jeffrey Katzenberg. Yes, the same man from our DreamWorks file.
+And making that movie nearly killed it.
+In November nineteen ninety-three, after rounds of notes from Disney, the main character, Woody, had become sarcastic and mean. The team showed Disney the story so far. It was a disaster.
+Disney stopped production. Pixar had about two weeks to fix it.
+They rewrote it. Woody became the toy you actually root for.
+##
+Here's what it took to make it.
+About a hundred and fourteen thousand frames.
+Around eight hundred thousand machine-hours of rendering, on a farm of more than a hundred Sun workstations.
+Do the math, and that's around seven hours of computer time, for every single frame.
+And here's a fun fact. Almost the whole movie happens indoors. In bedrooms, a gas station, a restaurant.
+Because in nineteen ninety-five, as one later account put it, computer graphics could do boxes. Rooms were easy. Grass, hair, water? Very hard.
+The budget was about thirty million dollars.
+Wednesday, November twenty-second, nineteen ninety-five. The week of Thanksgiving. Toy Story opens in America.
+About twenty-nine million dollars in its first weekend.
+It becomes the number one movie of nineteen ninety-five in the United States. About three hundred and seventy million dollars worldwide in its first run.
+It's nominated for three Oscars, including Best Original Screenplay. The first animated film ever nominated for that.
+Nine years of losing money. Then, in one week, a hit movie. And a stock market debut.
+##
+Back to that IPO day.
+Jobs had pushed for it. Wall Street was nervous. Big banks like Morgan Stanley and Goldman Sachs reportedly passed on leading it. Smaller banks took it.
+The shares were priced at twenty-two dollars. They opened, and kept climbing. Forty-nine fifty at the high. Thirty-nine at the close.
+Pixar raised about a hundred and thirty-two million dollars.
+And Steve Jobs, who owned about eighty percent of the company, became a billionaire on paper.
+Quick reality check. A few weeks later, the stock had dropped to around twelve dollars. A one-hit wonder, the doubters said.
+They were wrong. But they didn't know that yet.
+And remember, this is still before Jobs goes back to Apple. That happens in nineteen ninety-seven.
+Pixar is what made Steve Jobs rich again. Before the iMac. Before the iPod. Before the iPhone.
+##
+With a hit under its belt, Pixar goes back to Disney and asks for a better deal.
+In February nineteen ninety-seven, they sign one. Five more films. This time, they split the costs, they share ownership, and they split the profits fifty-fifty, after Disney's distribution fee.
+Better. But not perfect. Disney still controlled marketing and distribution. And Pixar got nothing from the theme parks, where its characters were starting to show up.
+Disney also bought a million Pixar shares as part of the deal. A small bet on a company it would one day pay billions for.
+And then Pixar goes on one of the greatest runs in movie history.
+A Bug's Life, in nineteen ninety-eight. About three hundred and sixty million dollars.
+Toy Story two, in nineteen ninety-nine. More than five hundred million.
+Monsters, Inc., in two thousand one. More than five hundred million again.
+Finding Nemo, in two thousand three. About eight hundred and seventy million.
+The Incredibles, in two thousand four. More than six hundred million, and two Oscars. Directed by Brad Bird, who came to Pixar after his previous movie, The Iron Giant, flopped at Warner Bros.
+Five movies. Five huge hits. No misses.
+In November two thousand, Pixar moves into a big new campus in Emeryville, California, on an old Del Monte canning site. Today, its main building is called the Steve Jobs Building.
+##
+But there was a problem. And his name was Michael Eisner. Disney's CEO.
+The way Jobs saw it, Pixar was making the hits, and Disney was taking too much of the money.
+The deal was running out. So they started talking about a new one. And talking. And talking.
+On January twenty-ninth, two thousand four, Jobs makes an announcement.
+After ten months of trying to strike a deal with Disney, we're moving on.
+Pixar would look for a new partner. Disney would still get The Incredibles and Cars, because those were already in the old deal. After that, Pixar would go somewhere else.
+Think about what that meant for Disney. Its own hand-drawn movies were struggling. And the studio making all the hits was walking out the door.
+And Eisner's own position was falling apart. In March two thousand four, shareholders withheld a huge share of their votes from him, and he lost his title as chairman.
+In March two thousand five, Disney named his successor. Bob Eye-ger. And on October first, two thousand five, Eye-ger became CEO.
+Before I open the next page: this channel is still new, so if this file has you hooked, a like and a subscribe really help. And tell me in the comments, would you have sold Pixar? Now, back to the file.
+##
+And here's how Eye-ger has told it.
+September two thousand five. The opening of Hong Kong Disneyland. Eye-ger is watching the parade.
+And he notices something. The newest characters in the whole parade, from the last ten years, are all from Pixar.
+Not one of them came from Disney's own animation studio.
+So one of the first things Eye-ger does as CEO is call Steve Jobs.
+Within days, they're working together again. In October two thousand five, Apple launches a new iPod that can play video. And on stage, there are A B C shows for sale on iTunes. A Disney company. Eye-ger said yes, fast.
+Jobs noticed.
+Then Eye-ger goes further. He doesn't want a new distribution deal. He wants to buy Pixar.
+##
+Tuesday, January twenty-fourth, two thousand six. The announcement.
+Disney is buying Pixar. All in stock. Two point three Disney shares for every Pixar share.
+A deal worth seven point four billion dollars. And Pixar had just over a billion dollars of its own cash sitting in the bank. So Disney's real price was about six point three billion.
+Ed Cat-mull becomes president of both Pixar and Disney Animation. John Lasseter becomes chief creative officer of both.
+And Steve Jobs joins Disney's board of directors.
+In the announcement, Jobs said Disney and Pixar could now work together without the barriers of being two separate companies.
+The deal closes on May fifth, two thousand six. And Cars, the last movie Pixar made as an independent company, opens a month later, already under Disney.
+Now, here's the detail I love most in the whole file. And it's right there in a government filing.
+Before the deal, Steve Jobs owned exactly three shares of Disney stock.
+After the deal, he owned a hundred and thirty-eight million and seven shares.
+That made him Disney's largest individual shareholder.
+Ten million dollars in nineteen eighty-six. Seven point four billion dollars in two thousand six. That's about seven hundred and forty times the money, in twenty years.
+And the company he almost sold more than once was now worth more than most Hollywood studios.
+Because yes, more than once, Jobs had gone looking for a buyer. As late as nineteen ninety-four, there were talks. Nobody paid what he wanted.
+Lucky for him.
+##
+And the hits keep coming.
+Rat-a-too-ee. Wall-E. Up.
+And in two thousand ten, Toy Story three. The first animated movie ever to make more than a billion dollars.
+Later came Inside Out. Coco, with more than eight hundred million. Incredibles two, with more than one point two billion.
+For about fifteen years, a new Pixar movie was close to a sure thing. Families went because it was Pixar. They didn't even need to know what it was about.
+And here's the twist nobody expected. Remember, Cat-mull and Lasseter were now running Disney's own animation studio too. The one that couldn't make a hit.
+Under them, Disney Animation came back. Tangled. Wreck-It Ralph. And in twenty thirteen, Frozen. More than a billion dollars.
+So Disney didn't just buy Pixar's movies. It bought the people who fixed Disney.
+Steve Jobs died in October two thousand eleven. His Disney shares, worth around four point six billion dollars, went to his family trust.
+And slowly, Pixar starts to change.
+In twenty fifteen, The Good Dinosaur becomes its first real flop.
+In late twenty seventeen, John Lasseter takes a leave of absence, after acknowledging what he called missteps in his behavior with employees. In June twenty eighteen, Disney announces he'll leave at the end of the year.
+Pete Docter, the director of Up and Inside Out, takes over Pixar's creative side.
+##
+Then comes twenty twenty.
+On March sixth, Pixar releases Onward. Days later, movie theaters across America close for Covid.
+After that, Disney puts three Pixar movies straight onto its streaming service, Disney Plus. Soul. Luca. Turning Red.
+For the first time in twenty-five years, new Pixar movies weren't in theaters at all.
+And a lot of people think that taught families something dangerous. That new Pixar movies show up at home, for free, if you just wait.
+In twenty twenty-two, Lightyear, a Toy Story spin-off, makes about two hundred and twenty-six million dollars, on a two hundred million dollar budget.
+In twenty twenty-three, Elemental opens slowly. Then word of mouth carries it to almost five hundred million.
+In twenty twenty-four, Inside Out two makes almost one point seven billion dollars. Pixar's biggest movie ever.
+And in May twenty twenty-four, Pixar lays off about a hundred and seventy-five people. Around fourteen percent of the studio.
+##
+Then comes Ell-ee-oh.
+June twentieth, twenty twenty-five. An original Pixar movie. A boy who wants to be taken by aliens.
+Its first weekend in America: about twenty point eight million dollars.
+The worst opening weekend in Pixar's history.
+And then, about a week later, Pixar's official Instagram account posts a short video. Part of a trend at the time.
+In it, a creator's line says, stop complaining that Disney doesn't make original stories if you don't show up to movie theaters.
+A lot of fans read it as Pixar blaming the audience.
+Ell-ee-oh finished with about a hundred and fifty-four million dollars worldwide.
+For the studio that once couldn't miss, it was a strange moment. Thirty years after Toy Story, telling people to please come back to the theater.
+##
+And then, this year. Twenty twenty-six.
+In March, Hoppers. Pixar's thirtieth feature. An original. It opens at number one, and ends up with almost three hundred and ninety million dollars worldwide.
+Pixar's best opening for an original movie in almost ten years.
+And in June, Toy Story five.
+A hundred and sixty million dollars in its first weekend in America. A record for the franchise.
+In July, it passes a billion dollars. Today, it's at about one point one five billion. Pixar's third-biggest movie ever.
+The franchise that saved Pixar in nineteen ninety-five, saving it again, thirty years later.
+##
+So what can the files tell us?
+They can tell us the numbers. Ten million dollars in nineteen eighty-six. A hundred and thirty-five thousand dollar computer that almost nobody bought. Fifty million dollars of Jobs' own money.
+Twenty-two dollars a share, on a Wednesday in nineteen ninety-five. Seven point four billion in two thousand six. Three Disney shares, then a hundred and thirty-eight million.
+What they can't tell us is what Jobs was thinking in those years, writing check after check for a company he kept trying to sell.
+But we know what happened when he didn't sell it.
+So tell me in the comments. What's your favorite Pixar movie? And do you think Pixar's best days are behind it, or ahead of it?
+And whose last hours should I open next? I read every one.
+If you liked this file, hit like and subscribe, so the next one finds you.
+I'm Noah, the File Keeper. Thanks for watching. See you in the next file.
