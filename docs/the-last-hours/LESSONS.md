@@ -157,3 +157,4 @@ PRODUCTION MISTAKES 22-23 OCT (and the fix that is now the rule)
 - Losers: "Saddam Hussein's 1979 Purge: ..." 30.4%, "Saddam Hussein Called a ..." 21.6%.
 - Rule: short stacked sentences, 2-3 concrete numbers, the outcome last; the name does not have to come first (Suggested traffic already supplies the context). Always test one title in this pattern.
 - Applied: Files 26 (capture) and 27 (last day) option 2 in their UPLOAD_COPY_PASTE.txt.
+- 27 Nov: applied in Studio via View test report > Set this option (Studio said 'They all performed well', so it had NOT auto-applied the 48% winner). Check every finished test this way.
