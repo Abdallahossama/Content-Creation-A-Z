@@ -55,3 +55,4 @@ Cut out every PNG (rembg), grade to the channel look, and build:
 - Use sparingly: about 1 full cutaway per 3-4 minutes + 3-4 corner pops per long video. Never text over the face (thumbnails too).
 - Drawings are cropped by ChatGPT: anchor the head to the left screen edge + bottom, fade the right shoulder; use the sheet-9 tiles (full hat).
 - Engine: tools/last-hours/avatar/hostkit.py (cutaway, corner, bug).
+- 27 Nov: channel picture, banner and watermark switched to the Noah avatar (live). Files in brand/channel_v3, builder tools/last-hours/avatar/make_channel_brand.py.
