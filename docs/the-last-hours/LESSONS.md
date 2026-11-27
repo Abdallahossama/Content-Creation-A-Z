@@ -174,3 +174,10 @@ PRODUCTION MISTAKES 22-23 OCT (and the fix that is now the rule)
 - Never put a card or stamp over Noah's face; drop the card if the scene's prop (check, TV) already tells the story.
 - Ask the owner for FULL-SIZE single images from ChatGPT (collage panels are ~830x310 and crop the hat). He chose the small ones for 29-31.
 - Topic props without IP: describe them in the ChatGPT prompt (swamp + outhouse, film canisters, cracked checker TV); no characters, logos, desk lamp (Pixar).
+
+## Omar-style thumbnails, v3 recipe (27 Nov 2026, owner)
+Layer order (owner): CITY photo -> SKY (gradient, clouds, stars, moon) -> BIG EXPLOSION behind Noah's back (real fireball photo on black,
+screen-blended; "Fireball pretty", Focal Intent, CC BY 2.0 + 2 smaller side fireballs + debris) -> CHARACTERS all BEHIND Noah, NO white
+borders, mirrored 2+2 -> NOAH centred (clean rembg cut-out, warm rim) -> "THE FULL | studio logo | STORY". No date tag.
+Never real-life statue photos of characters (Toy Story park statues looked bad). Script: brand/thumbs_pop/make_omar3.py.
+Small Wikipedia renders (~300 px) limit close-up framing; big fandom renders need the owner to save them by hand (Cloudflare; browser download denied).
