@@ -49,3 +49,9 @@ Cut out every PNG (rembg), grade to the channel look, and build:
 - thumbnail template: avatar hero centre + scene + 2-4 words + date block.
 - end screen: thumbnail art + SUBSCRIBE button animation + thumbs-up, and the corner bug.
 - Then: new channel avatar + banner, and a sheet for your OK before anything goes live.
+
+## Owner decisions, 27 Nov 2026
+- v2 stylized (GTA-art) avatar APPROVED; host name **Noah, the File Keeper** (ident line after the cold open + sign-off; name card on the first cutaway).
+- Use sparingly: about 1 full cutaway per 3-4 minutes + 3-4 corner pops per long video. Never text over the face (thumbnails too).
+- Drawings are cropped by ChatGPT: anchor the head to the left screen edge + bottom, fade the right shoulder; use the sheet-9 tiles (full hat).
+- Engine: tools/last-hours/avatar/hostkit.py (cutaway, corner, bug).
